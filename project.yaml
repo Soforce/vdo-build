@@ -1,0 +1,23 @@
+projectPath: vlocity
+queries:
+  - AttributeCategory
+  - CalculationProcedure
+  - ContextAction
+  - ContextDimension
+  - ContextScope
+  - EntityFilter
+  - ObjectClass
+  - ObjectContextRule
+  - ObjectLayout
+  - Pricebook2
+  - PriceList
+  - PricingVariable
+  - Product2
+  - Promotion
+  - Rule
+  - TimePlan
+  - TimePolicy
+  - UIFacet
+  - UISection
+  - VlocityFunction
+  - VlocityPicklist
