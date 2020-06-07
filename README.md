@@ -6,8 +6,23 @@ vlocity -sfdx.username vdo-hub -job project.yaml packUpdateSettings
 vlocity -sfdx.username vdo-hub -job project.yaml packExport
 vlocity -sfdx.username vdo-hub -job project.yaml packRetry
 vlocity -sfdx.username vdo-hub -job project.yaml packContinue
-vlocity -sfdx.username vdo-hub -job project.yaml validateLocalData
+vlocity -sfdx.username vdo-hub -job project.yaml validateLocalData --fixLocalGlobalKeys
 ```
+```
+vlocity -job project.yaml cleanOrgData -sfdx.username vdo-dvt
+vlocity -job project.yaml refreshProject -sfdx.username vdo-dvt
+vlocity -job project.yaml packUpdateSettings -sfdx.username vdo-dvt
+vlocity -job project.yaml packDeploy -sfdx.username vdo-dvt
+```
+
+## Fix
+1. Clear value in vlocity_cmt__EventConditionData__c field
+2. Add Picklist values of Jeopardy Safety Interval Unit and Length Unit to "Milestone Callout" record type of orchestration item
+3. Delete duplicate "Create OSS Account" orchestration item definition under Consumering Billing plan (a2a3h000000dZ1BAAU) which has self dependency
+4. Delete duplicate product "Tennis Channel" with "abeca7ad-df12-e58a-dfb9-f60edead0ee8" globalkey
+5. Update Global Matching Key for AttributeAssignment
+6. Clear Product2.Product_Owner__c field value
+7. Remove "bd1208f0-7217-d4ff-65ab-cd727d5cb0d4" product because it cause API limits
 
 This guide helps Salesforce developers who are new to Visual Studio Code go from zero to a deployed app using Salesforce Extensions for VS Code and Salesforce CLI.
 

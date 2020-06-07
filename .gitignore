@@ -28,8 +28,13 @@ node_modules/
 # MacOS system files
 .DS_Store
 
+# Vlocity directories
+vlocity/
+vlocity-temp/
+
 # Windows system files
 Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
+VlocityBuildLog.yaml
