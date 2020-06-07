@@ -15,16 +15,60 @@ vlocity -job project.yaml packUpdateSettings -sfdx.username vdo-dvt
 vlocity -job project.yaml packDeploy -sfdx.username vdo-dvt
 ```
 
+## Init
+1. Execute Vlocity XOM Administration
+1) Confgure for Order Management Standard
+2) Apploy Record Types and Page Layout Assignments
+
+
+
 ## Fix
-1. Clear value in vlocity_cmt__EventConditionData__c field
-2. Add Picklist values of Jeopardy Safety Interval Unit and Length Unit to "Milestone Callout" record type of orchestration item
-3. Delete duplicate "Create OSS Account" orchestration item definition under Consumering Billing plan (a2a3h000000dZ1BAAU) which has self dependency
-4. Delete duplicate product "Tennis Channel" with "abeca7ad-df12-e58a-dfb9-f60edead0ee8" globalkey
-5. Update Global Matching Key for AttributeAssignment
+2. Add Picklist values of "Jeopardy Safety Interval Unit" and "Length Unit" to "AutoTask" and "Callout" record type of Orchestration Item Definition
+3. Fix "Consumer Billing"."Create OSS Account" (Huawei OSS) dependency issue by setting "Dependency Item Defition" to "Create Charging Account"
+4. Delete duplicate product "Tennis Channel" (VLO-TV-0923) with "c0a04c85-ab6f-81f9-fa7e-4a2aa6803ba2" globalkey
+```
+SELECT Id, Name, ProductCode, vlocity_cmt__GlobalKey__c FROM Product2 WHERE Name='Tennis Channel'
+```
 6. Clear Product2.Product_Owner__c field value
+```
+Product2[] pds = [SELECT Id, Product_Owner__c FROM Product2 WHERE Product_Owner__c != null];
+for (Product2 pd : pds) pd.Product_Owner__c = null;
+update pds;
+```
+
+1. Clear value in vlocity_cmt__EventConditionData__c field
+```
+vlocity_cmt__OrchestrationItemDefinition__c[] items = new List<vlocity_cmt__OrchestrationItemDefinition__c>();
+for (vlocity_cmt__OrchestrationItemDefinition__c item : [SELECT Id, vlocity_cmt__EventConditionData__c, RecordType.name FROM vlocity_cmt__OrchestrationItemDefinition__c Where RecordType.Name<>'Push Event']) {
+    if (item.vlocity_cmt__EventConditionData__c != null) {
+        item.vlocity_cmt__EventConditionData__c = null;
+        items.add(item);
+    }  
+}
+update items;
+```
+
+*. Fix AttributeAssignment Issue
+a. Delete corrupted AttributeAssignment and OverrideDefinition records with AttributeId=null
+```
+delete [SELECT Id FROM vlocity_cmt__AttributeAssignment__c WHERE vlocity_cmt__AttributeId__c=null];
+delete [SELECT id, vlocity_cmt__OverriddenAttributeAssignmentId__c, vlocity_cmt__OverriddenAttributeAssignmentId__r.vlocity_cmt__ObjectId__c, vlocity_cmt__OverridingAttributeAssignmentId__c, vlocity_cmt__ProductId__r.Name FROM vlocity_cmt__OverrideDefinition__c where vlocity_cmt__OverrideType__c='Attribute';]
+```
+b. Fix duplicate AttributeAssignment records
+```
+select count(id), vlocity_cmt__ObjectId__c, vlocity_cmt__AttributeId__c, vlocity_cmt__AttributeId__r.Name, vlocity_cmt__IsOverride__c from vlocity_cmt__AttributeAssignment__c group by vlocity_cmt__ObjectId__c, vlocity_cmt__AttributeId__c, vlocity_cmt__AttributeId__r.Name, vlocity_cmt__IsOverride__c having count(id)>1
+```
+c. Fix Product with wrong Object Type (points to "Product 2 Object")
+```
+select Id, name, vlocity_cmt__ObjectTYpeId__c, vlocity_cmt__ObjectTypeId__r.Name from product2 where vlocity_cmt__ObjectTypeId__r.Name='Product2 Object'
+```
+
 7. Remove "bd1208f0-7217-d4ff-65ab-cd727d5cb0d4" product because it cause API limits
 
 This guide helps Salesforce developers who are new to Visual Studio Code go from zero to a deployed app using Salesforce Extensions for VS Code and Salesforce CLI.
+
+
+## Not Needed
 
 ## Part 1: Choosing a Development Model
 
