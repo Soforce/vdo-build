@@ -1,0 +1,59 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "query": "SELECT Id, Name FROM Asset WHERE AccountId = '{{params.id}}' AND Name LIKE '%Sport%'"
+        }
+    },
+    "filter": {
+        "['Name']": "Sport"
+    },
+    "states": [
+        {
+            "actionCtxId": "",
+            "blankCardState": true,
+            "blankStateCheck": true,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'non-existent'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'non-existent'",
+            "name": "Bundles",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavIcon",
+                    "type": "string",
+                    "value": "'../resource/npResource/accessories.svg'"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavTitle",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "Account",
+            "templateUrl": "np-subnav-open"
+        }
+    ],
+    "title": "Accessories"
+}

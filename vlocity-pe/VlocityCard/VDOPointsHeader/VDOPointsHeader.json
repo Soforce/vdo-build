@@ -1,0 +1,59 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": false,
+                        "displayName": "Shop Rewards",
+                        "hasExtraParams": false,
+                        "id": "Change Payment Method",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/c__VDOOmniscript?id=00336000009ETxb#/OmniScriptType/VDO/OmniScriptSubType/Loyalty Redemption/OmniScriptLang/English/ContextId/00336000009ETxb/PrefillDataRaptorBundle//false/true"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['metrics']['point']['balance']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "available points",
+                    "name": "['metrics']['point']['balance']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Resets On 12/12/18",
+                    "name": "<<Custom Field>>",
+                    "type": "string"
+                }
+            ],
+            "name": "active",
+            "sObjectType": "%vlocity_namespace%__Policy__c",
+            "templateUrl": "vdo-loyalty-tier-information"
+        }
+    ],
+    "title": "Points"
+}

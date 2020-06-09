@@ -1,0 +1,32 @@
+{
+    "Cards": [
+        "np-usage-data",
+        "np-usage-minutes",
+        "np-usage-messages",
+        "np-usage-balance"
+    ],
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "[\n    {\n        \"ExternalId\": \"9bad76d5-79c6-754a-01f4-aaef8db91736:3\",\n        \"gstock__AccountKey__c\": \"9bad76d5-79c6-754a-01f4-aaef8db91736\",\n        \"gstock__AvailableAmount__c\": 76.67,\n        \"gstock__CreditLimit__c\": 200,\n        \"gstock__DisplayQuantityUnit__c\": \"USD\",\n        \"gstock__Name__c\": \"Balance\",\n        \"gstock__ResourceId__c\": 3,\n        \"gstock__ThresholdLimit__c\": 200,\n        \"Id\": \"x00410000001pNXAAY\"\n    },\n    {\n        \"ExternalId\": \"9bad76d5-79c6-754a-01f4-aaef8db91736:2\",\n        \"gstock__AccountKey__c\": \"9bad76d5-79c6-754a-01f4-aaef8db91736\",\n        \"gstock__AvailableAmount__c\": 4242880,\n        \"gstock__CreditLimit__c\": 0,\n        \"gstock__DisplayQuantityUnit__c\": \"KB\",\n        \"gstock__EndTime__c\": \"2017-10-22T00:00:00.000000Z\",\n        \"gstock__Name__c\": \"Data\",\n        \"gstock__ResourceId__c\": 2,\n        \"gstock__StartTime__c\": \"2017-09-22T00:00:00.000000Z\",\n        \"gstock__ThresholdLimit__c\": 5242880,\n        \"Id\": \"x00410000001pNYAAY\"\n    },\n    {\n        \"ExternalId\": \"9bad76d5-79c6-754a-01f4-aaef8db91736:4\",\n        \"gstock__AccountKey__c\": \"9bad76d5-79c6-754a-01f4-aaef8db91736\",\n        \"gstock__AvailableAmount__c\": 45.67,\n        \"gstock__CreditLimit__c\": 0,\n        \"gstock__DisplayQuantityUnit__c\": \"min\",\n        \"gstock__EndTime__c\": \"2017-10-22T00:00:00.000000Z\",\n        \"gstock__Name__c\": \"Minutes\",\n        \"gstock__ResourceId__c\": 4,\n        \"gstock__StartTime__c\": \"2017-09-22T00:00:00.000000Z\",\n        \"gstock__ThresholdLimit__c\": 100.00,\n        \"Id\": \"x00410000001pNZAAY\"\n    },\n    {\n        \"ExternalId\": \"9bad76d5-79c6-754a-01f4-aaef8db91736:5\",\n        \"gstock__AccountKey__c\": \"9bad76d5-79c6-754a-01f4-aaef8db91736\",\n        \"gstock__AvailableAmount__c\": 85.00,\n        \"gstock__CreditLimit__c\": 0,\n        \"gstock__DisplayQuantityUnit__c\": \"SMS\",\n        \"gstock__EndTime__c\": \"2017-10-22T00:00:00.000000Z\",\n        \"gstock__Name__c\": \"Messages\",\n        \"gstock__ResourceId__c\": 5,\n        \"gstock__StartTime__c\": \"2017-09-22T00:00:00.000000Z\",\n        \"gstock__ThresholdLimit__c\": 100.00,\n        \"Id\": \"x00410000001pNKAAY\"\n    }\n]"
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "Title",
+            "val": "\"Usage\""
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-usage-canvas"
+        }
+    },
+    "workspace": [
+        "np-usage-data/Vlocity Demo Org/1507872637084",
+        "np-usage-minutes/Vlocity Demo Org/1507872637084",
+        "np-usage-messages/Vlocity Demo Org/1507872637085",
+        "np-usage-balance/Vlocity Demo Org/1507872637084"
+    ]
+}

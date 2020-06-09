@@ -1,0 +1,33 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "name": "Active",
+            "templateUrl": "vdo-business-community-account-card-active"
+        }
+    ],
+    "title": "VDO Business Community Account Card"
+}

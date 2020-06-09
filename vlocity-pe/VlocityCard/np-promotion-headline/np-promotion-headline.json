@@ -1,0 +1,58 @@
+{
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{\n\"messages\": []\n}"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View all devices",
+                        "hasExtraParams": false,
+                        "id": "Custom Action",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": ""
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "action",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "label": "Top devices",
+                    "name": "Title",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "sObjectType": null,
+            "smartAction": {
+            },
+            "templateUrl": "np-headline"
+        }
+    ],
+    "title": "Headline"
+}

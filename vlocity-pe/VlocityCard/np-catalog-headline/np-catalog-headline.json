@@ -1,0 +1,42 @@
+{
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{\n\"messages\": []\n}"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "name": "active",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "Devices",
+                    "name": "Title",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "templateUrl": "np-headline"
+        }
+    ],
+    "title": "active"
+}

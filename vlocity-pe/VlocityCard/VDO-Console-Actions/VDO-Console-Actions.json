@@ -1,0 +1,204 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "['RecordType']['Name']",
+                    "operator": "==",
+                    "type": "custom",
+                    "value": "Business"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Assisted Pay Bill",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Billing Dispute",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "B2B Bundle Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "B2B Mobile Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "B2B Internet Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "B2B Landline Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "New Opportunity",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "New Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Renew Contract",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Verify Caller",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['RecordType']['Name'] == 'Business'",
+            "name": "Business Actions",
+            "sObjectType": "Account",
+            "templateUrl": "vdo-action-grid-card"
+        },
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "['RecordType']['Name']",
+                    "operator": "==",
+                    "type": "custom",
+                    "value": "Consumer"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Assisted Pay Bill",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Billing Dispute",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "B2C TV Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "B2C Bundle Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Mobile Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "New Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Change Address",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Resume Interaction",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Verify Caller",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Service Upgrade",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['RecordType']['Name'] == 'Consumer'",
+            "name": "Consumer Actions",
+            "sObjectType": "Account",
+            "templateUrl": "vdo-action-grid-card"
+        }
+    ],
+    "title": "VDO Console Actions"
+}

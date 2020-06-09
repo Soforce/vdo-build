@@ -1,0 +1,60 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Device_Operating_System__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Operating System",
+                    "name": "['Device_Operating_System__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Device_Manufacturer__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Device Manufacturer",
+                    "name": "['Device_Manufacturer__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Device_Network_Compatibility__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Network Compatibility",
+                    "name": "['Device_Network_Compatibility__c']",
+                    "type": "string"
+                }
+            ],
+            "name": "active",
+            "templateUrl": "np-catalog-product-detail"
+        }
+    ],
+    "title": "active"
+}

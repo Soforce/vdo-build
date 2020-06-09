@@ -1,0 +1,116 @@
+{
+    "Alerts": [
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0011500001ChJqa"
+            }
+        ],
+        "type": null,
+        "value": {
+            "query": "SELECT Id, Name, BillingAddress, Phone, PhotoURL, Website FROM Account WHERE Id = '{{params.id}}'"
+        }
+    },
+    "definedActions": [
+        {
+            "actionIds": [
+                {
+                    "id": "Add",
+                    "type": "Vlocity Action"
+                }
+            ],
+            "filter": "$scope.data.status == 'active'"
+        }
+    ],
+    "filter": {
+        "attributes": {
+            "type": "Account"
+        }
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "alerts": [
+            ],
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Relationships",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Resume Interaction",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Upsell Customer",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Name",
+                    "name": "['Vlocity_Demo_Name__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Type",
+                    "name": "['Type']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Industry",
+                    "name": "['Industry']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status == 'active'",
+            "flyout": "",
+            "name": "active",
+            "sObjectType": "Account",
+            "templateUrl": "vdo-left-profile-slds"
+        }
+    ],
+    "templates": [
+        {
+            "filter": "$scope.data.status == 'active'",
+            "templateUrl": "left-profile-slds"
+        },
+        {
+            "filter": "$scope.data.status == 'non-existent'",
+            "templateUrl": "left-profile-slds"
+        }
+    ],
+    "title": "Profile"
+}

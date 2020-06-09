@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "name": "$root.vlocity.userAccountId",
+                "val": "0011I000005HZv2"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "Select Id, Name from Account  WHERE  Id = '{{$root.vlocity.userAccountId}}'"
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "np-asset-action-links.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "np-asset-action-links/1/VlocityDev/1506151987396",
+    "%vlocity_namespace%__ParentID__c": "np-asset-action-links-cmt/1/VlocityDev/1502345111181",
+    "%vlocity_namespace%__RequiredPermission__c": "",
+    "%vlocity_namespace%__Type__c": "Layout",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "np-asset-action-links",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUILayout__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUILayout__c/np-asset-action-links"
+}

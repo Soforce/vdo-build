@@ -1,0 +1,54 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "endpoint": "/services/apexrest/%vlocity_namespace%/v1/intelligence/Products"
+        }
+    },
+    "filter": {
+    },
+    "sessionVars": [
+    ],
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Custom Action",
+                        "hasExtraParams": false,
+                        "id": "Custom Action",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": ""
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "name": "Active",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "Account",
+            "templateUrl": "np-catalog-list"
+        }
+    ],
+    "title": "Promotions"
+}

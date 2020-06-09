@@ -1,0 +1,29 @@
+{
+    "Cards": [
+        "np-bill-payment"
+    ],
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "type": "Custom",
+        "value": {
+            "body": "[\n    {\n        \"attributes\": {\n            \"type\": \"vlocity_ins__Statement__c\",\n            \"url\": \"/services/data/v40.0/sobjects/vlocity_ins__Statement__c/a3S41000000EWZREA4\"\n        },\n        \"Id\": \"a3S41000000EWZREA4\",\n        \"LastModifiedDate\": \"2017-05-30T11:47:06.000+0000\",\n        \"Name\": \"Annual Billing\",\n        \"%vlocity_namespace%__AccountId__c\": \"00141000009xxURAAY\",\n        \"%vlocity_namespace%__AssetId__c\": \"02i41000002h88mAAA\",\n        \"%vlocity_namespace%__BalanceDue__c\": 78.99,\n        \"%vlocity_namespace%__CurrentBalance__c\": 78.99,\n        \"%vlocity_namespace%__DueDate__c\": \"2019-12-01\",\n        \"%vlocity_namespace%__StatementDate__c\": \"2019-11-01\",\n        \"%vlocity_namespace%__StatementPeriodEndDate__c\": \"2019-01-01\",\n        \"%vlocity_namespace%__StatementPeriodStartDate__c\": \"2019-01-01\"\n    }\n]",
+            "query": "SELECT \nId,\nLastModifiedDate,\nLastReferencedDate,\nName,\n%vlocity_namespace%__AccountId__c,\n%vlocity_namespace%__AssetId__c,\n%vlocity_namespace%__BalanceDue__c,\n%vlocity_namespace%__BillingAccountId__c,\n%vlocity_namespace%__CurrentBalance__c,\n%vlocity_namespace%__DueDate__c,\n%vlocity_namespace%__PreviousBalance__c,\n%vlocity_namespace%__StatementDate__c,\n%vlocity_namespace%__StatementImageURL__c,\n%vlocity_namespace%__StatementPeriodEndDate__c,\n%vlocity_namespace%__StatementPeriodStartDate__c FROM %vlocity_namespace%__Statement__c\nWHERE %vlocity_namespace%__AssetId__c = '{{params.id}}' ORDER BY %vlocity_namespace%__DueDate__c DESC  LIMIT 1"
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "Title",
+            "val": "'Pending Charges'"
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-canvas"
+        }
+    },
+    "workspace": [
+        "np-bill-payment/Vlocity Demo Org/1507870684186"
+    ]
+}

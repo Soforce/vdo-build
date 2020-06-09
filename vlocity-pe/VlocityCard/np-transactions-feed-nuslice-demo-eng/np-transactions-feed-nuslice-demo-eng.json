@@ -1,0 +1,54 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "$root.vlocity.userAccountId",
+                "val": "0014P0000263kz2QAA"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "body": "{\n    \"title\": \"Recent Activity\",\n    \"activities\": [\n      {\n        \"date\": \"Oct 28, 2019\",\n        \"title\": \"Bursts Used\",\n        \"detail\": \"3 Used- Balance 0\",\n        \"amount\": \"Koolaid\"\n      },\n      {\n        \"date\": \"Oct 29, 2019\",\n        \"title\": \"Bursts Added\",\n        \"detail\": \"5 Added- Balance 5\",\n        \"amount\": \"Minute Maid\"\n      },\n      {\n        \"date\": \"Oct 28, 2019\",\n        \"title\": \"Bursts Used\",\n        \"detail\": \"1Used- Balance 4\",\n        \"amount\": \"Jolt Cola\"\n      },\n      {\n        \"date\": \"Oct 28, 2019\",\n        \"title\": \"Premium Content - HD Movie\",\n        \"detail\": \"Credit Card(Ending 9695)\",\n        \"amount\": \"$4.50\"\n      },\n      {\n        \"date\": \"Oct 28, 2019\",\n        \"title\": \"Base 5G Stream & GO Plan Enrollment (for Oct 10 - Nov 10)\",\n        \"detail\": \"Credit Card(Ending 9695)\",\n        \"amount\": \"$10.00\"\n      }\n    ]\n  }",
+            "bundle": "GetAccountTransactionsDemoEngineering",
+            "inputMap": {
+                "AccountId": "{{$root.vlocity.userAccountId}}"
+            },
+            "jsonMap": "{\"$root.vlocity.userAccountId\":\"{{$root.vlocity.userAccountId}}\"}"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Details",
+                        "hasExtraParams": false,
+                        "id": "Details",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/{{obj.Id}}"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "name": "Active",
+            "templateUrl": "card-active-recent-asset-activity-nuslice-demo-eng"
+        }
+    ],
+    "title": "Recent Activity"
+}

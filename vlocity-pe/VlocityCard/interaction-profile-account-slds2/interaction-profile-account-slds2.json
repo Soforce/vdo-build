@@ -1,0 +1,124 @@
+{
+    "Alerts": [
+    ],
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "type": null,
+        "value": {
+            "query": ""
+        }
+    },
+    "definedActions": [
+        {
+            "actionIds": [
+                {
+                    "id": "Add",
+                    "type": "Vlocity Action"
+                }
+            ],
+            "filter": "$scope.data.status == 'active'"
+        }
+    ],
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['InteractionId']",
+            "collapse": false,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "['RecordType.DeveloperName']",
+                    "operator": "==",
+                    "type": "custom",
+                    "value": "Consumer"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Phone",
+                    "name": "['Phone']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['RecordType.DeveloperName'] == 'Consumer'",
+            "name": "Consumer Account",
+            "sObjectType": "%vlocity_namespace%__CustomerInteraction__c",
+            "templateUrl": "vdo-left-profile-slds"
+        },
+        {
+            "alerts": [
+            ],
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "['RecordType.DeveloperName']",
+                    "operator": "==",
+                    "type": "custom",
+                    "value": "Business"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Phone",
+                    "name": "['Phone']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['RecordType.DeveloperName'] == 'Business'",
+            "flyout": "",
+            "name": "Business Account",
+            "templateUrl": "left-profile-slds"
+        }
+    ],
+    "templates": [
+        {
+            "filter": "$scope.data.status == 'active'",
+            "templateUrl": "left-profile"
+        },
+        {
+            "filter": "$scope.data.status == 'non-existent'",
+            "templateUrl": "left-profile"
+        }
+    ],
+    "title": "Profile"
+}

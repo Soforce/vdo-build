@@ -1,0 +1,53 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "$root.vlocity.userAccountId",
+                "val": "0014P0000263kz2"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "endpoint": "",
+            "jsonMap": "{\"$root.vlocity.userAccountId\":\"{{$root.vlocity.userAccountId}}\"}",
+            "methodType": "GET",
+            "resultVar": ""
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "name": "Images",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Type",
+                    "type": "string",
+                    "value": "Small"
+                }
+            ],
+            "templateUrl": "vloc-mob-con-product-image-wrapper"
+        }
+    ],
+    "title": "Asset"
+}

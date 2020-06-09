@@ -1,0 +1,51 @@
+{
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{\n\"messages\": []\n}"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "collapse": false,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View all plans",
+                        "hasExtraParams": false,
+                        "id": "Custom Action",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "name": "action",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "label": "Shop plans",
+                    "name": "Title",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "templateUrl": "np-headline"
+        }
+    ],
+    "title": "Headline"
+}

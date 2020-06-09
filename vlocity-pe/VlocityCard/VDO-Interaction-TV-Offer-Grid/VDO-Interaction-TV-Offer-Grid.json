@@ -1,0 +1,43 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "query": "SELECT Id, Name FROM Asset WHERE AccountId = '{{params.Id}}' AND Name LIKE '%Sport%'"
+        }
+    },
+    "filter": {
+        "['AssetCategory__c']": "Sport Offer"
+    },
+    "states": [
+        {
+            "actionCtxId": "",
+            "blankCardState": true,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'non-existent'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "TV Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'non-existent'",
+            "name": "Offer",
+            "sObjectType": "Account",
+            "templateUrl": "card-open-slds"
+        }
+    ],
+    "title": "Add Sports Package"
+}

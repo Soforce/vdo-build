@@ -1,0 +1,16 @@
+{
+    "Cards": [
+    ],
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "Content",
+            "val": "[\"np-product-promotions\",\"np-product-catalog\",\"np-products\"]"
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-canvas-page"
+        }
+    }
+}

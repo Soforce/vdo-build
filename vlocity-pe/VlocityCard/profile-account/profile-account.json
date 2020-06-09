@@ -1,0 +1,85 @@
+{
+    "Alerts": [
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0013600000FBB68"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "definedActions": [
+        {
+            "actionIds": [
+                {
+                    "id": "Verify Caller",
+                    "type": "Vlocity Action"
+                }
+            ],
+            "filter": "$scope.data.status == 'active'"
+        },
+        {
+            "actionIds": [
+            ],
+            "filter": "$scope.data.status == 'non-existent'"
+        }
+    ],
+    "filter": {
+        "attributes": {
+            "type": "Account"
+        }
+    },
+    "states": [
+        {
+            "alerts": [
+            ],
+            "blankStateCheck": false,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "id": "Verify Caller",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Change Address",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Relationships",
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "filter": "$scope.data.status == 'active'",
+            "flyout": "",
+            "name": "Has Data",
+            "templateUrl": "vdo-left-profile"
+        }
+    ],
+    "templates": [
+        {
+            "filter": "$scope.data.status == 'active'",
+            "templateUrl": "left-profile"
+        },
+        {
+            "filter": "$scope.data.status == 'non-existent'",
+            "templateUrl": "left-profile"
+        }
+    ],
+    "title": "Profile"
+}

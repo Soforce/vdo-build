@@ -1,0 +1,33 @@
+{
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{}"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "name": "Footer",
+            "templateUrl": "community-variables"
+        }
+    ],
+    "title": "Footer"
+}

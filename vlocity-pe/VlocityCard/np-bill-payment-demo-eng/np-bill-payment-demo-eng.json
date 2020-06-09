@@ -1,0 +1,82 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "$root.vlocity.userAccountId",
+                "val": "0014P0000263kv6QAA"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"$root.vlocity.userAccountId\":\"{{$root.vlocity.userAccountId}}\"}"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Change Payment Method",
+                        "hasExtraParams": false,
+                        "id": "Change Payment Method",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/{{obj.Id}}"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__BalanceDue__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "balance",
+                    "name": "['%vlocity_namespace%__BalanceDue__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Payment Will Be Taken On",
+                    "name": "<<Custom Field>>",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "data": {
+                    },
+                    "displayLabel": "['%vlocity_namespace%__DueDate__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['%vlocity_namespace%__DueDate__c']",
+                    "type": "string"
+                }
+            ],
+            "name": "active",
+            "sObjectType": "%vlocity_namespace%__Policy__c",
+            "templateUrl": "np-billing-payment-card"
+        }
+    ],
+    "title": "Bill Payment"
+}

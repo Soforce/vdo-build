@@ -1,0 +1,80 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+    },
+    "sessionVars": [
+    ],
+    "states": [
+        {
+            "actionCtxId": "Id",
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "id": "Troubleshoot TV",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Service Upgrade",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Report Outage",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Download Bill",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Modify Bundle",
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "Type",
+                    "name": "['Product2']['%vlocity_namespace%__Type__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "Category",
+                    "name": "['Product2']['%vlocity_namespace%__SubType__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                }
+            ],
+            "name": "Child Products",
+            "sObjectType": "Asset",
+            "templateUrl": "list-card-slds"
+        }
+    ],
+    "title": "Asset List"
+}

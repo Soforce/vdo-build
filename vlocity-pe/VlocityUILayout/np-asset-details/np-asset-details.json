@@ -1,0 +1,44 @@
+{
+    "Cards": [
+        "np-asset-detail"
+    ],
+    "bypassSave": true,
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "$root.vlocity.userAccountId",
+                "val": "0014P0000263kz2QAA"
+            },
+            {
+                "name": "params.id",
+                "val": "02i4P00000BhQtZQAV"
+            }
+        ],
+        "type": "ApexRest",
+        "value": {
+            "apexRemoteResultVar": "records",
+            "apexRestResultVar": "records",
+            "body": "{\n  \"Technology\": \"GSM / CDMA / HSPA / EVDO / LTE\",\n  \"Dimensions\": \"143.8 x 69.5 x 8.5 mm (5.66 x 2.74 x 0.33 in)\",\n  \"Weight\": \"143g \",\n  \"DISPLAY\": \"AMOLED capacitive touchscreen, 16M colors\",\n  \"Resolution\": \"1080 x 1920 pixels (~441 ppi pixel density)\",\n  \"PLATFORM\": \"Android 7.1 (Nougat)\",\n  \"CPU\": \"Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)\",\n  \"GPU\": \"Adreno 530\",\n  \"Internal\": \"32/128 GB, 4 GB RAM\",\n  \"GPS\": \"Yes, with A-GPS, GLONASS\",\n  \"USB\": \"3.0, Type-C 1.0 reversible connector\"\n}",
+            "endpoint": "/services/apexrest/%vlocity_namespace%/v2/accounts/{{$root.vlocity.userAccountId}}/assets/?fields=Product2Id,%vlocity_namespace%__JSONAttribute__c",
+            "inputMap": {
+                "$root.vlocity.userAccountId": "0011I000003TIf4"
+            },
+            "methodType": "GET",
+            "remoteClass": "CpqAppHandler",
+            "remoteMethod": "getAssetsByAccount",
+            "remoteNSPrefix": "%vlocity_namespace%",
+            "resultVar": "records"
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-canvas"
+        }
+    },
+    "workspace": [
+        "np-asset-detail/Vlocity Demo Org/1507872637076"
+    ]
+}

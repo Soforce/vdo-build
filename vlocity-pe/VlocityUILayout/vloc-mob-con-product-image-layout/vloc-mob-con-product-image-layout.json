@@ -1,0 +1,34 @@
+{
+    "Cards": [
+        "vloc-mob-con-product-image"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "attrs.productid",
+                "val": "01t4P000007aFSmQAM"
+            },
+            {
+                "name": "attrs.type",
+                "val": "Small"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "body": "[\n    {\n        \"attributes\": {\n            \"type\": \"Attachment\",\n            \"url\": \"/services/data/v40.0/sobjects/Attachment/00P1I000000pjrpUAA\"\n        },\n        \"Id\": \"00P1I000000pjrpUAA\",\n        \"Name\": \"galaxy-s7.jpg\"\n    }\n]",
+            "jsonMap": "{\"attrs.productid\":\"{{attrs.productid}}\"}",
+            "resultVar": ""
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "vloc-mob-con-blank-canvas"
+        }
+    },
+    "workspace": [
+        "vloc-mob-con-product-image/Vlocity Demo Org/null/1535615263315"
+    ]
+}

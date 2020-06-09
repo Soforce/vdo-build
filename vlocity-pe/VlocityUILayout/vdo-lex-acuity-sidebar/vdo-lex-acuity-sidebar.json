@@ -1,0 +1,22 @@
+{
+    "Cards": [
+        "acuity-sidebar-offer-card"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0013600000FBB68"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, Name, BillingAddress, Phone, PhotoURL, Type, Industry, Website FROM Account WHERE Id = '{{params.id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-simple-slds"
+        }
+    }
+}

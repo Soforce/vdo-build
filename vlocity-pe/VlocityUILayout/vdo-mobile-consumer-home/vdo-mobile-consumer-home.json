@@ -1,0 +1,34 @@
+{
+    "Cards": [
+        "vdo-mobile-consumer-plan",
+        "vdo-mobile-consumer-order",
+        "vdo-mobile-consumer-asset"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "$root.vlocity.userAccountId",
+                "val": "0014P0000263kz2QAA"
+            }
+        ],
+        "type": "ApexRest",
+        "value": {
+            "endpoint": "/services/apexrest/%vlocity_namespace%/v2/accounts/0014P0000263kz2QAA/assets/?fields=Product2Id,%vlocity_namespace%__JSONAttribute__c,Mobile_Number__c,Product_Family_Image__c,Product_Image__c,%vlocity_namespace%__LineNumber__c,%vlocity_namespace%__ProvisioningStatus__c",
+            "methodType": "GET",
+            "resultVar": "records"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vdo-mobile-consumer-home"
+        }
+    },
+    "workspace": [
+        "vdo-mobile-consumer-plan/Vlocity Demo Org/1508950432657",
+        "vdo-mobile-consumer-asset/Vlocity Demo Org/1508833540516",
+        "vdo-mobile-consumer-asset-generic/Vlocity Demo Org/null/1518711309690",
+        "vdo-mobile-consumer-order/Vlocity Demo Org/null/1518713803111",
+        "vdo-mobile-consumer-asset/Vlocity Demo Org/1/1572726368523"
+    ]
+}

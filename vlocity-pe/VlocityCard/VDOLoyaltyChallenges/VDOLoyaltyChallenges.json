@@ -1,0 +1,68 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": false,
+                        "displayName": "Earn Loyalty Points",
+                        "hasExtraParams": false,
+                        "id": "Earn Loyalty Points",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/c__VDOOmniscript?id=00336000009ETxb#/OmniScriptType/VDO/OmniScriptSubType/Loyalty Activity/OmniScriptLang/English/ContextId/00336000009ETxb/PrefillDataRaptorBundle//false/true"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['image_url']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "image_url",
+                    "name": "['image_url']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['label']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "label",
+                    "name": "['label']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['metric_amount']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "metric_amount",
+                    "name": "['metric_amount']",
+                    "type": "string"
+                }
+            ],
+            "name": "Active",
+            "sObjectType": "Contact",
+            "templateUrl": "vdo-loyalty-challenges"
+        }
+    ],
+    "title": "Challenges"
+}

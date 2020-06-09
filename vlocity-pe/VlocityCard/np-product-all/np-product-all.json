@@ -1,0 +1,74 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+    },
+    "sessionVars": [
+    ],
+    "states": [
+        {
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "",
+                    "name": "['Product2']['Family']",
+                    "type": "string"
+                }
+            ],
+            "isSmartAction": false,
+            "name": "Landline",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "['name']"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "unitPrice",
+                    "type": "currency",
+                    "value": "['UnitPrice']['value']"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "/ month",
+                    "name": "recurringPrice",
+                    "type": "currency",
+                    "value": "['PromotionPrice']['value']"
+                }
+            ],
+            "sObjectType": null,
+            "smartAction": {
+            },
+            "templateUrl": "np-product"
+        }
+    ],
+    "title": "Mobile"
+}

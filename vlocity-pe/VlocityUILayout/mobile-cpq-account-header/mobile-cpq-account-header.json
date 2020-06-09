@@ -1,0 +1,10 @@
+{
+    "Cards": [
+        "Account Header"
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "cpq-base-header"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__Datasource__c": "",
+    "%vlocity_namespace%__Definition__c": "vdo-mobile-ret-home-action.json",
+    "%vlocity_namespace%__GlobalKey__c": "vdo-mobile-ret-home-action/Vlocity Demo Org/1508509080718",
+    "%vlocity_namespace%__ParentID__c": "mobile-ret-home-action/Vlocity/1505897492307",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": "",
+    "Name": "vdo-mobile-ret-home-action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/vdo-mobile-ret-home-action"
+}

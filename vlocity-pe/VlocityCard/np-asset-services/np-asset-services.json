@@ -1,0 +1,66 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "resultVar": ""
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']['value']",
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Description']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Description",
+                    "name": "['Description']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "name": "Services",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Amount",
+                    "type": "currency",
+                    "value": "['Price']"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Name",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "Asset",
+            "templateUrl": "np-asset-services"
+        }
+    ],
+    "title": "Service"
+}

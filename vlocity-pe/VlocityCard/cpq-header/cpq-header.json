@@ -1,0 +1,615 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "8011I000001rNZNQA2"
+            }
+        ],
+        "type": "Dual",
+        "value": {
+            "apexRemoteResultVar": "records[0].details.records",
+            "apexRestResultVar": "records[0].details.records",
+            "endpoint": "/services/apexrest/%vlocity_namespace%/v2/cpq/carts/{{params.id}}?validate=false&price=false",
+            "inputMap": {
+                "cartId": "{{params.id}}",
+                "price": "false",
+                "validate": "false"
+            },
+            "methodType": "GET",
+            "remoteClass": "CpqAppHandler",
+            "remoteMethod": "getCarts",
+            "remoteNSPrefix": "%vlocity_namespace%",
+            "resultVar": "records[0]"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['ObjectType']",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "'Opportunity'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['discountsForSubmission']",
+                                    "operator": "===",
+                                    "type": "custom",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['discountsForSubmission'] === true",
+                        "hasExtraParams": false,
+                        "id": "Discount Approval",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['canCheckoutDiscounts']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                },
+                                {
+                                    "field": "['frameAgreementPresent']",
+                                    "logicalOperator": "&&",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "false"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['canCheckoutDiscounts'] == true && $scope.obj['frameAgreementPresent'] == false",
+                        "hasExtraParams": false,
+                        "id": "Create Frame Agreement-Oppty",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "hasExtraParams": false,
+                        "id": "View Record",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['canCheckoutDiscounts']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                },
+                                {
+                                    "field": "['frameAgreementPresent']",
+                                    "logicalOperator": "&&",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "false"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['canCheckoutDiscounts'] == true && $scope.obj['frameAgreementPresent'] == false",
+                        "hasExtraParams": false,
+                        "id": "Update Frame Agreement-Oppty",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "hasExtraParams": false,
+                        "id": "Edit Record",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['canCheckoutDiscounts']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                },
+                                {
+                                    "field": "['frameAgreementPresent']",
+                                    "logicalOperator": "&&",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['canCheckoutDiscounts'] == true && $scope.obj['frameAgreementPresent'] == true",
+                        "hasExtraParams": false,
+                        "id": "Create Frame Amendment-Oppty",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['canCheckoutDiscounts']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                },
+                                {
+                                    "field": "['frameAgreementPresent']",
+                                    "logicalOperator": "&&",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['canCheckoutDiscounts'] == true && $scope.obj['frameAgreementPresent'] == true",
+                        "hasExtraParams": false,
+                        "id": "Update Frame Amendment-Oppty",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "['StageName']['label']",
+                    "name": "['StageName']['value']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['ObjectType'] == 'Opportunity'",
+            "name": "Active Opportunity",
+            "sObjectType": "Opportunity",
+            "templateUrl": "cpq-base-header-card"
+        },
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['ObjectType']",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "'Quote'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['discountsForSubmission']",
+                                    "operator": "===",
+                                    "type": "custom",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['discountsForSubmission'] === true",
+                        "hasExtraParams": false,
+                        "id": "Discount Approval",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['canCheckoutDiscounts']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                },
+                                {
+                                    "field": "['frameAgreementPresent']",
+                                    "logicalOperator": "&&",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "false"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['canCheckoutDiscounts'] == true && $scope.obj['frameAgreementPresent'] == false",
+                        "hasExtraParams": false,
+                        "id": "Create Frame Agreement-Quote",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "hasExtraParams": false,
+                        "id": "View Record",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['canCheckoutDiscounts']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                },
+                                {
+                                    "field": "['frameAgreementPresent']",
+                                    "logicalOperator": "&&",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "false"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['canCheckoutDiscounts'] == true && $scope.obj['frameAgreementPresent'] == false",
+                        "hasExtraParams": false,
+                        "id": "Update Frame Agreement-Quote",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "hasExtraParams": false,
+                        "id": "Edit Record",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['canCheckoutDiscounts']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                },
+                                {
+                                    "field": "['frameAgreementPresent']",
+                                    "logicalOperator": "&&",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['canCheckoutDiscounts'] == true && $scope.obj['frameAgreementPresent'] == true",
+                        "hasExtraParams": false,
+                        "id": "Create Frame Amendment-Quote",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['canCheckoutDiscounts']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                },
+                                {
+                                    "field": "['frameAgreementPresent']",
+                                    "logicalOperator": "&&",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['canCheckoutDiscounts'] == true && $scope.obj['frameAgreementPresent'] == true",
+                        "hasExtraParams": false,
+                        "id": "Update Frame Amendment-Quote",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "['QuoteNumber']['label']",
+                    "name": "['QuoteNumber']['value']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['ObjectType'] == 'Quote'",
+            "name": "Active Quote",
+            "sObjectType": "Quote",
+            "templateUrl": "cpq-base-header-card"
+        },
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['ObjectType']",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "'Order'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['discountsForSubmission']",
+                                    "operator": "===",
+                                    "type": "custom",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['discountsForSubmission'] === true",
+                        "hasExtraParams": false,
+                        "id": "Discount Approval",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['canCheckoutDiscounts']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                },
+                                {
+                                    "field": "['frameAgreementPresent']",
+                                    "logicalOperator": "&&",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "false"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['canCheckoutDiscounts'] == true && $scope.obj['frameAgreementPresent'] == false",
+                        "hasExtraParams": false,
+                        "id": "Create Frame Agreement-Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "hasExtraParams": false,
+                        "id": "View Record",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['canCheckoutDiscounts']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                },
+                                {
+                                    "field": "['frameAgreementPresent']",
+                                    "logicalOperator": "&&",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "false"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['canCheckoutDiscounts'] == true && $scope.obj['frameAgreementPresent'] == false",
+                        "hasExtraParams": false,
+                        "id": "Update Frame Agreement-Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "hasExtraParams": false,
+                        "id": "Generate Document PDF",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "hasExtraParams": false,
+                        "id": "Send for eSignature",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "hasExtraParams": false,
+                        "id": "New Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "hasExtraParams": false,
+                        "id": "Edit Record",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['canCheckoutDiscounts']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                },
+                                {
+                                    "field": "['frameAgreementPresent']",
+                                    "logicalOperator": "&&",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['canCheckoutDiscounts'] == true && $scope.obj['frameAgreementPresent'] == true",
+                        "hasExtraParams": false,
+                        "id": "Update Frame Amendment-Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['canCheckoutDiscounts']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                },
+                                {
+                                    "field": "['frameAgreementPresent']",
+                                    "logicalOperator": "&&",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['canCheckoutDiscounts'] == true && $scope.obj['frameAgreementPresent'] == true",
+                        "hasExtraParams": true,
+                        "id": "Create Frame Amendment-Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Status']['value']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "['Status']['label']",
+                    "name": "['Status']['value']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['ObjectType'] == 'Order'",
+            "name": "Active Order",
+            "sObjectType": "Order",
+            "templateUrl": "cpq-base-header-card"
+        }
+    ],
+    "title": "cpq-header"
+}

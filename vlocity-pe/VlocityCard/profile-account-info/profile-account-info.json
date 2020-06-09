@@ -1,0 +1,68 @@
+{
+    "Alerts": [
+    ],
+    "dataSource": {
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "definedActions": [
+        {
+            "actionIds": [
+                {
+                    "id": "ChangeAddress",
+                    "type": "Vlocity Action"
+                }
+            ],
+            "filter": "$scope.data.status == 'active'"
+        },
+        {
+            "actionIds": [
+            ],
+            "filter": "$scope.data.status == 'non-existent'"
+        }
+    ],
+    "filter": {
+        "attributes": {
+            "type": "Account"
+        }
+    },
+    "states": [
+        {
+            "actionCtxId": "Id",
+            "alerts": [
+            ],
+            "blankStateCheck": false,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "filter": "$scope.data.status == 'active'",
+            "flyout": "",
+            "name": "Has Data",
+            "templateUrl": "vdo-left-account-info"
+        }
+    ],
+    "templates": [
+        {
+            "filter": "$scope.data.status == 'active'",
+            "templateUrl": "left-account-info"
+        },
+        {
+            "filter": "$scope.data.status == 'non-existent'",
+            "templateUrl": "left-account-info"
+        }
+    ],
+    "title": "Profile"
+}

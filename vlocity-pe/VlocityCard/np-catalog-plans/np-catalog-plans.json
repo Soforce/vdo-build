@@ -1,0 +1,51 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+        "['Name']": "Phones"
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": false,
+                        "displayName": "View",
+                        "hasExtraParams": false,
+                        "id": "View",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "name": "Phones",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "%vlocity_namespace%__Catalog__c",
+            "templateUrl": "np-product-catalog"
+        }
+    ],
+    "title": "Phones"
+}

@@ -1,0 +1,62 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0014100000HENR3"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Assisted Pay Bill",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Resume Interaction",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__DueDate__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Date Due",
+                    "name": "['%vlocity_namespace%__DueDate__c']",
+                    "type": "date"
+                }
+            ],
+            "name": "Active Account",
+            "sObjectType": "Account",
+            "templateUrl": "mobile-cpq-account-header-card"
+        }
+    ],
+    "title": "Account Header"
+}

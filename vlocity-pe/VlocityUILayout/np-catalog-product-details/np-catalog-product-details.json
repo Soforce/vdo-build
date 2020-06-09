@@ -1,0 +1,22 @@
+{
+    "Cards": [
+        "np-catalog-product-details"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "attrs.productid",
+                "val": "01t1I000000yO9q"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Description,Device_Colour__c,Device_IMEI__c,Device_Manufacturer__c,Device_Network_Compatibility__c,Device_Operating_System__c,Device_Storage__c,Discount__c,ExternalDataSourceId,ExternalId,Family,Finish__c,Line_Type__c,Maximum_Speed__c,MSISDN__c,Music_on_Hold__c,Name,SIM_Type__c,Storage_Space__c,Strap__c,SystemModstamp,TV_Boxes_Required__c,TV_Connection__c,TV_Content__c,%vlocity_namespace%__ApprovedBy__c,%vlocity_namespace%__ApprovedOn__c,%vlocity_namespace%__AttributeDefaultValues__c,%vlocity_namespace%__AttributeMetadata__c,%vlocity_namespace%__CategoryData__c,%vlocity_namespace%__ChangeDetectorImplementation__c,%vlocity_namespace%__ClassId__c,%vlocity_namespace%__EffectiveDate__c,%vlocity_namespace%__EndDate__c,%vlocity_namespace%__GlobalKey__c,%vlocity_namespace%__HeaderData__c,%vlocity_namespace%__HelpText__c,%vlocity_namespace%__ImageId__c,%vlocity_namespace%__IsConfigurable__c,%vlocity_namespace%__IsLocationDependent__c,%vlocity_namespace%__IsNotAssetizable__c,%vlocity_namespace%__IsOrderable__c,%vlocity_namespace%__JSONAttribute__c,%vlocity_namespace%__Modification__c,%vlocity_namespace%__ObjectTypeId__c,%vlocity_namespace%__ParentClassId__c,%vlocity_namespace%__ProductSpecId__c,%vlocity_namespace%__ProductTemplateProductId__c,%vlocity_namespace%__Scope__c,%vlocity_namespace%__SpecificationType__c,%vlocity_namespace%__StandardPremium__c,%vlocity_namespace%__Status__c,%vlocity_namespace%__SubType__c,%vlocity_namespace%__TimeToLive__c,%vlocity_namespace%__TrackAsAgreement__c,%vlocity_namespace%__Type__c,%vlocity_namespace%__VendorAccountId__c,Voicemail__c,Wifi_Band__c,Wifi_Standard__c FROM Product2 Where Id='{{attrs.productid}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "np-blank-canvas"
+        }
+    }
+}

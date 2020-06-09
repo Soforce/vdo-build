@@ -1,0 +1,29 @@
+{
+    "Cards": [
+        "Asset Plan Details Grid Demo-Eng"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "0014P0000263kv6QAA"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.Id || params.id\":\"{{params.Id || params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vdo-list-card-canvas-slds-demo-eng"
+        }
+    },
+    "workspace": [
+        "Asset Plan Details Grid Demo-Eng/vlocityDev/1/1572924674576",
+        "Mobile Offer Grid/Vlocity Demo Org/null/1516694577099",
+        "Internet Offer Grid/Vlocity Demo Org/null/1516694577099",
+        "TV Offer Grid/Vlocity Demo Org/null/1516694577098"
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "resultVar": ""
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Business View Bill",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Business SIM Swap",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Business Add A Line Customer",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Business  IMEI Update",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Business Usage",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['shortDescription']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "MAKE/MODEL",
+                    "name": "['shortDescription']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['simNumber']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "PHONE NUMBER",
+                    "name": "['simNumber']",
+                    "type": "phone"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['imei']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "IMEI",
+                    "name": "['imei']",
+                    "type": "string"
+                }
+            ],
+            "name": "Details",
+            "sObjectType": null,
+            "templateUrl": "vdo-business-community-consumer-device-details"
+        }
+    ],
+    "title": "VDO Business Community Consumer Device Details"
+}

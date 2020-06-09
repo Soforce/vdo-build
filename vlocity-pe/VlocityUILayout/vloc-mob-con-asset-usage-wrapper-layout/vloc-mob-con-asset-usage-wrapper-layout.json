@@ -1,0 +1,29 @@
+{
+    "Cards": [
+    ],
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "type": "Query",
+        "value": {
+            "endpoint": "",
+            "jsonMap": "{\"$root.currentUser.Account.attributes.url.substring(38)\":\"{{$root.currentUser.Account.attributes.url.substring(38)}}\"}",
+            "methodType": "GET",
+            "resultVar": ""
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "obj",
+            "val": "{{obj.Id}}"
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "vloc-mob-con-asset-usage-wrapper"
+        }
+    },
+    "workspace": [
+    ]
+}

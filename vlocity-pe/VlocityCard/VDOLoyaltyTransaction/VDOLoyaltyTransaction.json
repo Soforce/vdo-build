@@ -1,0 +1,157 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "['metric_amount']",
+                    "operator": ">=",
+                    "type": "custom",
+                    "value": "0"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Details",
+                        "hasExtraParams": false,
+                        "id": "Custom Action",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['activity_ts']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['activity_ts']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['label']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['label']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "",
+                    "name": "<<Custom Field>>",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['metric_amount']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Points Awarded",
+                    "name": "['metric_amount']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['metric_amount'] >= '0'",
+            "name": "Active",
+            "templateUrl": "vdo-loyalty-transaction-feed"
+        },
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "['metric_amount']",
+                    "operator": "<",
+                    "type": "custom",
+                    "value": "0"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": false,
+                        "displayName": "Details",
+                        "hasExtraParams": false,
+                        "id": "Custom Action",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "#"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['activity_ts']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['activity_ts']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['label']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['label']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "fieldType": "custom",
+                    "label": "<<Custom Field>>",
+                    "name": "<<Custom Field>>",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['metric_amount']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Points Redeemed",
+                    "name": "['metric_amount']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['metric_amount'] < '0'",
+            "name": "Redeem",
+            "templateUrl": "vdo-loyalty-transaction-feed"
+        }
+    ],
+    "title": "Transaction"
+}

@@ -1,0 +1,148 @@
+{
+    "Cards": [
+        "vloc-mob-con-shop-actions",
+        "vloc-mob-con-product-card-recommended",
+        "vloc-mob-con-product-card-phones",
+        "vloc-mob-con-product-card-top",
+        "vloc-mob-con-product-card-equipment",
+        "vloc-mob-con-product-card-accessories"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "80136000008yKaS"
+            }
+        ],
+        "type": null,
+        "value": {
+            "endpoint": "",
+            "inputMap": {
+                "AccountId": "0013600000FBB67"
+            },
+            "ipMethod": "VlocityMobileConsumer_CreateConsumerMobileOrder",
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}",
+            "methodType": "GET",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            },
+            "remoteClass": "CpqAppHandler",
+            "remoteMethod": "createCart",
+            "remoteNSPrefix": "%vlocity_namespace%",
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vloc-mob-con-shop"
+        }
+    },
+    "workspace": [
+        "vloc-mob-con-shop-actions/Vlocity Demo Org/1/1535712407820",
+        "vloc-mob-con-product-card-recommended/Vlocity Demo Org/1/1535713074597",
+        "vloc-mob-con-product-card-phones/Vlocity Demo Org/1/1535713112208",
+        "vloc-mob-con-product-card-top/Vlocity Demo Org/1/1535713132154",
+        "vloc-mob-con-product-card-equipment/Vlocity Demo Org/1/1537180207144",
+        "vloc-mob-con-product-card-accessories/Vlocity Demo Org/1/1537180234614"
+    ],
+    "zones": {
+        "Accessories": {
+            "cardNames": [
+            ],
+            "label": "Cloud DVR",
+            "layouts": [
+            ],
+            "name": "Accessories",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Org",
+                    "Name": "vloc-mob-con-product-card-accessories",
+                    "Version": 1,
+                    "globalKey": "vloc-mob-con-product-card-accessories/Vlocity Demo Org/1/1537180234614"
+                }
+            ]
+        },
+        "Actions": {
+            "cardNames": [
+            ],
+            "label": "Actions",
+            "layouts": [
+            ],
+            "name": "Actions",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Org",
+                    "Name": "vloc-mob-con-shop-actions",
+                    "Version": 1,
+                    "globalKey": "vloc-mob-con-shop-actions/Vlocity Demo Org/1/1535712407820"
+                }
+            ]
+        },
+        "Phones": {
+            "cardNames": [
+            ],
+            "label": "Channels",
+            "layouts": [
+            ],
+            "name": "Phones",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Org",
+                    "Name": "vloc-mob-con-product-card-phones",
+                    "Version": 1,
+                    "globalKey": "vloc-mob-con-product-card-phones/Vlocity Demo Org/1/1535713112208"
+                }
+            ]
+        },
+        "Recommended": {
+            "cardNames": [
+            ],
+            "label": "Recommended",
+            "layouts": [
+            ],
+            "name": "Recommended",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Org",
+                    "Name": "vloc-mob-con-product-card-recommended",
+                    "Version": 1,
+                    "globalKey": "vloc-mob-con-product-card-recommended/Vlocity Demo Org/1/1535713074597"
+                }
+            ]
+        },
+        "Tablets": {
+            "cardNames": [
+            ],
+            "label": "Video Gateway",
+            "layouts": [
+            ],
+            "name": "Tablets",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Org",
+                    "Name": "vloc-mob-con-product-card-equipment",
+                    "Version": 1,
+                    "globalKey": "vloc-mob-con-product-card-equipment/Vlocity Demo Org/1/1537180207144"
+                }
+            ]
+        },
+        "Top": {
+            "cardNames": [
+            ],
+            "label": "Top",
+            "layouts": [
+            ],
+            "name": "Top",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Org",
+                    "Name": "vloc-mob-con-product-card-top",
+                    "Version": 1,
+                    "globalKey": "vloc-mob-con-product-card-top/Vlocity Demo Org/1/1535713132154"
+                }
+            ]
+        }
+    }
+}

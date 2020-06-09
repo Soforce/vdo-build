@@ -1,0 +1,72 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "endpoint": "/services/apexrest/%vlocity_namespace%/v1/intelligence/Products"
+        }
+    },
+    "filter": {
+        "['Product2']['Family']": "Internet"
+    },
+    "sessionVars": [
+    ],
+    "states": [
+        {
+            "collapse": false,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "",
+                    "name": "['Product2']['Family']",
+                    "type": "string"
+                }
+            ],
+            "name": "Landline",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "['name']"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "unitPrice",
+                    "type": "currency",
+                    "value": "['UnitPrice']['value']"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "recurringPrice",
+                    "type": "currency",
+                    "value": "['Product2']['offer_price__c']"
+                }
+            ],
+            "sObjectType": null,
+            "templateUrl": "np-product"
+        }
+    ],
+    "title": "Mobile"
+}

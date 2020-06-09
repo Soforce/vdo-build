@@ -1,0 +1,16 @@
+{
+    "Cards": [
+        "VDO Business Community Account Lines Card"
+    ],
+    "dataSource": {
+        "type": "Query",
+        "value": {
+            "query": "SELECT Name, Phone, Email, %vlocity_namespace%__Status__c FROM Contact LIMIT 35"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "vdo-business-community-account-lines-layout"
+        }
+    }
+}

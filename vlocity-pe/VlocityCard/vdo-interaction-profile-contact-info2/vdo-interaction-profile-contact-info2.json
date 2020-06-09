@@ -1,0 +1,50 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Title",
+                    "name": "['Title']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "City",
+                    "name": "['MailingCity']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Birthdate",
+                    "name": "['Birthdate']",
+                    "type": "string"
+                }
+            ],
+            "name": "Contact",
+            "templateUrl": "left-account-info-slds"
+        }
+    ],
+    "title": "Profile"
+}

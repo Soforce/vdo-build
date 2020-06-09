@@ -1,0 +1,24 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0014100000HENR3"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT %vlocity_namespace%__AccountId__c,%vlocity_namespace%__CurrentBalance__c,%vlocity_namespace%__DueDate__c FROM %vlocity_namespace%__Statement__c WHERE %vlocity_namespace%__AccountId__c = '{{params.id}}' ORDER BY %vlocity_namespace%__StatementDate__c DESC NULLS FIRST LIMIT 1"
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "vdo-mobile-ret-account-header.json",
+    "%vlocity_namespace%__GlobalKey__c": "vdo-mobile-ret-account-header/Vlocity Demo Org/1508491964248",
+    "%vlocity_namespace%__ParentID__c": "mobile-ret-account-header/Vlocity/1505894420272",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": "",
+    "Name": "vdo-mobile-ret-account-header",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/vdo-mobile-ret-account-header"
+}

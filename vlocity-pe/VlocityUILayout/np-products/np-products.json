@@ -1,0 +1,49 @@
+{
+    "Cards": [
+        "np-product-headline",
+        "np-product"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "80136000004NHR0"
+            },
+            {
+                "name": "attrs.includeIneligible",
+                "val": "true"
+            }
+        ],
+        "type": "Custom",
+        "value": {
+            "apexRemoteResultVar": "records",
+            "apexRestResultVar": "records",
+            "body": "[\n    {\n        \"UnitPrice\": {\n            \"label\": \"List Price\",\n            \"value\": \"44.00\"\n        },\n        \"PromotionPrice\": {\n            \"label\": \"Promotion Price\",\n            \"value\": \"38.50\"\n        },\n        \"name\": \"5 GB + 1000 MINS\",\n        \"plan\":\"XS\"\n    },\n    {\n        \"UnitPrice\": {\n            \"label\": \"List Price\",\n            \"value\": \"42.50\"\n        },\n        \"PromotionPrice\": {\n            \"label\": \"Promotion Price\",\n            \"value\": \"36.00\"\n        },\n        \"name\": \"10 GB + 3000 MINS\",\n        \"plan\":\"S\"\n    },\n    {\n        \"UnitPrice\": {\n            \"label\": \"List Price\",\n            \"value\": \"38.00\"\n        },\n        \"PromotionPrice\": {\n            \"label\": \"Promotion Price\",\n            \"value\": \"32.50\"\n        },\n        \"name\": \"20 GB + 5000 MINS\",\n        \"plan\":\"M\"\n    },\n    {\n        \"UnitPrice\": {\n            \"label\": \"List Price\",\n            \"value\": \"42.50\"\n        },\n        \"PromotionPrice\": {\n            \"label\": \"Promotion Price\",\n            \"value\": \"36.00\"\n        },\n        \"name\": \"30 GB + 7000 MINS\",\n        \"plan\":\"L\"\n    },\n    {\n        \"UnitPrice\": {\n            \"label\": \"List Price\",\n            \"value\": \"42.50\"\n        },\n        \"PromotionPrice\": {\n            \"label\": \"Promotion Price\",\n            \"value\": \"36.00\"\n        },\n        \"name\": \"40 GB + 8000 MINS\",\n        \"plan\":\"XL\"\n    },\n    {\n        \"UnitPrice\": {\n            \"label\": \"List Price\",\n            \"value\": \"42.50\"\n        },\n        \"PromotionPrice\": {\n            \"label\": \"Promotion Price\",\n            \"value\": \"36.00\"\n        },\n        \"name\": \"50 GB + 9000 MINS\",\n        \"plan\":\"XXL\"\n    }\n\n]",
+            "endpoint": "/%vlocity_namespace%/v2/cpq/carts/80136000004NHR0/products?includeAttachment=true&hierarchy=2&filters=IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.Description,Product2.Family,Product2.%vlocity_namespace%__type__c,Product2.%vlocity_namespace%__SpecificationType__c&pagesize=10&fields=IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c&includeIneligible={{attrs.includeIneligible}}",
+            "inputMap": {
+                "cartId": "80136000004NHR0",
+                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.Description,Product2.Family,Product2.%vlocity_namespace%__type__c,Product2.%vlocity_namespace%__SpecificationType__c",
+                "filters": "Product2.Family:Bundle,Product2.%vlocity_namespace%__type__c:Bundle",
+                "includeIneligible": "{{attrs.includeIneligible}}"
+            },
+            "methodType": "GET",
+            "optionsMap": {
+            },
+            "remoteClass": "CpqAppHandler",
+            "remoteMethod": "getCartsProducts",
+            "remoteNSPrefix": "%vlocity_namespace%",
+            "resultVar": ""
+        }
+    },
+    "sessionVars": [
+        {
+            "name": "Border",
+            "val": "'none'"
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-list-canvas"
+        }
+    }
+}

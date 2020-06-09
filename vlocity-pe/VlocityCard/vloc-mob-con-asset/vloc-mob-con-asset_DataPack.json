@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__Datasource__c": {
+        "type": "Query",
+        "value": {
+            "query": "SELECT id, Name, Product2Id FROM Asset WHERE AccountId = '{{$root.vlocity.userAccountId}}' AND (Product2.Family LIKE '%Mobile%' OR Product2.Family LIKE '%Streaming%') AND (%vlocity_namespace%__LineNumber__c LIKE '____') order by %vlocity_namespace%__LineNumber__c"
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "vloc-mob-con-asset.json",
+    "%vlocity_namespace%__GlobalKey__c": "vloc-mob-con-asset/Vlocity Demo Org/1/1533952365548",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "vloc-mob-con-asset",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/vloc-mob-con-asset"
+}

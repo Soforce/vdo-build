@@ -1,0 +1,86 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Make A Payment",
+                        "hasExtraParams": false,
+                        "id": "Make Payment",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": ""
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Setup Auto Pay",
+                        "hasExtraParams": false,
+                        "id": "Setup Auto Pay",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": ""
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Upgrade Phone",
+                        "hasExtraParams": false,
+                        "id": "Upgrade Phone",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": ""
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Bluetooth Setup",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Troubleshoot Mobile",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Name']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                }
+            ],
+            "name": "Asset",
+            "sObjectType": "Asset",
+            "templateUrl": "np-action-links"
+        }
+    ],
+    "title": "Asset Action Links"
+}

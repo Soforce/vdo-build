@@ -1,0 +1,9 @@
+{
+    "Cards": [
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "vdo-business-community-account-usage-layout"
+        }
+    }
+}

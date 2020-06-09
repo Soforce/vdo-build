@@ -1,0 +1,150 @@
+{
+    "Cards": [
+        "vloc-mob-con-home-banner-widget",
+        "vloc-mob-con-home-billing-widget",
+        "vloc-mob-con-home-plan-widget",
+        "vloc-mob-con-home-product-images",
+        "vloc-mob-con-asset"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "$root.vlocity.userAccountId",
+                "val": "0014P0000263kz2QAA"
+            }
+        ],
+        "type": null,
+        "value": {
+            "body": "{}",
+            "endpoint": "",
+            "inputMap": {
+                "AccountId": "{{$root.vlocity.userAccountId}}"
+            },
+            "ipMethod": "VlocityMobileConsumer_CreateConsumerMobileOrder",
+            "methodType": "GET",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.CpqAppHandler"
+            },
+            "remoteClass": "CpqAppHandler",
+            "remoteMethod": "createCart",
+            "remoteNSPrefix": "%vlocity_namespace%",
+            "resultVar": "",
+            "vlocityAsync": true
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vloc-mob-con-home"
+        }
+    },
+    "workspace": [
+        "vloc-mob-con-home-banner-widget/Vlocity Demo Org/null/1535624639615",
+        "vloc-mob-con-home-billing-widget/Vlocity Demo Org/1/1535607301845",
+        "vloc-mob-con-home-plan-widget/Vlocity Demo Org/1/1535611034236",
+        "vloc-mob-con-home-product-images/Vlocity Demo Org/1/1535614640691",
+        "vloc-mob-con-asset/Vlocity Demo Org/1/1533952365548"
+    ],
+    "zones": {
+        "images": {
+            "cardNames": [
+            ],
+            "label": "images",
+            "layouts": [
+            ],
+            "name": "images",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Org",
+                    "Name": "vloc-mob-con-home-product-images",
+                    "Version": 1,
+                    "globalKey": "vloc-mob-con-home-product-images/Vlocity Demo Org/1/1535614640691"
+                }
+            ]
+        },
+        "swiper": {
+            "cardNames": [
+            ],
+            "label": "swiper",
+            "layouts": [
+            ],
+            "name": "swiper",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Org",
+                    "Name": "vloc-mob-con-asset",
+                    "Version": 1,
+                    "globalKey": "vloc-mob-con-asset/Vlocity Demo Org/1/1533952365548"
+                }
+            ]
+        },
+        "widgets1": {
+            "cardNames": [
+            ],
+            "label": "widgets1",
+            "layouts": [
+            ],
+            "name": "widgets1",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Org",
+                    "Name": "vloc-mob-con-home-banner-widget",
+                    "Version": "Legacy",
+                    "globalKey": "vloc-mob-con-home-banner-widget/Vlocity Demo Org/null/1535624639615"
+                }
+            ]
+        },
+        "widgets2": {
+            "cardNames": [
+            ],
+            "label": "widgets2",
+            "layouts": [
+            ],
+            "name": "widgets2",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Org",
+                    "Name": "vloc-mob-con-home-billing-widget",
+                    "Version": 1,
+                    "globalKey": "vloc-mob-con-home-billing-widget/Vlocity Demo Org/1/1535607301845"
+                },
+                {
+                    "Author": "Vlocity Demo Org",
+                    "Name": "vloc-mob-con-home-plan-widget",
+                    "Version": 1,
+                    "globalKey": "vloc-mob-con-home-plan-widget/Vlocity Demo Org/1/1535611034236"
+                }
+            ]
+        },
+        "widgets3": {
+            "cardNames": [
+            ],
+            "label": "widgets3",
+            "layouts": [
+            ],
+            "name": "widgets3",
+            "zoneCards": [
+            ]
+        },
+        "widgets4": {
+            "cardNames": [
+            ],
+            "label": "widgets4",
+            "layouts": [
+            ],
+            "name": "widgets4",
+            "zoneCards": [
+            ]
+        },
+        "widgets5": {
+            "cardNames": [
+            ],
+            "label": "widgets5",
+            "layouts": [
+            ],
+            "name": "widgets5",
+            "zoneCards": [
+            ]
+        }
+    }
+}

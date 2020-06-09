@@ -1,0 +1,30 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "name": "Usage",
+            "templateUrl": "vdo-business-community-consumer-device-usage"
+        }
+    ],
+    "title": "VDO Business Community Consumer Device Usage"
+}

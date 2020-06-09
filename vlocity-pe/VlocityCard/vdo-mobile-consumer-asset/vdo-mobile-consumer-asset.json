@@ -1,0 +1,95 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Troubleshoot Mobile",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Download Bill",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Manage Payments",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Bluetooth Setup",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Voicemail Password",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Mobile_Number__c']['value']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Number",
+                    "name": "['Mobile_Number__c']['value']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "flyout": {
+                "data": ""
+            },
+            "name": "Mobile",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "Asset",
+            "templateUrl": "vdo-mobile-consumer-asset-scroll"
+        }
+    ],
+    "title": "Consumer Assets"
+}

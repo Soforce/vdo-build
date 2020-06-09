@@ -1,0 +1,74 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "type": null,
+        "value": {
+            "query": ""
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Description",
+                    "name": "['Description']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Internal Notes",
+                    "name": "['InternalNotes']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Create By (footer)",
+                    "name": "['CreatedBy']['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Created on (footer)",
+                    "name": "['CreatedDate']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Last Modified on (footer)",
+                    "name": "['LastModifiedDate']",
+                    "type": "date"
+                }
+            ],
+            "name": "Campaign Detail",
+            "sObjectType": "Campaign",
+            "templateUrl": "campaign-detail"
+        }
+    ],
+    "title": "Campaign Detail"
+}

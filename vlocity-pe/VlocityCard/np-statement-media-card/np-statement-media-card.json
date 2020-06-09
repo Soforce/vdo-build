@@ -1,0 +1,59 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Custom Action",
+                        "hasExtraParams": false,
+                        "id": "Custom Action",
+                        "isCustomAction": true,
+                        "openUrlIn": "_self",
+                        "type": "Custom",
+                        "url": "/{{obj.Id}}"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Name']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__DueDate__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Annual policy statement",
+                    "name": "['%vlocity_namespace%__DueDate__c']",
+                    "type": "string"
+                }
+            ],
+            "name": "Active",
+            "templateUrl": "np-statement-media-card"
+        }
+    ],
+    "title": "Documents"
+}

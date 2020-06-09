@@ -1,0 +1,16 @@
+{
+    "Cards": [
+        "VDO Business Community Bulk Action Card"
+    ],
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "[{\"actions\":\"true\"}]"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "vdo-business-community-bulk-actions"
+        }
+    }
+}

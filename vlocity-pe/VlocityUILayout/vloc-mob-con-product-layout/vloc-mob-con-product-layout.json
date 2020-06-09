@@ -1,0 +1,77 @@
+{
+    "Cards": [
+        "vloc-mob-con-product-card-recommended",
+        "vloc-mob-con-product-image-carousel"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "Apple iPhone X"
+            }
+        ],
+        "type": "IntegrationProcedures",
+        "value": {
+            "endpoint": "/services/apexrest/%vlocity_namespace%/v2/cpq/carts/80136000008yLu0/products?filters=\t\nProduct2.Name:Apple iPhone X&includeAttachment=true",
+            "inputMap": {
+                "AccountId": "{{$root.currentUser.Account.attributes.url.substring(38)}}",
+                "ProductName": "{{params.id}}"
+            },
+            "ipMethod": "VlocityMobileConsumer_GetProductsFromCatalog",
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}",
+            "methodType": "GET",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            },
+            "remoteClass": "CpqAppHandler",
+            "remoteMethod": "getCartsProducts",
+            "remoteNSPrefix": "%vlocity_namespace%",
+            "resultVar": "products",
+            "timeout": 0
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vloc-mob-con-product"
+        }
+    },
+    "workspace": [
+        "vloc-mob-con-product-card-recommended/Vlocity Demo Org/1/1535713074597",
+        "vloc-mob-con-product-image-carousel/Vlocity Demo Org/null/1535970844566"
+    ],
+    "zones": {
+        "Images": {
+            "cardNames": [
+            ],
+            "label": "Images",
+            "layouts": [
+            ],
+            "name": "Images",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Org",
+                    "Name": "vloc-mob-con-product-image-carousel",
+                    "Version": "Legacy",
+                    "globalKey": "vloc-mob-con-product-image-carousel/Vlocity Demo Org/null/1535970844566"
+                }
+            ]
+        },
+        "Recommended": {
+            "cardNames": [
+            ],
+            "label": "Recommended",
+            "layouts": [
+            ],
+            "name": "Recommended",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Org",
+                    "Name": "vloc-mob-con-product-card-recommended",
+                    "Version": 1,
+                    "globalKey": "vloc-mob-con-product-card-recommended/Vlocity Demo Org/1/1535713074597"
+                }
+            ]
+        }
+    }
+}

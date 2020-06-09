@@ -1,0 +1,180 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "resultVar": ""
+        }
+    },
+    "filter": {
+        "['Id']['value']": "{{params.id}}"
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']['value']",
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "group": [
+                            {
+                                "field": "['Product2']['ProductCode']",
+                                "operator": "==",
+                                "type": "custom",
+                                "value": "VLO-MOB-10BRST"
+                            },
+                            {
+                                "field": "['Product2']['ProductCode']",
+                                "logicalOperator": "||",
+                                "operator": "==",
+                                "type": "custom",
+                                "value": "VLO-MOB-5BRST"
+                            }
+                        ],
+                        "logicalOperator": "&&"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": false,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "displayName": "Renew",
+                        "extraParams": {
+                            "ContextId": "['Id']['value']",
+                            "Id": "['Id']['value']",
+                            "layout": "lightning"
+                        },
+                        "hasExtraParams": true,
+                        "id": "Custom Action",
+                        "isCustomAction": true,
+                        "openUrlIn": "_self",
+                        "type": "Custom",
+                        "url": "/apex/%vlocity_namespace%__OmniScriptUniversalPage?id={0}&layout=lightning#/OmniScriptType/Demo/OmniScriptSubType/Consumer Burst Upsell/OmniScriptLang/English/ContextId/{0}/PrefillDataRaptorBundle//true"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Product2']['ProductCode']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Product Code",
+                    "name": "['Product2']['ProductCode']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Quantity_Remaining__c']['value']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Quantity Remaining",
+                    "name": "['Quantity_Remaining__c']['value']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && ($scope.obj['Product2']['ProductCode'] == 'VLO-MOB-10BRST' || $scope.obj['Product2']['ProductCode'] == 'VLO-MOB-5BRST')",
+            "name": "Burst",
+            "placeholderExpand": false,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "['Name']"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "ProductImage",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "sObjectType": "Asset",
+            "templateUrl": "np-asset-detail"
+        },
+        {
+            "blankStateCheck": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Product2']['ProductCode']",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "VLO-MOB-5BRST"
+                    },
+                    {
+                        "field": "['Product2']['ProductCode']",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "VLO-MOB-10BRST"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Product2']['ProductCode']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Product Code",
+                    "name": "['Product2']['ProductCode']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Product2']['ProductCode'] != 'VLO-MOB-5BRST' && $scope.obj['Product2']['ProductCode'] != 'VLO-MOB-10BRST'",
+            "name": "Active",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "['Name']"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "ProductImage",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "templateUrl": "np-asset-detail"
+        }
+    ],
+    "title": "Features"
+}

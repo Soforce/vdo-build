@@ -1,0 +1,499 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "Id",
+            "collapse": true,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "['Product2']['Family']",
+                    "operator": "==",
+                    "type": "custom",
+                    "value": "Bundle"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "id": "Service Upgrade",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Download Bill",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Manage Payments",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Modify Bundle",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Renew",
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Serial Number",
+                    "name": "['SerialNumber']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Monthly Total",
+                    "name": "['%vlocity_namespace%__RecurringTotal__c']",
+                    "type": "currency"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "Category",
+                    "name": "['Product2']['Family']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Install Date",
+                    "name": "['InstallDate']",
+                    "type": "date"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Product2']['Family'] == 'Bundle'",
+            "flyout": {
+                "layout": null
+            },
+            "name": "Bundle",
+            "sObjectType": "Asset",
+            "templateUrl": "vdo-card-bundle"
+        },
+        {
+            "actionCtxId": "Id",
+            "collapse": true,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "['Product2']['Family']",
+                    "operator": "!=",
+                    "type": "custom",
+                    "value": "Bundle"
+                },
+                {
+                    "field": "['Product2']['Family']",
+                    "operator": "!=",
+                    "type": "custom",
+                    "value": "TV"
+                },
+                {
+                    "field": "['Product2']['%vlocity_namespace%__SubType__c']",
+                    "operator": "!=",
+                    "type": "custom",
+                    "value": "Handset"
+                },
+                {
+                    "field": "['Is_Root__c']",
+                    "operator": "==",
+                    "type": "custom",
+                    "value": "false"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "id": "Download Bill",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Manage Payments",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Renew",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Modify Bundle",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Service Upgrade",
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Serial Number",
+                    "name": "['SerialNumber']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Quantity",
+                    "name": "['Quantity']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Install Date",
+                    "name": "['InstallDate']",
+                    "type": "date"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Product2']['Family'] != 'Bundle' && $scope.obj['Product2']['Family'] != 'TV' && $scope.obj['Product2']['%vlocity_namespace%__SubType__c'] != 'Handset' && $scope.obj['Is_Root__c'] == 'false'",
+            "flyout": {
+                "data": "",
+                "layout": "flyout-list"
+            },
+            "name": "General",
+            "sObjectType": "Asset",
+            "templateUrl": "vdo-card-active"
+        },
+        {
+            "actionCtxId": "Id",
+            "collapse": true,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "['Product2']['%vlocity_namespace%__SubType__c']",
+                    "operator": "==",
+                    "type": "custom",
+                    "value": "Handset"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "id": "Manage Payments",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "International Plan",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Voicemail Setup",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Voicemail Password",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Troubleshoot Mobile",
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Purchase Date",
+                    "name": "['InstallDate']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Quantity",
+                    "name": "['Quantity']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Mobile Number",
+                    "name": "['Mobile_Number__c']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Product2']['%vlocity_namespace%__SubType__c'] == 'Handset'",
+            "flyout": {
+                "layout": "flyout-product"
+            },
+            "name": "Mobile Handset",
+            "sObjectType": "Asset",
+            "templateUrl": "vdo-card-active"
+        },
+        {
+            "actionCtxId": "Id",
+            "collapse": true,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "['Is_Root__c']",
+                    "operator": "==",
+                    "type": "custom",
+                    "value": "true"
+                },
+                {
+                    "field": "['Product2']['%vlocity_namespace%__SubType__c']",
+                    "operator": "==",
+                    "type": "custom",
+                    "value": "Offer"
+                },
+                {
+                    "field": "['Product2']['Family']",
+                    "operator": "==",
+                    "type": "custom",
+                    "value": "Mobile"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "id": "Service Upgrade",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Download Bill",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Manage Payments",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Modify Bundle",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Renew",
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Serial Number",
+                    "name": "['SerialNumber']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Monthly Total",
+                    "name": "['%vlocity_namespace%__RecurringTotal__c']",
+                    "type": "currency"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "Category",
+                    "name": "['Product2']['Family']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Activation Date",
+                    "name": "['InstallDate']",
+                    "type": "date"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Is_Root__c'] == 'true' && $scope.obj['Product2']['%vlocity_namespace%__SubType__c'] == 'Offer' && $scope.obj['Product2']['Family'] == 'Mobile'",
+            "flyout": {
+                "layout": null
+            },
+            "name": "Mobile Plan",
+            "sObjectType": "Asset",
+            "templateUrl": "vdo-card-bundle"
+        },
+        {
+            "actionCtxId": "Id",
+            "collapse": false,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "['Product2']['Family']",
+                    "operator": "==",
+                    "type": "custom",
+                    "value": "TV"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "id": "Download Bill",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Parental Controls",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "PPV Charges",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Troubleshoot TV",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Manage Payments",
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Serial Number",
+                    "name": "['SerialNumber']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Quantity",
+                    "name": "['Quantity']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Install Date",
+                    "name": "['PurchaseDate']",
+                    "type": "date"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Product2']['Family'] == 'TV'",
+            "flyout": {
+                "layout": "flyout-list"
+            },
+            "name": "TV",
+            "sObjectType": "Asset",
+            "templateUrl": "vdo-card-active"
+        }
+    ],
+    "title": "Asset Hierarchy"
+}

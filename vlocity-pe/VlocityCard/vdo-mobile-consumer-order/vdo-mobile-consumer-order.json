@@ -1,0 +1,109 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "query": ""
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Name']",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "Family Mobile Plan Large"
+                    },
+                    {
+                        "field": "['%vlocity_namespace%__LineNumber__c']['value']",
+                        "logicalOperator": "&&",
+                        "operator": ">",
+                        "type": "custom",
+                        "value": "0004"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Download Bill",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Manage Payments",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Renew",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Support Center",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Resume Interaction",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__ProvisioningStatus__c']['value']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Status",
+                    "name": "['%vlocity_namespace%__ProvisioningStatus__c']['value']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Name'] != 'Family Mobile Plan Large' && $scope.obj['%vlocity_namespace%__LineNumber__c']['value'] > '0004'",
+            "flyout": {
+                "data": ""
+            },
+            "name": "Generic",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "Asset",
+            "templateUrl": "vdo-mobile-consumer-asset-generic-scroll"
+        }
+    ],
+    "title": "Consumer Order"
+}

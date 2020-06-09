@@ -1,0 +1,16 @@
+{
+    "Cards": [
+        "VDO Business Community Account Details"
+    ],
+    "dataSource": {
+        "type": "Query",
+        "value": {
+            "query": "SELECT id, RecordType.Name, Alerts__c, Name, Phone, %vlocity_namespace%__Status__c, NumberOfEmployees FROM Account WHERE id = '{{params.id || params.Id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "vdo-business-community-account-details-layout"
+        }
+    }
+}

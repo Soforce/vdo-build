@@ -1,0 +1,12 @@
+{
+    "Cards": [
+    ],
+    "dataSource": {
+        "type": "Inherit"
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "mobile-cpq-asset-detail-charts"
+        }
+    }
+}

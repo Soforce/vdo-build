@@ -1,0 +1,16 @@
+{
+    "Cards": [
+        "np-resource-banner"
+    ],
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "np-banner-canvas"
+        }
+    },
+    "workspace": [
+        "np-resource-banner/Vlocity Demo Org/1507872637077"
+    ],
+    "zones": {
+    }
+}

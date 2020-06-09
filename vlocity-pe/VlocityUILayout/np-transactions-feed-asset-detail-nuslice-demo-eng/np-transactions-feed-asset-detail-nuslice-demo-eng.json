@@ -1,0 +1,34 @@
+{
+    "Cards": [
+        "np-account-feed-asset-transaction-details-nuslice-demo-eng"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "02i46000000HRTD"
+            }
+        ],
+        "type": null,
+        "value": {
+            "body": "{}",
+            "query": "SELECT Id,\nLastModifiedDate,\nName,\n%vlocity_namespace%__Amount__c,\n%vlocity_namespace%__AssetId__c,\n%vlocity_namespace%__PostDate__c,\n%vlocity_namespace%__TransactionDate__c,\n%vlocity_namespace%__TransactionNumber__c,\n%vlocity_namespace%__Type__c FROM %vlocity_namespace%__AssetTransaction__c  WHERE  %vlocity_namespace%__AssetId__c = '{{params.id}}'"
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "Title",
+            "val": "'Recent Activity'"
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-canvas-nuslice-demo-eng"
+        }
+    },
+    "workspace": [
+        "np-account-feed-asset-transaction-details-nuslice-demo-eng/Radif Masud/1/1572989893178",
+        "np-account-feed-asset-transaction-details-nuslice-demo-eng/Radif Masud/2/1573251741238"
+    ]
+}

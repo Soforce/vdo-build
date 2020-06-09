@@ -1,0 +1,63 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "resultVar": ""
+        }
+    },
+    "filter": {
+        "['Id']['value']": "{{params.id}}"
+    },
+    "states": [
+        {
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['SerialNumber']['value']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "SerialNumber",
+                    "name": "['SerialNumber']['value']",
+                    "type": "string"
+                }
+            ],
+            "name": "Active",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "['Name']"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "ProductImage",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "templateUrl": "np-asset-detail"
+        }
+    ],
+    "title": "Features"
+}

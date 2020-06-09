@@ -1,0 +1,77 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+        "['Product2']['%vlocity_namespace%__SubType__c']": "Offer"
+    },
+    "states": [
+        {
+            "actionCtxId": "Id",
+            "collapse": false,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "['Product2']['Family']",
+                    "operator": "===",
+                    "type": "custom",
+                    "value": "Mobile"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "np-asset-view",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Status']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Product2']['Family'] === 'Mobile'",
+            "flyout": {
+                "layout": null
+            },
+            "name": "Mobile Plan",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavIcon",
+                    "type": "string",
+                    "value": "'../resource/npResource/plan.svg'"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavTitle",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "Asset",
+            "templateUrl": "np-subnav-cmt"
+        }
+    ],
+    "title": "Asset Plan"
+}

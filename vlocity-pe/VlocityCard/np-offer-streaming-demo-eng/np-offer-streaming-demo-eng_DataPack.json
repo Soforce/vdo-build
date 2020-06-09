@@ -1,0 +1,13 @@
+{
+    "%vlocity_namespace%__Author__c": "Radif",
+    "%vlocity_namespace%__Datasource__c": "",
+    "%vlocity_namespace%__Definition__c": "np-offer-streaming-demo-eng.json",
+    "%vlocity_namespace%__GlobalKey__c": "np-offer-streaming-demo-eng/Radif/1/1572280484856",
+    "%vlocity_namespace%__ParentID__c": "np-offer-streaming/Radif/1/1572276235000",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "np-offer-streaming-demo-eng",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/np-offer-streaming-demo-eng"
+}

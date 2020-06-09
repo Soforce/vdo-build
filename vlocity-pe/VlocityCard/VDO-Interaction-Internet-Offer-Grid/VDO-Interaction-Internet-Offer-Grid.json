@@ -1,0 +1,49 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "query": "SELECT Id, Name FROM Asset WHERE AccountId = '{{params.Id}}' AND Name LIKE '%Fibre Internet%'"
+        }
+    },
+    "filter": {
+        "['AssetCategory__c']": "Fibre Internet Offer"
+    },
+    "states": [
+        {
+            "actionCtxId": "",
+            "blankCardState": true,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'non-existent'"
+                },
+                {
+                    "field": "",
+                    "operator": "===",
+                    "type": "custom",
+                    "value": ""
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Internet Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'non-existent'",
+            "name": "Offer",
+            "sObjectType": "Account",
+            "templateUrl": "card-open-slds"
+        }
+    ],
+    "title": "Boost Your Internet Speed"
+}

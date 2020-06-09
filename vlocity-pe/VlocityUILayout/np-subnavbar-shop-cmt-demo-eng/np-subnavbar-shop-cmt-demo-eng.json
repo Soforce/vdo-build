@@ -1,0 +1,35 @@
+{
+    "Cards": [
+        "np-offer-streaming-demo-eng",
+        "np-offer-burst-and-go-demo-eng",
+        "np-offer-entertainment-options-demo-eng",
+        "np-offers-bundles-demo-eng",
+        "np-offer-accessories-demo-eng",
+        "np-offer-business-demo-eng",
+        "np-offer-view-more-demo-eng"
+    ],
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "type": "Custom",
+        "value": {
+            "body": "{}",
+            "query": "SELECT Id,%vlocity_namespace%__ParentItemId__c,is_root__c,Account.Name,LastModifiedDate,Product2.Name,Product2.%vlocity_namespace%__Type__c,Product2.%vlocity_namespace%__JSONAttribute__c, Product2.Family, Product2.%vlocity_namespace%__SubType__c ,%vlocity_namespace%__BillingAccountId__r.Name,Name, Price,SerialNumber, %vlocity_namespace%__LineNumber__c, Product_Family__c,Product_Family_Image__c, PurchaseDate,InstallDate,Status,Mobile_Number__c, %vlocity_namespace%__RecurringTotal__c,Description, Quantity FROM Asset WHERE AccountId = '{{$root.vlocity.userAccountId}}'"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "np-subnavbar-shop-canvas-demo-eng"
+        }
+    },
+    "workspace": [
+        "np-offer-streaming-demo-eng/Radif/1/1572280484856",
+        "np-offer-burst-and-go-demo-eng/Radif/1/1572280578263",
+        "np-offer-entertainment-options-demo-eng/Radif/1/1572280795495",
+        "np-offers-bundles-demo-eng/Radif/1/1572280840061",
+        "np-offer-accessories-demo-eng/Radif/1/1572280900150",
+        "np-offer-business-demo-eng/Radif/1/1572280962943",
+        "np-offer-view-more-demo-eng/Radif/1/1572280933415"
+    ]
+}

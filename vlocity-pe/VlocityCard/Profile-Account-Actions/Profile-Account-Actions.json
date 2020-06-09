@@ -1,0 +1,52 @@
+{
+    "dataSource": {
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "id": "Statement Dashboard",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Relationships",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Change Address",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Verify Caller",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Renew",
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "name": "Actions",
+            "sObjectType": "Account",
+            "templateUrl": "action-grid-card"
+        }
+    ],
+    "title": "Profile"
+}

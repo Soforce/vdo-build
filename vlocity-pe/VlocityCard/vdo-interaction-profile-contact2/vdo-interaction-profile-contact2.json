@@ -1,0 +1,65 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['InteractionId']",
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "id": "Interaction Contact View",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Interaction Contact Edit",
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "id": "Interaction Contact Relationships",
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Phone",
+                    "name": "['Phone']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Email",
+                    "name": "['Email']",
+                    "type": "string"
+                }
+            ],
+            "name": "Contact",
+            "sObjectType": "%vlocity_namespace%__CustomerInteraction__c",
+            "templateUrl": "vdo-left-profile-slds"
+        }
+    ],
+    "title": "Profile"
+}

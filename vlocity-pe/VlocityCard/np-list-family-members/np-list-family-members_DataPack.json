@@ -1,0 +1,13 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__Datasource__c": "",
+    "%vlocity_namespace%__Definition__c": "np-list-family-members.json",
+    "%vlocity_namespace%__GlobalKey__c": "np-list-family-members/Vlocity Demo Org/1507817224258",
+    "%vlocity_namespace%__ParentID__c": "np-policy-asset-driver/Vlocity Demo Org/1507816388809",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": "",
+    "Name": "np-list-family-members",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/np-list-family-members"
+}

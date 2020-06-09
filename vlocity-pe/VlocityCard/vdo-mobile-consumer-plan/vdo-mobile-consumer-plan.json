@@ -1,0 +1,102 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+        "['Name']": "Family Mobile Plan Large"
+    },
+    "states": [
+        {
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Manage Family",
+                        "hasExtraParams": false,
+                        "id": "Manage Family",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "#"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Upgrade Plan",
+                        "hasExtraParams": false,
+                        "id": "Upgrade Plan",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Dispute Bill",
+                        "hasExtraParams": false,
+                        "id": "Dispute Bill",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Add Reward Data",
+                        "hasExtraParams": false,
+                        "id": "Add Roaming Pack",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/c__VDOOmniscript?id=00336000009ETxb#/OmniScriptType/VDO/OmniScriptSubType/Loyalty%20Redemption/OmniScriptLang/English/ContextId/00336000009ETxb/PrefillDataRaptorBundle//false/true"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Modify My Service",
+                        "hasExtraParams": false,
+                        "id": "Modify My Service",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Name']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "name": "Plan",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "My Plan"
+                }
+            ],
+            "sObjectType": "Asset",
+            "templateUrl": "vdo-mobile-consumer-plan-scroll"
+        }
+    ],
+    "title": "Consumer Plan"
+}

@@ -1,0 +1,22 @@
+{
+    "Cards": [
+        "Product"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "parent.obj.Product2Id",
+                "val": "01t36000001TFOO"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, Name, Description, %vlocity_namespace%__Type__c, %vlocity_namespace%__SubType__c, %vlocity_namespace%__ImageId__c, (SELECT id FROM Attachments WHERE name LIKE '%TN%' LIMIT 1) FROM Product2 WHERE Id = '{{parent.obj.Product2Id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "vdo-flyout-grid-usage"
+        }
+    }
+}

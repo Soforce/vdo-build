@@ -1,0 +1,96 @@
+{
+    "Alerts": [
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0011500001ChJqa"
+            }
+        ],
+        "type": null,
+        "value": {
+            "query": ""
+        }
+    },
+    "definedActions": [
+        {
+            "actionIds": [
+                {
+                    "id": "Add",
+                    "type": "Vlocity Action"
+                }
+            ],
+            "filter": "$scope.data.status == 'active'"
+        }
+    ],
+    "filter": {
+        "attributes": {
+            "type": "Account"
+        }
+    },
+    "states": [
+        {
+            "actionCtxId": "",
+            "alerts": [
+            ],
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Account Number",
+                    "name": "['AccountNumber']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "Billing Address",
+                    "name": "['BillingAddress']['city']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Phone",
+                    "name": "['Phone']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status == 'active'",
+            "flyout": "",
+            "name": "active",
+            "sObjectType": null,
+            "templateUrl": "left-account-info-slds"
+        }
+    ],
+    "templates": [
+        {
+            "filter": "$scope.data.status == 'active'",
+            "templateUrl": "left-account-info-slds"
+        },
+        {
+            "filter": "$scope.data.status == 'non-existent'",
+            "templateUrl": "left-account-info-slds"
+        }
+    ],
+    "title": "Profile"
+}

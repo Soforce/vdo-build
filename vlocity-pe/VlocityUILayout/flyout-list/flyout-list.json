@@ -1,0 +1,26 @@
+{
+    "Cards": [
+        "Asset List"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "parent.obj.%vlocity_namespace%__LineNumber__c",
+                "val": "0001.0001"
+            },
+            {
+                "name": "params.Id",
+                "val": "0013600000FBB68"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id,Account.Name,%vlocity_namespace%__LineNumber__c,\t%vlocity_namespace%__ProvisioningStatus__c,LastModifiedDate,Product2.Name,Product2.%vlocity_namespace%__Type__c,Product2.%vlocity_namespace%__JSONAttribute__c,Product2.%vlocity_namespace%__SubType__c, Product2.Family ,%vlocity_namespace%__BillingAccountId__r.Name,Name, Price,SerialNumber, Product_Family__c,Product_Family_Image__c, PurchaseDate,InstallDate,Status,Mobile_Number__c, %vlocity_namespace%__RecurringTotal__c,Description FROM Asset WHERE %vlocity_namespace%__LineNumber__c LIKE  '{{parent.obj.%vlocity_namespace%__LineNumber__c}}.%' AND AccountId = '{{params.Id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "vdo-list-card-canvas"
+        }
+    }
+}

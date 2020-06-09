@@ -1,0 +1,143 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "sessionVars": [
+    ],
+    "states": [
+        {
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['AssetDetails']['ProductFamily']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Mobile"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['AssetDetails']['Name']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Plan",
+                    "name": "['AssetDetails']['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['AssetDetails']['MobileData']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Mobile Data",
+                    "name": "['AssetDetails']['MobileData']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['AssetDetails']['MobileMessages']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Mobile Messages",
+                    "name": "['AssetDetails']['MobileMessages']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['AssetDetails']['MobileMinutes']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Mobile Minutes",
+                    "name": "['AssetDetails']['MobileMinutes']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['AssetDetails']['ProductFamily'] == 'Mobile'",
+            "name": "active - Mobile",
+            "placeholders": [
+            ],
+            "templateUrl": "np-plan-overview"
+        },
+        {
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['AssetDetails']['ProductFamily']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Streaming"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['AssetDetails']['Name']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Streaming Plan",
+                    "name": "['AssetDetails']['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['AssetDetails']['MobileData']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Data",
+                    "name": "['AssetDetails']['MobileData']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['AssetDetails']['MobileMessages']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Messages",
+                    "name": "['AssetDetails']['MobileMessages']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['AssetDetails']['ProductFamily'] == 'Streaming'",
+            "name": "active - Streaming",
+            "placeholders": [
+            ],
+            "templateUrl": "np-plan-overview"
+        }
+    ],
+    "title": "Your Plan"
+}

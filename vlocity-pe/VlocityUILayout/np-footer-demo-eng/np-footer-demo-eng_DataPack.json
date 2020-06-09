@@ -1,0 +1,15 @@
+{
+    "%vlocity_namespace%__Author__c": "Radif",
+    "%vlocity_namespace%__Datasource__c": "",
+    "%vlocity_namespace%__Definition__c": "np-footer-demo-eng.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "np-footer-demo-eng/1/Radif/1572443336171",
+    "%vlocity_namespace%__ParentID__c": "np-footer/1/Vlocity Demo Org/1507871493866",
+    "%vlocity_namespace%__RequiredPermission__c": "",
+    "%vlocity_namespace%__Type__c": "Layout",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "np-footer-demo-eng",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUILayout__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUILayout__c/np-footer-demo-eng"
+}

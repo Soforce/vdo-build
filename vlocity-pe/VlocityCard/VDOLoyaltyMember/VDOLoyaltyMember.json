@@ -1,0 +1,93 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['current_tier']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Current Tier",
+                    "name": "['current_tier']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['member_since']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Member Since",
+                    "name": "['member_since']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['email']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Email",
+                    "name": "['email']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['mobile_phone']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Phone",
+                    "name": "['mobile_phone']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['mailing_street']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Street",
+                    "name": "['mailing_street']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['member_id']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Member ID",
+                    "name": "['member_id']",
+                    "type": "string"
+                }
+            ],
+            "name": "Member",
+            "templateUrl": "vdo-loyalty-member-overview"
+        }
+    ],
+    "title": "Member"
+}

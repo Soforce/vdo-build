@@ -1,0 +1,86 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Custom Action",
+                        "hasExtraParams": false,
+                        "id": "Custom Action",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/00336000009ETxb"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__PartyId__r']['%vlocity_namespace%__AccountId__r']['PhotoUrl']",
+                    "group": "Custom Properties",
+                    "label": "%vlocity_namespace%__PartyId__r %vlocity_namespace%__AccountId__rPhotoUrl",
+                    "name": "['%vlocity_namespace%__PartyId__r']['%vlocity_namespace%__AccountId__r']['PhotoUrl']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__PartyId__r']['%vlocity_namespace%__ContactId__r']['PhotoUrl']",
+                    "group": "Custom Properties",
+                    "label": "%vlocity_namespace%__PartyId__r %vlocity_namespace%__ContactId__rPhotoUrl",
+                    "name": "['%vlocity_namespace%__PartyId__r']['%vlocity_namespace%__ContactId__r']['PhotoUrl']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Name']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__PartyRelationshipTypeId__r']['Name']",
+                    "group": "Custom Properties",
+                    "label": "%vlocity_namespace%__PartyRelationshipTypeId__r Name",
+                    "name": "['%vlocity_namespace%__PartyRelationshipTypeId__r']['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__RelationshipToInsured__c']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "%vlocity_namespace%__RelationshipToInsured__c",
+                    "name": "['%vlocity_namespace%__RelationshipToInsured__c']",
+                    "type": "string"
+                }
+            ],
+            "name": "Active",
+            "sObjectType": "Contact",
+            "templateUrl": "np-family-members"
+        }
+    ],
+    "title": "Family Members"
+}

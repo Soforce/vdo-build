@@ -1,0 +1,67 @@
+{
+    "Cards": [
+        "vloc-mob-con-asset-usage-bar",
+        "vloc-mob-con-asset-usage-donut"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "attrs.statementid",
+                "val": "a1v36000002HqbhAAC"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "endpoint": "",
+            "jsonMap": "{\"attrs.statementid\":\"{{attrs.statementid}}\"}",
+            "methodType": "GET",
+            "resultVar": ""
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "vloc-mob-con-asset-usage"
+        }
+    },
+    "workspace": [
+        "vloc-mob-con-asset-usage-bar/Vlocity Demo Org/1/1535632449979",
+        "vloc-mob-con-asset-usage-donut/Vlocity Demo Org/1/1535651659395"
+    ],
+    "zones": {
+        "bars": {
+            "cardNames": [
+            ],
+            "label": "bars",
+            "layouts": [
+            ],
+            "name": "bars",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Org",
+                    "Name": "vloc-mob-con-asset-usage-bar",
+                    "Version": 1,
+                    "globalKey": "vloc-mob-con-asset-usage-bar/Vlocity Demo Org/1/1535632449979"
+                }
+            ]
+        },
+        "donuts": {
+            "cardNames": [
+            ],
+            "label": "donuts",
+            "layouts": [
+            ],
+            "name": "donuts",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Org",
+                    "Name": "vloc-mob-con-asset-usage-donut",
+                    "Version": 1,
+                    "globalKey": "vloc-mob-con-asset-usage-donut/Vlocity Demo Org/1/1535651659395"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "Cards": [
+    ],
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "type": null,
+        "value": {
+            "endpoint": "",
+            "methodType": "GET",
+            "resultVar": ""
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vloc-mob-con-chat"
+        }
+    },
+    "workspace": [
+    ]
+}

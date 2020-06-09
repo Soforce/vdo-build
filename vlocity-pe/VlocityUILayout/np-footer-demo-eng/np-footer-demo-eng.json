@@ -1,0 +1,14 @@
+{
+    "Cards": [
+        "Footer"
+    ],
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "np-footer-demo-eng"
+        }
+    },
+    "workspace": [
+        "Footer/Radif/1/1572443565558"
+    ]
+}

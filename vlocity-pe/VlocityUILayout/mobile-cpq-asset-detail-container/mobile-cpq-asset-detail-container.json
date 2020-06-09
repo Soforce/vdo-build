@@ -1,0 +1,22 @@
+{
+    "Cards": [
+        "Asset Detail"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "02i41000000asV0AAI"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, Account.Name, Account.Type,Description,InstallDate,IsDeleted, Account.Phone,Name,Price,Quantity,SerialNumber,Status, Product_Image__c FROM Asset WHERE Id = '{{params.id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "mobile-cpq-asset-detail-container"
+        }
+    }
+}

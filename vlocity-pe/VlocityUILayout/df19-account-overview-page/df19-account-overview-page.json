@@ -1,0 +1,20 @@
+{
+    "Cards": [
+    ],
+    "previewType": "",
+    "sessionVars": [
+        {
+            "name": "Content",
+            "val": "[\"df19-plan-overview\",\"df19-family-members\", \"np-usage\",\"np-asset-services\",\"np-asset-statements-docs\"]"
+        },
+        {
+            "name": "Sidebar",
+            "val": "[\"np-billing-payment-due-demo-eng\", \"np-transactions-feed-demo-eng\"]"
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-canvas-page"
+        }
+    }
+}

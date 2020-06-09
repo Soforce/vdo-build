@@ -1,0 +1,70 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "00141000003Fnb2"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "filter": {
+    },
+    "order": 1,
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Active Policies",
+                    "name": "['aggregate_ActivePolicies__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Annual Premium",
+                    "name": "['aggregate_AnnualPremium__c']",
+                    "type": "currency"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Total Cash Value",
+                    "name": "['aggregate_CashValue__c']",
+                    "type": "currency"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Death Benefit",
+                    "name": "['aggregate_DeathBenefit__c']",
+                    "type": "currency"
+                }
+            ],
+            "name": "Overview",
+            "templateUrl": "card-highlight-totals"
+        }
+    ],
+    "title": "Overview"
+}

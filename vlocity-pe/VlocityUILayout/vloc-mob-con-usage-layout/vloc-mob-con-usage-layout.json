@@ -1,0 +1,23 @@
+{
+    "Cards": [
+    ],
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "type": "Query",
+        "value": {
+            "endpoint": "",
+            "jsonMap": "{\"$root.currentUser.Account.attributes.url.substring(38)\":\"{{$root.currentUser.Account.attributes.url.substring(38)}}\"}",
+            "methodType": "GET",
+            "resultVar": ""
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vloc-mob-con-usage"
+        }
+    },
+    "workspace": [
+    ]
+}

@@ -1,0 +1,129 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "resultVar": ""
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']['value']",
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['member']['member_id']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Member ID",
+                    "name": "['member']['member_id']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['member']['member_since']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Member Since",
+                    "name": "['member']['member_since']",
+                    "type": "datetime"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['tier']['current_tier']['label']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Current Tier",
+                    "name": "['tier']['current_tier']['label']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['tier']['tier_in_progression']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Next Tier",
+                    "name": "['tier']['tier_in_progression']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['metrics']['point']['balance']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Current Points",
+                    "name": "['metrics']['point']['balance']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['metrics']['point']['life_time']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Lifetime Points",
+                    "name": "['metrics']['point']['life_time']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['metrics']['point']['ytd']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Points Earned YTD",
+                    "name": "['metrics']['point']['ytd']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['metrics']['point']['redeem_total']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Points Redeemed YTD",
+                    "name": "['metrics']['point']['redeem_total']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "name": "Services",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Amount",
+                    "type": "currency",
+                    "value": "['Price']"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Name",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "Asset",
+            "templateUrl": "vdo-loyalty-points-overview"
+        }
+    ],
+    "title": "Points Overview"
+}

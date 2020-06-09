@@ -1,0 +1,43 @@
+{
+    "Cards": [
+        "np-catalog-headline",
+        "np-catalogs"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "a2H1I000000Q6vf"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "apexRemoteResultVar": "records",
+            "apexRestResultVar": "records",
+            "body": "{\n  \"image\":\"https://www.android.com/static/2016/img/devices/phones/galaxy-s7/galaxy-s7-02_w_1x.jpg\",\n  \"Name\": \"Samsung Galaxy S7\",\n  \"price\": \"37.34\",\n  \"offerprice\": \"24.82\",\n  \"month\" : \"24\",\n  \"retailprice\": \"649\",\n  \"APR\" : \"0\"\n}",
+            "endpoint": "/services/apexrest/%vlocity_namespace%/v2/cpq/carts/8011I000000g1NI/products?category=a2H1I000000Q6vf&pagesize=20&fields=Product2.%vlocity_namespace%__JSONAttribute__c",
+            "inputMap": {
+                "cartId": "{{params.id}}"
+            },
+            "methodType": "GET",
+            "optionsMap": {
+            },
+            "query": "SELECT Id,LastModifiedById,LastModifiedDate,Name,%vlocity_namespace%__CatalogId__c,%vlocity_namespace%__EffectiveDate__c,%vlocity_namespace%__Product2Id__c FROM %vlocity_namespace%__CatalogProductRelationship__c where %vlocity_namespace%__CatalogId__c ='a2H1I000000Q6vf'",
+            "remoteClass": "CpqAppHandler",
+            "remoteMethod": "getCatalogInfoForProduct",
+            "remoteNSPrefix": "%vlocity_namespace%",
+            "resultVar": ""
+        }
+    },
+    "sessionVars": [
+        {
+            "name": "Scroll",
+            "val": "\"none\""
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-list-canvas"
+        }
+    }
+}

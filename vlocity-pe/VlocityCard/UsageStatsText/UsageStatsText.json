@@ -1,0 +1,30 @@
+{
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{\"foo\":[]}"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "name": "UsageStats",
+            "templateUrl": "mobile-cpq-asset-summary-stats"
+        }
+    ]
+}

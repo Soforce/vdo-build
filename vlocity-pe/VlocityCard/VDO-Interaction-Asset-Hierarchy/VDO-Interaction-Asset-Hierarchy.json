@@ -1,0 +1,610 @@
+{
+    "dataSource": {
+        "icon": "account",
+        "sprite": "standard",
+        "type": null
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['InteractionTopicId']",
+            "collapse": true,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "Product2_Family",
+                    "operator": "==",
+                    "type": "custom",
+                    "value": "Bundle"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Service Upgrade",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Download Bill",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Manage Payments",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Modify Bundle",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Renew",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Account Name",
+                    "name": "Account_Name",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Monthly Total",
+                    "name": "['%vlocity_namespace%__RecurringTotal__c']",
+                    "track": true,
+                    "type": "currency"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Install Date",
+                    "name": "['InstallDate']",
+                    "track": true,
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Customer Role",
+                    "name": "ContactRoles",
+                    "track": true,
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj.Product2_Family == 'Bundle'",
+            "flyout": {
+                "layout": "vdo-flyout-list-interaction"
+            },
+            "name": "Bundle",
+            "sObjectType": "%vlocity_namespace%__CustomerInteractionTopic__c",
+            "templateUrl": "vdo-card-active-slds-clone"
+        },
+        {
+            "actionCtxId": "['InteractionTopicId']",
+            "collapse": false,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "Product2_%vlocity_namespace%__SubType__c",
+                    "operator": "==",
+                    "track": true,
+                    "type": "custom",
+                    "value": "Handset"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Manage Payments",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "International Plan",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Voicemail Setup",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Voicemail Password",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Interaction-Troubleshoot Mobile",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Account Name",
+                    "name": "Account_Name",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Purchase Date",
+                    "name": "['InstallDate']",
+                    "track": true,
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Mobile Number",
+                    "name": "['Mobile_Number__c']",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Customer Role",
+                    "name": "ContactRoles",
+                    "track": true,
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj.Product2_%vlocity_namespace%__SubType__c == 'Handset'",
+            "flyout": {
+                "layout": "vdo-flyout-list-interaction"
+            },
+            "name": "Mobile Handset",
+            "sObjectType": "%vlocity_namespace%__CustomerInteractionTopic__c",
+            "templateUrl": "vdo-card-active-slds-clone"
+        },
+        {
+            "actionCtxId": "['InteractionTopicId']",
+            "collapse": true,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "['Product2_%vlocity_namespace%__SubType__c']",
+                    "operator": "==",
+                    "type": "custom",
+                    "value": "Offer"
+                },
+                {
+                    "field": "['Product2_Family']",
+                    "operator": "===",
+                    "type": "custom",
+                    "value": "Mobile"
+                },
+                {
+                    "field": "",
+                    "operator": "===",
+                    "type": "custom",
+                    "value": ""
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Service Upgrade",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Download Bill",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Manage Payments",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Modify Bundle",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Renew",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Account Name",
+                    "name": "Account_Name",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Serial Number",
+                    "name": "['SerialNumber']",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Category",
+                    "name": "['Product2_Family']",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Customer Role",
+                    "name": "ContactRoles",
+                    "track": true,
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Product2_%vlocity_namespace%__SubType__c'] == 'Offer' && $scope.obj['Product2_Family'] === 'Mobile'",
+            "flyout": {
+                "layout": "vdo-flyout-list-interaction"
+            },
+            "name": "Mobile Plan",
+            "sObjectType": "%vlocity_namespace%__CustomerInteractionTopic__c",
+            "templateUrl": "vdo-card-active-slds-clone"
+        },
+        {
+            "actionCtxId": "['InteractionTopicId']",
+            "collapse": true,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "['Product2_Family']",
+                    "operator": "==",
+                    "type": "custom",
+                    "value": "TV"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Download Bill",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Parental Controls",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "PPV Charges",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Manage Payments",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Interaction-Troubleshoot TV",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Account Name",
+                    "name": "Account_Name",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Quantity",
+                    "name": "['Quantity']",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Install Date",
+                    "name": "['PurchaseDate']",
+                    "track": true,
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Customer Role",
+                    "name": "ContactRoles",
+                    "track": true,
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Product2_Family'] == 'TV'",
+            "flyout": {
+                "data": "",
+                "layout": "vdo-flyout-list-interaction"
+            },
+            "name": "TV",
+            "sObjectType": "%vlocity_namespace%__CustomerInteractionTopic__c",
+            "templateUrl": "vdo-card-active-slds-clone"
+        },
+        {
+            "actionCtxId": "['InteractionTopicId']",
+            "collapse": true,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Download Bill",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Manage Payments",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Renew",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Modify Bundle",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Service Upgrade",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Account Name",
+                    "name": "Account_Name",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Quantity",
+                    "name": "['Quantity']",
+                    "track": true,
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Install Date",
+                    "name": "['InstallDate']",
+                    "track": true,
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Customer Role",
+                    "name": "ContactRoles",
+                    "track": true,
+                    "type": "string"
+                }
+            ],
+            "flyout": {
+                "data": "",
+                "layout": "vdo-flyout-list-interaction"
+            },
+            "name": "General",
+            "sObjectType": "%vlocity_namespace%__CustomerInteractionTopic__c",
+            "templateUrl": "vdo-card-active-slds-clone"
+        }
+    ],
+    "title": "Asset Hierarchy"
+}

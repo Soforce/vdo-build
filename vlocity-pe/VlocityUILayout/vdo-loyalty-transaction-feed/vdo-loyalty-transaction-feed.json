@@ -1,0 +1,46 @@
+{
+    "Cards": [
+        "VDOLoyaltyTransaction"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "00336000009ETxb"
+            }
+        ],
+        "type": "ApexRemote",
+        "value": {
+            "body": "{\"success\":true,\"data\":{\"total_pages\":1,\"total_entries\":4,\"members\":[{\"id\":4,\"email\":\"marc.agas@stellarloyalty.com\",\"created_at\":\"2017-12-14T14:32:49.000Z\",\"updated_at\":\"2017-12-15T13:39:26.000Z\",\"member_id\":\"O-000000004\",\"first_name\":\"Marc\",\"last_name\":\"Agas\",\"integration_id\":null,\"card_id\":null,\"birthdate\":null},{\"id\":3,\"email\":\"ian.geronimo@stellarloyalty.com\",\"created_at\":\"2017-12-14T02:19:00.000Z\",\"updated_at\":\"2017-12-14T02:20:20.000Z\",\"member_id\":\"O-000000003\",\"first_name\":\"Ian\",\"last_name\":\"Geronimo\",\"integration_id\":null,\"card_id\":null,\"birthdate\":null},{\"id\":2,\"email\":\"manoj.das@stellarloyalty.com\",\"created_at\":\"2017-12-13T19:02:51.000Z\",\"updated_at\":\"2017-12-13T19:05:58.000Z\",\"member_id\":\"O-000000002\",\"first_name\":\"Manoj\",\"last_name\":\"Das\",\"integration_id\":null,\"card_id\":null,\"birthdate\":null},{\"id\":1,\"email\":\"dann.c@stellarloyalty.com\",\"created_at\":\"2017-12-06T07:25:00.000Z\",\"updated_at\":\"2017-12-06T07:27:34.000Z\",\"member_id\":\"O-000000001\",\"first_name\":\"Dann\",\"last_name\":\"Cruz\",\"integration_id\":null,\"card_id\":null,\"birthdate\":null}]}}",
+            "endpoint": "https://vlocity-telco.demostellar.com/program/api/members?access_token=da457738f33901e6eb3b61125a7fcf83a011f04a6713397671c47c5f55bfe540",
+            "header": [
+            ],
+            "inputMap": {
+                "URL": "https://vlocity-telco.demostellar.com/program/api/members/cid/activities",
+                "cid": "{{params.id}}",
+                "querystring": ""
+            },
+            "methodType": "GET",
+            "namedCredential": "Loyalty",
+            "optionsMap": {
+                "vlcClass": "VDOLoyaltyHelper"
+            },
+            "remoteClass": "VDOLoyaltyHelper",
+            "remoteMethod": "getMember",
+            "remoteNSPrefix": null,
+            "resultVar": "result.data.activities",
+            "subType": "NamedCredential"
+        }
+    },
+    "sessionVars": [
+        {
+            "name": "Title",
+            "val": "'Activities'"
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-canvas"
+        }
+    }
+}

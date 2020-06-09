@@ -1,0 +1,13 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__Datasource__c": "",
+    "%vlocity_namespace%__Definition__c": "VDO-Console-Actions.json",
+    "%vlocity_namespace%__GlobalKey__c": "VDO Console Actions/Vlocity Demo Org/1502862659480",
+    "%vlocity_namespace%__ParentID__c": "VDO Console Actions/Vlocity Demo ORg/1502862616259",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": "",
+    "Name": "VDO Console Actions",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/VDO Console Actions"
+}

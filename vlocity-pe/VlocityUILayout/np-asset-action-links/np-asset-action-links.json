@@ -1,0 +1,36 @@
+{
+    "Cards": [
+        "np-asset-action-link"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "$root.vlocity.userAccountId",
+                "val": "0011I000005HZv2"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"$root.vlocity.userAccountId\":\"{{$root.vlocity.userAccountId}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "Title",
+            "val": "'Manage Device'"
+        },
+        {
+            "name": "Border",
+            "val": "\"false\""
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-canvas"
+        }
+    },
+    "workspace": [
+        "np-asset-action-link/Vlocity Demo Org/1507872637075"
+    ]
+}

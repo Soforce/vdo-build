@@ -1,0 +1,34 @@
+{
+    "Cards": [
+        "np-subnav-asset",
+        "np-asset-offer",
+        "np-asset-offer-tv",
+        "np-asset-offer-internet",
+        "np-asset-offer-mobile"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "$root.vlocity.userAccountId",
+                "val": "0014P0000263kz2QAA"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"$root.vlocity.userAccountId\":\"{{$root.vlocity.userAccountId}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "np-subnavbar-canvas"
+        }
+    },
+    "workspace": [
+        "np-subnav-asset/Vlocity Demo Org/1507872637083",
+        "np-asset-offer/Vlocity Demo Org/1507872637083",
+        "np-asset-offer-tv/Vlocity Demo Org/1507872637085",
+        "np-asset-offer-internet/Vlocity Demo Org/1507872637086",
+        "np-asset-offer-mobile/Vlocity Demo Org/null/1518707104274"
+    ]
+}

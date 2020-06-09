@@ -1,0 +1,69 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "$root.vlocity.userAccountId",
+                "val": "0014P0000263kz2QAA"
+            }
+        ],
+        "type": "ApexRest",
+        "value": {
+            "endpoint": "/services/apexrest/%vlocity_namespace%/v1/acuity/nuslice?contextId={{$root.vlocity.userAccountId}}&pageSize=4"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "displayName": "OmniScript",
+                        "extraParams": {
+                            "layout": "newport"
+                        },
+                        "hasExtraParams": true,
+                        "id": "OmniScript",
+                        "isCustomAction": true,
+                        "omniLang": "English",
+                        "omniSubType": "Consumer Mobile Configuration",
+                        "omniType": "VDO",
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%____OmniScriptUniversalPage",
+                        "visualForce": ""
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['resource']['%vlocity_namespace%__Description__c']",
+                    "group": "Custom Properties",
+                    "label": "resource Description",
+                    "name": "['resource']['%vlocity_namespace%__Description__c']",
+                    "type": "string"
+                }
+            ],
+            "name": "Active",
+            "templateUrl": "np-resource-banner-demo-eng"
+        }
+    ],
+    "title": "Banner"
+}

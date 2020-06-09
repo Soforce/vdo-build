@@ -1,0 +1,20 @@
+{
+    "Cards": [
+    ],
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "Content",
+            "val": "[\"np-asset-details\",\"np-usage\",\"np-asset-services\"]"
+        },
+        {
+            "name": "Sidebar",
+            "val": "[\"np-asset-action-links\",\"np-shop-products\"]"
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-canvas-page"
+        }
+    }
+}

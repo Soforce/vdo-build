@@ -1,0 +1,23 @@
+{
+    "Cards": [
+        "VDO Console Actions"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0013600000Gpnys"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT id, RecordType.Name FROM Account WHERE id = '{{params.id || params.Id}}'",
+            "subType": "NamedCredential"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-simple-slds"
+        }
+    }
+}

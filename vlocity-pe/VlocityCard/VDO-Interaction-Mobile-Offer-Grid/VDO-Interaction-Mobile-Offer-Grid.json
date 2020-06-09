@@ -1,0 +1,55 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "0013600000FBB67"
+            }
+        ],
+        "type": null,
+        "value": {
+            "query": "SELECT Id, Name FROM Asset WHERE AccountId = '{{params.Id}}' AND Name LIKE '%Mobile Plan%'"
+        }
+    },
+    "filter": {
+        "['AssetCategory__c']": "Mobile Offer"
+    },
+    "states": [
+        {
+            "actionCtxId": "Id",
+            "blankCardState": true,
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'non-existent'"
+                },
+                {
+                    "field": "",
+                    "operator": "===",
+                    "type": "custom",
+                    "value": ""
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Mobile Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'non-existent'",
+            "name": "Offer",
+            "sObjectType": "Account",
+            "templateUrl": "card-open-slds"
+        }
+    ],
+    "title": "Introducing The Samsung Galaxy Edge"
+}

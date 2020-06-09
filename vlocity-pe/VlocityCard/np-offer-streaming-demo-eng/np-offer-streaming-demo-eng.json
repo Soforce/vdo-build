@@ -1,0 +1,80 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "query": "SELECT Id, Name FROM Asset WHERE AccountId = '{{params.id}}' AND Name LIKE '%Sport%'"
+        }
+    },
+    "filter": {
+        "['Name']": "streaming"
+    },
+    "states": [
+        {
+            "actionCtxId": "",
+            "blankCardState": true,
+            "blankStateCheck": true,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'non-existent'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": false,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "displayName": "OmniScript",
+                        "extraParams": {
+                            "layout": "lightning"
+                        },
+                        "hasExtraParams": true,
+                        "id": "OmniScript",
+                        "isCustomAction": true,
+                        "omniLang": "English",
+                        "omniSubType": "Existing Consumer Mobile Configuration",
+                        "omniType": "VDO",
+                        "openUrlIn": "_self",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%____VDOOmniscript",
+                        "visualForce": "VDOOmniscript"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'non-existent'",
+            "name": "streaming",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavIcon",
+                    "type": "string",
+                    "value": "'../resource/nuslice_images/phone_out.png'"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavTitle",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "Account",
+            "templateUrl": "np-subnav-open-demo-eng"
+        }
+    ],
+    "title": "streaming"
+}

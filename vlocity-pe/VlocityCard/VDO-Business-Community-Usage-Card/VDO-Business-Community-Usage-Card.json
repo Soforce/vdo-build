@@ -1,0 +1,47 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Name",
+                    "name": "['accountName']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['usageCollection']['breakdown']['half']['labels']",
+                    "group": "Custom Properties",
+                    "label": "usageCollection breakdownhalflabels",
+                    "name": "['usageCollection']['breakdown']['half']['labels']",
+                    "type": "string"
+                }
+            ],
+            "name": "active",
+            "templateUrl": "card-active"
+        }
+    ],
+    "title": "VDO Business Community Usage Card"
+}

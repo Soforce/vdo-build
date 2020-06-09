@@ -1,0 +1,33 @@
+{
+    "Cards": [
+        "np-account-feed-events-demo-eng"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "02i46000000HRTD"
+            }
+        ],
+        "type": null,
+        "value": {
+            "body": "{}",
+            "query": "SELECT Id,\nLastModifiedDate,\nName,\n%vlocity_namespace%__Amount__c,\n%vlocity_namespace%__AssetId__c,\n%vlocity_namespace%__PostDate__c,\n%vlocity_namespace%__TransactionDate__c,\n%vlocity_namespace%__TransactionNumber__c,\n%vlocity_namespace%__Type__c FROM %vlocity_namespace%__AssetTransaction__c  WHERE  %vlocity_namespace%__AssetId__c = '{{params.id}}'"
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "Title",
+            "val": "'Activities'"
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-canvas"
+        }
+    },
+    "workspace": [
+        "np-account-feed-events-demo-eng/Radif/1/1572546008745"
+    ]
+}

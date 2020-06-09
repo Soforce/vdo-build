@@ -1,0 +1,33 @@
+{
+    "Cards": [
+        "np-plan-overview-card"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "$root.vlocity.userAccountId",
+                "val": "0014600000YDNmB"
+            }
+        ],
+        "type": "Custom",
+        "value": {
+            "body": "[\n    {\n        \"attributes\": {\n            \"type\": \"Account\",\n            \"url\": \"/services/data/v39.0/sobjects/Account/0014600000YDNmBAAX\"\n        },\n        \"%vlocity_namespace%__PrimaryBroker__c\": \"00346000001dqMLAAY\",\n        \"%vlocity_namespace%__PrimaryAgencyBrokeragePartyId__pc\": \"a0k46000000Prld\",\n        \"%vlocity_namespace%__PrimaryAgencyBrokerageRecordTypeId__pc\": \"01246000000vk0v\",\n        \"Id\": \"0014600000YDNmBAAX\",\n        \"RecordTypeId\": \"01246000000vk0vAAA\",\n        \"%vlocity_namespace%__PrimaryBroker__r\": {\n            \"attributes\": {\n                \"type\": \"Contact\",\n                \"url\": \"/services/data/v39.0/sobjects/Contact/00346000001dqMLAAY\"\n            },\n            \"Name\": \"Unlimited Family Plan\",\n            \"Id\": \"00346000001dqMLAAY\",\n            \"Phone\": \" \",\n            \"Email\": \" \",\n            \"%vlocity_namespace%__Image__c\": \"<img src='../resource/VDOCommunityResources/images/profilepicagent.png'/>\",\n            \"Title\": \"Director\",\n            \"RecordTypeId\": \"01246000000vk0nAAA\"\n        }\n    }\n]",
+            "query": "SELECT \n%vlocity_namespace%__PrimaryBroker__r.Name,\n%vlocity_namespace%__PrimaryBroker__r.Id,\n%vlocity_namespace%__PrimaryBroker__r.Phone,\n%vlocity_namespace%__PrimaryBroker__r.Email,\n%vlocity_namespace%__PrimaryBroker__r.MailingAddress,\n\n%vlocity_namespace%__PrimaryBroker__r.%vlocity_namespace%__Image__c,%vlocity_namespace%__PrimaryBroker__r.Title,\n\n%vlocity_namespace%__PrimaryAgencyBrokeragePartyId__pc,%vlocity_namespace%__PrimaryAgencyBrokerageRecordTypeId__pc,%vlocity_namespace%__PrimaryBroker__c,%vlocity_namespace%__PrimaryContactId__c FROM Account WHERE Name = 'Jenny Smith'"
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "title",
+            "val": "\"Plan\""
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-canvas"
+        }
+    },
+    "workspace": [
+        "np-plan-overview-card/Vlocity Demo Org/1507870843166"
+    ]
+}

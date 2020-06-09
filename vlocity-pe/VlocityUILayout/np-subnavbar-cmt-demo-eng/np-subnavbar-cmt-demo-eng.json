@@ -1,0 +1,30 @@
+{
+    "Cards": [
+        "np-subnav-asset"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0014P0000263kz2QAA"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.Id || params.id\":\"{{params.Id || params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "np-subnavbar-canvas-demo-eng"
+        }
+    },
+    "workspace": [
+        "np-subnav-asset/Vlocity Demo Org/1507872637083",
+        "np-asset-offer/Vlocity Demo Org/1507872637083",
+        "np-asset-offer-tv/Vlocity Demo Org/1507872637085",
+        "np-asset-offer-internet/Vlocity Demo Org/1507872637086",
+        "np-asset-offer-mobile/Vlocity Demo Org/null/1518707104274"
+    ]
+}

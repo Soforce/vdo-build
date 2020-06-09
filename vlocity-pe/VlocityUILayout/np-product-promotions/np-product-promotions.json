@@ -1,0 +1,67 @@
+{
+    "Cards": [
+        "np-promotion-headline",
+        "np-product-all"
+    ],
+    "componentName": "cfNpProductPromotions",
+    "customPreviewPages": [
+        {
+            "group": "Custom Pages",
+            "label": "VDOHybridCPQ",
+            "page": "VDOHybridCPQ"
+        },
+        {
+            "group": "Custom Pages",
+            "label": "HybridCPQ",
+            "page": "HybridCPQ"
+        }
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "80136000004NHR0"
+            },
+            {
+                "name": "attrs.includeIneligible",
+                "val": "true"
+            }
+        ],
+        "type": "Custom",
+        "value": {
+            "apexRemoteResultVar": "records",
+            "apexRestResultVar": "records",
+            "body": "[\n        {\n        \"UnitPrice\": {\n            \"label\": \"List Price\",\n            \"value\": \"42.50\"\n        },\n        \"PromotionPrice\": {\n            \"label\": \"Promotion Price\",\n            \"value\": \"36.00\"\n        },\n        \"name\": \"Samsung Galaxy S9\",\n        \"url\": \"https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt//VLOCMOBCON/images/img_GalaxyS9_Small@2x.png\",\n        \"description\": \"For 24 months, 6.2% APR; Retail Price: $849.99\"\n    },{\n        \"UnitPrice\": {\n            \"label\": \"List Price\",\n            \"value\": \"44.00\"\n        },\n        \"PromotionPrice\": {\n            \"label\": \"Promotion Price\",\n            \"value\": \"38.50\"\n        },\n        \"name\": \"Apple iPhone XS\",\n        \"url\": \"https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt//VLOCMOBCON/images/img_iPhoneX_Small@2x.png\",\n        \"description\": \"For 24 months, 6.2% APR; Retail Price: $999.99\",\n        \"sale\":\"sale\"\n    },{\n        \"UnitPrice\": {\n            \"label\": \"List Price\",\n            \"value\": \"42.50\"\n        },\n        \"PromotionPrice\": {\n            \"label\": \"Promotion Price\",\n            \"value\": \"36.00\"\n        },\n        \"name\": \"Google Pixel 2\",\n        \"url\": \"https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt//VLOCMOBCON/images/img_Pixel2XL_Small@2x.png\",\n        \"description\": \"For 24 months, 6.2% APR; Retail Price: $899.99\"\n    },\n\n    {\n        \"UnitPrice\": {\n            \"label\": \"List Price\",\n            \"value\": \"38.00\"\n        },\n        \"PromotionPrice\": {\n            \"label\": \"Promotion Price\",\n            \"value\": \"32.50\"\n        },\n        \"name\": \"Apple iPhone 8\",\n        \"url\": \"https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt//VLOCMOBCON/images/img_iPhoneSE_Small@2x.png\",\n        \"description\": \"For 24 months, 6.2% APR; Retail Price: $769.50\"\n    }\n    \n]",
+            "endpoint": "/%vlocity_namespace%/v2/cpq/carts/80136000004NHR0/products?includeAttachment=true&hierarchy=4&filters=Product2.Family,Product2.%vlocity_namespace%__type__c,Product2.%vlocity_namespace%__SpecificationType__c&pagesize=10&fields=IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c&includeIneligible={{attrs.includeIneligible}}",
+            "inputMap": {
+                "cartId": "80136000004NHR0",
+                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.Description,Product2.Family,Product2.%vlocity_namespace%__type__c,Product2.%vlocity_namespace%__SpecificationType__c",
+                "includeIneligible": "{{attrs.includeIneligible}}"
+            },
+            "methodType": "GET",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.CpqAppHandler"
+            },
+            "remoteClass": "CpqAppHandler",
+            "remoteMethod": "getCartsProducts",
+            "remoteNSPrefix": "%vlocity_namespace%",
+            "resultVar": ""
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "Border",
+            "val": "'none'"
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-list-canvas"
+        }
+    },
+    "workspace": [
+        "np-promotion-headline/Vlocity Demo Org/1507872637080",
+        "np-product-all/Vlocity Demo Org/1507870946804"
+    ]
+}

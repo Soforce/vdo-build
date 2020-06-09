@@ -1,0 +1,66 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+        "['Name']": "Tablets"
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View",
+                        "hasExtraParams": false,
+                        "id": "View",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Custom Action",
+                        "hasExtraParams": false,
+                        "id": "Custom Action",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Tablets",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "%vlocity_namespace%__Catalog__c",
+            "smartAction": {
+            },
+            "templateUrl": "np-product-catalog"
+        }
+    ],
+    "title": "Tablets"
+}

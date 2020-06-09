@@ -1,0 +1,40 @@
+{
+    "Cards": [
+        "Campaign Story",
+        "Case Story",
+        "Customer Interaction Story",
+        "Event Story",
+        "Note Story",
+        "Opportunity Story",
+        "Task Story",
+        "Order Story"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "001o000000wFyLS"
+            }
+        ],
+        "type": "Dual",
+        "value": {
+            "apexRemoteResultVar": "Stories",
+            "apexRestResultVar": "Stories",
+            "endpoint": "/services/apexrest/%vlocity_namespace%/v1/story/{{params.id}}?pageSize=10",
+            "inputMap": {
+                "pageSize": "10",
+                "storyId": "{{params.id}}"
+            },
+            "methodType": "GET",
+            "remoteClass": "StoryListHandler",
+            "remoteMethod": "getStories",
+            "remoteNSPrefix": "%vlocity_namespace%",
+            "resultVar": "Stories"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "story-card-canvas"
+        }
+    }
+}

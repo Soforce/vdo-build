@@ -1,0 +1,33 @@
+{
+    "Cards": [
+        "Asset Grid"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "0014P0000263kvLQAQ"
+            },
+            {
+                "name": "parent.obj.%vlocity_namespace%__LineNumber__c",
+                "val": "0001"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.Id || params.id\":\"{{params.Id || params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vdo-card-canvas"
+        }
+    },
+    "workspace": [
+        "Asset Grid/Vlocity Demo Org/null/1516694577096",
+        "TV Offer Grid/Vlocity Demo Org/null/1516694577098",
+        "Mobile Offer Grid/Vlocity Demo Org/null/1516694577099",
+        "Internet Offer Grid/Vlocity Demo Org/null/1516694577099"
+    ]
+}

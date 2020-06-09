@@ -1,0 +1,49 @@
+{
+    "Cards": [
+        "np-catalog-phone",
+        "np-catalog-deals",
+        "np-catalog-plans"
+    ],
+    "componentName": "cfNpProductCatalog",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "80136000004NHR0"
+            },
+            {
+                "name": "catalog.id",
+                "val": "a2H1I000000Q6vf"
+            }
+        ],
+        "type": "Custom",
+        "value": {
+            "apexRemoteResultVar": "records[0].childCatalogs.records",
+            "apexRestResultVar": "records[0].childCatalogs.records",
+            "body": "[\n    {\n        \"messages\": [],\n        \"displaySequence\": -1,\n        \"attributes\": {\n            \"type\": \"%vlocity_namespace%__Catalog__c\",\n            \"url\": \"/services/data/v40.0/sobjects/%vlocity_namespace%__Catalog__c/a2H360000014jFCEAY\"\n        },\n        \"Id\": \"a2H360000014jFCEAY\",\n        \"OwnerId\": \"00536000002Nn4oAAC\",\n        \"IsDeleted\": false,\n        \"Name\": \"Phones\",\n        \"CreatedDate\": \"2017-04-04T21:26:33.000+0000\",\n        \"CreatedById\": \"00536000002Nn4oAAC\",\n        \"LastModifiedDate\": \"2017-04-04T21:26:33.000+0000\",\n        \"LastModifiedById\": \"00536000002Nn4oAAC\",\n        \"SystemModstamp\": \"2017-10-06T03:00:36.000+0000\",\n        \"LastViewedDate\": \"2017-06-05T08:35:45.000+0000\",\n        \"LastReferencedDate\": \"2017-06-05T08:35:45.000+0000\",\n        \"%vlocity_namespace%__GlobalKey__c\": \"b62f1198-ba7c-d8d5-1541-f2dc39da01aa\",\n        \"%vlocity_namespace%__IsActive__c\": true,\n        \"%vlocity_namespace%__IsCatalogRoot__c\": false,\n        \"%vlocity_namespace%__StartDateTime__c\": \"2017-04-04T21:26:00.000+0000\",\n        \"catalogId\": \"a2H360000014jFCEAY\",\n        \"catalogName\": \"Plans\",\n        \"url\": \"https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/VDOProductResources/images/TNEssential.png\"\n    },\n    {\n        \"messages\": [],\n        \"displaySequence\": -1,\n        \"attributes\": {\n            \"type\": \"%vlocity_namespace%__Catalog__c\",\n            \"url\": \"/services/data/v40.0/sobjects/%vlocity_namespace%__Catalog__c/a2H360000014jFHEAY\"\n        },\n        \"Id\": \"a2H360000014jFHEAY\",\n        \"OwnerId\": \"00536000002Nn4oAAC\",\n        \"IsDeleted\": false,\n        \"Name\": \"Tablets\",\n        \"CreatedDate\": \"2017-04-04T21:26:41.000+0000\",\n        \"CreatedById\": \"00536000002Nn4oAAC\",\n        \"LastModifiedDate\": \"2017-04-04T21:26:41.000+0000\",\n        \"LastModifiedById\": \"00536000002Nn4oAAC\",\n        \"SystemModstamp\": \"2017-10-06T03:00:36.000+0000\",\n        \"LastViewedDate\": \"2017-06-23T08:34:23.000+0000\",\n        \"LastReferencedDate\": \"2017-06-23T08:34:23.000+0000\",\n        \"%vlocity_namespace%__GlobalKey__c\": \"5a77fb20-febe-d2e8-ed19-c4ba861cb334\",\n        \"%vlocity_namespace%__IsActive__c\": true,\n        \"%vlocity_namespace%__IsCatalogRoot__c\": false,\n        \"%vlocity_namespace%__StartDateTime__c\": \"2017-04-04T21:26:00.000+0000\",\n        \"catalogId\": \"a2H360000014jFHEAY\",\n        \"catalogName\": \"Phones\",\n        \"url\": \"https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/VDOProductResources/images/TNiPadPro.png\"\n    },\n    {\n        \"messages\": [],\n        \"displaySequence\": -1,\n        \"attributes\": {\n            \"type\": \"%vlocity_namespace%__Catalog__c\",\n            \"url\": \"/services/data/v40.0/sobjects/%vlocity_namespace%__Catalog__c/a2H360000014jFMEAY\"\n        },\n        \"Id\": \"a2H360000014jFMEAY\",\n        \"OwnerId\": \"00536000002Nn4oAAC\",\n        \"IsDeleted\": false,\n        \"Name\": \"Wearables\",\n        \"CreatedDate\": \"2017-04-04T21:26:49.000+0000\",\n        \"CreatedById\": \"00536000002Nn4oAAC\",\n        \"LastModifiedDate\": \"2017-04-04T21:26:49.000+0000\",\n        \"LastModifiedById\": \"00536000002Nn4oAAC\",\n        \"SystemModstamp\": \"2017-10-06T03:00:36.000+0000\",\n        \"LastViewedDate\": \"2017-06-05T08:30:40.000+0000\",\n        \"LastReferencedDate\": \"2017-06-05T08:30:40.000+0000\",\n        \"%vlocity_namespace%__GlobalKey__c\": \"578a2fef-77a3-ec80-b10c-47f6dedbf690\",\n        \"%vlocity_namespace%__IsActive__c\": true,\n        \"%vlocity_namespace%__IsCatalogRoot__c\": false,\n        \"catalogId\": \"a2H360000014jFMEAY\",\n        \"catalogName\": \"Deals\",\n        \"url\": \"https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/VDOProductResources/images/TNWatch.png\"\n    }\n]",
+            "endpoint": "/%vlocity_namespace%/v2/cpq/catalogs/{{catalog.id}}?contextId={{params.id}}&hierarchy=1",
+            "inputMap": {
+                "cartId": "8011I000000g1NI",
+                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.Description",
+                "filters": "Product2.Family:Internet,Product2.%vlocity_namespace%__type__c:Product"
+            },
+            "methodType": "GET",
+            "remoteClass": "CpqAppHandler",
+            "remoteMethod": "getCatalogHierarchy",
+            "remoteNSPrefix": "%vlocity_namespace%"
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-list-canvas-2x"
+        }
+    },
+    "workspace": [
+        "np-catalog-phone/Vlocity Demo Org/1507872637078",
+        "np-catalog-deals/Vlocity Demo Org/1507872637079",
+        "np-catalog-plans/Vlocity Demo Org/1507872637079"
+    ]
+}

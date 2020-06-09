@@ -1,0 +1,56 @@
+{
+    "Cards": [
+        "np-shop-products"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "8011I000000g1NI"
+            },
+            {
+                "name": "attrs.includeIneligible",
+                "val": "true"
+            }
+        ],
+        "type": "Custom",
+        "value": {
+            "apexRemoteResultVar": "records",
+            "apexRestResultVar": "records",
+            "body": "[    \n    {\n        \"UnitPrice\": {\n            \"label\": \"List Price\",\n            \"value\": \"12.50\"\n        },\n        \"PromotionPrice\": {\n            \"label\": \"Promotion Price\",\n            \"value\": \"325.00\"\n        },\n        \"name\": \"Apple Watch Sport\",\n        \"url\": \"/resource/VDOProductResources/images/TNWatchSport.png\",\n        \"description\": \"For 24 months, 6.2% APR; Retail Price: $999.99\"\n    },{\n        \"UnitPrice\": {\n            \"label\": \"List Price\",\n            \"value\": \"38.50\"\n        },\n        \"PromotionPrice\": {\n            \"label\": \"Promotion Price\",\n            \"value\": \"399.99\"\n        },\n        \"name\": \"Google Pixel 2\",\n        \"url\": \"/resource/VLOCMOBCON/images/img_Pixel2XL_Small@2x.png\",\n        \"description\": \"For 24 months, 6.2% APR; Retail Price: $849.99\",\n        \"sale\":\"sale\"\n    },\n\n\n    {\n        \"UnitPrice\": {\n            \"label\": \"List Price\",\n            \"value\": \"36.00\"\n        },\n        \"PromotionPrice\": {\n            \"label\": \"Promotion Price\",\n            \"value\": \"199.99\"\n        },\n        \"name\": \"Essential Phone Upgrade\",\n        \"url\": \"/resource/VDOProductResources/images/TNEssential.png\",\n        \"description\": \"For 24 months, 6.2% APR; Retail Price: $769.50\"\n    }\n]",
+            "endpoint": "/%vlocity_namespace%/v2/cpq/carts/8011I000000g1NI/products?includeAttachment=true&hierarchy=2&filters=Product2.Family:Bundle,Product2.%vlocity_namespace%__type__c:Bundle&pagesize=10&fields=IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c&includeIneligible={{attrs.includeIneligible}}",
+            "inputMap": {
+                "cartId": "8011I000000g1NI",
+                "fields": "IsActive,Id,Name,UnitPrice,ProductCode,%vlocity_namespace%__RecurringPrice__c,Product2.Description",
+                "filters": "Product2.Family:Bundle,Product2.%vlocity_namespace%__type__c:Bundle",
+                "includeIneligible": "{{attrs.includeIneligible}}"
+            },
+            "methodType": "GET",
+            "optionsMap": {
+            },
+            "remoteClass": "CpqAppHandler",
+            "remoteMethod": "getCartsProducts",
+            "remoteNSPrefix": "%vlocity_namespace%",
+            "resultVar": ""
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "Title",
+            "val": "'Extras'"
+        },
+        {
+            "name": "Scroll",
+            "val": "\"none\""
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-list-canvas"
+        }
+    },
+    "workspace": [
+        "np-shop-products/Vlocity Demo Org/1507872637082"
+    ]
+}

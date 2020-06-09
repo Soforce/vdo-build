@@ -1,0 +1,30 @@
+{
+    "Cards": [
+        "Asset Card",
+        "UsageStatsText",
+        "UsageBarChart"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0014P0000263kvLQAQ"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "mobile-cpq-card-canvas"
+        }
+    },
+    "workspace": [
+        "Asset Card/Vlocity Demo Org/null/1516694577118",
+        "UsageStatsText/Vlocity Demo Org/null/1516694577119",
+        "UsageBarChart/Vlocity Demo Org/null/1516694577119"
+    ]
+}

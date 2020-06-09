@@ -1,0 +1,81 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Details",
+                        "hasExtraParams": false,
+                        "id": "Details",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/{{obj.Id}}"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__TransactionDate__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['%vlocity_namespace%__TransactionDate__c']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__Type__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['%vlocity_namespace%__Type__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "",
+                    "name": "<<Custom Field>>",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__Amount__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['%vlocity_namespace%__Amount__c']",
+                    "type": "currency"
+                }
+            ],
+            "name": "Active",
+            "templateUrl": "np-activity-feed-card"
+        }
+    ],
+    "title": "Transactions"
+}

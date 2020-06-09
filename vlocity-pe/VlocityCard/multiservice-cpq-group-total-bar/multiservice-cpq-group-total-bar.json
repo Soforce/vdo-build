@@ -1,0 +1,165 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "sessionVars": [
+        {
+            "name": "groupedServicePageSize",
+            "val": "importedScope.groupedServicePageSize"
+        },
+        {
+            "name": "groupPageSize",
+            "val": "importedScope.groupPageSize"
+        }
+    ],
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['ObjectType']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "'Quote'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['%vlocity_namespace%__QuoteGroupId__r.%vlocity_namespace%__HasUnappliedGroupItems__c']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "extraParams": {
+                            "groupPageSize": "$scope.session.groupPageSize",
+                            "groupedServicePageSize": "$scope.session.groupedServicePageSize"
+                        },
+                        "filter": "$scope.obj['%vlocity_namespace%__QuoteGroupId__r.%vlocity_namespace%__HasUnappliedGroupItems__c'] == true",
+                        "hasExtraParams": true,
+                        "id": "Apply To Group",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['%vlocity_namespace%__QuoteGroupId__r.%vlocity_namespace%__HasUnappliedGroupItems__c']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "false"
+                                },
+                                {
+                                    "field": "['%vlocity_namespace%__IsPriced__c']",
+                                    "logicalOperator": "&&",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "false"
+                                },
+                                {
+                                    "field": "['%vlocity_namespace%__IsValidated__c']",
+                                    "logicalOperator": "||",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "false"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "extraParams": {
+                            "groupPageSize": "$scope.session.groupPageSize",
+                            "groupedServicePageSize": "$scope.session.groupedServicePageSize"
+                        },
+                        "filter": "$scope.obj['%vlocity_namespace%__QuoteGroupId__r.%vlocity_namespace%__HasUnappliedGroupItems__c'] == false && $scope.obj['%vlocity_namespace%__IsPriced__c'] == false || $scope.obj['%vlocity_namespace%__IsValidated__c'] == false",
+                        "hasExtraParams": true,
+                        "id": "Price And Validate",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['%vlocity_namespace%__QuoteGroupId__r.%vlocity_namespace%__HasUnappliedGroupItems__c']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "false"
+                                },
+                                {
+                                    "field": "['%vlocity_namespace%__IsPriced__c']",
+                                    "logicalOperator": "&&",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                },
+                                {
+                                    "field": "['%vlocity_namespace%__IsValidated__c']",
+                                    "logicalOperator": "&&",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['%vlocity_namespace%__QuoteGroupId__r.%vlocity_namespace%__HasUnappliedGroupItems__c'] == false && $scope.obj['%vlocity_namespace%__IsPriced__c'] == true && $scope.obj['%vlocity_namespace%__IsValidated__c'] == true",
+                        "hasExtraParams": true,
+                        "id": "MultiServiceCheckout",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Group Recurring Total",
+                    "name": "['%vlocity_namespace%__QuoteGroupId__r.%vlocity_namespace%__RecurringTotal__c']",
+                    "type": "currency"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Group One Time Total",
+                    "name": "['%vlocity_namespace%__QuoteGroupId__r.%vlocity_namespace%__OneTimeTotal__c']",
+                    "type": "currency"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['ObjectType'] == 'Quote'",
+            "name": "Active Quote",
+            "sObjectType": "Quote",
+            "templateUrl": "multiservice-cpq-total-card"
+        }
+    ],
+    "title": "Multiservice Group Total Card"
+}
