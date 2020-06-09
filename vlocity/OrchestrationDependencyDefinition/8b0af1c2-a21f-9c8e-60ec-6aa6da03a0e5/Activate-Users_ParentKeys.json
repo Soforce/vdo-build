@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Activate Users_License Provisioning",
+    "OrchestrationItemDefinition/Complete Order_E2E",
+    "OrchestrationPlanDefinition/License Provisioning"
+]

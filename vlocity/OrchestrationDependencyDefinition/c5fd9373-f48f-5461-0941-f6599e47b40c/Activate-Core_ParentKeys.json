@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Activate Access_Broadband Internet CFS",
+    "OrchestrationItemDefinition/Activate Core_Broadband Internet CFS",
+    "OrchestrationPlanDefinition/Broadband Internet CFS"
+]

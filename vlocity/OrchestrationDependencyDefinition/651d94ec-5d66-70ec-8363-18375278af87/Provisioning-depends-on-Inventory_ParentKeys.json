@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Inventory - Reserve Resource_5G Network Activation",
+    "OrchestrationItemDefinition/Provisioning - Activate Network_5G Network Activation",
+    "OrchestrationPlanDefinition/5G Network Activation"
+]

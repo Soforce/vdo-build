@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Create OSS Account_Consumer Billing",
+    "OrchestrationItemDefinition/Synchronize Billing Accounts_Consumer Billing",
+    "OrchestrationPlanDefinition/Consumer Billing"
+]

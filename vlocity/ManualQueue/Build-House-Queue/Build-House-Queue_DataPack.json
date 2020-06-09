@@ -1,0 +1,12 @@
+{
+    "%vlocity_namespace%__DisplayedFields__c": "",
+    "%vlocity_namespace%__FilterFields__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "c202d9fb-b141-2a13-ad8d-9e047af26b98",
+    "%vlocity_namespace%__LastAssignedToUserId__c": "",
+    "%vlocity_namespace%__NotificationEmailId__c": "",
+    "%vlocity_namespace%__QueueType__c": "Priority Queue",
+    "Name": "Build House Queue",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__ManualQueue__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__ManualQueue__c/Build House Queue"
+}

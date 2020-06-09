@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Activate SIM_Mobile CFS Activation",
+    "OrchestrationItemDefinition/Register 5G_Mobile CFS Activation",
+    "OrchestrationPlanDefinition/Mobile CFS Activation"
+]

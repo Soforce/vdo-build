@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "4892ead5-4a90-8ee9-c1c9-1aa1fd8750d7",
+    "%vlocity_namespace%__IsSchedulingEnabled__c": false,
+    "%vlocity_namespace%__SchedulingExpirationIntervalSeconds__c": "",
+    "%vlocity_namespace%__Scope__c": "Global",
+    "%vlocity_namespace%__ShowOrder__c": "",
+    "Name": "On-Net Provisioning and Testing",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/On-Net Provisioning and Testing"
+}

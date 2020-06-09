@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Inventory - Activate Resource_5G Network Activation",
+    "OrchestrationItemDefinition/Update Billing_Billing",
+    "OrchestrationPlanDefinition/5G Network Activation"
+]

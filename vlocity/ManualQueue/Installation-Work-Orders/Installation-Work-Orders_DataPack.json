@@ -1,0 +1,12 @@
+{
+    "%vlocity_namespace%__DisplayedFields__c": "",
+    "%vlocity_namespace%__FilterFields__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "cfb73dac-447d-b4d7-5169-35100bed586a",
+    "%vlocity_namespace%__LastAssignedToUserId__c": "",
+    "%vlocity_namespace%__NotificationEmailId__c": "",
+    "%vlocity_namespace%__QueueType__c": "Round Robin",
+    "Name": "Installation Work Orders",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__ManualQueue__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__ManualQueue__c/Installation Work Orders"
+}

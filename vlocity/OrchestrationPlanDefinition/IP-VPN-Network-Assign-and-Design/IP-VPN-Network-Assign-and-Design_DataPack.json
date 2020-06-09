@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "69d4d70b-d275-6b83-96fe-bddea8814e51",
+    "%vlocity_namespace%__IsSchedulingEnabled__c": false,
+    "%vlocity_namespace%__SchedulingExpirationIntervalSeconds__c": "",
+    "%vlocity_namespace%__Scope__c": "Global",
+    "%vlocity_namespace%__ShowOrder__c": "",
+    "Name": "IP-VPN Network Assign and Design",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/IP-VPN Network Assign and Design"
+}

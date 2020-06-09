@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Activate Consumer Order_Simple Consumer Fulfilment",
+    "OrchestrationItemDefinition/Register 5G_Mobile CFS Activation",
+    "OrchestrationPlanDefinition/Mobile CFS Activation"
+]

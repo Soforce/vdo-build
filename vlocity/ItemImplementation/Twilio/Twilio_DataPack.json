@@ -1,0 +1,9 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "7ea25234-1cd4-45c6-48ba-104414eee728",
+    "%vlocity_namespace%__Implementation__c": "VDOTwilioHelper",
+    "%vlocity_namespace%__ThorImplementation__c": "",
+    "Name": "Twilio",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__ItemImplementation__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__ItemImplementation__c/Twilio"
+}

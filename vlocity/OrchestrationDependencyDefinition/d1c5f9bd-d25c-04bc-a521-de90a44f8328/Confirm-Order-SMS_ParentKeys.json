@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Confirm Order SMS_E2E",
+    "OrchestrationItemDefinition/Order Equipment_Logistics",
+    "OrchestrationPlanDefinition/E2E"
+]

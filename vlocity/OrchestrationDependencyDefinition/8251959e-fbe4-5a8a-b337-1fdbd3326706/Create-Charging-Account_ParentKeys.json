@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Create Charging Account_Consumer Billing",
+    "OrchestrationItemDefinition/Create OSS Account_Consumer Billing",
+    "OrchestrationPlanDefinition/Consumer Billing"
+]

@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Activate Consumer Order_Simple Consumer Fulfilment",
+    "OrchestrationItemDefinition/Confirm Consumer Order SMS_Simple Consumer Fulfilment",
+    "OrchestrationPlanDefinition/Simple Consumer Fulfilment"
+]

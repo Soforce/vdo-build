@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Activate Consumer Order_Simple Consumer Fulfilment",
+    "OrchestrationItemDefinition/Synchronize Billing Accounts_Consumer Billing",
+    "OrchestrationPlanDefinition/Consumer Billing"
+]

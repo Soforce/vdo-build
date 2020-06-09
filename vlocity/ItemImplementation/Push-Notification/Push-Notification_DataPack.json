@@ -1,0 +1,9 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "b23aac00-1be0-f490-7b56-a4992c30a565",
+    "%vlocity_namespace%__Implementation__c": "VDOMobilePushNotificationAutoTask",
+    "%vlocity_namespace%__ThorImplementation__c": "",
+    "Name": "Push Notification",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__ItemImplementation__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__ItemImplementation__c/Push Notification"
+}

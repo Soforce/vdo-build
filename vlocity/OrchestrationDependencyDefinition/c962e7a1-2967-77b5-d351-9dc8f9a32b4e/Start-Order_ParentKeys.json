@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Confirm Order SMS_E2E",
+    "OrchestrationItemDefinition/Start Order_E2E",
+    "OrchestrationPlanDefinition/E2E"
+]
