@@ -1,0 +1,17 @@
+{
+    "Body": "File_TN100MM-png",
+    "BodyLength": 37428,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TN100MM.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "43a964ef-9b07-fedb-8135-b4a0b32a962b",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/43a964ef-9b07-fedb-8135-b4a0b32a962b",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/43a964ef-9b07-fedb-8135-b4a0b32a962b/TN100MM.png"
+}

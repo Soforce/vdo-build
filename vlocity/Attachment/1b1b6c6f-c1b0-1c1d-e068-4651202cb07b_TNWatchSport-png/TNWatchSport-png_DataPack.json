@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNWatchSport-png",
+    "BodyLength": 53824,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNWatchSport.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "1b1b6c6f-c1b0-1c1d-e068-4651202cb07b",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/1b1b6c6f-c1b0-1c1d-e068-4651202cb07b",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/1b1b6c6f-c1b0-1c1d-e068-4651202cb07b/TNWatchSport.png"
+}

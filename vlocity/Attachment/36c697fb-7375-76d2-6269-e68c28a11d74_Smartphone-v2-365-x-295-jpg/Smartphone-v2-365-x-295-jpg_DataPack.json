@@ -1,0 +1,17 @@
+{
+    "Body": "File_Smartphone-v2-365-x-295-jpg",
+    "BodyLength": 120670,
+    "ContentType": "image/jpeg",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "Smartphone v2 365 x 295.jpg",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "36c697fb-7375-76d2-6269-e68c28a11d74",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/36c697fb-7375-76d2-6269-e68c28a11d74",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/36c697fb-7375-76d2-6269-e68c28a11d74/Smartphone v2 365 x 295.jpg"
+}

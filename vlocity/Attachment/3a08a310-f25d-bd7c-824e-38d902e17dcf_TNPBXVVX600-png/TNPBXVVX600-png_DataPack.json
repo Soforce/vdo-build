@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNPBXVVX600-png",
+    "BodyLength": 5196,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNPBXVVX600.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "3a08a310-f25d-bd7c-824e-38d902e17dcf",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/3a08a310-f25d-bd7c-824e-38d902e17dcf",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/3a08a310-f25d-bd7c-824e-38d902e17dcf/TNPBXVVX600.png"
+}

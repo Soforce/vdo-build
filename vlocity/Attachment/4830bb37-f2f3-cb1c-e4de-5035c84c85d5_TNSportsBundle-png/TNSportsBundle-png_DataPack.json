@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNSportsBundle-png",
+    "BodyLength": 154430,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNSportsBundle.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "4830bb37-f2f3-cb1c-e4de-5035c84c85d5",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/4830bb37-f2f3-cb1c-e4de-5035c84c85d5",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/4830bb37-f2f3-cb1c-e4de-5035c84c85d5/TNSportsBundle.png"
+}

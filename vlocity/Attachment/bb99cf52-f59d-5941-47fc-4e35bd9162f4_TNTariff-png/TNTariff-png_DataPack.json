@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNTariff-png",
+    "BodyLength": 12804,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNTariff.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "bb99cf52-f59d-5941-47fc-4e35bd9162f4",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/bb99cf52-f59d-5941-47fc-4e35bd9162f4",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/bb99cf52-f59d-5941-47fc-4e35bd9162f4/TNTariff.png"
+}

@@ -1,0 +1,16 @@
+{
+    "%vlocity_namespace%__Category__c": "License",
+    "%vlocity_namespace%__ClauseContent__c": "External-Facing Services. If You subscribe to a Service for sending electronic messages or for the creation and\nhosting of, or for posting content on, external-facing websites, such use is subject to Our External-Facing Services\nPolicy at http://www.telecom.com/company/legal/agreements.jsp as may be applicable to a Service, and You are\nsolely responsible for complying with applicable law in Your use of any cookies or other tracking technologies.",
+    "%vlocity_namespace%__ContractTypes__c": "",
+    "%vlocity_namespace%__IsArchived__c": false,
+    "%vlocity_namespace%__IsContentFormatted__c": false,
+    "%vlocity_namespace%__IsRestricted__c": false,
+    "%vlocity_namespace%__LocaleCode__c": "",
+    "%vlocity_namespace%__ShortName__c": "",
+    "%vlocity_namespace%__Tokens__c": "",
+    "%vlocity_namespace%__Type__c": "Generic",
+    "Name": "External-Facing Services",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentClause__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentClause__c/External-Facing Services"
+}

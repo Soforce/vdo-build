@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNiPhone7-png",
+    "BodyLength": 68657,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNiPhone7.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "a6dd9919-a674-db93-787c-839fb4c1adb3",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/a6dd9919-a674-db93-787c-839fb4c1adb3",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/a6dd9919-a674-db93-787c-839fb4c1adb3/TNiPhone7.png"
+}

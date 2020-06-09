@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNLandlineXL-png",
+    "BodyLength": 4388,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNLandlineXL.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "50f552ca-dcd0-4f1f-f617-a7e37c1fff0c",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/50f552ca-dcd0-4f1f-f617-a7e37c1fff0c",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/50f552ca-dcd0-4f1f-f617-a7e37c1fff0c/TNLandlineXL.png"
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "%vlocity_namespace%__ChildCatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "578a2fef-77a3-ec80-b10c-47f6dedbf690",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Catalog__c/578a2fef-77a3-ec80-b10c-47f6dedbf690",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__ChildCatalogId__r.%vlocity_namespace%__GlobalKey__c": "578a2fef-77a3-ec80-b10c-47f6dedbf690",
+        "%vlocity_namespace%__ParentCatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a4fe212c-5e4a-6a52-5063-64f1ca5d5914",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/a4fe212c-5e4a-6a52-5063-64f1ca5d5914",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__ParentCatalogId__r.%vlocity_namespace%__GlobalKey__c": "a4fe212c-5e4a-6a52-5063-64f1ca5d5914",
+        "%vlocity_namespace%__SequenceNumber__c": 3,
+        "Name": "Deals",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogRelationship__c/Generated708499953"
+    },
+    {
+        "%vlocity_namespace%__ChildCatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__ChildCatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__ParentCatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a4fe212c-5e4a-6a52-5063-64f1ca5d5914",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/a4fe212c-5e4a-6a52-5063-64f1ca5d5914",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__ParentCatalogId__r.%vlocity_namespace%__GlobalKey__c": "a4fe212c-5e4a-6a52-5063-64f1ca5d5914",
+        "%vlocity_namespace%__SequenceNumber__c": 2,
+        "Name": "Phones",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogRelationship__c/Generated662377552"
+    },
+    {
+        "%vlocity_namespace%__ChildCatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Catalog__c/b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__ChildCatalogId__r.%vlocity_namespace%__GlobalKey__c": "b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+        "%vlocity_namespace%__ParentCatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a4fe212c-5e4a-6a52-5063-64f1ca5d5914",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/a4fe212c-5e4a-6a52-5063-64f1ca5d5914",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__ParentCatalogId__r.%vlocity_namespace%__GlobalKey__c": "a4fe212c-5e4a-6a52-5063-64f1ca5d5914",
+        "%vlocity_namespace%__SequenceNumber__c": 1,
+        "Name": "Plans",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogRelationship__c/Generated-1207250600"
+    }
+]

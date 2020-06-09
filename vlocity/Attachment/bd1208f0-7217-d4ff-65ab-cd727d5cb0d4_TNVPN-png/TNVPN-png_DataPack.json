@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNVPN-png",
+    "BodyLength": 12981,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNVPN.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "bd1208f0-7217-d4ff-65ab-cd727d5cb0d4",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/bd1208f0-7217-d4ff-65ab-cd727d5cb0d4",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/bd1208f0-7217-d4ff-65ab-cd727d5cb0d4/TNVPN.png"
+}

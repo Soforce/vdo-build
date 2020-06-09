@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNBMEUS-png",
+    "BodyLength": 5235,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNBMEUS.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "950f30f8-ec52-4c64-ec4c-1a2978b3056f",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/950f30f8-ec52-4c64-ec4c-1a2978b3056f",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/950f30f8-ec52-4c64-ec4c-1a2978b3056f/TNBMEUS.png"
+}

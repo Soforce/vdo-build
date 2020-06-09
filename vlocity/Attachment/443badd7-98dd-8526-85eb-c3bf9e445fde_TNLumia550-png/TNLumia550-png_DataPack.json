@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNLumia550-png",
+    "BodyLength": 194648,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNLumia550.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "443badd7-98dd-8526-85eb-c3bf9e445fde",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/443badd7-98dd-8526-85eb-c3bf9e445fde",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/443badd7-98dd-8526-85eb-c3bf9e445fde/TNLumia550.png"
+}

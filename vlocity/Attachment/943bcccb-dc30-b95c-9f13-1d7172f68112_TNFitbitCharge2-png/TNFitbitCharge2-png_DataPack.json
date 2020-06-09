@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNFitbitCharge2-png",
+    "BodyLength": 41758,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNFitbitCharge2.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "943bcccb-dc30-b95c-9f13-1d7172f68112",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/943bcccb-dc30-b95c-9f13-1d7172f68112",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/943bcccb-dc30-b95c-9f13-1d7172f68112/TNFitbitCharge2.png"
+}

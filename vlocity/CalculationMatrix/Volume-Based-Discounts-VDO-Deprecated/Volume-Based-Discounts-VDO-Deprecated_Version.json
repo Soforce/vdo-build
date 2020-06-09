@@ -1,0 +1,24 @@
+{
+    "%vlocity_namespace%__CalculationMatrixId__c": {
+        "Name": "Volume Based Discounts (VDO Deprecated)",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/Volume Based Discounts (VDO Deprecated)",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+    },
+    "%vlocity_namespace%__CalculationMatrixId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+    "%vlocity_namespace%__CalculationMatrixRow__c": "Volume-Based-Discounts-VDO-Deprecated_Version_Rows.json",
+    "%vlocity_namespace%__CurrentStatus__c": "Active",
+    "%vlocity_namespace%__EndDateTime__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "1ea649e7-de07-9ac1-b5e1-b624a0376936",
+    "%vlocity_namespace%__GroupKeyValue__c": "",
+    "%vlocity_namespace%__MatrixUseLongOutput__c": false,
+    "%vlocity_namespace%__Priority__c": 3,
+    "%vlocity_namespace%__StartDateTime__c": "2016-01-02T00:51:00.000Z",
+    "%vlocity_namespace%__SubGroupKeyValue__c": "",
+    "%vlocity_namespace%__UseLongOutput__c": false,
+    "%vlocity_namespace%__VersionNumber__c": 3,
+    "Name": "Volume Based Discounts v3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/Volume Based Discounts (VDO Deprecated)"
+}

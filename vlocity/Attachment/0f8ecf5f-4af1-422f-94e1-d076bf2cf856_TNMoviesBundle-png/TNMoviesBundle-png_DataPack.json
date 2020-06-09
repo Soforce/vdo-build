@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNMoviesBundle-png",
+    "BodyLength": 154938,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNMoviesBundle.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "0f8ecf5f-4af1-422f-94e1-d076bf2cf856",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/0f8ecf5f-4af1-422f-94e1-d076bf2cf856",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/0f8ecf5f-4af1-422f-94e1-d076bf2cf856/TNMoviesBundle.png"
+}

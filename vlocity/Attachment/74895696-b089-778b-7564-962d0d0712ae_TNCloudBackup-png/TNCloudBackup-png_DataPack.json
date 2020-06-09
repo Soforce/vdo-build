@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNCloudBackup-png",
+    "BodyLength": 42729,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNCloudBackup.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "74895696-b089-778b-7564-962d0d0712ae",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/74895696-b089-778b-7564-962d0d0712ae",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/74895696-b089-778b-7564-962d0d0712ae/TNCloudBackup.png"
+}

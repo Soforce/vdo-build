@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNiPhone5s-png",
+    "BodyLength": 273592,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNiPhone5s.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "536a3b93-0231-a411-48e1-11960a4eff39",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/536a3b93-0231-a411-48e1-11960a4eff39",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/536a3b93-0231-a411-48e1-11960a4eff39/TNiPhone5s.png"
+}

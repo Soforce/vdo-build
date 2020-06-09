@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNBroadbandL-png",
+    "BodyLength": 5686,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNBroadbandL.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "40968a5c-2f8b-de71-351d-f3ec47ff2699",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/40968a5c-2f8b-de71-351d-f3ec47ff2699",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/40968a5c-2f8b-de71-351d-f3ec47ff2699/TNBroadbandL.png"
+}

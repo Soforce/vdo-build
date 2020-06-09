@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNBMAPACXL-png",
+    "BodyLength": 5657,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNBMAPACXL.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "f93ff7ac-ba56-ab55-a26b-ffd6a73d9e50",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/f93ff7ac-ba56-ab55-a26b-ffd6a73d9e50",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/f93ff7ac-ba56-ab55-a26b-ffd6a73d9e50/TNBMAPACXL.png"
+}

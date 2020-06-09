@@ -1,0 +1,418 @@
+[
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "11e5e0e1-e44f-f056-897c-66299e30437a",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/11e5e0e1-e44f-f056-897c-66299e30437a",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "11e5e0e1-e44f-f056-897c-66299e30437a",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Sony Xperia Z5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-1180801947"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "1fe14311-708a-dfa9-8d22-8e493d46c4e7",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/1fe14311-708a-dfa9-8d22-8e493d46c4e7",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "1fe14311-708a-dfa9-8d22-8e493d46c4e7",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Google Pixel XL",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated1892768279"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "36643765-b8ca-7d93-7273-fd659ff19d2d",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/36643765-b8ca-7d93-7273-fd659ff19d2d",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "36643765-b8ca-7d93-7273-fd659ff19d2d",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "iPhone 8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated856046333"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "422d446e-cd3e-4750-7e79-b2cc1629f839",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/422d446e-cd3e-4750-7e79-b2cc1629f839",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "422d446e-cd3e-4750-7e79-b2cc1629f839",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Samsung Galaxy S8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-2140069071"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "444f634a-5548-ad64-0118-c251b7f04514",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/444f634a-5548-ad64-0118-c251b7f04514",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "444f634a-5548-ad64-0118-c251b7f04514",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Samsung Galaxy S8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated723346385"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "536a3b93-0231-a411-48e1-11960a4eff39",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/536a3b93-0231-a411-48e1-11960a4eff39",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "536a3b93-0231-a411-48e1-11960a4eff39",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "iPhone 5s",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated1836396315"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "7e0b4fa5-4290-d439-ba96-f1a1c3708b0b",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/7e0b4fa5-4290-d439-ba96-f1a1c3708b0b",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "7e0b4fa5-4290-d439-ba96-f1a1c3708b0b",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "iPhone 6s Plus",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-1286600734"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "92b1a1ce-6d9f-f82d-30f8-cb4073e908f1",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/92b1a1ce-6d9f-f82d-30f8-cb4073e908f1",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "92b1a1ce-6d9f-f82d-30f8-cb4073e908f1",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Essential",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-427171920"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "9a86f5d9-2e05-ef0d-3492-3479db233ef8",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/9a86f5d9-2e05-ef0d-3492-3479db233ef8",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "9a86f5d9-2e05-ef0d-3492-3479db233ef8",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "iPhone 6s",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-331103462"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a6dd9919-a674-db93-787c-839fb4c1adb3",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/a6dd9919-a674-db93-787c-839fb4c1adb3",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "a6dd9919-a674-db93-787c-839fb4c1adb3",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "iPhone 7",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated720959804"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b008bfc1-b593-cbc0-f37a-76ac36296388",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/b008bfc1-b593-cbc0-f37a-76ac36296388",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "b008bfc1-b593-cbc0-f37a-76ac36296388",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "iPhone X",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-641166499"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b5625adb-4e38-93be-acff-79dc7c6344bf",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/b5625adb-4e38-93be-acff-79dc7c6344bf",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "b5625adb-4e38-93be-acff-79dc7c6344bf",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Apple iPhone 8 Plus",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-524078215"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "cf5caa5f-5474-3cc1-d99a-871e62efd346",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/cf5caa5f-5474-3cc1-d99a-871e62efd346",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "cf5caa5f-5474-3cc1-d99a-871e62efd346",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "iPhone 5c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-1980128309"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d96a5878-2894-7e53-621d-9d948a2adb78",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/d96a5878-2894-7e53-621d-9d948a2adb78",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "d96a5878-2894-7e53-621d-9d948a2adb78",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "HTC 10",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-1173889560"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "e72f9306-388f-3335-eaaf-f9650202eb64",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/e72f9306-388f-3335-eaaf-f9650202eb64",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "e72f9306-388f-3335-eaaf-f9650202eb64",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Apple iPhone SE",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated512998857"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "5a77fb20-febe-d2e8-ed19-c4ba861cb334",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ef82ea67-dc92-2427-ae43-6af11b5f3360",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/ef82ea67-dc92-2427-ae43-6af11b5f3360",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "ef82ea67-dc92-2427-ae43-6af11b5f3360",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Samsung Galaxy S8 Plus",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated821083179"
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNAmazon-png",
+    "BodyLength": 13189,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNAmazon.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "bccb3caa-a342-6081-3ab9-161d2f42eba2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/bccb3caa-a342-6081-3ab9-161d2f42eba2",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/bccb3caa-a342-6081-3ab9-161d2f42eba2/TNAmazon.png"
+}

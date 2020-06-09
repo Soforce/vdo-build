@@ -1,0 +1,80 @@
+[
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "2e2ef5cd-63a9-47a6-5069-16d5efe84299",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/2e2ef5cd-63a9-47a6-5069-16d5efe84299",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "2e2ef5cd-63a9-47a6-5069-16d5efe84299",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "36c697fb-7375-76d2-6269-e68c28a11d74",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/36c697fb-7375-76d2-6269-e68c28a11d74",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "36c697fb-7375-76d2-6269-e68c28a11d74",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "BOGO! Samsung Galaxy S10 5G",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated973302616"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "2e2ef5cd-63a9-47a6-5069-16d5efe84299",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/2e2ef5cd-63a9-47a6-5069-16d5efe84299",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "2e2ef5cd-63a9-47a6-5069-16d5efe84299",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "8cbcdd76-82d3-28b4-5957-037d3cd55f23",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/8cbcdd76-82d3-28b4-5957-037d3cd55f23",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "8cbcdd76-82d3-28b4-5957-037d3cd55f23",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "European Soccer League Championships Access Pass",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-2100255920"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "2e2ef5cd-63a9-47a6-5069-16d5efe84299",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/2e2ef5cd-63a9-47a6-5069-16d5efe84299",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "2e2ef5cd-63a9-47a6-5069-16d5efe84299",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "8dbc7c0d-93f3-1341-a91a-32277b61b449",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/8dbc7c0d-93f3-1341-a91a-32277b61b449",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "8dbc7c0d-93f3-1341-a91a-32277b61b449",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Save $5/mo* on our most popular 5G streaming package",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-27327428"
+    }
+]

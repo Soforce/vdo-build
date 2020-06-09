@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNWatchHermes-png",
+    "BodyLength": 49805,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNWatchHermes.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "8e5562aa-1b41-bce9-2451-eba7eb647484",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/8e5562aa-1b41-bce9-2451-eba7eb647484",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/8e5562aa-1b41-bce9-2451-eba7eb647484/TNWatchHermes.png"
+}

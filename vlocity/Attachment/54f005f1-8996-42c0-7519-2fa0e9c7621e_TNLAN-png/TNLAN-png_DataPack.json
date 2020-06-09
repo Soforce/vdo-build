@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNLAN-png",
+    "BodyLength": 12636,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNLAN.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "54f005f1-8996-42c0-7519-2fa0e9c7621e",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/54f005f1-8996-42c0-7519-2fa0e9c7621e",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/54f005f1-8996-42c0-7519-2fa0e9c7621e/TNLAN.png"
+}

@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNMedal-png",
+    "BodyLength": 13251,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNMedal.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "420bc40f-ebb2-6cfa-efd1-538426a4c578",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/420bc40f-ebb2-6cfa-efd1-538426a4c578",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/420bc40f-ebb2-6cfa-efd1-538426a4c578/TNMedal.png"
+}

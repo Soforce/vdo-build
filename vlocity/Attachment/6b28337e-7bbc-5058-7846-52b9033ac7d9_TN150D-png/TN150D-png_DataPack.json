@@ -1,0 +1,17 @@
+{
+    "Body": "File_TN150D-png",
+    "BodyLength": 35372,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TN150D.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "6b28337e-7bbc-5058-7846-52b9033ac7d9",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/6b28337e-7bbc-5058-7846-52b9033ac7d9",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/6b28337e-7bbc-5058-7846-52b9033ac7d9/TN150D.png"
+}

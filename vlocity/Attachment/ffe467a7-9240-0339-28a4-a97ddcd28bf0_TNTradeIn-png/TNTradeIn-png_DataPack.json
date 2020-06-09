@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNTradeIn-png",
+    "BodyLength": 66155,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNTradeIn.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "ffe467a7-9240-0339-28a4-a97ddcd28bf0",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/ffe467a7-9240-0339-28a4-a97ddcd28bf0",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/ffe467a7-9240-0339-28a4-a97ddcd28bf0/TNTradeIn.png"
+}

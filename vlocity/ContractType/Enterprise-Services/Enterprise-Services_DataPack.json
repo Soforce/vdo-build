@@ -1,0 +1,9 @@
+{
+    "%vlocity_namespace%__ContractTypeSetting__c": "Enterprise-Services_ContractTypeSettings.json",
+    "%vlocity_namespace%__IsDefault__c": false,
+    "%vlocity_namespace%__RecordTypeDeveloperNames__c": "Enterprise_Services",
+    "Name": "Enterprise Services",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__ContractType__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__ContractType__c/Enterprise Services"
+}

@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNPowerbeats-png",
+    "BodyLength": 27568,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNPowerbeats.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "b964a5f4-9403-9309-ba3c-353f9387a1db",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/b964a5f4-9403-9309-ba3c-353f9387a1db",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/b964a5f4-9403-9309-ba3c-353f9387a1db/TNPowerbeats.png"
+}

@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNVoice-png",
+    "BodyLength": 13052,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNVoice.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "b434fa81-3a9b-f4d0-4e5a-facee09b7211",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/b434fa81-3a9b-f4d0-4e5a-facee09b7211",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/b434fa81-3a9b-f4d0-4e5a-facee09b7211/TNVoice.png"
+}

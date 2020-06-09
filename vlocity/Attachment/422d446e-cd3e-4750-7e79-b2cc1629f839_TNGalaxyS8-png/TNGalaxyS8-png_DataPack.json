@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNGalaxyS8-png",
+    "BodyLength": 86293,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNGalaxyS8.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "422d446e-cd3e-4750-7e79-b2cc1629f839",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/422d446e-cd3e-4750-7e79-b2cc1629f839",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/422d446e-cd3e-4750-7e79-b2cc1629f839/TNGalaxyS8.png"
+}

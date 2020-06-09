@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNHome-png",
+    "BodyLength": 3309,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNHome.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "d7df7616-ffb4-53c4-ef18-cd7f23bd28b3",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/d7df7616-ffb4-53c4-ef18-cd7f23bd28b3",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/d7df7616-ffb4-53c4-ef18-cd7f23bd28b3/TNHome.png"
+}

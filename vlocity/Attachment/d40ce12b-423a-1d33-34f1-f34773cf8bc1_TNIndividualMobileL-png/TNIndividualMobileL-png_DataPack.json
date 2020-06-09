@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNIndividualMobileL-png",
+    "BodyLength": 4529,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNIndividualMobileL.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "d40ce12b-423a-1d33-34f1-f34773cf8bc1",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/d40ce12b-423a-1d33-34f1-f34773cf8bc1",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/d40ce12b-423a-1d33-34f1-f34773cf8bc1/TNIndividualMobileL.png"
+}

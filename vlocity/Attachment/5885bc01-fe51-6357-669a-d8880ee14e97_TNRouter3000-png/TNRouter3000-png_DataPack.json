@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNRouter3000-png",
+    "BodyLength": 22039,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNRouter3000.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "5885bc01-fe51-6357-669a-d8880ee14e97",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/5885bc01-fe51-6357-669a-d8880ee14e97",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/5885bc01-fe51-6357-669a-d8880ee14e97/TNRouter3000.png"
+}

@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNToggles-png",
+    "BodyLength": 13208,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNToggles.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "6da9bbef-7f7e-25f3-15d5-b2209e7fad99",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/6da9bbef-7f7e-25f3-15d5-b2209e7fad99",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/6da9bbef-7f7e-25f3-15d5-b2209e7fad99/TNToggles.png"
+}

@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNiPhone8-png",
+    "BodyLength": 25599,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNiPhone8.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "36643765-b8ca-7d93-7273-fd659ff19d2d",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/36643765-b8ca-7d93-7273-fd659ff19d2d",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/36643765-b8ca-7d93-7273-fd659ff19d2d/TNiPhone8.png"
+}

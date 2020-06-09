@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNiPhone5c-png",
+    "BodyLength": 219666,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNiPhone5c.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "cf5caa5f-5474-3cc1-d99a-871e62efd346",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/cf5caa5f-5474-3cc1-d99a-871e62efd346",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/cf5caa5f-5474-3cc1-d99a-871e62efd346/TNiPhone5c.png"
+}

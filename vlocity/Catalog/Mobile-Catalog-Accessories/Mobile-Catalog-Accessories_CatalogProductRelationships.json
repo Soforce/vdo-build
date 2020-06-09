@@ -1,0 +1,54 @@
+[
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "134264c9-d42b-7a36-bb1b-26e6de6abe74",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/134264c9-d42b-7a36-bb1b-26e6de6abe74",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "134264c9-d42b-7a36-bb1b-26e6de6abe74",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "51fe5dd5-65ca-da12-7449-15b49700a88b",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/51fe5dd5-65ca-da12-7449-15b49700a88b",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "51fe5dd5-65ca-da12-7449-15b49700a88b",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "iPhone X Silicone Case",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-1097926185"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "134264c9-d42b-7a36-bb1b-26e6de6abe74",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/134264c9-d42b-7a36-bb1b-26e6de6abe74",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "134264c9-d42b-7a36-bb1b-26e6de6abe74",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "6e28982d-57c8-5bd3-e6db-d66c02c20e43",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/6e28982d-57c8-5bd3-e6db-d66c02c20e43",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "6e28982d-57c8-5bd3-e6db-d66c02c20e43",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Apple AirPods",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated1543063188"
+    }
+]

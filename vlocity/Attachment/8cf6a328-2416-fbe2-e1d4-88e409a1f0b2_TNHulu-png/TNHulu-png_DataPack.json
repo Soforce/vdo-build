@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNHulu-png",
+    "BodyLength": 12447,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNHulu.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "8cf6a328-2416-fbe2-e1d4-88e409a1f0b2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/8cf6a328-2416-fbe2-e1d4-88e409a1f0b2",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/8cf6a328-2416-fbe2-e1d4-88e409a1f0b2/TNHulu.png"
+}

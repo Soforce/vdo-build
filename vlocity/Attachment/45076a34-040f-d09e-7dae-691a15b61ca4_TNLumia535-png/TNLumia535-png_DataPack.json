@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNLumia535-png",
+    "BodyLength": 214469,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNLumia535.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "45076a34-040f-d09e-7dae-691a15b61ca4",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/45076a34-040f-d09e-7dae-691a15b61ca4",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/45076a34-040f-d09e-7dae-691a15b61ca4/TNLumia535.png"
+}

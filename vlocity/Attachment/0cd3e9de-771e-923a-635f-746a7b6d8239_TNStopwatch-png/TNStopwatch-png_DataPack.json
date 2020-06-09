@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNStopwatch-png",
+    "BodyLength": 13327,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNStopwatch.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "0cd3e9de-771e-923a-635f-746a7b6d8239",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/0cd3e9de-771e-923a-635f-746a7b6d8239",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/0cd3e9de-771e-923a-635f-746a7b6d8239/TNStopwatch.png"
+}

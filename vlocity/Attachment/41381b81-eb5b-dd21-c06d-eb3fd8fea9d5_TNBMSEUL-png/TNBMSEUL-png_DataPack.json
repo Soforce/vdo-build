@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNBMSEUL-png",
+    "BodyLength": 4970,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNBMSEUL.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "41381b81-eb5b-dd21-c06d-eb3fd8fea9d5",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/41381b81-eb5b-dd21-c06d-eb3fd8fea9d5",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/41381b81-eb5b-dd21-c06d-eb3fd8fea9d5/TNBMSEUL.png"
+}

@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNGalaxyS7Edge-png",
+    "BodyLength": 101668,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNGalaxyS7Edge.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "1fe14311-708a-dfa9-8d22-8e493d46c4e7",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/1fe14311-708a-dfa9-8d22-8e493d46c4e7",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/1fe14311-708a-dfa9-8d22-8e493d46c4e7/TNGalaxyS7Edge.png"
+}

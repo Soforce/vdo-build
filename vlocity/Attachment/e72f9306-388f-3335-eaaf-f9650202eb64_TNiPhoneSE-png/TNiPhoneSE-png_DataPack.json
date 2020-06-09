@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNiPhoneSE-png",
+    "BodyLength": 41038,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNiPhoneSE.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "e72f9306-388f-3335-eaaf-f9650202eb64",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/e72f9306-388f-3335-eaaf-f9650202eb64",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/e72f9306-388f-3335-eaaf-f9650202eb64/TNiPhoneSE.png"
+}

@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNDocumentary-png",
+    "BodyLength": 26923,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNDocumentary.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "758a5323-90ca-34cb-3836-a6928db34616",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/758a5323-90ca-34cb-3836-a6928db34616",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/758a5323-90ca-34cb-3836-a6928db34616/TNDocumentary.png"
+}

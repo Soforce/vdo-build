@@ -1,0 +1,16 @@
+{
+    "%vlocity_namespace%__Category__c": "Services",
+    "%vlocity_namespace%__ClauseContent__c": "If You register on Our website for a free trial, We will make one or more Services available to You on a trial basis free\nof charge until the earlier of (a) the end of the free trial period for which You registered to use the applicable\nService(s), or (b) the start date of any Purchased Service subscriptions ordered by You for such Service(s), or (c)\ntermination by Us in our sole discretion. Additional trial terms and conditions may appear on the trial registration web\npage. Any such additional terms and conditions are incorporated into this Agreement by reference and are legally\nbinding.\n\nANY DATA YOU ENTER INTO THE SERVICES, AND ANY CUSTOMIZATIONS MADE TO THE SERVICES BY OR\nFOR YOU, DURING YOUR FREE TRIAL WILL BE PERMANENTLY LOST UNLESS YOU PURCHASE A\nSUBSCRIPTION TO THE SAME SERVICES AS THOSE COVERED BY THE TRIAL, PURCHASE APPLICABLE\nUPGRADED SERVICES, OR EXPORT SUCH DATA, BEFORE THE END OF THE TRIAL PERIOD. YOU CANNOT\nTRANSFER DATA ENTERED OR CUSTOMIZATIONS MADE DURING THE FREE TRIAL TO A SERVICE THAT\nWOULD BE A DOWNGRADE FROM THAT COVERED BY THE TRIAL (E.G., FROM ENTERPRISE EDITION TO\nPROFESSIONAL EDITION); THEREFORE, IF YOU PURCHASE A SERVICE THAT WOULD BE A\nDOWNGRADE FROM THAT COVERED BY THE TRIAL, YOU MUST EXPORT YOUR DATA BEFORE THE END\nOF THE TRIAL PERIOD OR YOUR DATA WILL BE PERMANENTLY LOST.\nNOTWITHSTANDING SECTION 9 (REPRESENTATIONS, WARRANTIES, EXCLUSIVE REMEDIES AND DISCLAIMERS),\nDURING THE FREE TRIAL THE SERVICES ARE PROVIDED “AS-IS” WITHOUT ANY WARRANTY.\n\nPlease review the applicable Service’s Documentation during the trial period so that You become familiar with the\nfeatures and functions of the Services before You make Your purchase.",
+    "%vlocity_namespace%__ContractTypes__c": "",
+    "%vlocity_namespace%__IsArchived__c": false,
+    "%vlocity_namespace%__IsContentFormatted__c": false,
+    "%vlocity_namespace%__IsRestricted__c": false,
+    "%vlocity_namespace%__LocaleCode__c": "",
+    "%vlocity_namespace%__ShortName__c": "",
+    "%vlocity_namespace%__Tokens__c": "",
+    "%vlocity_namespace%__Type__c": "Generic",
+    "Name": "Free Trial",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentClause__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentClause__c/Free Trial"
+}

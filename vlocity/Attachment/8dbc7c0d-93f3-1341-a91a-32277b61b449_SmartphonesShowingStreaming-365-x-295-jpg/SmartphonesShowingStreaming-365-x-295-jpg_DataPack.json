@@ -1,0 +1,17 @@
+{
+    "Body": "File_SmartphonesShowingStreaming-365-x-295-jpg",
+    "BodyLength": 160920,
+    "ContentType": "image/jpeg",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "SmartphonesShowingStreaming 365 x 295.jpg",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "8dbc7c0d-93f3-1341-a91a-32277b61b449",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/8dbc7c0d-93f3-1341-a91a-32277b61b449",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/8dbc7c0d-93f3-1341-a91a-32277b61b449/SmartphonesShowingStreaming 365 x 295.jpg"
+}

@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNXperiaZ5-png",
+    "BodyLength": 121827,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNXperiaZ5.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "11e5e0e1-e44f-f056-897c-66299e30437a",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/11e5e0e1-e44f-f056-897c-66299e30437a",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/11e5e0e1-e44f-f056-897c-66299e30437a/TNXperiaZ5.png"
+}

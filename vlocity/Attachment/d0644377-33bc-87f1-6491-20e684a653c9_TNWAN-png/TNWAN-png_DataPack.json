@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNWAN-png",
+    "BodyLength": 13287,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNWAN.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "d0644377-33bc-87f1-6491-20e684a653c9",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/d0644377-33bc-87f1-6491-20e684a653c9",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/d0644377-33bc-87f1-6491-20e684a653c9/TNWAN.png"
+}

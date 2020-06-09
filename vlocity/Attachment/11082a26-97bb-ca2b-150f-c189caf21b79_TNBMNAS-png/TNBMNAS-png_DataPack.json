@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNBMNAS-png",
+    "BodyLength": 5235,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNBMNAS.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "11082a26-97bb-ca2b-150f-c189caf21b79",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/11082a26-97bb-ca2b-150f-c189caf21b79",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/11082a26-97bb-ca2b-150f-c189caf21b79/TNBMNAS.png"
+}

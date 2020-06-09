@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNEssential-png",
+    "BodyLength": 66812,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNEssential.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "92b1a1ce-6d9f-f82d-30f8-cb4073e908f1",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/92b1a1ce-6d9f-f82d-30f8-cb4073e908f1",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/92b1a1ce-6d9f-f82d-30f8-cb4073e908f1/TNEssential.png"
+}

@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__AttributeCategoryId__c": {
+        "%vlocity_namespace%__Code__c": "VLO-PER-0003",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeCategory__c/VLO-PER-0003",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeCategory__c"
+    },
+    "%vlocity_namespace%__AttributeId__c": {
+        "%vlocity_namespace%__Code__c": "ATTRIBUTE-051",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Attribute__c/ATTRIBUTE-051",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Attribute__c"
+    },
+    "%vlocity_namespace%__Data__c": "",
+    "%vlocity_namespace%__IsActive__c": false,
+    "%vlocity_namespace%__SObjectTypes__c": "",
+    "%vlocity_namespace%__Service__c": "",
+    "%vlocity_namespace%__Type__c": "Field",
+    "Name": "AttributeAssignmentRule__ca3X3h000000pCnQ",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignmentRule__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignmentRule__c/AttributeAssignmentRule__ca3X3h000000pCnQ"
+}

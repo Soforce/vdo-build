@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNFibreM-png",
+    "BodyLength": 5927,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNFibreM.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "16dbbe3d-cdd6-6faa-f8c5-ffd7996d142e",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/16dbbe3d-cdd6-6faa-f8c5-ffd7996d142e",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/16dbbe3d-cdd6-6faa-f8c5-ffd7996d142e/TNFibreM.png"
+}

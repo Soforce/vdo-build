@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNTravel-png",
+    "BodyLength": 14022,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNTravel.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "16b68bce-bfd3-25f6-04db-cda7afae2b41",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/16b68bce-bfd3-25f6-04db-cda7afae2b41",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/16b68bce-bfd3-25f6-04db-cda7afae2b41/TNTravel.png"
+}

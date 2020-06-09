@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNArt-png",
+    "BodyLength": 13100,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNArt.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "ec465c54-6afb-f836-40a7-2ec9c7ad3171",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/ec465c54-6afb-f836-40a7-2ec9c7ad3171",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/ec465c54-6afb-f836-40a7-2ec9c7ad3171/TNArt.png"
+}

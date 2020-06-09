@@ -1,0 +1,17 @@
+{
+    "Body": "File_Soccer-365-x-295-jpg",
+    "BodyLength": 118862,
+    "ContentType": "image/jpeg",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "Soccer 365 x 295.jpg",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "8cbcdd76-82d3-28b4-5957-037d3cd55f23",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/8cbcdd76-82d3-28b4-5957-037d3cd55f23",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/8cbcdd76-82d3-28b4-5957-037d3cd55f23/Soccer 365 x 295.jpg"
+}

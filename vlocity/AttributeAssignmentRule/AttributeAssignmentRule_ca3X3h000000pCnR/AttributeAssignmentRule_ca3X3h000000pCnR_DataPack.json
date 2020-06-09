@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__AttributeCategoryId__c": {
+        "%vlocity_namespace%__Code__c": "VLO-PER-0001",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeCategory__c/VLO-PER-0001",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeCategory__c"
+    },
+    "%vlocity_namespace%__AttributeId__c": {
+        "%vlocity_namespace%__Code__c": "633c72e4-9cdb-fc26-984e-5c7d87d53ba4",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Attribute__c/633c72e4-9cdb-fc26-984e-5c7d87d53ba4",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Attribute__c"
+    },
+    "%vlocity_namespace%__Data__c": "",
+    "%vlocity_namespace%__IsActive__c": false,
+    "%vlocity_namespace%__SObjectTypes__c": "",
+    "%vlocity_namespace%__Service__c": "",
+    "%vlocity_namespace%__Type__c": "Formula",
+    "Name": "AttributeAssignmentRule__ca3X3h000000pCnR",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignmentRule__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignmentRule__c/AttributeAssignmentRule__ca3X3h000000pCnR"
+}

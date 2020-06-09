@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNUrbeats-png",
+    "BodyLength": 22009,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNUrbeats.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "08cc9bbc-5ea3-d1b3-3a56-b135dc284f7b",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/08cc9bbc-5ea3-d1b3-3a56-b135dc284f7b",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/08cc9bbc-5ea3-d1b3-3a56-b135dc284f7b/TNUrbeats.png"
+}

@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNPBXFlex-png",
+    "BodyLength": 3730,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNPBXFlex.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "5445741e-77e5-78ab-5309-643700cdb454",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/5445741e-77e5-78ab-5309-643700cdb454",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/5445741e-77e5-78ab-5309-643700cdb454/TNPBXFlex.png"
+}

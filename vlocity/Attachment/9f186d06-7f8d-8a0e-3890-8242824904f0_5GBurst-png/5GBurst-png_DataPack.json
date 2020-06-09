@@ -1,0 +1,17 @@
+{
+    "Body": "File_5GBurst-png",
+    "BodyLength": 44299,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "5GBurst.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "9f186d06-7f8d-8a0e-3890-8242824904f0",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/9f186d06-7f8d-8a0e-3890-8242824904f0",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/9f186d06-7f8d-8a0e-3890-8242824904f0/5GBurst.png"
+}

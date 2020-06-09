@@ -1,0 +1,171 @@
+[
+    {
+        "%vlocity_namespace%__ContextMappingArgument__c": [
+            {
+                "%vlocity_namespace%__ArgumentSequence__c": 10,
+                "%vlocity_namespace%__ContextDimensionId__c": "",
+                "%vlocity_namespace%__ContextMappingId__c": {
+                    "Name": "a3b3h000000MOOA",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ContextMapping__c/Generated715953841",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__ContextMapping__c"
+                },
+                "%vlocity_namespace%__DomainType__c": "Type in",
+                "%vlocity_namespace%__FunctionArgumentId__c": {
+                    "%vlocity_namespace%__GlobalKey__c": "d29e902c-d926-e82e-a80e-b54bb108b264",
+                    "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                    "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityFunctionArgument__c/d29e902c-d926-e82e-a80e-b54bb108b264",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityFunctionArgument__c"
+                },
+                "%vlocity_namespace%__ObjectId__c": "",
+                "%vlocity_namespace%__PicklistValueId__c": "",
+                "%vlocity_namespace%__Value__c": "EF-Asset-Eligibility",
+                "Name": "EntityFilterCode",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__ContextMappingArgument__c",
+                "VlocityRecordSourceKey": "%vlocity_namespace%__ContextMappingArgument__c/Generated-435196305"
+            },
+            {
+                "%vlocity_namespace%__ArgumentSequence__c": 20,
+                "%vlocity_namespace%__ContextDimensionId__c": {
+                    "%vlocity_namespace%__GlobalKey__c": "1a0cbc65a2c599ea8fac82cac7f1e3a9",
+                    "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                    "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ContextDimension__c/1a0cbc65a2c599ea8fac82cac7f1e3a9",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__ContextDimension__c"
+                },
+                "%vlocity_namespace%__ContextMappingId__c": {
+                    "Name": "a3b3h000000MOOA",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ContextMapping__c/Generated715953841",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__ContextMapping__c"
+                },
+                "%vlocity_namespace%__DomainType__c": "Context Dimension",
+                "%vlocity_namespace%__FunctionArgumentId__c": {
+                    "%vlocity_namespace%__GlobalKey__c": "de6c7ada-242c-efd8-c590-d5d8a42fb993",
+                    "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                    "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityFunctionArgument__c/de6c7ada-242c-efd8-c590-d5d8a42fb993",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityFunctionArgument__c"
+                },
+                "%vlocity_namespace%__ObjectId__c": "",
+                "%vlocity_namespace%__PicklistValueId__c": "",
+                "%vlocity_namespace%__Value__c": "",
+                "Name": "AccountId",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__ContextMappingArgument__c",
+                "VlocityRecordSourceKey": "%vlocity_namespace%__ContextMappingArgument__c/Generated-1487808807"
+            },
+            {
+                "%vlocity_namespace%__ArgumentSequence__c": 30,
+                "%vlocity_namespace%__ContextDimensionId__c": "",
+                "%vlocity_namespace%__ContextMappingId__c": {
+                    "Name": "a3b3h000000MOOA",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ContextMapping__c/Generated715953841",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__ContextMapping__c"
+                },
+                "%vlocity_namespace%__DomainType__c": "Type in",
+                "%vlocity_namespace%__FunctionArgumentId__c": {
+                    "%vlocity_namespace%__GlobalKey__c": "d51f6db7-66f5-467c-513b-4359007d3325",
+                    "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                    "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityFunctionArgument__c/d51f6db7-66f5-467c-513b-4359007d3325",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityFunctionArgument__c"
+                },
+                "%vlocity_namespace%__ObjectId__c": "",
+                "%vlocity_namespace%__PicklistValueId__c": "",
+                "%vlocity_namespace%__Value__c": "'Asset'",
+                "Name": "ObjectName",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__ContextMappingArgument__c",
+                "VlocityRecordSourceKey": "%vlocity_namespace%__ContextMappingArgument__c/Generated1501930992"
+            },
+            {
+                "%vlocity_namespace%__ArgumentSequence__c": 40,
+                "%vlocity_namespace%__ContextDimensionId__c": {
+                    "%vlocity_namespace%__GlobalKey__c": "b5a338861a9a9fe5260ee1a287a75e23",
+                    "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                    "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ContextDimension__c/b5a338861a9a9fe5260ee1a287a75e23",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__ContextDimension__c"
+                },
+                "%vlocity_namespace%__ContextMappingId__c": {
+                    "Name": "a3b3h000000MOOA",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ContextMapping__c/Generated715953841",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__ContextMapping__c"
+                },
+                "%vlocity_namespace%__DomainType__c": "Context Dimension",
+                "%vlocity_namespace%__FunctionArgumentId__c": {
+                    "%vlocity_namespace%__GlobalKey__c": "40c5ec54-347c-8f08-2efa-362198996448",
+                    "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                    "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityFunctionArgument__c/40c5ec54-347c-8f08-2efa-362198996448",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityFunctionArgument__c"
+                },
+                "%vlocity_namespace%__ObjectId__c": "",
+                "%vlocity_namespace%__PicklistValueId__c": "",
+                "%vlocity_namespace%__Value__c": "",
+                "Name": "OrderId",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__ContextMappingArgument__c",
+                "VlocityRecordSourceKey": "%vlocity_namespace%__ContextMappingArgument__c/Generated-577634428"
+            },
+            {
+                "%vlocity_namespace%__ArgumentSequence__c": 50,
+                "%vlocity_namespace%__ContextDimensionId__c": "",
+                "%vlocity_namespace%__ContextMappingId__c": {
+                    "Name": "a3b3h000000MOOA",
+                    "VlocityDataPackType": "VlocityMatchingKeyObject",
+                    "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ContextMapping__c/Generated715953841",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__ContextMapping__c"
+                },
+                "%vlocity_namespace%__DomainType__c": "Type in",
+                "%vlocity_namespace%__FunctionArgumentId__c": {
+                    "%vlocity_namespace%__GlobalKey__c": "40e80d41-7149-674c-bdf4-391bd9e6eeeb",
+                    "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                    "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityFunctionArgument__c/40e80d41-7149-674c-bdf4-391bd9e6eeeb",
+                    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityFunctionArgument__c"
+                },
+                "%vlocity_namespace%__ObjectId__c": "",
+                "%vlocity_namespace%__PicklistValueId__c": "",
+                "%vlocity_namespace%__Value__c": "false",
+                "Name": "outputFunc",
+                "VlocityDataPackType": "SObject",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__ContextMappingArgument__c",
+                "VlocityRecordSourceKey": "%vlocity_namespace%__ContextMappingArgument__c/Generated-1178728989"
+            }
+        ],
+        "%vlocity_namespace%__ContextScopeId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "6920ab8aceb76c8b7fa83df908fb8560",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ContextScope__c/6920ab8aceb76c8b7fa83df908fb8560",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ContextScope__c"
+        },
+        "%vlocity_namespace%__Destination__c": "",
+        "%vlocity_namespace%__Dimension__c": {
+            "%vlocity_namespace%__GlobalKey__c": "bd19ac6f-a121-9b70-d816-a5a84329acd6",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ContextDimension__c/bd19ac6f-a121-9b70-d816-a5a84329acd6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ContextDimension__c"
+        },
+        "%vlocity_namespace%__EffectiveFromDate__c": "",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__FunctionExpression__c": "evaluateAssetEntityFilter( 'EF-Asset-Eligibility' , CurrentAccount ,  'Asset' , CurrentOrder)",
+        "%vlocity_namespace%__FunctionJSON__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__InitializationPolicy__c": "Always Initialize",
+        "%vlocity_namespace%__InitializationType__c": "Function",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__Scope__c": "",
+        "%vlocity_namespace%__Sequence__c": 10,
+        "%vlocity_namespace%__Source__c": "",
+        "%vlocity_namespace%__TypeInValue__c": "",
+        "%vlocity_namespace%__VlocityFunctionId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "0bbe302a-2d5b-fec3-5e08-9acff8eb4e22",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityFunction__c/0bbe302a-2d5b-fec3-5e08-9acff8eb4e22",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityFunction__c"
+        },
+        "Name": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ContextMapping__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ContextMapping__c/Generated715953841"
+    }
+]

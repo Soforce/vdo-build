@@ -1,0 +1,17 @@
+{
+    "Body": "File_TN2D-png",
+    "BodyLength": 34931,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TN2D.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "6fd3fd36-b4be-f29a-03b3-bd0e07c13fc4",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/6fd3fd36-b4be-f29a-03b3-bd0e07c13fc4",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/6fd3fd36-b4be-f29a-03b3-bd0e07c13fc4/TN2D.png"
+}

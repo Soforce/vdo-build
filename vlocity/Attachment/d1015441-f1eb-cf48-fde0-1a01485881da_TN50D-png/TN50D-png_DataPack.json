@@ -1,0 +1,17 @@
+{
+    "Body": "File_TN50D-png",
+    "BodyLength": 35674,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TN50D.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "d1015441-f1eb-cf48-fde0-1a01485881da",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/d1015441-f1eb-cf48-fde0-1a01485881da",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/d1015441-f1eb-cf48-fde0-1a01485881da/TN50D.png"
+}

@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNJawboneUp3-png",
+    "BodyLength": 33592,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNJawboneUp3.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "cb356bbe-f9be-b4e2-518d-41e5dccb8e87",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/cb356bbe-f9be-b4e2-518d-41e5dccb8e87",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/cb356bbe-f9be-b4e2-518d-41e5dccb8e87/TNJawboneUp3.png"
+}

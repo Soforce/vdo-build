@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__ActionClassName__c": "ApplyFrameContractPrice",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "076bd972-e3d8-6c80-70f7-bc14c83710a2",
+    "%vlocity_namespace%__SubType__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "Name": "ApplyFrameContract",
+    "RecordTypeId": {
+        "DeveloperName": "ClassBased",
+        "SobjectType": "%vlocity_namespace%__CalculationProcedure__c",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/%vlocity_namespace%__CalculationProcedure__c/ClassBased",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/ApplyFrameContract"
+}

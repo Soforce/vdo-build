@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNHTC10-png",
+    "BodyLength": 123019,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNHTC10.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "d96a5878-2894-7e53-621d-9d948a2adb78",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/d96a5878-2894-7e53-621d-9d948a2adb78",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/d96a5878-2894-7e53-621d-9d948a2adb78/TNHTC10.png"
+}

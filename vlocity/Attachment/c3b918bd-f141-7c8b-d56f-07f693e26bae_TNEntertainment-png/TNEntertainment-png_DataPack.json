@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNEntertainment-png",
+    "BodyLength": 134564,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNEntertainment.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "c3b918bd-f141-7c8b-d56f-07f693e26bae",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/c3b918bd-f141-7c8b-d56f-07f693e26bae",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/c3b918bd-f141-7c8b-d56f-07f693e26bae/TNEntertainment.png"
+}

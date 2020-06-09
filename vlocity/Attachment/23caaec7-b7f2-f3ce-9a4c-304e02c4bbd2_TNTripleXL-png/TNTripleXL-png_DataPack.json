@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNTripleXL-png",
+    "BodyLength": 54497,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNTripleXL.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "23caaec7-b7f2-f3ce-9a4c-304e02c4bbd2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/23caaec7-b7f2-f3ce-9a4c-304e02c4bbd2",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/23caaec7-b7f2-f3ce-9a4c-304e02c4bbd2/TNTripleXL.png"
+}

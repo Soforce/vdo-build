@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNBMAPACS-png",
+    "BodyLength": 5235,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNBMAPACS.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "4220667c-664c-2ec0-8046-7d628e36f5e7",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/4220667c-664c-2ec0-8046-7d628e36f5e7",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/4220667c-664c-2ec0-8046-7d628e36f5e7/TNBMAPACS.png"
+}

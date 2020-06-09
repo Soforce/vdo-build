@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNHeadphones-png",
+    "BodyLength": 12993,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNHeadphones.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "193ef9b9-2c27-27a3-d14d-77437795974d",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/193ef9b9-2c27-27a3-d14d-77437795974d",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/193ef9b9-2c27-27a3-d14d-77437795974d/TNHeadphones.png"
+}

@@ -1,0 +1,16 @@
+{
+    "%vlocity_namespace%__Category__c": "License",
+    "%vlocity_namespace%__ClauseContent__c": "Protection of Your Data. We will maintain administrative, physical, and technical safeguards for protection of\nthe security, confidentiality and integrity of Your Data, as described in the Documentation. Those safeguards will\ninclude, but will not be limited to, measures for preventing access, use, modification or disclosure of Your Data by Our\npersonnel except (a) to provide the Purchased Services and prevent or address service or technical problems, (b) as\ncompelled by law in accordance with Section 8.3 (Compelled Disclosure) below, or (c) as You expressly permit in\nwriting. Where Your use of the Services includes the processing of personal data (as described in the EU Data Protection\nDirective 95/46/EC) within the European Economic Area (EEA), except in respect of any usage during a Free Trial, the\nterms of the data processing addendum at http://www.sfdcstatic.com/assets/pdf/misc/data-processing-addendum.pdf\n(“DPA”) shall apply to such processing, and are hereby incorporated by reference. For the purposes of the Standard\nContractual Clauses in Attachment 1 to the DPA, You are the data exporter, and Your acceptance of this Agreement shall\nbe treated as Your signature of the Standard Contractual Clauses and appendices.",
+    "%vlocity_namespace%__ContractTypes__c": "",
+    "%vlocity_namespace%__IsArchived__c": false,
+    "%vlocity_namespace%__IsContentFormatted__c": false,
+    "%vlocity_namespace%__IsRestricted__c": false,
+    "%vlocity_namespace%__LocaleCode__c": "",
+    "%vlocity_namespace%__ShortName__c": "",
+    "%vlocity_namespace%__Tokens__c": "",
+    "%vlocity_namespace%__Type__c": "Generic",
+    "Name": "Protection of Your Data",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentClause__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentClause__c/Protection of Your Data"
+}

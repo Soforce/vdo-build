@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNHTCOneM9-png",
+    "BodyLength": 326726,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNHTCOneM9.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "e47942a8-8de3-d0bd-5605-94e503a40ace",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/e47942a8-8de3-d0bd-5605-94e503a40ace",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/e47942a8-8de3-d0bd-5605-94e503a40ace/TNHTCOneM9.png"
+}

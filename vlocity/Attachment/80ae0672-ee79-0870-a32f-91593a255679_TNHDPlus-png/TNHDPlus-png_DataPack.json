@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNHDPlus-png",
+    "BodyLength": 94535,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNHDPlus.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "80ae0672-ee79-0870-a32f-91593a255679",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/80ae0672-ee79-0870-a32f-91593a255679",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/80ae0672-ee79-0870-a32f-91593a255679/TNHDPlus.png"
+}

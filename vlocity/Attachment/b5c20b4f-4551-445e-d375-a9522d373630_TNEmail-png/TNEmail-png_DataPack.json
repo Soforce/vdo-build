@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNEmail-png",
+    "BodyLength": 12892,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNEmail.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "b5c20b4f-4551-445e-d375-a9522d373630",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/b5c20b4f-4551-445e-d375-a9522d373630",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/b5c20b4f-4551-445e-d375-a9522d373630/TNEmail.png"
+}

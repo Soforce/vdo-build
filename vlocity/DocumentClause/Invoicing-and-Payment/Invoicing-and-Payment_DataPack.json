@@ -1,0 +1,16 @@
+{
+    "%vlocity_namespace%__Category__c": "Services",
+    "%vlocity_namespace%__ClauseContent__c": "Invoicing and Payment. You will provide Us with valid and updated credit card information, or with a valid\npurchase order or alternative document reasonably acceptable to Us. If You provide credit card information to Us,\nYou authorize Us to charge such credit card for all Purchased Services listed in the Order Form for the initial\nsubscription term and any renewal subscription term(s) as set forth in Section 12.2 (Term of Purchased\nSubscriptions). Such charges shall be made in advance, either annually or in accordance with any different billing\nfrequency stated in the applicable Order Form. If the Order Form specifies that payment will be by a method other\nthan a credit card, We will invoice You in advance and otherwise in accordance with the relevant Order Form. Unless\notherwise stated in the Order Form, invoiced charges are due net 30 days from the invoice date. You are responsible\nfor providing complete and accurate billing and contact information to Us and notifying Us of any changes to such\ninformation.",
+    "%vlocity_namespace%__ContractTypes__c": "",
+    "%vlocity_namespace%__IsArchived__c": false,
+    "%vlocity_namespace%__IsContentFormatted__c": false,
+    "%vlocity_namespace%__IsRestricted__c": false,
+    "%vlocity_namespace%__LocaleCode__c": "",
+    "%vlocity_namespace%__ShortName__c": "",
+    "%vlocity_namespace%__Tokens__c": "",
+    "%vlocity_namespace%__Type__c": "Generic",
+    "Name": "Invoicing and Payment",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentClause__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentClause__c/Invoicing and Payment"
+}

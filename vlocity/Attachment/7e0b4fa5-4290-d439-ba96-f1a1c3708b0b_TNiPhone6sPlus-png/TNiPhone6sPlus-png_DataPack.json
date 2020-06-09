@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNiPhone6sPlus-png",
+    "BodyLength": 295904,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNiPhone6sPlus.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "7e0b4fa5-4290-d439-ba96-f1a1c3708b0b",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/7e0b4fa5-4290-d439-ba96-f1a1c3708b0b",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/7e0b4fa5-4290-d439-ba96-f1a1c3708b0b/TNiPhone6sPlus.png"
+}

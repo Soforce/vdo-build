@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNEarpods-png",
+    "BodyLength": 10624,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNEarpods.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "51fe5dd5-65ca-da12-7449-15b49700a88b",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/51fe5dd5-65ca-da12-7449-15b49700a88b",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/51fe5dd5-65ca-da12-7449-15b49700a88b/TNEarpods.png"
+}

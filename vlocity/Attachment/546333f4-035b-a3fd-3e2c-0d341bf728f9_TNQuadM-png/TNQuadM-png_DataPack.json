@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNQuadM-png",
+    "BodyLength": 54008,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNQuadM.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "546333f4-035b-a3fd-3e2c-0d341bf728f9",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/546333f4-035b-a3fd-3e2c-0d341bf728f9",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/546333f4-035b-a3fd-3e2c-0d341bf728f9/TNQuadM.png"
+}

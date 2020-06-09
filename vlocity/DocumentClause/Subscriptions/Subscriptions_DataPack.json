@@ -1,0 +1,16 @@
+{
+    "%vlocity_namespace%__Category__c": "License",
+    "%vlocity_namespace%__ClauseContent__c": "Subscriptions. Unless otherwise provided in the applicable Order Form or Documentation, (a) Services and\naccess to Content are purchased as subscriptions, (b) subscriptions may be added during a subscription term at the\nsame pricing as the underlying subscription pricing, prorated for the portion of that subscription term remaining at\nthe time the subscriptions are added, and (c) any added subscriptions will terminate on the same date as the\nunderlying subscriptions.",
+    "%vlocity_namespace%__ContractTypes__c": "",
+    "%vlocity_namespace%__IsArchived__c": false,
+    "%vlocity_namespace%__IsContentFormatted__c": false,
+    "%vlocity_namespace%__IsRestricted__c": false,
+    "%vlocity_namespace%__LocaleCode__c": "",
+    "%vlocity_namespace%__ShortName__c": "",
+    "%vlocity_namespace%__Tokens__c": "",
+    "%vlocity_namespace%__Type__c": "Generic",
+    "Name": "Subscriptions",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentClause__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentClause__c/Subscriptions"
+}

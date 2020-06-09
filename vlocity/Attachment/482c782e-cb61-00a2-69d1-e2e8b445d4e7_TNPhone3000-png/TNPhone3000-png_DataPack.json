@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNPhone3000-png",
+    "BodyLength": 36795,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNPhone3000.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "482c782e-cb61-00a2-69d1-e2e8b445d4e7",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/482c782e-cb61-00a2-69d1-e2e8b445d4e7",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/482c782e-cb61-00a2-69d1-e2e8b445d4e7/TNPhone3000.png"
+}

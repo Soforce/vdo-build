@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNWatch-png",
+    "BodyLength": 57809,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNWatch.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "40bd45b0-c00a-072c-f494-5795b934a029",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/40bd45b0-c00a-072c-f494-5795b934a029",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/40bd45b0-c00a-072c-f494-5795b934a029/TNWatch.png"
+}

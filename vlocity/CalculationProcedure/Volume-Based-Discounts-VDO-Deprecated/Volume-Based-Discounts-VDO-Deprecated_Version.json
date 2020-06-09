@@ -1,0 +1,140 @@
+{
+    "%vlocity_namespace%__ApplicableObject__c": "OrderItem",
+    "%vlocity_namespace%__CalculationProcedureId__c": {
+        "Name": "Volume Based Discounts (VDO Deprecated)",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/Volume Based Discounts (VDO Deprecated)",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+    },
+    "%vlocity_namespace%__CalculationProcedureId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+    "%vlocity_namespace%__CalculationProcedureStep__c": "Volume-Based-Discounts-VDO-Deprecated_Version_Steps.json",
+    "%vlocity_namespace%__Constants__c": [
+        {
+            "alias": "One",
+            "dataType": "Number",
+            "isEditable": false,
+            "name": "One",
+            "userDefined": true,
+            "value": "1"
+        }
+    ],
+    "%vlocity_namespace%__CurrentStatus__c": "Active",
+    "%vlocity_namespace%__EnableLooping__c": false,
+    "%vlocity_namespace%__EndDateTime__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "a23a855e-fa93-811a-bc66-ddf313ac9a3c",
+    "%vlocity_namespace%__InputBundleId__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "",
+    "%vlocity_namespace%__LoopingSpecification__c": "",
+    "%vlocity_namespace%__OutputBundleId__c": "",
+    "%vlocity_namespace%__PostProcessorClass__c": "CalcProcPostProcessor",
+    "%vlocity_namespace%__PreProcessorClass__c": "CalcProcPreProcessor",
+    "%vlocity_namespace%__Priority__c": 4,
+    "%vlocity_namespace%__StartDateTime__c": "2016-01-03T00:52:00.000Z",
+    "%vlocity_namespace%__Variables__c": [
+        {
+            "alias": "OneTimeCharge",
+            "dataType": "Currency",
+            "isEditable": false,
+            "name": "OneTimeCharge",
+            "typeaheadDisplayName": "",
+            "userDefined": true
+        },
+        {
+            "alias": "RecurringCharge",
+            "dataType": "Currency",
+            "isEditable": false,
+            "name": "RecurringCharge",
+            "typeaheadDisplayName": "",
+            "userDefined": true
+        },
+        {
+            "alias": "OneTimeCalculatedPrice",
+            "dataType": "Currency",
+            "isEditable": false,
+            "name": "OneTimeCalculatedPrice",
+            "typeaheadDisplayName": "",
+            "userDefined": true
+        },
+        {
+            "alias": "OneTimeTotal",
+            "dataType": "Currency",
+            "isEditable": false,
+            "name": "OneTimeTotal",
+            "typeaheadDisplayName": "",
+            "userDefined": true
+        },
+        {
+            "alias": "RecurringCalculatedPrice",
+            "dataType": "Currency",
+            "isEditable": false,
+            "name": "RecurringCalculatedPrice",
+            "typeaheadDisplayName": "",
+            "userDefined": true
+        },
+        {
+            "alias": "RecurringTotal",
+            "dataType": "Currency",
+            "isEditable": false,
+            "name": "RecurringTotal",
+            "typeaheadDisplayName": "",
+            "userDefined": true
+        },
+        {
+            "alias": "OneTimeManualDiscountPercent",
+            "dataType": "Percent",
+            "isEditable": false,
+            "name": "OneTimeManualDiscountPercent",
+            "typeaheadDisplayName": "",
+            "userDefined": true
+        },
+        {
+            "alias": "RecurringManualDiscountPercent",
+            "dataType": "Percent",
+            "isEditable": false,
+            "name": "RecurringManualDiscountPercent",
+            "typeaheadDisplayName": "",
+            "userDefined": true
+        },
+        {
+            "alias": "Product",
+            "dataType": "Text",
+            "isEditable": false,
+            "matrixName": "Volume Based Discounts",
+            "name": "Product",
+            "typeaheadDisplayName": "Product",
+            "userDefined": false
+        },
+        {
+            "alias": "Quantity",
+            "dataType": "Number Range",
+            "isEditable": false,
+            "matrixName": "Volume Based Discounts",
+            "name": "Quantity",
+            "typeaheadDisplayName": "Quantity",
+            "userDefined": false
+        },
+        {
+            "alias": "VolumeBasedDiscounts__OneTimeDiscountPercent",
+            "dataType": "Percent",
+            "isEditable": false,
+            "matrixName": "Volume Based Discounts",
+            "name": "OneTimeDiscountPercent",
+            "typeaheadDisplayName": "OneTimeDiscountPercent ( Volume Based Discounts )",
+            "userDefined": false
+        },
+        {
+            "alias": "VolumeBasedDiscounts__RecurringDiscountPercent",
+            "dataType": "Percent",
+            "isEditable": false,
+            "matrixName": "Volume Based Discounts",
+            "name": "RecurringDiscountPercent",
+            "typeaheadDisplayName": "RecurringDiscountPercent ( Volume Based Discounts )",
+            "userDefined": false
+        }
+    ],
+    "%vlocity_namespace%__VersionNumber__c": 4,
+    "Name": "Volume Based Discounts v4",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/4/%vlocity_namespace%__CalculationProcedure__c/Volume Based Discounts (VDO Deprecated)"
+}

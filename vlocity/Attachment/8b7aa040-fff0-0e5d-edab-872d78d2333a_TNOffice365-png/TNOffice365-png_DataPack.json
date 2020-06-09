@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNOffice365-png",
+    "BodyLength": 56775,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNOffice365.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "8b7aa040-fff0-0e5d-edab-872d78d2333a",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/8b7aa040-fff0-0e5d-edab-872d78d2333a",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/8b7aa040-fff0-0e5d-edab-872d78d2333a/TNOffice365.png"
+}

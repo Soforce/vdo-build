@@ -1,0 +1,80 @@
+[
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ff5548bb-4295-dd14-7553-e0b855f870cb",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/ff5548bb-4295-dd14-7553-e0b855f870cb",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "ff5548bb-4295-dd14-7553-e0b855f870cb",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "30089e56-a137-3231-aacf-f3af8aaa3681",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/30089e56-a137-3231-aacf-f3af8aaa3681",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "30089e56-a137-3231-aacf-f3af8aaa3681",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "5G Burst Unlimited",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-1849788941"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ff5548bb-4295-dd14-7553-e0b855f870cb",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/ff5548bb-4295-dd14-7553-e0b855f870cb",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "ff5548bb-4295-dd14-7553-e0b855f870cb",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "9f186d06-7f8d-8a0e-3890-8242824904f0",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/9f186d06-7f8d-8a0e-3890-8242824904f0",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "9f186d06-7f8d-8a0e-3890-8242824904f0",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "5G Burst 10-Pack",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-1074160647"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ff5548bb-4295-dd14-7553-e0b855f870cb",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/ff5548bb-4295-dd14-7553-e0b855f870cb",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "ff5548bb-4295-dd14-7553-e0b855f870cb",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b55c4764-cc43-b70a-67f9-87dfd3083d46",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/b55c4764-cc43-b70a-67f9-87dfd3083d46",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "b55c4764-cc43-b70a-67f9-87dfd3083d46",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "5G Burst 5-Pack",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated2122052705"
+    }
+]

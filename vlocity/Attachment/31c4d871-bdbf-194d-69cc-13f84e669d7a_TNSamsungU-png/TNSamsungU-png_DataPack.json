@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNSamsungU-png",
+    "BodyLength": 21442,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNSamsungU.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "31c4d871-bdbf-194d-69cc-13f84e669d7a",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/31c4d871-bdbf-194d-69cc-13f84e669d7a",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/31c4d871-bdbf-194d-69cc-13f84e669d7a/TNSamsungU.png"
+}

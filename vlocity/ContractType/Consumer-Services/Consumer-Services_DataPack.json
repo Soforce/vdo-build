@@ -1,0 +1,9 @@
+{
+    "%vlocity_namespace%__ContractTypeSetting__c": "Consumer-Services_ContractTypeSettings.json",
+    "%vlocity_namespace%__IsDefault__c": false,
+    "%vlocity_namespace%__RecordTypeDeveloperNames__c": "Consumer_Services",
+    "Name": "Consumer Services",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__ContractType__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__ContractType__c/Consumer Services"
+}

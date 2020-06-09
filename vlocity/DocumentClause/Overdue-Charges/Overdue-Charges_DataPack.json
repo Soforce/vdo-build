@@ -1,0 +1,16 @@
+{
+    "%vlocity_namespace%__Category__c": "Services",
+    "%vlocity_namespace%__ClauseContent__c": "Overdue Charges. If any invoiced amount is not received by Us by the due date, then without limiting Our\nrights or remedies, (a) those charges may accrue late interest at the rate of 1.5% of the outstanding balance per\nmonth, or the maximum rate permitted by law, whichever is lower, and/or (b) We may condition future subscription\nrenewals and Order Forms on payment terms shorter than those specified in Section 6.2 (Invoicing and Payment).",
+    "%vlocity_namespace%__ContractTypes__c": "",
+    "%vlocity_namespace%__IsArchived__c": false,
+    "%vlocity_namespace%__IsContentFormatted__c": false,
+    "%vlocity_namespace%__IsRestricted__c": false,
+    "%vlocity_namespace%__LocaleCode__c": "",
+    "%vlocity_namespace%__ShortName__c": "",
+    "%vlocity_namespace%__Tokens__c": "",
+    "%vlocity_namespace%__Type__c": "Generic",
+    "Name": "Overdue Charges",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentClause__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentClause__c/Overdue Charges"
+}

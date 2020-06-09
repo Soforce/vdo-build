@@ -1,0 +1,18 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Contact",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__GlobalKey__c": "1a3afbea-89fc-c6c9-0e43-9de04b31bebf",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "recordId",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "VDOLaunchContactCustom7220",
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "VDOLaunchContact",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

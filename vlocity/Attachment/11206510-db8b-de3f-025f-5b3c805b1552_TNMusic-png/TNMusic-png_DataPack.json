@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNMusic-png",
+    "BodyLength": 43419,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNMusic.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "11206510-db8b-de3f-025f-5b3c805b1552",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/11206510-db8b-de3f-025f-5b3c805b1552",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/11206510-db8b-de3f-025f-5b3c805b1552/TNMusic.png"
+}

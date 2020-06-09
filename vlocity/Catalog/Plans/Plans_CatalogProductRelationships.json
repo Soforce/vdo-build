@@ -1,0 +1,158 @@
+[
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "24c12f06-bed2-1397-4296-067ee07ecb25",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/24c12f06-bed2-1397-4296-067ee07ecb25",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "24c12f06-bed2-1397-4296-067ee07ecb25",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Individual Mobile Plan Small",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated106999591"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "6ccf34d7-6819-4f85-8e25-15dd51d27664",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/6ccf34d7-6819-4f85-8e25-15dd51d27664",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "6ccf34d7-6819-4f85-8e25-15dd51d27664",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Family Mobile Plan Medium",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated1444534316"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "7e0f9747-9b3e-a3d1-def9-b95c68eb984e",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/7e0f9747-9b3e-a3d1-def9-b95c68eb984e",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "7e0f9747-9b3e-a3d1-def9-b95c68eb984e",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Individual Mobile Plan Medium",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-441135433"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d40ce12b-423a-1d33-34f1-f34773cf8bc1",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/d40ce12b-423a-1d33-34f1-f34773cf8bc1",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "d40ce12b-423a-1d33-34f1-f34773cf8bc1",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Individual Mobile Plan Large",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated570199003"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+        "%vlocity_namespace%__EffectiveDate__c": "",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d7df7616-ffb4-53c4-ef18-cd7f23bd28b3",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/d7df7616-ffb4-53c4-ef18-cd7f23bd28b3",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "d7df7616-ffb4-53c4-ef18-cd7f23bd28b3",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Family Mobile Plan Large",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated1153886790"
+    },
+    {
+        "%vlocity_namespace%__CatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__CatalogId__r.%vlocity_namespace%__GlobalKey__c": "b62f1198-ba7c-d8d5-1541-f2dc39da01aa",
+        "%vlocity_namespace%__EffectiveDate__c": "2019-07-30",
+        "%vlocity_namespace%__EndDate__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "261722f6-e3cc-fb8c-405c-74b81db833df",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/261722f6-e3cc-fb8c-405c-74b81db833df",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "261722f6-e3cc-fb8c-405c-74b81db833df",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__SequenceNumber__c": "",
+        "Name": "Family Mobile Plan Small",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogProductRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogProductRelationship__c/Generated-647816522"
+    }
+]

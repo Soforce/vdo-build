@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNIndividualMobileS-png",
+    "BodyLength": 4584,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNIndividualMobileS.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "24c12f06-bed2-1397-4296-067ee07ecb25",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/24c12f06-bed2-1397-4296-067ee07ecb25",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/24c12f06-bed2-1397-4296-067ee07ecb25/TNIndividualMobileS.png"
+}

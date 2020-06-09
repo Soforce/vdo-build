@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNFitbitFlex2-png",
+    "BodyLength": 42412,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNFitbitFlex2.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "d60ba944-0b79-bb28-d516-20daa1a84564",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/d60ba944-0b79-bb28-d516-20daa1a84564",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/d60ba944-0b79-bb28-d516-20daa1a84564/TNFitbitFlex2.png"
+}

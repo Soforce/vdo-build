@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNWebHosting-png",
+    "BodyLength": 13855,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNWebHosting.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "74854338-30f8-dc88-1029-951f08a94e08",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/74854338-30f8-dc88-1029-951f08a94e08",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/74854338-30f8-dc88-1029-951f08a94e08/TNWebHosting.png"
+}

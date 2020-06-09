@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNStaticIP-png",
+    "BodyLength": 3705,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNStaticIP.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "463ee158-faa9-5174-98fd-bd27045c8527",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/463ee158-faa9-5174-98fd-bd27045c8527",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/463ee158-faa9-5174-98fd-bd27045c8527/TNStaticIP.png"
+}

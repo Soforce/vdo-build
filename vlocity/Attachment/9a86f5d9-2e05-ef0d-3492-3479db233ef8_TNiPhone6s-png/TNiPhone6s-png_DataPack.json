@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNiPhone6s-png",
+    "BodyLength": 279414,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNiPhone6s.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "9a86f5d9-2e05-ef0d-3492-3479db233ef8",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/9a86f5d9-2e05-ef0d-3492-3479db233ef8",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/9a86f5d9-2e05-ef0d-3492-3479db233ef8/TNiPhone6s.png"
+}

@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNPowerbeatsWire-png",
+    "BodyLength": 23011,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNPowerbeatsWire.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "e76eb3bc-22eb-f1cd-c91c-aa38a3eb68b0",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/e76eb3bc-22eb-f1cd-c91c-aa38a3eb68b0",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/e76eb3bc-22eb-f1cd-c91c-aa38a3eb68b0/TNPowerbeatsWire.png"
+}

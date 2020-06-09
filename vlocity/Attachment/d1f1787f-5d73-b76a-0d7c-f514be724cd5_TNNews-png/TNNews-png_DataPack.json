@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNNews-png",
+    "BodyLength": 32588,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNNews.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "d1f1787f-5d73-b76a-0d7c-f514be724cd5",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/d1f1787f-5d73-b76a-0d7c-f514be724cd5",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/d1f1787f-5d73-b76a-0d7c-f514be724cd5/TNNews.png"
+}

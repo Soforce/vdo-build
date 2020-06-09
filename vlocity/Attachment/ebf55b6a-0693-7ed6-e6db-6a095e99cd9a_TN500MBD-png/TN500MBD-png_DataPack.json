@@ -1,0 +1,17 @@
+{
+    "Body": "File_TN500MBD-png",
+    "BodyLength": 35575,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TN500MBD.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "ebf55b6a-0693-7ed6-e6db-6a095e99cd9a",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/ebf55b6a-0693-7ed6-e6db-6a095e99cd9a",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/ebf55b6a-0693-7ed6-e6db-6a095e99cd9a/TN500MBD.png"
+}

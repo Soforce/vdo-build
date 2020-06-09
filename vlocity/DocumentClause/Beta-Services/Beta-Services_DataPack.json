@@ -1,0 +1,16 @@
+{
+    "%vlocity_namespace%__Category__c": "License",
+    "%vlocity_namespace%__ClauseContent__c": "Beta Services. From time to time, We may make Beta Services available to You at no charge. You may choose\nto try such Beta Services or not in Your sole discretion. Beta Services are intended for evaluation purposes and not for\nproduction use, are not supported, and may be subject to additional terms. Beta Services are not considered “Services”\nunder this Agreement, however, all restrictions, Our reservation of rights and Your obligations concerning the Services,\nand use of any related Non Telecom Applications and Content, shall apply equally to Your use of Beta Services. Unless\notherwise stated, any Beta Services trial period will expire upon the earlier of one year from the trial start date or the\ndate that a version of the Beta Services becomes generally available without the applicable Beta Services designation.\nWe may discontinue Beta Services at any time in Our sole discretion and may never make them generally available. We\nwill have no liability for any harm or damage arising out of or in connection with a Beta Service.",
+    "%vlocity_namespace%__ContractTypes__c": "",
+    "%vlocity_namespace%__IsArchived__c": false,
+    "%vlocity_namespace%__IsContentFormatted__c": false,
+    "%vlocity_namespace%__IsRestricted__c": false,
+    "%vlocity_namespace%__LocaleCode__c": "",
+    "%vlocity_namespace%__ShortName__c": "",
+    "%vlocity_namespace%__Tokens__c": "",
+    "%vlocity_namespace%__Type__c": "Generic",
+    "Name": "Beta Services",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentClause__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentClause__c/Beta Services"
+}

@@ -1,0 +1,17 @@
+{
+    "Body": "File_TN5GModem-png",
+    "BodyLength": 252024,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TN5GModem.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "60e9d70f-4e63-b9a5-b2fe-93439d386c54",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/60e9d70f-4e63-b9a5-b2fe-93439d386c54",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/60e9d70f-4e63-b9a5-b2fe-93439d386c54/TN5GModem.png"
+}

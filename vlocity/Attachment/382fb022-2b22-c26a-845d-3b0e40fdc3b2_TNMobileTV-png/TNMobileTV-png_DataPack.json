@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNMobileTV-png",
+    "BodyLength": 105471,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNMobileTV.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "382fb022-2b22-c26a-845d-3b0e40fdc3b2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/382fb022-2b22-c26a-845d-3b0e40fdc3b2",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/382fb022-2b22-c26a-845d-3b0e40fdc3b2/TNMobileTV.png"
+}

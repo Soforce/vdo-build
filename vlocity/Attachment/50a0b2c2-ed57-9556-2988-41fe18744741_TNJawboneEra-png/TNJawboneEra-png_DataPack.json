@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNJawboneEra-png",
+    "BodyLength": 31229,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNJawboneEra.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "50a0b2c2-ed57-9556-2988-41fe18744741",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/50a0b2c2-ed57-9556-2988-41fe18744741",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/50a0b2c2-ed57-9556-2988-41fe18744741/TNJawboneEra.png"
+}

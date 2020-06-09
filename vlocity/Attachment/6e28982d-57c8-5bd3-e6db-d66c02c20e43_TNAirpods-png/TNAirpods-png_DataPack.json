@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNAirpods-png",
+    "BodyLength": 28438,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNAirpods.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "6e28982d-57c8-5bd3-e6db-d66c02c20e43",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/6e28982d-57c8-5bd3-e6db-d66c02c20e43",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/6e28982d-57c8-5bd3-e6db-d66c02c20e43/TNAirpods.png"
+}

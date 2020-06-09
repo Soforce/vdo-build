@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNBMNAM-png",
+    "BodyLength": 5366,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNBMNAM.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "87d895f8-fe25-7e22-e409-1a74c6dbd416",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/87d895f8-fe25-7e22-e409-1a74c6dbd416",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/87d895f8-fe25-7e22-e409-1a74c6dbd416/TNBMNAM.png"
+}

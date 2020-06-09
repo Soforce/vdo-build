@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNCrime-png",
+    "BodyLength": 14333,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNCrime.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "af74ccf4-fb5a-be25-b67b-763ed9540617",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/af74ccf4-fb5a-be25-b67b-763ed9540617",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/af74ccf4-fb5a-be25-b67b-763ed9540617/TNCrime.png"
+}

@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNBMAPACM-png",
+    "BodyLength": 5366,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNBMAPACM.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "40ed5902-d2bc-fe33-5877-0c8690333a08",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/40ed5902-d2bc-fe33-5877-0c8690333a08",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/40ed5902-d2bc-fe33-5877-0c8690333a08/TNBMAPACM.png"
+}

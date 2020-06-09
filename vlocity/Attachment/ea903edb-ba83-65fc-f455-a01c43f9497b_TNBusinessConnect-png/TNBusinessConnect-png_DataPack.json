@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNBusinessConnect-png",
+    "BodyLength": 7716,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNBusinessConnect.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "ea903edb-ba83-65fc-f455-a01c43f9497b",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/ea903edb-ba83-65fc-f455-a01c43f9497b",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/ea903edb-ba83-65fc-f455-a01c43f9497b/TNBusinessConnect.png"
+}

@@ -1,0 +1,17 @@
+{
+    "Body": "File_TNNetflix-png",
+    "BodyLength": 12855,
+    "ContentType": "image/png",
+    "Description": "",
+    "IsPrivate": false,
+    "Name": "TNNetflix.png",
+    "ParentId": {
+        "%vlocity_namespace%__GlobalKey__c": "a6deebb8-90c1-1962-b83b-3c315cd9de69",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/a6deebb8-90c1-1962-b83b-3c315cd9de69",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Attachment",
+    "VlocityRecordSourceKey": "Attachment/Product2/a6deebb8-90c1-1962-b83b-3c315cd9de69/TNNetflix.png"
+}
