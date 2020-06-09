@@ -1,0 +1,29 @@
+/*** VARIABLES ***/
+@import "variables";
+
+/*** MIXINS ***/
+@import "mixin";
+
+.list-card-canvas {
+    width:100% !important;
+    .row.headers {
+        padding: 20px 0;
+    }
+    .headers {
+		div {
+			text-transform: uppercase;
+			color: $dark-gray;
+			font-weight: bold;
+			font-size: 12px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            cursor: pointer;
+            float: left;
+			.caret {
+				cursor: pointer;
+				color: $dark-gray;
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__CustomJavascript__c": "np-action-links.js",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "This is a newport template with multiple actions with triple column layout with each having 5 actions.",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "np-action-links/1/Vlocity/1493706508165",
+    "%vlocity_namespace%__HTML__c": "np-action-links.html",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleJson__c": "np-action-links_Sample.json",
+    "%vlocity_namespace%__Sass__c": "np-action-links.scss",
+    "%vlocity_namespace%__Type__c": "Cards",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "np-action-links",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/np-action-links"
+}

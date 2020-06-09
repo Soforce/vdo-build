@@ -1,0 +1,18 @@
+<section class="asset-summary slds-col slds-card slds-theme--default slds-card--narrow mobile-cpq-bar-chart" ng-controller="mobileCpqBarChartsCtrl">
+      <div class="slds-card__header slds-grid">
+        <h2 class="slds-text-heading--large">Usage</h2>
+        <div class="slds-col--bump-left slds-p-top--x-small">
+            <a ng-class="{'slds-text-link--reset': card1Filter === 'thisperiod'}" ng-click="card1Filter = 'thisperiod'">This Period</a> | 
+            <a ng-class="{'slds-text-link--reset': card1Filter === 'trends'}" ng-click="card1Filter = 'trends'">Trends</a>
+        </div>
+      </div>
+      <div class="slds-card__body slds-p-around--large">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="auto" data-view-box="{{'0 0 300 ' +usageData.length * 50}}" preserveAspectRatio = "xMinYMin slice">
+            <g x="0" y="0" ng-repeat="data in usageData" ng-attr-transform="translate(0, {{$index * 50}})">
+              <text x="0" y="12" class="slds-text-title">{{data.data}}</text>
+              <rect width="300" height="19" x="0" y="20" fill="#d8dde6"></rect>
+              <rect ng-attr-width="{{data.thisPeriod * 3}}" height="19" x="0" y="20" ng-attr-fill="{{getColor($index)}}"></rect>
+            </g>
+          </svg>
+      </div>
+</section>

@@ -1,0 +1,17 @@
+<div class="slds-grid slds-wrap slds-grid--pull-padded np-summary-page" ng-controller="canvasController" >
+    <!-- Define session variable Content=["np-account-policies","np-account-feed"] any layout names to be added in content area-->
+    <!--If Session variable Sidebar is not defined content area will be fully stetched 1:1 ratio-->
+  <div class="slds-p-horizontal--small slds-size--1-of-1" ng-class="session.Sidebar ? 'slds-medium-size--8-of-12 slds-large-size--8-of-12':''">
+      <div ng-repeat="layout in convertString(session.Content)">
+          <vloc-layout  layout-name="{{layout}}"></vloc-layout>
+      </div>
+    
+    
+  </div>
+  <!-- Define session variable Sidebar=["np-agent-profile","np-account-action-links","np-account-articles"] any layout names to be added in sidebar -->
+  <div ng-if="session.Sidebar" class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--4-of-12 slds-large-size--4-of-12">
+      <div ng-repeat="layout in convertString(session.Sidebar)">
+          <vloc-layout  layout-name="{{layout}}"></vloc-layout>
+      </div>
+  </div>
+</div>

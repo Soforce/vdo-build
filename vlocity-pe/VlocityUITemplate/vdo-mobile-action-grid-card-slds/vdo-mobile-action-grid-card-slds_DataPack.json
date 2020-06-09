@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__CustomJavascript__c": "",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "{\n    \"data\": {\n        \"actions\": [\n            {\n                \"displayName\": \"New Event\",\n                \"vlocityIcon\": \"icon-v-calendar\"\n            },\n            {\n                \"displayName\": \"New Task\",\n                \"vlocityIcon\": \"new_task\"\n            },\n            {\n                \"displayName\": \"New Opportunity\",\n                \"vlocityIcon\": \"new_opportunity\"\n            },\n            {\n                \"displayName\": \"New Relationship\",\n                \"vlocityIcon\": \"icon-v-avatar-multiple-people\"\n            },\n            {\n                \"displayName\": \"Personal Marketing\",\n                \"vlocityIcon\": \"icon-v-campaign\"\n            },\n            {\n                \"displayName\": \"Change Of Address\",\n                \"vlocityIcon\": \"icon-v-location\"\n            },\n            {\n                \"displayName\": \"Change Method Of Payment\",\n                \"vlocityIcon\": \"icon-v-payment\"\n            },\n            {\n                \"displayName\": \"Fact Find\",\n                \"vlocityIcon\": \"icon-v-document2\"\n            },\n            {\n                \"displayName\": \"New case\",\n                \"vlocityIcon\": \"icon-v-plus\"\n            }\n        ],\n        \"fields\": [],\n        \"title\": \"Card Title\"\n    },\n    \"obj\": {\n        \"Id\": \"123456\",\n        \"LastModifiedDate\": \"2016-02-05T21:52:18.587Z\",\n        \"Name\": \"Burlington Textiles Corp of America\",\n        \"accountowner\": \"John Smith\",\n        \"annualrevenue\": 350000000,\n        \"attributes\": {\n            \"type\": \"Auto\"\n        },\n        \"billing_date\": \"2016-05-20T21:52:18.587Z\",\n        \"coverage\": \"$500,000 / $100,000\",\n        \"industry\": \"Apparel\",\n        \"monthly_payment\": 142,\n        \"policy_holder\": \"Preston Reed\",\n        \"premium\": 853,\n        \"type\": \"Customer - Direct\",\n        \"vehicle\": \"2011 Toyota Corolla\",\n        \"website\": \"http://www.burlington.com\"\n    }\n}",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "vdo-mobile-action-grid-card-slds/1/Vlocity Demo Org/1493796900617",
+    "%vlocity_namespace%__HTML__c": "vdo-mobile-action-grid-card-slds.html",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleJson__c": "vdo-mobile-action-grid-card-slds_Sample.json",
+    "%vlocity_namespace%__Sass__c": "vdo-mobile-action-grid-card-slds.scss",
+    "%vlocity_namespace%__Type__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "vdo-mobile-action-grid-card-slds",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/vdo-mobile-action-grid-card-slds"
+}

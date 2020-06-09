@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__CustomJavascript__c": "",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "insurance billing payment card\r\nthe amount payable on the left column and required fields on the right column and actions on the left bottom column",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "vdo-loyalty-tier-information/1/Vlocity Demo Org/1515056923945",
+    "%vlocity_namespace%__HTML__c": "vdo-loyalty-tier-information.html",
+    "%vlocity_namespace%__ParentID__c": "np-billing-payment-card/1/Vlocity Demo Org/1507870618925",
+    "%vlocity_namespace%__SampleJson__c": "vdo-loyalty-tier-information_Sample.json",
+    "%vlocity_namespace%__Sass__c": "vdo-loyalty-tier-information.scss",
+    "%vlocity_namespace%__Type__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "vdo-loyalty-tier-information",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/vdo-loyalty-tier-information"
+}

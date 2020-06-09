@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__CustomJavascript__c": "np-catalog-list.js",
+    "%vlocity_namespace%__Definition__c": "{\"placeholders\":[{\"name\":\"Title\",\"label\":\"\",\"$$hashKey\":\"object:9327\"},{\"name\":\"unitPrice\",\"label\":\"\",\"$$hashKey\":\"object:10597\"},{\"name\":\"recurringPrice\",\"label\":\"\",\"$$hashKey\":\"object:18841\"}]}",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "np-catalog-list/1/VlocityDev/1507526166842",
+    "%vlocity_namespace%__HTML__c": "np-catalog-list.html",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleJson__c": "np-catalog-list_Sample.json",
+    "%vlocity_namespace%__Sass__c": "np-catalog-list.scss",
+    "%vlocity_namespace%__Type__c": "Cards",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "np-catalog-list",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/np-catalog-list"
+}

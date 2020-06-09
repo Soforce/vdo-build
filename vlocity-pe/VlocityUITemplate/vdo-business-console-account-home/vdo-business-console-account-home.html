@@ -1,0 +1,32 @@
+<link rel="stylesheet" type="text/css" href="/apex/c__VDODemoCSS"/>
+<div class="vdo-container">
+    <form>
+        <div class="vdo-header">
+            <div class="vdo-header-wrapper">
+                <div class="vdo-search">
+                    <span class="icon icon-v-search" style="color:white"></span>
+                    <input type="text" ng-model="$parent.searchTerm" placeholder="Search Accounts"/>
+                </div>
+                <div class="vdo-buttons">
+                    <button class="vdo-button" onclick="">
+                       + Add lines
+                    </button>
+                    <div class="slds-dropdown-trigger slds-dropdown-trigger--click"  ng-class="{'slds-is-open': banLineActions.show}" ng-click="banLineActions.show = !banLineActions.show">
+                        <button class="vdo-button">
+                           Bulk actions
+                        </button>
+                        <vloc-layout layout-name="vdo-business-community-bulk-actions-layout"></vloc-layout>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="vdo-cards-wrapper">
+        <div class="vdo-title-account">Billing Accounts ({{records.length}})
+        </div>
+        <div class="vdo-add-account">+ Add Account</div>
+        <div class="vdo-cards">
+            <vloc-card ng-repeat="card in cards |orderBy:order|filter: searchFunc(card)" ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}"></vloc-card>
+        </div>
+    </div>
+</div>

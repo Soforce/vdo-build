@@ -1,0 +1,47 @@
+<!--article class="asset-detail slds-card slds-card--narrow" ng-controller="CpqAssetDetailController as vm"-->
+<article class="asset-detail slds-card slds-card--narrow">
+    <header class="slds-card__header slds-grid">
+        <h2 class="slds-text-heading--small slds-text-heading--warning">
+            Over Data Limit
+        </h2>
+    
+        <!--button class="more-options-button slds-button slds-button--icon-border-filled slds-button--icon-x-small" aria-haspopup="true">
+            <svg class="slds-button__icon" aria-hidden="true">
+                <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#down"></use>
+            </svg>
+            <span class="slds-assistive-text">More Options</span>
+        </button-->
+    
+    </header>
+    <div class="slds-card__body">
+        <div class="asset-information slds-grid">
+            <div class="asset-preview">
+             <img  ng-src="{{vm.getImageFullUrl(obj.Id, obj['Product_Image__c'])}}"/>
+            </div>
+            <div class="account-data">
+                <div class="account-type">{{obj.Account.Type}}</div>
+                <div class="account-holder">{{obj.Account.Name}} | {{obj.Account.Phone}}</div>
+                <div class="model-name">{{obj.Name}}</div>
+            </div>
+            
+            <table class="plan-details">
+                <tr class="plan-field" ng-repeat="field in data.fields">
+                    <td class="field-label">{{field.label}}:</td>
+                    <td class="field-value">{{obj | getter: field | picker: field.type}}</td>
+                </tr>
+            </table>
+        </div>
+    
+        <div class="asset-actions slds-grid">
+            <button
+                ng-repeat="action in data.actions"
+                class="slds-button slds-button--neutral"
+                ng-click="$scope.performAction(action)"
+                id="{{idPrefix}}-import-btn" 
+                title="{{action.displayName}}"
+            >
+              {{action.displayName}}
+            </button>
+        </div>
+    </div>
+</article>

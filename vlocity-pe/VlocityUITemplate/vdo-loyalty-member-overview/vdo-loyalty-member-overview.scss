@@ -1,0 +1,139 @@
+.dx-via-slds-card--left-profile {
+    a.slds-text-link--reset{
+            color: #0070d2;
+    }
+    .via-slds-col {
+        border-left: 1px solid #d8dde6;
+        &:first-child {
+            border-left: 0 none;
+        }
+    }
+    text-align: center;
+    .profile-name {
+        padding-top: 10px;
+        position:relative;
+ &:before {
+    content: '';
+    display: block;
+    margin: auto;
+    border-color: #e06a1a;
+    border-style: solid;
+    border-width: 3px;
+    border-bottom: 0px;
+    width: 50px;
+    height: 0;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+    }
+    .profile-info {
+        margin-bottom: 20px;
+    }
+    .profile-picture {
+        z-index: 3;
+        border: 5px solid white;
+        border-radius: 100%;
+        box-sizing: content-box;
+        margin: 0 auto;
+        width: 120px;
+        height: 120px;
+        overflow: hidden;
+        position: relative;
+        background:#F9FBFE;
+        color:#0070d2;
+        
+        img {
+            width: 120px;
+            border-radius: 100%;
+        }
+        span{
+            font-size:75px;
+            font-weight:bold;
+            line-height:120px;
+            display:block;
+            height:120px;
+            width:120px;
+            text-align:center;
+            
+        }
+    }
+
+    .ribbon {
+        background: #FFF;
+        height: 18px;
+        margin: 0 auto;
+        position: relative;
+        width: 16px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 18px;
+        font-size: 12px;
+        color: #FFF;
+        display: inline-block;
+        margin-top: -10px;
+    }
+    .ribbon:after,
+    .ribbon:before {
+        content: '';
+        position: absolute;
+        border-top: 6px solid #FFF;
+        height: 0;
+        width: 0;
+        top: 100%;
+    }
+    .ribbon:after {
+        border-left: 8px solid transparent;
+        right: 0px;
+    }
+    .ribbon:before {
+        border-right: 8px solid transparent;
+        left: 0px;
+    }
+
+    .ribbon {
+        &.diamond,
+        &.promoter {
+            background: #b9f2ff;
+            &:before,
+            &:after {
+                border-top-color: #b9f2ff;
+            }
+        }
+        &.Platinum,
+        &.satisfied {
+            background: #e5e4e2;
+            &:before,
+            &:after {
+                border-top-color: #e5e4e2;
+            }
+        }
+        &.Gold,
+        &.neutral {
+            background: #FFD700;
+            &:before,
+            &:after {
+                border-top-color: #FFD700;
+            }
+        }
+        &.Silver,
+        &.dissatisfied {
+            background: #C0C0C0;
+            &:before,
+            &:after {
+                border-top-color: #C0C0C0;
+            }
+        }
+        &.Base,
+        &.disgruntled {
+            background: #cd7f32;
+            &:before,
+            &:after {
+                border-top-color: #cd7f32;
+            }
+        }
+    }
+
+    .via-action-icon:before {
+        font-size: 200%;
+    }
+}

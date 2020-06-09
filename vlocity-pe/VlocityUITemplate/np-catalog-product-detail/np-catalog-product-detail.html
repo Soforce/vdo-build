@@ -1,0 +1,6 @@
+<div colspan="2" class="slds-text-align--left slds-grid slds-m-top--large" ng-repeat="field in data.fields" >
+        <span class="slds-size--7-of-12" >  
+            {{ field.label }} 
+        </span>
+         <span class=" slds-size--5-of-12"> {{obj | getter: field | picker: field }}</span>
+    </div>

@@ -1,0 +1,22 @@
+<section ng-click="performAction(data.actions[0])" hotkey-card-action   class="np-subnav-card-active" data-card="{{uniqueLayoutId}}-card-{{cardIndex}}" ng-class="(attrs.salesforceId && attrs.salesforceId == obj.Id) ? 'tabSelected': 'tabNotSelected'" >
+    <div class="card-top" >
+        <!--ng-click="performFlyout(uniqueLayoutId + '-card-'+cardIndex)"-->
+         <div class="card-image slds-m-bottom--x-small slds-grid slds-grid--vertical-align-center">
+              <!--define the placeholder 'NavIcon' in the layout card state.-->
+             <img class="np-custom-svg np-cmt-icons" src="{{placeholder.NavIcon.value}}" >
+         </div>
+        <div class="cardValues">
+            <h2>
+                 <!-- {{data.title is default if NavTitle is not defined in the layout card states }}-->
+              {{ placeholder.NavTitle.value || data.title }}
+            </h2>
+            <h2 class="hidSmall" ng-repeat="field in data.fields">
+               
+              {{field.label}} 
+               <span class="value" >
+                    {{obj | getter: field | picker: field.type}}
+                </span>
+            </h2>
+        </div>
+    </div>
+</section>

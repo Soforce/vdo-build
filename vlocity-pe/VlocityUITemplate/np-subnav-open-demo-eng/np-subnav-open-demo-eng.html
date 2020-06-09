@@ -1,0 +1,16 @@
+<section ng-click="performAction(data.actions[0])" hotkey-card-action  class="np-subnav-card-active" data-card="{{uniqueLayoutId}}-card-{{cardIndex}}" ng-class="(attrs.salesforceId && attrs.salesforceId == obj.Id) || (attrs.salesforceId =='Overview' && data.title =='Overview')? 'tabSelected': 'tabNotSelected'"  >
+    <div class="card-top" >
+         <div class="card-image slds-m-bottom--x-small slds-grid slds-grid--vertical-align-center">
+             <!--define the placeholder 'NavIcon' in the layout card state.-->
+             <img class="np-custom-svg" src="{{placeholder.NavIcon.value}}">
+ 
+                  </div>
+        <div class="cardValues">
+            <h2>
+               <!-- {{data.title is default if NavTitle is not defined in the layout card states }}-->
+                    {{ placeholder.NavTitle.value || data.title}}
+
+            </h2>
+        </div>
+    </div>
+</section>

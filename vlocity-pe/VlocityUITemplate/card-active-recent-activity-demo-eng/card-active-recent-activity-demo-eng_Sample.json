@@ -1,0 +1,46 @@
+{
+    "data": {
+        "title": "Recent Activity"
+    },
+    "obj": {
+        "Id": "123456",
+        "LastModifiedDate": "2016-02-05T17:22:06.871Z",
+        "Name": "Recent Activity",
+        "activities": [
+            {
+                "amount": "Koolaid",
+                "date": "Oct 28, 2019",
+                "detail": "3 Used- Balance 0",
+                "title": "Bursts Used"
+            },
+            {
+                "amount": "Minute Maid",
+                "date": "Oct 29, 2019",
+                "detail": "5 Added- Balance 5",
+                "title": "Bursts Added"
+            },
+            {
+                "amount": "Jolt Cola",
+                "date": "Oct 28, 2019",
+                "detail": "1Used- Balance 4",
+                "title": "Bursts Used"
+            },
+            {
+                "amount": "$4.50",
+                "date": "Oct 28, 2019",
+                "detail": "Credit Card(Ending 9695)",
+                "title": "Premium Content - HD Movie"
+            },
+            {
+                "amount": "$10.00",
+                "date": "Oct 28, 2019",
+                "detail": "Credit Card(Ending 9695)",
+                "title": "Base 5G Stream & GO Plan Enrollment (for Oct 10 - Nov 10)"
+            }
+        ],
+        "company": "",
+        "cost": 150,
+        "country": "USA",
+        "description": "Some description"
+    }
+}

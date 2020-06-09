@@ -1,0 +1,85 @@
+<div class="slds-col slds-grid slds-grid_align-center">
+
+    <div class="slds-size_6-of-12 slds-grid slds-grid_vertical slds-p-around_x-large demo-basket" ng-repeat="basket in control.vlcSI[control.itemsKey]">
+
+        <!-- Header -->
+        <div class="slds-col">
+            <h1 class="slds-text-heading_large"><strong>Your Basket</strong></h1>
+        </div>
+        
+        <!-- Separator -->
+        <div class="slds-col slds-border_bottom slds-m-vertical_x-large"></div>
+
+        <!-- Basket -->
+        <div class="slds-col slds-grid slds-grid_vertical">
+
+            <!-- Basket Items -->
+            <div class="slds-col slds-grid slds-gutters slds-p-vertical_medium slds-grid_vertical-align-center" ng-repeat="record in basket.records | orderBy: 'record.%vlocity_namespace%__EffectiveRecurringTotal__c.value' : true">
+
+                <!-- Image -->
+                <div class="slds-col slds-size_2-of-12 slds-align_absolute-center">
+                    <div ng-repeat="offer in bpTree.response.offers | filter: {ProductCode: record.ProductCode}">
+                        <div class="slds-image" ng-repeat="a in offer.Attachments">
+                            <img class="demo-basket-image" src="{{a.url}}" alt="{{a.title}}" ng-if="a.contentType === 'Image'"/>
+                        </div>
+                        <div ng-if="!offer.Attachments">--Image--</div>                    
+                    </div>
+                </div>
+
+                <!-- Product Name/Details -->
+                <div class="slds-col slds-grid slds-size_5-of-12">
+                    <div class="slds-col">
+                        <div class="slds-text-align_left slds-text-heading_medium"><strong>{{record.Name}}</strong></div>
+                        <div class="slds-text-align_left slds-text-body_small">{{record.Product2.Description}}</div>
+                    </div>
+                </div>
+
+                <!-- Quantity -->
+                <div class="slds-col slds-size_2-of-12 slds-align_absolute-center slds-text-heading_medium">Qty: {{record.Quantity.value}}</div>
+
+                <!-- Price -->
+                <div class="slds-col slds-size_2-of-12 slds-text-align_right slds-text-heading_medium">{{record.%vlocity_namespace%__EffectiveRecurringTotal__c.value | currency:"$":0}}</div>
+
+                <!-- Buttons -->
+                <div class="slds-col slds-size_1-of-12 slds-align_absolute-center">
+                    <button class="slds-button slds-button_icon slds-button_icon-brand slds-button_icon-xx-small">
+                        <svg aria-hidden="true" class="slds-button__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <use xlink:href="/apexpages/slds/latest/assets/icons/action-sprite/svg/symbols.svg#close"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Separator -->
+            <div class="slds-col slds-border_bottom slds-m-vertical_x-large"></div>
+
+            <!-- SubTotal -->
+            <div class="slds-col slds-grid slds-gutters" ng-init="subtotal = basket.totals.EffectiveRecurringTotal__c">
+                <div class="slds-col slds-size_9-of-12 slds-grid_vertical-align-center slds-text-align_right slds-text-heading_medium">Sub-Total</div>
+                <div class="slds-col slds-size_2-of-12 slds-grid_vertical-align-center slds-text-align_right slds-text-heading_medium">{{subtotal | currency:"$":2}}</div>
+                <div class="slds-col slds-size_1-of-12"/>
+            </div>
+
+            <!-- Taxes & Fees -->
+            <div class="slds-col slds-grid slds-gutters" ng-init="taxes = subtotal * 0.13">
+                <div class="slds-col slds-size_9-of-12 slds-grid_vertical-align-center slds-text-align_right slds-text-heading_medium">Taxes & Fees</div>
+                <div class="slds-col slds-size_2-of-12 slds-grid_vertical-align-center slds-text-align_right slds-text-heading_medium">{{ taxes | currency:"$":2}}</div>
+                <div class="slds-col slds-size_1-of-12"/>
+            </div>
+
+            <!-- Total -->
+            <div class="slds-col slds-grid slds-gutters">
+                <div class="slds-col slds-size_9-of-12 slds-grid_vertical-align-center slds-text-align_right slds-text-heading_medium"><strong>Total (Monthly)</strong></div>
+                <div class="slds-col slds-size_2-of-12 slds-grid_vertical-align-center slds-text-align_right slds-text-heading_medium"><strong>{{ (subtotal + taxes) | currency:"$":2}}</strong></div>
+                <div class="slds-col slds-size_1-of-12"/>
+            </div>
+        </div>
+
+        <!-- Separator -->
+        <div class="slds-col slds-border_bottom slds-m-vertical_x-large"></div>
+
+        <!-- Submit Order -->
+
+
+    </div>
+</div>

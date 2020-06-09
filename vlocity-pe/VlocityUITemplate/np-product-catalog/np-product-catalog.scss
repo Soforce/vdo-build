@@ -1,0 +1,86 @@
+@import "npVariables";
+
+    /*** STYLES ***/
+    .vlocity {   /* Always use vlocity class as a wrapper */
+        .via-slds
+        .np-product-category-card { 
+            
+                 .np-catalog-img{
+                margin: auto;
+                display: block;
+           }
+            
+          .np-product-title{
+              font-size:$font-x-large;
+              
+              a:hover{
+                  color:#23527c;
+                  text-decoration:none;
+                  
+              }
+              
+                .product-action-name
+                    {
+                        display:inherit;
+                        font-size:$font-medium;
+                        
+                    }
+                    .product-action-link
+                    {
+                        display:none;
+                        color:$theme-color-1;
+                        font-size:$font-medium;
+                        white-space:nowrap;
+                    }
+                  }
+                    color:$text-color;
+                    overflow:hidden;
+                    width:100%;
+                    height:400px;
+            &.np-card
+            {
+                /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfcfc+0,f6f6f6+53,f6f6f6+53,f6f6f6+57,dbdbdb+100 */
+                background: rgb(252,252,252); /* Old browsers */
+                background: -moz-linear-gradient(top, #F8FBFE 0%, #EDF2F8 53%, #EDF2F8 53%, #EDF2F8 57%, #D1D9E9 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(top, #F8FBFE 0%,#EDF2F8 53%,#EDF2F8 53%,#EDF2F8 57%,#D1D9E9 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to bottom,#F8FBFE 0%,#EDF2F8 53%,#EDF2F8 53%,#EDF2F8 57%,#D1D9E9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:npImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#dbdbdb',GradientType=0 ); /* IE6-9 */
+                border:none;
+            }
+            
+            .plan-heading
+            {
+                color:$theme-color-1;
+            }
+            
+          
+            
+      
+
+            
+        } 
+        
+        @media only screen and (max-width: 500px) {
+                .np-product-category-card { 
+                height:200px;
+                .product-image
+                {
+                    left:70px;
+                }
+                .product-action-name
+            {
+                display:none;
+            }
+            .product-action-link
+            {
+                display:inherit;
+            }
+            
+            .np-product-title
+            {
+                float: left
+            }
+            
+              }
+            }
+    }

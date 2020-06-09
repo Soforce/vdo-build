@@ -1,0 +1,16 @@
+div[layout-name="mobile-ret-customer-summary"],  div[layout-name="mobile-ret-asset-detail-container"]{
+    background-image:url('https://vdo-cmt--c.na30.content.force.com/servlet/servlet.ImageServer?id=01536000003Kc2B&oid=00D36000000qC4j&lastMod=1536753805000');
+    display: table;
+    width: 100%;
+    background-color:#0081f9;
+    padding-bottom: 25px;
+}
+
+.cards-background{
+    padding-bottom: 25px;
+    background:transparent;
+}
+
+html, body, .via-slds{
+    background:transparent !important;
+}

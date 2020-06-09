@@ -1,0 +1,25 @@
+.via-slds {
+    .vdo-ban-details-header {
+        margin:0px !important;
+        h2 {
+            font-size: 50px !important;
+            margin-top: 0px;
+        }
+        .vdo-ban-details-fields {
+            padding: 10px 0px;
+            display: table;
+            margin-bottom:0px;
+            li {
+                float:left;
+                padding-right:30px;
+                .vdo-ban-details-field-label {
+                    font-size: 14px;
+                }
+                .vdo-ban-details-field-value {
+                    font-size: 16px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}

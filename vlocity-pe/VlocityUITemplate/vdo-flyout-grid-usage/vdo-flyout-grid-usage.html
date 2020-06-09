@@ -1,0 +1,9 @@
+<div class="flyout-content">
+    <div class="items">
+        <vloc-card ng-repeat="card in cards |orderBy:order|filter: searchFunc(card)" ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}"></vloc-card>
+    </div>
+    <div class="usage">
+        <div class="usagetitle">Device Usage</div>
+            <iframe src="/apex/VDOMobileFlyoutDashboard" width="100%" height="310px" frameborder="0" scrolling="no"></iframe>
+    </div>
+</div>

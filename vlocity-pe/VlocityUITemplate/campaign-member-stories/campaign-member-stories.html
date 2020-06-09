@@ -1,0 +1,8 @@
+<div class="via-slds" ng-init="importedScope.setObj(records[0])">
+    <!--<pre>{{records | json}}</pre>-->
+    <ul class="slds-m-vertical--medium">
+        <li vloc-card ng-repeat="card in cards | orderBy:
+    '-obj.LastActivityDate' | filter:$root.search" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}"
+            use-existing-element-type class="via-slds-feed-item"></li>
+    </ul>
+</div>

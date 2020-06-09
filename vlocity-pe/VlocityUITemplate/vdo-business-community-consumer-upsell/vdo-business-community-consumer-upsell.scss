@@ -1,0 +1,22 @@
+.via-slds {
+    .vdo-consumer-upsell {
+        .vdo-upsell-offers {
+            li {
+                float:left;
+                padding:20px 40px;
+                font-size: 16px;
+                .vdo-upsell-price {
+                    font-weight: bold;
+                    color:#128CB5;
+                }
+                a {
+                    font-weight: bold;
+                }
+                img {
+                    margin-right:10px;
+                    width:140px;
+                }
+            }
+        }
+    }
+}

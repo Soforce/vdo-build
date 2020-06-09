@@ -1,0 +1,46 @@
+<!-- Offer Tiles -->
+<div class="slds-grid slds-gutters slds-grid_align-center slds-wrap">
+
+    <div class="slds-col slds-large-size_1-of-4 slds-medium-size_1-of-4 slds-small-size_1-of-1" ng-repeat="p in control.vlcSI[control.itemsKey]" ng-click="baseCtrl.addOfferToBasket(p, control, this, control.propSetMap.remoteOptions.autoAdvance)">
+
+        <!-- Offer Tile -->
+        <div class="slds-grid slds-grid_vertical vlc-slds-selectableItem demo-selectable-offer-tile slds-p-around_medium">
+
+            <!-- Images -->         
+            <div class="slds-col slds-align_absolute-center slds-m-around_none demo-selectable-offer-image-container" ng-repeat="a in p.Attachments">
+                <img class="img" src="{{a.url}}" alt="{{a.title}}" ng-if="a.contentType === 'Image'"/>
+            </div>
+
+            <!-- Name + Description -->
+            <div class="slds-col slds-text-align_center slds-align_absolute-center demo-selectable-offer-text slds-grid slds-grid_vertical">
+                <div class="slds-col"><h1><strong>{{p.Name}}</strong></h1></div>
+                <div class="slds-col"><h3>{{p.Description}}</h3></div>
+            </div>
+
+            <!-- Pricing -->
+            <div class="slds-col slds-align-middle slds-grid demo-selectable-offer-price">
+
+                <div class="slds-col slds-grid" ng-repeat="pricing in p.priceResult | filter: {Type__c: 'Price'}" ng-if="(pricing.ChargeType__c == 'One-time' || pricing.ChargeType__c == 'Recurring') && pricing.chargeamount > 0">
+
+                    <!-- One-Time Charge -->
+                    <div class="slds-col slds-align_absolute-center" ng-if="pricing.ChargeType__c == 'One-time'"> 
+                        <strong>$</strong><span class="slds-text-heading_large"><strong>{{pricing.chargeamount | currency:"":0}}</strong></span>
+                    </div>
+
+                    <!-- Monthly Recurring Charge -->
+                    <div class="slds-col slds-align_absolute-center" ng-if="pricing.ChargeType__c == 'Recurring' && pricing.RecurringFrequency__c == 'Monthly'"> 
+                        <strong>$</strong><span class="slds-text-heading_large"><strong>{{pricing.chargeamount | currency:"":0}}</strong></span>&nbsp;/Month
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Add to Cart Button -->
+            <div class="slds-col slds-text-body_regular slds-align_absolute-center slds-m-top_small demo-selectable-offer-buttons">
+                <button class="slds-button slds-button_brand">Add to Cart</button>
+            </div>
+
+        </div>
+    </div>
+</div>

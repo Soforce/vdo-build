@@ -1,0 +1,80 @@
+@import "npVariables";
+
+/*** Styles ***/
+// include mixin "npVariables" for fonts and colors.
+// npVariables mixin template should be active.
+.vlocity {
+/* Always use vlocity class as a wrapper */
+        ::-webkit-scrollbar {
+        width: 0px;  
+        background: transparent;  
+        }
+       
+        ::-webkit-scrollbar-thumb {
+        background: $background-color-1;
+        }
+        .np-product-category{
+            flex:none;
+            
+        }
+        .np-list-scrollable-canvas { 
+            &.np-border{
+                border:1px solid $border-color-1;
+            }
+            color:$text-color;
+            h3{
+                color:$text-color;
+            }
+            .test{
+                overflow-x: auto;
+            }
+            .np-card
+            {
+                background:$background-color-1;
+                border-color:$border-color-1;
+            }
+            
+             .np-session--title{
+                font-size:$font-xx-large;
+                    &:after {
+                    content: "";
+                    background:$theme-color-2;
+                    position: absolute;
+                    bottom: -20px;
+                    left: 0;
+                    width: 50px;
+                    height: 3px;
+                }
+            }
+            
+            .np-vloc-card-margin{
+                margin: 0 auto;
+            }
+            
+        } 
+          .np-actions-and-filter {
+        a{
+            color:$theme-color-1;
+            font-size:$font-medium;
+        }
+        background: #fff;
+        h1{
+        font-size: 46px;
+        position: relative;
+        text-align: center;
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 34px;
+            border: 2px solid rgba(231, 236, 243, 0.54);
+            }
+        span {
+            background: #fff;
+            position: relative;
+            padding: 0 10px;
+            }
+        }
+    }
+    }

@@ -1,0 +1,24 @@
+{
+    "AddToCart": "Add to Cart",
+    "OmniMonthly": "Monthly Cost",
+    "OmniOneTime": "One Time Cost",
+    "control": {
+        "itemsKey": "results",
+        "propSetMap": {
+            "label": "Property Label"
+        },
+        "vlcSI": {
+            "results": [
+                {
+                    "CurrentBalance": 120,
+                    "Description": "Product Description",
+                    "DueDate": "10/17/1968",
+                    "Name": "Name",
+                    "PreviousBalance": 130,
+                    "TotalBalanceDue": 110,
+                    "added": false
+                }
+            ]
+        }
+    }
+}

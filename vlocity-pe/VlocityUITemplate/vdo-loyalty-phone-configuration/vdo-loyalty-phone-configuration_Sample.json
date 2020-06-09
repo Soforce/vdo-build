@@ -1,0 +1,37 @@
+{
+    "AddToCart": "Add to Cart",
+    "OmniMonthly": "Monthly Cost",
+    "OmniOneTime": "One Time Cost",
+    "control": {
+        "itemsKey": "results",
+        "propSetMap": {
+            "Options": [
+                {
+                    "HEX": "#262529",
+                    "ID": "1",
+                    "Name": "Space Grey",
+                    "URL": "/resource/VDOOmniScriptResources/images/mobileconfiguration/iPhoneXSpaceGrey.jpg"
+                },
+                {
+                    "HEX": "#e2e3e4",
+                    "ID": "2",
+                    "Name": "Silver",
+                    "URL": "/resource/VDOOmniScriptResources/images/mobileconfiguration/iPhoneXSilver.jpg"
+                }
+            ],
+            "Phone": "iPhone X",
+            "label": "Property Label"
+        },
+        "vlcSI": {
+            "results": [
+                {
+                    "Description": "Product Description",
+                    "MonthlyCost": 20,
+                    "Name": "Product Name",
+                    "OneTimeCost": 100,
+                    "added": false
+                }
+            ]
+        }
+    }
+}

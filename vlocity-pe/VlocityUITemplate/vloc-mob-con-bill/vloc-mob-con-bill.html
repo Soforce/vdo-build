@@ -1,0 +1,298 @@
+<script src="https://vdo-cmt-site.secure.force.com/resource/VLOCMOBCON/js/d3.v5.min.js"></script>
+<script>
+
+    $(document).ready(function(){
+        
+        //Page finished loading so show navbar
+	    showPage();
+	    
+	    //Scrolling graph animation
+	   $('.scroll-content').on('scroll', function(){
+	        if($('.con-bill-graph').offset() != null){
+    	        if($('.con-bill-graph').offset().top < (($( window ).height()/3)*2)){
+    	            $('.con-bill-graph').removeClass('con-bill-graph-small');
+    	        }else{
+    	            $('.con-bill-graph').addClass('con-bill-graph-small');
+    	        }
+	        }
+	    });
+
+    });
+    
+    function showPage(){
+        if($('.con-navbar-app').length){
+            $('.con-navbar-app').css('opacity', '1');
+    	    $('.con-bill').css('opacity', '1');
+    	    setTimeout(function(){$('.con-navbar-app').addClass('con-loaded');}, 1000);
+        }else{
+            setTimeout(function(){showPage();},500);
+        }
+    }
+</script>
+<div class="con-bill">
+
+    <!-- Bill Overview -->
+    <div class="con-device-details-section">
+        <div class="con-bill-details-title">
+            Your spending this month is
+        </div>
+        
+        <div class="con-bill-details-total">
+            $156.25
+        </div>
+        
+        <div class="con-bill-details-subtotal">
+            For October 01 through October 31<br/>
+            <img src="{{$root.instanceUrl + '/resource/VLOCMOBCON/images/ic_AutoPay_Green.svg' | trusted}}"/> Thank you for your business
+        </div>
+        
+        <div class="con-bill-details-manage">
+            Manage auto-payment <span></span>
+        </div>
+
+    </div>
+    
+    <!-- Bill Table -->
+    <div class="con-device-details-section">
+        
+        <!-- Base Plan -->
+        <div class="con-bill-details-table">
+            <div class="con-bill-details-table-header">
+                NuSlice Wireless Plans & Packages
+            </div>
+            <div class="con-bill-details-table-row">
+                <div class="con-bill-details-table-label">
+                    Unlimited Family P l a n - save
+                </div>
+                <div class="con-bill-details-table-value">
+                    $129.00
+                </div>
+            </div>
+            <div class="con-bill-details-table-row">
+                <div class="con-bill-details-table-label">
+                    5G Base Video Streaming Plan
+                </div>
+                <div class="con-bill-details-table-value">
+                    $15.00
+                </div>
+            </div>
+        </div>
+        
+        <!-- Devices & Addons -->
+        <div class="con-bill-details-table">
+            <div class="con-bill-details-table-header"><font color="black">
+                Purchase Activity</font>
+            </div>
+            <div class="con-bill-details-table-row">
+                <div class="con-bill-details-table-label">
+                    5G Burst 5-Pack
+                </div>
+                <div class="con-bill-details-table-value">
+                    $4.00
+                </div>
+            </div>
+            <div class="con-bill-details-table-row">
+                <div class="con-bill-details-table-label">
+                    5G Burst 5-Pack
+                </div>
+                <div class="con-bill-details-table-value">
+                    $4.00
+                </div>
+            </div>
+        </div>
+        
+        <!-- Extra Charges-->
+        <div class="con-bill-details-table">    
+            <div class="con-bill-details-table-header">
+                Extra Charges
+            </div>
+            <div class="con-bill-details-table-row">
+                <div class="con-bill-details-table-label">
+                    Taxes
+                </div>
+                <div class="con-bill-details-table-value">
+                    $4.25
+                </div>
+            </div>
+        </div>
+        
+        <div class="con-device-details-notification">
+            <div class="con-device-details-notification-icon">
+                <div class="con-device-details-notification-icon-lines">
+                <div class="con-device-details-notification-icon-line1"></div>
+                <div class="con-device-details-notification-icon-line2"></div>
+                <div class="con-device-details-notification-icon-line3"></div>
+                <div class="con-device-details-notification-icon-line4"></div>
+                <div class="con-device-details-notification-icon-line5"></div>
+            </div>
+            </div>
+            <div class="con-device-details-notification-title">
+                You've been buying more 5G Burst Packs lately. Consider unlimited packages. 
+            </div>
+            <div class="con-device-details-notification-action">
+                Upgrade my plan <span></span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bill Graph -->
+    <div class="con-device-details-section">
+        <div class="con-bill-details-title">
+            Last 6 months
+        </div>
+        <div class="con-bill-graph con-bill-graph-small">
+            <div class="con-bill-graph-bar-wrapper">
+                <div class="con-bill-graph-bar">
+                    <div class="con-bill-graph-bar-segment" style="height:25px;">
+                    </div>
+                    <div class="con-bill-graph-bar-segment" style="height:60px;">
+                    </div>
+                    <div class="con-bill-graph-bar-segment" style="height:115px;">
+                    </div>
+                </div>
+                <div class="con-bill-graph-bar-axis">
+                    Mar
+                </div>
+            </div>
+            <div class="con-bill-graph-bar-wrapper">
+                <div class="con-bill-graph-bar">
+                    <div class="con-bill-graph-bar-segment" style="height:0px;">
+                    </div>
+                    <div class="con-bill-graph-bar-segment" style="height:60px;">
+                    </div>
+                    <div class="con-bill-graph-bar-segment" style="height:115px;">
+                    </div>
+                </div>
+                <div class="con-bill-graph-bar-axis">
+                    Apr
+                </div>
+            </div>
+            <div class="con-bill-graph-bar-wrapper">
+                <div class="con-bill-graph-bar">
+                    <div class="con-bill-graph-bar-segment" style="height:15px;">
+                    </div>
+                    <div class="con-bill-graph-bar-segment" style="height:55px;">
+                    </div>
+                    <div class="con-bill-graph-bar-segment" style="height:115px;">
+                    </div>
+                </div>
+                <div class="con-bill-graph-bar-axis">
+                    May
+                </div>
+            </div>
+                        <div class="con-bill-graph-bar-wrapper">
+                <div class="con-bill-graph-bar">
+                    <div class="con-bill-graph-bar-segment" style="height:30px;">
+                    </div>
+                    <div class="con-bill-graph-bar-segment" style="height:55px;">
+                    </div>
+                    <div class="con-bill-graph-bar-segment" style="height:115px;">
+                    </div>
+                </div>
+                <div class="con-bill-graph-bar-axis">
+                    Jun
+                </div>
+            </div>
+            <div class="con-bill-graph-bar-wrapper">
+                <div class="con-bill-graph-bar">
+                    <div class="con-bill-graph-bar-segment" style="height:0px;">
+                    </div>
+                    <div class="con-bill-graph-bar-segment" style="height:30px;">
+                    </div>
+                    <div class="con-bill-graph-bar-segment" style="height:115px;">
+                    </div>
+                </div>
+                <div class="con-bill-graph-bar-axis">
+                    Jul
+                </div>
+            </div>
+            <div class="con-bill-graph-bar-wrapper">
+                <div class="con-bill-graph-bar">
+                    <div class="con-bill-graph-bar-segment" style="height:0px;">
+                    </div>
+                    <div class="con-bill-graph-bar-segment" style="height:20px;">
+                    </div>
+                    <div class="con-bill-graph-bar-segment" style="height:115px;">
+                    </div>
+                </div>
+                <div class="con-bill-graph-bar-axis">
+                    Aug
+                </div>
+            </div>
+            
+            <div class="con-bill-graph-legend">
+                <div class="con-bill-graph-legend-bar">
+                </div>
+                Packages & Passes
+            </div>
+            <div class="con-bill-graph-legend">
+                <div class="con-bill-graph-legend-bar">
+                </div>
+                Devices & Addons
+            </div>
+            <div class="con-bill-graph-legend">
+                <div class="con-bill-graph-legend-bar">
+                </div>
+                Extra Charges
+            </div>
+            
+        </div>
+        
+        <div class="con-bill-details-table-row">
+            <div class="con-bill-details-table-label">
+                August 2019
+            </div>
+            <div class="con-bill-details-table-value">
+                $138.97
+                <span></span>
+            </div>
+        </div>
+        <div class="con-bill-details-table-row">
+            <div class="con-bill-details-table-label">
+                July 2019
+            </div>
+            <div class="con-bill-details-table-value">
+                $139.96
+                <span></span>
+            </div>
+        </div>
+        <div class="con-bill-details-table-row">
+            <div class="con-bill-details-table-label">
+                June 2019
+            </div>
+            <div class="con-bill-details-table-value">
+                $146.95
+                <span></span>
+            </div>
+        </div>
+        <div class="con-bill-details-table-row">
+            <div class="con-bill-details-table-label">
+                May 2019
+            </div>
+            <div class="con-bill-details-table-value">
+                $142.97
+                <span></span>
+            </div>
+        </div>
+        <div class="con-bill-details-table-row">
+            <div class="con-bill-details-table-label">
+                April 2019
+            </div>
+            <div class="con-bill-details-table-value">
+                $140.95
+                <span></span>
+            </div>
+        </div>
+        <div class="con-bill-details-table-row">
+            <div class="con-bill-details-table-label">
+                March 2019
+            </div>
+            <div class="con-bill-details-table-value">
+                $146.95
+                <span></span>
+            </div>
+        </div>
+        
+    </div>
+    
+</div>

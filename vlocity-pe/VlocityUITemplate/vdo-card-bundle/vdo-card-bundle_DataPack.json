@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__CustomJavascript__c": "",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "A wide card typically used to display bundles.",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "vdo-card-bundle/1/Vlocity Demo Org/1467193415825",
+    "%vlocity_namespace%__HTML__c": "vdo-card-bundle.html",
+    "%vlocity_namespace%__ParentID__c": "demo-community-account/1/Vlocity Demo Org/1466575853114",
+    "%vlocity_namespace%__SampleJson__c": "vdo-card-bundle_Sample.json",
+    "%vlocity_namespace%__Sass__c": "vdo-card-bundle.scss",
+    "%vlocity_namespace%__Type__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "vdo-card-bundle",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/vdo-card-bundle"
+}

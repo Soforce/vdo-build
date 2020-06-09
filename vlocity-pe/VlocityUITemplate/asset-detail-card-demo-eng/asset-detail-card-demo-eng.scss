@@ -1,0 +1,266 @@
+/*** VARIABLES ***/
+@import "variables";
+
+/*** MIXINS ***/
+@import "mixin";
+
+@font-face{
+    font-family: fontello2;
+    src: url('/resource/VLOCMOBCON/fonts/fontello.woff');
+}
+
+
+/*** STYLES ***/
+.vlocity {
+    .unlimited-icon {
+        color: #e9ecfe;
+        font-family: fontello2;
+        font-size: 50px;
+        position: relative;
+        margin: auto;
+        text-align: center;
+        top: -15px;
+        left: -5px;
+    }
+    section.console-card {
+        float: left;
+        margin: 10px;
+        min-height: 412px;
+        background-color: #FFF;
+        //border: 1px solid #e8eef5;
+        //border-radius:.25rem;
+        
+        &:hover{
+            cursor:pointer;
+            background:#e8eef5;
+        }
+
+        .card-top {
+            padding: 15px 20px 15px;
+            background-color: #F8FBFE;
+            border-top: 1px solid #e8eef5;
+            border-bottom: 1px solid #e8eef5;
+            @include clearfix;
+
+            .card-image{
+                float: left;
+                width: 45px;
+                height: 45px;
+                margin-right: 15px;
+                
+                .slds-grid.slds-m-bottom--small.slds-wrap.cards-container.np-blank-canvas {
+                    margin: 0px;
+                    padding: 0px;
+                }
+                
+                img{
+                    width: auto;
+                    height: 45px;
+                }
+            }
+
+            h2 {
+                margin: 0 0 4px 0;
+                font-size: 20px;
+                line-height: $font-heading-size;
+                height: 20px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                cursor: pointer;
+                display: inline-block;
+                max-width: 75%;
+                text-align: left;
+                font-weight:300;
+            }
+
+            span {
+                letter-spacing: 0.02em;
+
+                &.account-number {
+                    float: left;
+                    font-size: 13px;
+                    color:rgb(22, 50, 92);
+                    font-weight:400;
+                    max-width: 155px;
+                    height: 20px;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+                
+                &.good {
+                    float: right;
+                    font-size: 13px;
+                    color: rgb(22, 50, 92);
+                    position:relative;
+                    text-transform:uppercase;
+                }
+                
+                &.active {
+                    float: right;
+                    font-size: 13px;
+                    color: #057f52;
+                    position:relative;
+                    text-transform:uppercase;
+                }
+
+                &.warning {
+                    float: right;
+                    font-size: 13px;
+                    color: rgb(22, 50, 92);
+                    position:relative;
+                    text-transform:uppercase;
+
+                    i.icon {
+                        color: $warning;
+                        font-size: 22px;
+                        position: absolute;
+                        top: -1px;
+                        left: -35px;
+
+                        &+ .tooltip .tooltip-inner {
+                            text-transform: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .card-info {
+            @include clearfix;
+            padding: 10px 30px;
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+
+                &.details {
+                    float: left;
+                    padding-top: 10px;
+                    width: 50%;
+
+                    li {
+                        margin-bottom: 16px;
+
+                        &:last-of-type {
+                            margin: 0;
+                        }
+                    }
+
+                    span {
+                        display: block;
+
+                        &.detail-label {
+                            text-transform: uppercase;
+                            color: #54698d;
+                            font-size: 13px;
+                        }
+
+                        &.value {
+                            text-transform: none;
+                            font-size: 16px;
+                            color: #16325c;
+                            font-weight: 100;
+                            overflow: hidden;
+                            height: 24px;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                }
+
+                &.actions {
+                    float: right;
+                    width: 50%;
+                    max-width: 150px;
+
+                    a {
+                        width: 100%;
+                        height: 53px;
+                        border-bottom: 1px solid $light-gray;
+                        text-decoration: none;
+
+                        img {
+                            width: 29px;
+                            height: 29px;
+                            margin: 5px 9px;
+                            display: table-cell;
+                            vertical-align: middle;
+                        }
+
+                        i.icon {
+                            display: table-cell;
+                            vertical-align: middle;
+                            font-size: 20px;
+                            line-height: 20px;
+                            color: $light-blue;
+                            width: 40px;
+                            
+                            &:before {
+                                font-weight: 100;
+                                line-height: 34px;
+                            }
+                        }
+
+                        span {
+                            font-size: 13px;
+                            color: $text-gray;
+                            line-height: 1;
+                            display: table-cell;
+                            vertical-align: middle;
+                            height: 60px;
+
+                        }
+
+                        &:hover {
+                            text-decoration: none;
+
+                            i.icon {
+                                color: $dark-blue;
+                            }
+
+                            span {
+                                color: $light-blue;
+                            }
+                        }
+                    }
+
+                    li:last-of-type {
+                        a {
+                            border: none;
+                        }
+                    }                   
+                }
+            }            
+        }
+  
+    }
+
+    @media only screen and (min-width : 1575px) and (min-height : 300px)  {
+        section.console-card {
+            width: calc(100% / 4 - 20px);
+        }
+    }
+    
+    @media only screen and (max-width : 1574px) and (min-width : 1151px) and (min-height : 300px)  {
+        section.console-card {
+            width: calc(100% / 3 - 20px);
+        }
+    }
+
+    @media only screen and (max-width : 1150px) and (min-height : 300px)  {
+        section.console-card {
+            width: calc(100% / 2 - 20px);
+        }
+    }
+
+    @media only screen and (max-width : 725px) and (min-height : 300px) {
+        section.console-card {
+            width: calc(100% - 20px);
+        }
+    }
+
+    
+}

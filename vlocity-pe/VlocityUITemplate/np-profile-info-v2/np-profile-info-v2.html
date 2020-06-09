@@ -1,0 +1,15 @@
+<div class="dx-via-card--left-acount-info-slds">
+<!--     <span>
+       {{records[0].MailingAddress.street}}<br/>{{records[0].MailingAddress.city}} {{records[0].MailingAddress.state}} {{records[0].MillingAddress.postalCode}}</span>
+-->       
+      <div data-label="{{field.label}}" ng-repeat="field in data.fields">
+        <span class="custom slds-text-body--large" 
+        
+        title="{{ obj | getter: field | picker: field.type }}">{{ obj | getter: field | picker: field.type }}</span>
+     
+ 
+ 
+</div>
+ 
+ 
+</div>

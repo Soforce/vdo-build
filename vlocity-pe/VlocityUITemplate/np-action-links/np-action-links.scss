@@ -1,0 +1,23 @@
+@import "npVariables";
+
+/*** Styles ***/
+// include mixin "npVariables" for fonts and colors.
+// npVariables mixin template should be active.
+.vlocity {
+/* Always use vlocity class as a wrapper */
+    .npActionlinks{
+        a{
+            font-size:$font-medium;
+           
+
+        }
+    }
+    
+    .slds-card__tile{
+        width: 15rem;
+    }
+    
+    .via-slds .slds-media__body, .via-slds .slds-media__body>:last-child {
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,34 @@
+<!-- 
+
+  <div class="slds-internet" style="clear: both;" ng-if="!isObject(data)">
+
+<div class="panel panel-default" ng-controller="storyController"> -- NOPE
+
+--> 
+
+<div class="panel panel-default">
+    <table class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto;">
+      <thead>
+        <tr>
+            <th>Title</th>
+            <th>Status</th>
+            <th>Last Activity Date</th>
+            <th>Type</th>
+        </tr>
+      </thead>
+    <tbody class="ins">
+       <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" 
+       >
+      <td>{{p.title}}</td>
+      <td>{{p.subtitle}}</td>
+      <td>{{p.formatedLastActivityDate}}</td>
+
+<!-- This sets the URL to p.navigateLink when it is not null, but to the Id if it is null -->
+      <td ng-init=" objectLink = p.navigateLink ?  p.navigateLink : '/' + p.Id "
+      ><u><a href={{objectLink}} target="_blank" rel="noreferrer" rel="noopener">{{p.objType}}</u></td>
+
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <p>&nbsp;</p>

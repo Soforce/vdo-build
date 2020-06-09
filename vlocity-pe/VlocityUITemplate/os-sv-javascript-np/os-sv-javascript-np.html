@@ -1,0 +1,16 @@
+<!-- Trigger on step -->
+<div ng-bind="osjsStepIsActive(child)"></div>
+<!-- Trigger on click -->
+<div class='nds-size_1-of-1 ng-scope jsButton' ng-show="osjsShowthis(child)">
+    <ng-form name='loopform' class='nds-form-element nds-size_1-of-1 nds-m-bottom_large nds-p-around_small ng-pristine ng-valid ng-scope' ng-repeat='control in child.eleArray'>
+        <div class="nds-form-element__control">
+            <div ng-show="osjsShowUploader(child)">
+                <span>{{::control.propSetMap.label}}:</span> <input name="uploader" id="uploader" type="file">
+            </div>
+
+            <button class="nds-button nds-button_brand nds-button_text-font nds-size_1-of-1 ng-scope" title='{{::control.propSetMap.label}}' ng-click="osjsButtonClickCode(child)" ng-show="!osjsShowUploader(child)">
+                <p class="nds-truncate ng-binding">{{::control.propSetMap.label}}</p>
+            </button>
+        </div>
+    </ng-form>
+</div>

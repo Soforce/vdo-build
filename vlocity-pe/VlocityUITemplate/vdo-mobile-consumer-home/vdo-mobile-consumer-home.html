@@ -1,0 +1,26 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+<script src="https://vdo-energy-site.secure.force.com/resource/VDOInternalResources/js/swiper.min.js"></script>
+<link rel="stylesheet" href="https://vdo-energy-site.secure.force.com/resource/VDOInternalResources/css/swiper.min.css">
+<meta name="format-detection" content="telephone=no" />
+<script>
+    var mySwiper = '';
+	$( document ).ready(function() {
+        //Have pagination follow scrolling since position fixed doesn't work in ionic
+        /*$( "ion-content" ).scroll(function() {
+            if($( "ion-content" ).scrollTop() > 600){
+                $('.swiper-pagination').css('top', $( "ion-content" ).scrollTop());
+            }else{
+                $('.swiper-pagination').css('top', 555);
+            }
+        });*/
+    });
+</script>
+<div class="csm-content">
+	<div class="swiper-container">
+		<div class="swiper-pagination" ion-fixed></div>
+		<div class="swiper-wrapper">
+		        <div vloc-card ng-repeat="card in cards | orderBy:data.dataSource.order" ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}" class="swiper-slide" use-existing-element-type></div>
+        </div>
+	</div>
+</div>

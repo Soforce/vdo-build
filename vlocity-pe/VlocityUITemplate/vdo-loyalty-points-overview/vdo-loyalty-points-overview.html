@@ -1,0 +1,32 @@
+<section ng-controller="NpServiceActions" class="np-asset-services custom-border--bottom slds-p-around--medium">
+<h2> 
+        <span class="np-list-inline"  ng-click="toggle = !toggle" ng-show="!toggle" >
+        <slds-button-svg-icon ng-if="obj.childAssets.records.length > 0"  sprite="'utility'" icon="'chevronright'" no-hint="true" ></slds-button-svg-icon></span>
+        <span ng-click="toggle = !toggle" ng-show="toggle">
+        <slds-button-svg-icon class="np-list-inline" ng-if="obj.childAssets.records.length > 0 " sprite="'utility'" icon="'chevrondown'" no-hint="true" ></slds-button-svg-icon></span>
+        <div ng-click="performAction(data.actions[0])"  class="slds-grid">
+            <div class="slds-text-align--left slds-size--10-of-12">{{obj.Name}}</div>
+            <div class="slds-text-align--right slds-size--2-of-12">{{obj[prefixNamespace +'__OneTimeTotal__c'].value | currency}}</div>
+        </div>
+        
+  
+</h2>
+    <ul  ng-repeat="field in data.fields">
+        
+        
+    
+         <li class="np-services-list slds-m-top--small ">
+         <div class="slds-grid">
+             
+         <span class="slds-size--9-of-12 slds-medium-size--5-of-12 slds-large-size--5-of-12 np-list-inline slds-m-right--medium slds-p-left--large" ng-click="openStory(child)">{{field.label}}</span>
+    
+         <span class="slds-size--3-of-12 slds-medium-size--2-of-12 slds-large-size--6-of-12 np-asset-desc slds-text-align--left">{{obj | getter: field | picker: field.type}}</span>
+         </div>
+        
+         
+        </li>  
+        
+     
+    </ul>
+    
+</section>

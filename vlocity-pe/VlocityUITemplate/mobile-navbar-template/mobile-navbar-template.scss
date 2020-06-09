@@ -1,0 +1,39 @@
+.vlocity {
+
+    & .title {
+        
+    }
+
+    .navbar-template {
+        .title {
+            text-align: center;
+            padding: 0 40px;
+            width: auto;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0 !important;
+            margin: auto;
+
+            img {
+                max-height: 40px;
+                vertical-align: middle;
+            }
+        }
+
+        .nav-right-button {
+            float:right;
+        }
+
+        .icon-custom-edit {
+            background: url(https://mobile-ins102--c.na59.content.force.com/servlet/servlet.ImageServer?id=015f4000001nszP&oid=00Df40000023GKu&lastMod=1527139337000) no-repeat center;
+            background-size: contain;
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            text-indent: -999em;
+            font-size: 0;
+            line-height: 0;
+        }
+    }
+}

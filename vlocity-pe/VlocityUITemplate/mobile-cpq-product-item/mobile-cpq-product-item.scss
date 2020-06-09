@@ -1,0 +1,76 @@
+/*** CPQ Theme VARIABLES ***/
+@import "cpq-theme-variables";
+
+/*** MIXINS ***/
+@import "cpq-mixin";
+
+/*** STYLES ***/
+.vlocity {
+    .cpq-product-item {
+        position: relative;
+        height: 400px;
+        margin-bottom: 1.5em;
+        
+        .cpq-product-item-container {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            
+            .product-image {
+                position: absolute;
+                top: 1em;
+                left: 0;
+                right: 0;
+                bottom: 20%;
+                
+                text-align: center;
+                
+                img {
+                    height: 100%;
+                }
+            }
+            
+            .product-info {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 20%;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            
+            .product-name {
+                font-size: 1.5em;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                font-weight: bold;
+                color: #061C3F;
+            }
+            
+            .product-price {
+                text-align: center;
+                line-height: 2em;
+            }
+        }
+        
+        .cpq-product-actions {
+            text-align: center;
+            
+            .add-button {
+                background-color: #0070D2;
+                color: white;
+                font-size: 1em;
+                line-height: 3em;
+                width: 60%;
+                border-radius: 1.5em;
+                text-transform: uppercase;
+           }
+        }
+    }
+}

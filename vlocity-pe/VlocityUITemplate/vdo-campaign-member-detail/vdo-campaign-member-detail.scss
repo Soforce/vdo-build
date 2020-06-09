@@ -1,0 +1,100 @@
+@import 'mixin';
+@import 'variables';
+
+.campaign-member-detail-top {
+    .member-information {
+        @include clearfix;
+        width: 100%;
+        padding: 0 0 0.5rem 0;
+        min-height: 5.95rem;
+        
+        .left {
+            h2 {
+                font-size: 1.35rem;
+                line-height: 1.4em;
+                color: #383838k;
+            }
+            span.line  {
+                display: block;
+                line-height: 1.8em;
+                color: #333;
+                
+                &.title-employer {
+                    font-size: 1rem;
+                }
+                
+                &.phone-email {
+                    font-size: 0.75rem;
+                }
+            }
+        }
+        
+        .right {
+            position: relative;
+            
+            .member-status-select {
+                width: 100%;
+
+                .slds-button, .slds-dropdown {
+                    text-align: left;
+                    width: 100%;
+                }
+                .slds-dropdown {
+                    width: auto;
+                }
+            }
+        }
+    }
+    
+    .member-actions {
+        @include clearfix;
+        padding: 0;
+        
+        .target-call-date-wrapper {
+            float: left;
+            
+            .slds-text-heading--label {
+                line-height: 1.3em;
+            }
+            span.target-call-date {
+                color: #333;
+                font-size: 0.75rem;
+            }   
+        }
+        
+        button.slds-button {
+            margin-right: 0.5rem;
+            background-color: #ff0000;
+            border-color: #ff0000;
+            user-select: none;
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
+            
+            &:hover, &:active, &:focus {
+                background-color: darken(#ff0000, 10%);
+            }
+            
+            .slds-button__icon {
+                width: 1.3rem;
+                height: 1.3rem;
+                position: relative;
+                top: -2px;
+            }
+            
+            &.delete-action {
+                float: right;
+                margin-right: 0;
+                background-color: #00ff00;
+                border-color: #00ff00;
+                
+                &:hover, &:active, &:focus {
+                    background-color: darken(#00ff00, 10%);
+                }
+                
+                .slds-button__icon {
+                    margin: 0;
+                }
+            }
+        }
+    }    
+}

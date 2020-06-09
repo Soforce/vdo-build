@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "Radif Masud",
+    "%vlocity_namespace%__CustomJavascript__c": "",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "vdo-omniscript-product-recommendations-nuslice-demo-eng/1/Radif Masud/1573658885908",
+    "%vlocity_namespace%__HTML__c": "vdo-omniscript-product-recommendations-nuslice-demo-eng.html",
+    "%vlocity_namespace%__ParentID__c": "vdo-omniscript-product-recommendations/2/Vlocity Demo Org/1572364488433",
+    "%vlocity_namespace%__SampleJson__c": "vdo-omniscript-product-recommendations-nuslice-demo-eng_Sample.json",
+    "%vlocity_namespace%__Sass__c": "vdo-omniscript-product-recommendations-nuslice-demo-eng.scss",
+    "%vlocity_namespace%__Type__c": "OmniScript Selectable Items",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "vdo-omniscript-product-recommendations-nuslice-demo-eng",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/vdo-omniscript-product-recommendations-nuslice-demo-eng"
+}

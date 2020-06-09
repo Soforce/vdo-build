@@ -1,0 +1,40 @@
+<section data-card="card-{{cardIndex}}" ng-class="{selected:isSelected(cardIndex)}" hotkey-layout-card ng-controller="vdoBanLinesController">
+    <div class="vdo-card">
+        <div class="vdo-card-info">
+            <div class="vdo-card-name"><a ng-click="goLogin()" target="_self">{{obj.Name}}</a></div>
+            <ul class="vdo-details"> 
+                
+                <li class="vdo-detail">
+                    <span class="vdo-value">
+                        {{obj.NumberOfEmployees}}
+                    </span> 
+                    <span class="vdo-label">Lines</span>
+                </li>
+                <li class="vdo-detail">
+                    <span class="vdo-value">
+                        Business
+                    </span> 
+                    <span class="vdo-label">Type</span>
+                </li>
+                <li class="vdo-detail">
+                    <span class="vdo-value">
+                        {{obj.%vlocity_namespace%__Status__c}}
+                    </span> 
+                    <span class="vdo-label">Status</span>
+                </li>
+                
+            </ul> 
+        </div>
+        <div class="vdo-alerts" ng-click="alertshow=!alertshow">
+            <div class="vdo-alert-number" ng-if="obj.Alerts__c && obj.Alerts__c!='0'">{{obj.Alerts__c}}</div>
+            <div class="vdo-no-alert-number" ng-if="!obj.Alerts__c || obj.Alerts__c=='0'">0</div>
+            <div class="vdo-alert">Alerts</div>
+        </div>
+    </div>
+    <div class="vdo-alert-panel" ng-show="alertshow">
+        <div class="vdo-alert-image"></div>
+        <div class="vdo-alert-text"><span class="vdo-alert-highlight">{{obj.Name}} has spent $10,500 on data overages.</span> {{obj.Name}} usually spends $7,000.</div>
+        <div class="vdo-alert-image"></div>
+        <div class="vdo-alert-text"><span class="vdo-alert-highlight">32 lines have been added to {{obj.Name}}.</span> {{obj.Name}} usually adds 24 lines.</div>
+    </div>
+</section>

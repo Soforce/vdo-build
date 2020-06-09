@@ -1,0 +1,103 @@
+.home-actions {
+    display: flex;
+    flex-direction: column;
+    // min-height: 768px;
+    
+    .home-action {
+        position: relative;
+        flex-grow: 1;
+        max-height: 33%;
+        min-height: 190px;
+        margin-bottom: 15px;
+        
+        
+        &:last-child {
+            margin-bottom: 0;
+        }
+        
+        a {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+            //background: -moz-linear-gradient(top, #F8FBFE 0%, #EDF2F8 53%, #EDF2F8 53%, #EDF2F8 57%, #D1D9E9 100%);
+            //background: -webkit-linear-gradient(top, #F8FBFE 0%, #EDF2F8 53%, #EDF2F8 53%, #EDF2F8 57%, #D1D9E9 100%);
+            //background: linear-gradient(to bottom, #F8FBFE 0%, #EDF2F8 53%, #EDF2F8 53%, #EDF2F8 57%, #D1D9E9 100%);
+            //filter: progid:npImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#dbdbdb',GradientType=0 );
+            
+            display: flex;
+            align-items: center;
+            border:0px;
+            overflow:hidden;
+            
+            &:before{
+                content: ' ';
+                height: 300px;
+                width: 300px;
+                border-radius: 100%;
+                padding-top: 10px;
+                margin-bottom: 25px;
+                position: absolute;
+                background: #e9ecfe;
+                left: 65px;
+                top: 50px;
+            }
+        }
+        
+        .action-icon {
+			flex-grow: 0;
+    		width: 80px;
+    		margin-left: 30px;
+            
+            .slds-icon {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        
+        .action-text {
+			flex-grow: 1;
+            font-size: 26px;
+            font-weight: lighter;
+            color: #000;
+            text-align: left;
+            position: absolute;
+            top: 15px;
+            left: 25px;
+            line-height: 30px;
+            font-family: Brown-Bold;
+
+        }
+        
+        .np-catalog-img{
+            
+            width: 70%;
+            height: auto;
+            margin: auto;
+            display: block;
+            position: relative;
+            top: 35px;
+
+        }
+        
+        
+        .action-view{
+            color:#0070d2;
+            font-size:18px;
+            position:absolute;
+			top:15px;
+			right:25px;
+			line-height:30px;
+			font-family: Brown-Bold;
+			
+			span{
+			    font-family:fontello;
+			    margin-left:5px;
+			}
+        }
+    }
+}

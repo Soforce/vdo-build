@@ -1,0 +1,208 @@
+{
+    "control": {
+        "JSONPath": "OrderConfirmation:OrderItem",
+        "bHasAttachment": false,
+        "children": [
+        ],
+        "compDisable": false,
+        "index": 0,
+        "indexInParent": 1,
+        "itemsKey": "recSet",
+        "level": 1,
+        "name": "OrderItem",
+        "propSetMap": {
+            "HTMLTemplateId": "OrderItemList",
+            "accessibleInFutureSteps": true,
+            "dataJSON": false,
+            "disOnTplt": false,
+            "itemsKey": "recSet",
+            "label": null,
+            "maxCompareSize": 4,
+            "modalConfigurationSetting": {
+                "modalController": "ModalProductCtrl",
+                "modalHTMLTemplateId": "vlcProductConfig.html",
+                "modalSize": "lg"
+            },
+            "modalController": "ModalInstanceCtrl",
+            "modalHTMLTemplateId": "vlcModalContent.html",
+            "modalSize": "",
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "responseJSONNode": "",
+            "responseJSONPath": "",
+            "selectMode": "Single",
+            "sendJSONNode": "",
+            "sendJSONPath": "",
+            "show": null
+        },
+        "response": null,
+        "rootIndex": 2,
+        "show": true,
+        "type": "Selectable Items",
+        "vlcSI": {
+            "recSet": [
+                {
+                    "Id": "8020b000001GcmXAAS",
+                    "ItemName": "Triple Play Bundle Medium",
+                    "LineNumber": "0001",
+                    "OneTimeTotal": 425,
+                    "ParentItemId": "Parent",
+                    "Quantity": 1,
+                    "RecurringTotal": 190,
+                    "ServiceAccount": "Smith - New York Residence",
+                    "TotalPrice": 150
+                },
+                {
+                    "Id": "8020b000001GcmYAAS",
+                    "ItemName": "Consumer Landline",
+                    "LineNumber": "0001.0001",
+                    "OneTimeTotal": 50,
+                    "ParentItemId": "8020b000001GcmXAAS",
+                    "Quantity": 1,
+                    "RecurringTotal": 20,
+                    "ServiceAccount": "Smith - New York Residence",
+                    "TotalPrice": 0
+                },
+                {
+                    "Id": "8020b000001GcmZAAS",
+                    "ItemName": "Landline Installation and Activation",
+                    "LineNumber": "0001.0001.0001",
+                    "OneTimeTotal": 50,
+                    "ParentItemId": "8020b000001GcmYAAS",
+                    "Quantity": 1,
+                    "RecurringTotal": 0,
+                    "ServiceAccount": "Smith - New York Residence",
+                    "TotalPrice": 250
+                },
+                {
+                    "Id": "8020b000001GcmaAAC",
+                    "ItemName": "Broadband Internet Medium",
+                    "LineNumber": "0001.0002",
+                    "OneTimeTotal": 140,
+                    "ParentItemId": "8020b000001GcmXAAS",
+                    "Quantity": 1,
+                    "RecurringTotal": 30,
+                    "ServiceAccount": "Smith - New York Residence",
+                    "TotalPrice": 0
+                },
+                {
+                    "Id": "8020b000001GcmbAAC",
+                    "ItemName": "Router - 1000 Series",
+                    "LineNumber": "0001.0002.0001",
+                    "OneTimeTotal": 90,
+                    "ParentItemId": "8020b000001GcmaAAC",
+                    "Quantity": 1,
+                    "RecurringTotal": 0,
+                    "ServiceAccount": "Smith - New York Residence",
+                    "TotalPrice": 100
+                },
+                {
+                    "Id": "8020b000001GcmcAAC",
+                    "ItemName": "Internet Installation and Activation",
+                    "LineNumber": "0001.0002.0002",
+                    "OneTimeTotal": 50,
+                    "ParentItemId": "8020b000001GcmaAAC",
+                    "Quantity": 1,
+                    "RecurringTotal": 0,
+                    "ServiceAccount": "Smith - New York Residence",
+                    "TotalPrice": 250
+                },
+                {
+                    "Id": "8020b000001GcmdAAC",
+                    "ItemName": "TV Medium",
+                    "LineNumber": "0001.0003",
+                    "OneTimeTotal": 85,
+                    "ParentItemId": "8020b000001GcmXAAS",
+                    "Quantity": 1,
+                    "RecurringTotal": 90,
+                    "ServiceAccount": "Smith - New York Residence",
+                    "TotalPrice": 10
+                },
+                {
+                    "Id": "8020b000001GcmeAAC",
+                    "ItemName": "HD TV",
+                    "LineNumber": "0001.0003.0001",
+                    "OneTimeTotal": 25,
+                    "ParentItemId": "8020b000001GcmdAAC",
+                    "Quantity": 1,
+                    "RecurringTotal": 0,
+                    "ServiceAccount": "Smith - New York Residence",
+                    "TotalPrice": 25
+                },
+                {
+                    "Id": "8020b000001GcmfAAC",
+                    "ItemName": "Base Channels",
+                    "LineNumber": "0001.0003.0002",
+                    "OneTimeTotal": 0,
+                    "ParentItemId": "8020b000001GcmdAAC",
+                    "Quantity": 1,
+                    "RecurringTotal": 40,
+                    "ServiceAccount": "Smith - New York Residence",
+                    "TotalPrice": 0
+                },
+                {
+                    "Id": "8020b000001GcmgAAC",
+                    "ItemName": "Entertainment Channels",
+                    "LineNumber": "0001.0003.0003",
+                    "OneTimeTotal": 0,
+                    "ParentItemId": "8020b000001GcmdAAC",
+                    "Quantity": 1,
+                    "RecurringTotal": 10,
+                    "ServiceAccount": "Smith - New York Residence",
+                    "TotalPrice": 0
+                },
+                {
+                    "Id": "8020b000001GcmhAAC",
+                    "ItemName": "Music Channels",
+                    "LineNumber": "0001.0003.0004",
+                    "OneTimeTotal": 0,
+                    "ParentItemId": "8020b000001GcmdAAC",
+                    "Quantity": 1,
+                    "RecurringTotal": 10,
+                    "ServiceAccount": "Smith - New York Residence",
+                    "TotalPrice": 0
+                },
+                {
+                    "Id": "8020b000001GcmiAAC",
+                    "ItemName": "News Channels",
+                    "LineNumber": "0001.0003.0005",
+                    "OneTimeTotal": 0,
+                    "ParentItemId": "8020b000001GcmdAAC",
+                    "Quantity": 1,
+                    "RecurringTotal": 10,
+                    "ServiceAccount": "Smith - New York Residence",
+                    "TotalPrice": 0
+                },
+                {
+                    "Id": "8020b000001GcmjAAC",
+                    "ItemName": "Kids Channels",
+                    "LineNumber": "0001.0003.0006",
+                    "OneTimeTotal": 0,
+                    "ParentItemId": "8020b000001GcmdAAC",
+                    "Quantity": 1,
+                    "RecurringTotal": 10,
+                    "ServiceAccount": "Smith - New York Residence",
+                    "TotalPrice": 0
+                },
+                {
+                    "Id": "8020b000001GcmkAAC",
+                    "ItemName": "TV Installation and Activation",
+                    "LineNumber": "0001.0003.0007",
+                    "OneTimeTotal": 50,
+                    "ParentItemId": "8020b000001GcmdAAC",
+                    "Quantity": 1,
+                    "RecurringTotal": 0,
+                    "ServiceAccount": "Smith - New York Residence",
+                    "TotalPrice": 100
+                }
+            ]
+        }
+    }
+}

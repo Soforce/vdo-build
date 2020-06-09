@@ -1,0 +1,199 @@
+<div class="phonecontent">
+		<div class="title">{{::control.propSetMap.Phone}} <span class="colourtext">{{::control.propSetMap.Options[0].Name}}</span></div>
+		<div class="leftcolumn">
+			<div class="colourpicker">
+				<p class="colourchosen">Color: <span class="colourtext">{{::control.propSetMap.Options[0].Name}}</span></p>
+				<div ng-repeat="p in control.propSetMap.Options | orderBy:'ID'">
+						<div class="colouroption {{p.ID}}" ng-class='{selectedcolour:$first}'  id="{{p.ID}}" name="{{p.Name}}"><label style="background-color:{{p.HEX}}"></label></div>
+				</div>
+			</div>
+			<div class="yearpicker">
+				<p class="yearchosen">Contract Duration: 2 Years</p>
+				<div class="yearoption selectedyear" id="year2">2 Years</div>
+				<div class="yearoption" id="year1">1 Year</div>
+			</div>
+			<div class="bundlepicker">
+				<div class="headingtext">
+					<div class="headingnumber">1</div>
+					Plan Upgrades
+				</div>
+				<div class="bundleoptions">
+					<div class="bundleoption selectedbundle" id="bundle1">
+						<p monthly="0.00">Existing Family Plan</p>
+						<p>$ 0.00 / month</p>
+					</div>
+					<div class="bundleoption" id="bundle2">
+						<p monthly="10.50">5 GB + Unlimited Calls</p>
+						<p>$ 10.50 / month</p>
+					</div>
+					<div class="bundleoption" id="bundle3">
+						<p monthly="16.50">10 GB + Unlimited Calls + Data Free Netflix</p>
+						<p>$ 16.50 / month</p>
+					</div>
+					<div class="vlocityintelligence">
+						<img src="https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/VDOInternalResources/images/VILogo1.png"/>
+						<img src="https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/VDOOmniscriptResources/images/mobileconfiguration/NetflixLogo.png"/>
+					</div>
+					<div class="bundleoption" id="bundle4">
+						<p monthly="24.50">Unlimited Data, Minutes, Texts</p>
+						<p>$ 24.50 / month</p>
+					</div>
+					<div class="bundleoption" id="bundle5">
+						<p monthly="32.00">Unlimited Data, Minutes, Texts + Roaming</p>
+						<p>$ 32.00 / month</p>
+					</div>
+				</div>
+				<div class="bundleterms">
+					<img src="https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/VDOOmniscriptResources/images/mobileconfiguration/USLogo.png">
+					<p>
+						<span class="blue">Internet</span>:
+						You can use your data in the US and abroad. <br/>
+						Minutes: Unlimited in the US and 120 minutes abroad. <br/>
+						SMS: Unlimited texts in the US and abroad.
+					</p>
+				</div>
+			</div>
+			<div class="paymentpicker">
+				<div class="headingtext">
+					<div class="headingnumber">2</div>
+					Choose Your Payment Options
+				</div>
+				<p>Pay upfront or over the duration of your contract.</p>
+				<div class="paymentoptions">
+					<div class="paymentoption paymentchosen" id="paymentchosen">
+						<p onetime="0.00" monthly="31.00">
+							$ 0.00
+							<span>One-time payment</span>
+						</p>
+						<p>$ 31.00 / month</p>
+					</div>
+					<div class="paymentoption  selectedpayment" id="payment1">
+						<p onetime="0.00" monthly="31.00">
+							$ 0.00
+							<span>One-time payment</span>
+						</p>
+						<p>$ 31.00 / month</p>
+					</div>
+					<div class="paymentoption" id="payment2">
+						<p onetime="228.00" monthly="21.50">
+							$ 228.00
+							<span>One-time payment</span>
+						</p>
+						<p>$ 21.50 / month</p>
+					</div>
+					<div class="paymentoption" id="payment3">
+						<p onetime="999.00" monthly="0.00">
+							$ 999.00
+							<span>One-time payment</span>
+						</p>
+						<p>$ 0.00 / month</p>
+					</div>
+				</div>
+			</div>
+			<div class="shoppingcart">
+				<div class="monthlycosts shoppingcartsection">
+					<div class="shoppingcarttitle">
+						<p>Monthly Costs</p>
+						<p></p>
+					</div>
+					<div class="shoppinglineitem">
+						<p class="shoppinglineyear">
+							Duration 1 Year
+						</p>
+						<p></p>
+					</div>
+					<div class="shoppinglineitem">
+						<p>
+							<b>Subscription:</b>
+						</p>
+						<p id="bundlemonthly">$ 0.00</p>
+					</div>
+					<div class="shoppinglineitem">
+						<p id="bundletitle">
+							Existing family plan
+						</p>
+						<p></p>
+					</div>
+					<div class="shoppinglineitem" id="yeardiscount">
+						<p>
+							<span class="greenhighlight">Promotional 12 month discount</span>
+						</p>
+						<p>
+							<span class="greenhighlight">- $ 10.00</span>
+						</p>
+					</div>
+					<div class="shoppinglineitem lastlineitem">
+						<p>
+							Device Payment
+						</p>
+						<p id="paymentplanmonthly">$ 31.00</p>
+					</div>
+				</div>
+				<div class="monthlytotal shoppingcartsection">
+					<div class="shoppingcarttitle">
+						<p>
+							<b>Total Monthly Payment</b>
+						</p>
+						<p>
+							<b class="totalbarmonthly">$ 21.00</b>
+						</p>
+					</div>
+					<div class="shoppinglineitem">
+						<p class="wide">
+							<span class="greenhighlight">Includes a Promotional 2GB extra data per month.</span>
+						</p>
+						<p></p>
+					</div>
+				</div>
+				<div class="oneoffcosts shoppingcartsection">
+					<div class="shoppingcarttitle">
+						<p>One-off costs</p>
+						<p></p>
+					</div>
+					<div class="shoppinglineitem">
+						<p id="shoppingcartphonename">{{::control.propSetMap.Phone}} <span class="colourtext">{{::control.propSetMap.Options[0].Name}}</span></p>
+						<p id="paymentplanonetime">$ 0.00</p>
+					</div>
+					<div class="shoppinglineitem lastlineitem">
+						<p><span class="blue">Local Tax</span></p>
+						<p>$ 4.24</p>
+					</div>
+				</div>
+				<div class="directcomply shoppingcartsection">
+					<div class="shoppingcarttitle">
+						<p>
+							<b>Total One-off Costs</b>
+						</p>
+						<p>
+							<b class="totalbaronetime">$ 0.00</b>
+						</p>
+					</div>
+					<div class="shoppinglineitem">
+						<p><span class="blue">Connection Costs</span></p>
+						<p>$ 20.00</p>
+					</div>
+				</div>
+				<div class="shoppingcartbuttons">
+				<div class="leftbutton">Need Help?</div>
+				<div class="rightbutton" 
+				    ng-click="baseCtrl.addProductToCart(p, control, this)"
+                    vlc-slds-prod-desc="{{ p.Product2.Description }}"
+                    ng-repeat='p in control.vlcSI[control.itemsKey][0].records'>Add To Cart</div>
+				</div>
+			</div>
+		</div>
+		<div class="rightcolumn">
+			<div class="phoneimage">
+				<div ng-repeat="p in control.propSetMap.Options | orderBy:'ID'">
+					<img class="phonemockup {{p.ID}}" src="{{p.URL}}"/>
+				</div>
+				<div class="photopopup">
+					<p>View Photos & Videos</p>
+				</div>
+				<div class="photodate">
+					<span class="greenhighlight">Local Store</span>
+					<p class="greenhighlight">In Stock</p>
+				</div>
+			</div>
+		</div>
+	</div>

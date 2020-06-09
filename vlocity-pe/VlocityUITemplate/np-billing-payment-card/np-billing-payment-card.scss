@@ -1,0 +1,88 @@
+.vlocity { 
+    
+    .override{
+        width:100% !important;
+        max-width:100% !important;
+        min-width:100% !important;
+    }
+.action-link-header{
+    &:after {
+  content:""; 
+  background: rgb(224,106,26); 
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  top:40px;
+  width: 50px; 
+  height: 2px;
+}
+}
+.dx-billing-pmt-card{
+    .detail{
+    .detail-label{
+        font-weight: bold;
+        opacity: 0.7;
+        font-size: 20px;
+    }
+    }
+    .dx-billing-pmt-card--actions{
+        display:inline-block;
+    }
+ .dx-billing-pmt-card--amount{
+     font-size:80px;
+     color: #ff6e0d;
+     padding-left: 0;
+
+     sup{
+         font-size: 20px;
+      top: -1.2em;
+        left: 20px;
+        font-weight: 100;
+            color: rgb(224,106,26);
+     }
+ } 
+
+ .dx-billing-pmt-card--action{
+     a{
+          &:first-child{
+              .dx-billing-pmt-card--button{
+         
+                    font-size:18px;
+                    text-align: center;
+                    vertical-align: middle;
+                    background-color: #0070d2;
+                    border: 1px solid #0070d2;
+                    color: #fff;
+                    width:100%;
+                    display:block;
+                    color:#fff;
+                        padding: 1rem;
+             }
+          }
+          .dx-billing-pmt-card--button{
+                
+                width: 100%;
+                display: block;
+                color: #0070d2;
+                margin: 0;
+                border: none;
+                background: none;
+                padding: 5px 0;
+          }
+     }
+      
+ }
+}
+&.via-slds{
+    @media only screen and (max-width: 767px) {
+   .dx-billing-pmt-card{
+ .dx-billing-pmt-card--amount{
+     text-align:center;
+ }
+ .dx-billing-pmt-card--button{
+     margin-top:20px;
+ }
+   }
+}
+}
+}

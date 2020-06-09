@@ -1,0 +1,83 @@
+{
+    "data": {
+        "actions": [
+            {
+                "displayName": "Action 1 hjshdkhskdf hjksdhkjfhskd jkhjsdhkfhsd",
+                "vlocityIcon": "icon-v-heart"
+            },
+            {
+                "displayName": "Action 2 jkshkjfhksd hskjdhfkjhsdkjf"
+            },
+            {
+                "displayName": "Action 3 jhgjshgfjh jshkhjksdhf"
+            },
+            {
+                "displayName": "Action 4"
+            },
+            {
+                "displayName": "Action 5"
+            },
+            {
+                "displayName": "Action 6"
+            },
+            {
+                "displayName": "Action 7"
+            },
+            {
+                "displayName": "Action 8"
+            },
+            {
+                "displayName": "Action 9"
+            },
+            {
+                "displayName": "Action 10"
+            },
+            {
+                "displayName": "Action 11"
+            },
+            {
+                "displayName": "Action 12"
+            },
+            {
+                "displayName": "Action 13"
+            },
+            {
+                "displayName": "Action 14"
+            },
+            {
+                "displayName": "Action 15"
+            },
+            {
+                "displayName": "Action 16"
+            },
+            {
+                "displayName": "Action 17"
+            },
+            {
+                "displayName": "Action 18"
+            },
+            {
+                "displayName": "Action 19"
+            }
+        ],
+        "fields": [
+            {
+                "label": "Description",
+                "name": "description"
+            },
+            {
+                "label": "Cost",
+                "name": "cost",
+                "type": "currency"
+            }
+        ],
+        "title": "Card Title"
+    },
+    "obj": {
+        "Id": "123456",
+        "LastModifiedDate": "2017-05-02T06:28:05.812Z",
+        "Name": "Object Name",
+        "cost": 150,
+        "description": "Some description"
+    }
+}

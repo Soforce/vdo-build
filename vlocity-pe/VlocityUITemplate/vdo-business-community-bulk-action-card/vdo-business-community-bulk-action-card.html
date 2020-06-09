@@ -1,0 +1,9 @@
+<div class="slds-dropdown slds-dropdown--left">
+    <ul class="slds-dropdown__list" role="menu">
+        <li class="slds-dropdown__item" role="presentation" ng-repeat="action in data.actions">
+            <a href="#" ng-click="performAction(action)" role="menuitem">
+                <span class="slds-truncate">{{action.displayName}}</span>
+            </a>
+        </li>
+    </ul>
+</div>

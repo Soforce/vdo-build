@@ -1,0 +1,35 @@
+<div class="np-product-highlight-card" onclick="top.location='/digital/s/mobile-purchase';">
+    <div class="slds-text-align--center slds-card np-card  slds-p-around--small">
+    <div class="np-sale {{obj.sale}}"><img src="https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/VDOInternalResources/images/VILogo1.png">FOR YOU</div>
+    <img src="{{obj.url}}">
+    
+    <div>
+      
+            <div colspan="2" class="slds-text-align--center slds-p-bottom--xx-small">
+                <p class="np-product--title">{{placeholder.Title.label}} {{placeholder.Title.value}}</p>
+            </div>
+  
+
+            <div colspan="2" class="slds-text-align--center"><span class="price slds-p-around--medium"> {{placeholder.unitPrice.value | picker: placeholder.unitPrice.type  }}{{placeholder.unitPrice.label }}</span>
+                 <span class="offer-price slds-p-around--medium"> {{placeholder.recurringPrice.value | picker: placeholder.recurringPrice.type  }} {{placeholder.recurringPrice.label }}</span>
+            </div>
+           
+  
+    </div>
+    
+   
+        
+    </div>
+    <p class="slds-p-horizontal--small slds-text-align--center slds-p-top--x-small slds-text-body--x-small product-extra">
+        <span >
+            {{obj.description}}
+        </span>
+        
+    </p>
+    <p class="slds-p-horizontal--small slds-text-align--center slds-p-top--x-small slds-text-body--x-small product-extra">
+        <span ng-repeat="field in data.fields" >
+            {{ field.label }} {{obj | getter: field | picker: field }}
+        </span>
+        
+    </p>
+</div>

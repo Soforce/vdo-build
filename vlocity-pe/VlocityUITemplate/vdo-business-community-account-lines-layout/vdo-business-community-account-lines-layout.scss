@@ -1,0 +1,86 @@
+.via-slds {
+    .vdo-lines-table td > div {
+        font-size: 14px;
+        font-weight: 100;
+        a:hover{
+            text-decoration:none !important;
+        }
+    }
+    input.slds-input.vdo-ban-lines-search::-webkit-input-placeholder {
+        font-size: 16px !important;
+    }
+    .vdo-ban-lines {
+        background-color: #fff;
+        .vdo-search-bar{
+            margin-bottom:30px;
+        }
+        .vdo-primary-button {
+            font-size:16px;
+        }
+        .vdo-ban-lines-header {
+            th {
+                font-weight:normal;
+                padding:10px;
+                text-transform: uppercase;
+                font-size:14px;
+            }
+        }
+        .vdo-ban-lines-searchbar {
+            .vdo-ban-lines-search {
+                background-color:transparent;
+                border:0px;
+                box-shadow:none;
+                width:300px;
+                font-size:16px;
+                &::placeholder {
+                   color:#128CB5;
+                   font-size:12px;
+                } 
+            }
+        }
+        .vdo-ban-lines-row {
+            td {
+                padding:10px 10px 5px;
+                &:nth-child(2) {
+                   font-weight:bold; 
+                }
+                &:last-child {
+                    font-weight:bold;
+                    font-size:20px;
+                }
+            }
+        }
+        .vdo-ban-lines-actionbar {
+                position: fixed;
+                top: 154px;
+                right: 20px;
+                height: 100px;
+                width: 365px;
+                margin: auto;
+                color:#16325C;
+                background: none;
+                border: 1px solid rgb(216, 221, 230);;
+                border-bottom: 0px;
+            .vdo-selected-num{
+                text-align:center;
+                margin-top:-18px;
+                padding-bottom:10px;
+            }
+            svg {
+                display:block;
+                fill:#16325C!important;
+            }
+            button {
+                outline:0;
+                box-shadow:none;
+                color:#16325C;
+                &:hover {
+                }
+            }
+            ul li {
+                float:left;
+                padding:0px 15px;
+            }
+        }
+    }
+}

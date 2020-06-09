@@ -1,0 +1,35 @@
+<section class="active vdo-consumer-device-details-card" data-card="{{uniqueLayoutId}}-card-{{cardIndex}}" ng-class="{selected:isSelected(cardIndex)}" hotkey-layout-card>
+    <div class="card-top" ng-click="performFlyout(uniqueLayoutId + '-card-'+cardIndex)">
+        <div>
+            <h2 tooltip-placement="bottom" tooltip="{{obj.Name}}">
+                {{obj.productName}}
+            </h2>
+        </div>
+    </div>
+    <div class="card-info">
+        <div class="vdo-device-image">
+            <img src="{{obj.images[0].uri}}"/>
+        </div>
+        <ul class="actions">
+            <li class="vdo-consumer-action-label">MANAGE DEVICE</li>
+            <li ng-repeat="action in data.actions">
+                <a href="#" ng-click="performAction(action)" hotkey-card-action>
+                    <i ng-if="!action.imageRef" class="icon {{action.vlocityIcon}}"></i>
+                    <span ng-if="action.imageRef">
+                        <img ng-src="{{action.imageRef}}" alt="{{action.displayName}}"/>
+                    </span>
+                    <span>{{action.displayName}}</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="details" ng-click="performFlyout(uniqueLayoutId + '-card-'+ cardIndex)">
+            <li class="detail" ng-repeat="field in data.fields" ng-show="key != 'attributes'">
+                <span class="value">
+                    {{obj | getter: field | picker: field.type}}
+                </span>
+                <span class="detail-label">{{field.label}}</span>
+            </li>
+            <li><a href="#"><b>View details ></b></a></li>
+        </ul>
+    </div>
+</section>

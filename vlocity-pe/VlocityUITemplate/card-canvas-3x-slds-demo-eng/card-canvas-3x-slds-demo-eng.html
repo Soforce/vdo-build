@@ -1,0 +1,12 @@
+<div class="via-slds">
+    
+    <div class="slds-grid slds-wrap slds-m-around--small slds-grid--pull-padded cards-container">
+        <div ng-repeat="card in cards |orderBy:order" vloc-card ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}"
+            class="slds-p-around--small slds-size--1-of-1 slds-medium-size--3-of-6 slds-large-size--4-of-12" use-existing-element-type>
+        </div>
+
+    </div>    
+    
+        <span id="flyout" class="slds-p-around--small slds-size-1-of-1"></span>
+    </div>
+</div>

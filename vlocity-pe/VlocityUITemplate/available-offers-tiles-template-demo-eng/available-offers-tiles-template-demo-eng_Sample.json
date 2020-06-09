@@ -1,0 +1,1099 @@
+{
+    "data": [
+        {
+            "Attachments": [
+                {
+                    "contentType": "Image",
+                    "defaultAttachment": true,
+                    "description": null,
+                    "displayConditionsData": null,
+                    "mimeType": null,
+                    "sequenceNumber": 1,
+                    "title": "0154P000005t7VnQAI",
+                    "url": "/servlet/servlet.FileDownload?file=0154P000005t7VnQAI"
+                }
+            ],
+            "AttributeCategory": {
+                "Streaming": [
+                    {
+                        "$$AttributeDefinitionEnd$$": null,
+                        "$$AttributeDefinitionStart$$": null,
+                        "attributeRunTimeInfo": {
+                            "dataType": "Picklist",
+                            "default": [
+                                {
+                                    "displayText": "1080p",
+                                    "id": "90f66ae5-4854-eb03-68e2-1a31e5964303",
+                                    "sequence": 20,
+                                    "value": "1080p"
+                                }
+                            ],
+                            "uiDisplayType": "Dropdown",
+                            "values": [
+                                {
+                                    "displayText": "4K",
+                                    "id": "1f246ecc-911a-9991-638f-bcbe1460ba11",
+                                    "sequence": 10,
+                                    "value": "4K"
+                                },
+                                {
+                                    "displayText": "1080p",
+                                    "id": "90f66ae5-4854-eb03-68e2-1a31e5964303",
+                                    "sequence": 20,
+                                    "value": "1080p"
+                                },
+                                {
+                                    "displayText": "780p",
+                                    "id": "6a1a3a33-44bd-7d7a-1e22-63d058c4a2a8",
+                                    "sequence": 30,
+                                    "value": "780p"
+                                },
+                                {
+                                    "displayText": "480p",
+                                    "id": "90db3470-13a1-7a3b-7c81-562bd01ac63c",
+                                    "sequence": 40,
+                                    "value": "480p"
+                                }
+                            ]
+                        },
+                        "attributecategoryid__c": "a0I4P000015keW4UAI",
+                        "attributecloneable__c": true,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Resolution",
+                        "attributedisplaysequence__c": "10",
+                        "attributefilterable__c": false,
+                        "attributegrouptype__c": null,
+                        "attributeid__c": "a0J4P00000RAoc3UAD",
+                        "attributeuniquecode__c": "VLO-ATT-RES",
+                        "categorycode__c": "Streaming",
+                        "categorydisplaysequence__c": 1000,
+                        "categoryname__c": "Streaming",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "1000",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H4P00000eXhW2UAK",
+                        "isactive__c": true,
+                        "isconfigurable__c": true,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t4P000007aEZJQA2",
+                        "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": "Dropdown",
+                        "value__c": "1080p",
+                        "valuedatatype__c": "Picklist",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ],
+                "VLO-PRO-0006": [
+                    {
+                        "$$AttributeDefinitionEnd$$": null,
+                        "$$AttributeDefinitionStart$$": null,
+                        "attributeRunTimeInfo": {
+                            "dataType": "Picklist",
+                            "default": [
+                                {
+                                    "displayText": "None",
+                                    "id": "d06c317f-0c72-ac99-3242-fe6c314a34f0",
+                                    "sequence": 1,
+                                    "value": "None"
+                                }
+                            ],
+                            "uiDisplayType": "Dropdown",
+                            "values": [
+                                {
+                                    "displayText": "None",
+                                    "id": "d06c317f-0c72-ac99-3242-fe6c314a34f0",
+                                    "sequence": 1,
+                                    "value": "None"
+                                },
+                                {
+                                    "displayText": "90% QoS",
+                                    "id": "38465ba8-143d-50da-9b31-65737179cffd",
+                                    "sequence": 2,
+                                    "value": "90% QoS"
+                                },
+                                {
+                                    "displayText": "95% QoS",
+                                    "id": "f3b95f91-d27e-ace4-3a11-8e0d0fb12e36",
+                                    "sequence": 3,
+                                    "value": "95% QoS"
+                                },
+                                {
+                                    "displayText": "100% QoS",
+                                    "id": "bfba3233-0be7-f8ac-6edf-a7f19c1952f2",
+                                    "sequence": 4,
+                                    "value": "100% QoS"
+                                }
+                            ]
+                        },
+                        "attributecategoryid__c": "a0I4P000011NlfcUAC",
+                        "attributecloneable__c": true,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "QoS Required",
+                        "attributedisplaysequence__c": "1",
+                        "attributefilterable__c": true,
+                        "attributegrouptype__c": null,
+                        "attributeid__c": "a0J4P00000NlXGWUA3",
+                        "attributeuniquecode__c": "ATTRIBUTE-151",
+                        "categorycode__c": "VLO-PRO-0006",
+                        "categorydisplaysequence__c": 14,
+                        "categoryname__c": "Cloud Services",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "14",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H4P00000eXj6RUAS",
+                        "isactive__c": true,
+                        "isconfigurable__c": true,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t4P000007aEZJQA2",
+                        "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": "Dropdown",
+                        "value__c": "None",
+                        "valuedatatype__c": "Picklist",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ],
+                "VLO-PRO-0015": [
+                    {
+                        "$$AttributeDefinitionEnd$$": null,
+                        "$$AttributeDefinitionStart$$": null,
+                        "attributeRunTimeInfo": {
+                            "dataType": "Text",
+                            "default": "nuSlice Communications",
+                            "uiDisplayType": "Text"
+                        },
+                        "attributecategoryid__c": "a0I4P000011NlfiUAC",
+                        "attributecloneable__c": false,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Provider",
+                        "attributedisplaysequence__c": "40",
+                        "attributefilterable__c": true,
+                        "attributegrouptype__c": null,
+                        "attributeid__c": "a0J4P00000NlXFuUAN",
+                        "attributeuniquecode__c": "ATTRIBUTE-124",
+                        "categorycode__c": "VLO-PRO-0015",
+                        "categorydisplaysequence__c": 23,
+                        "categoryname__c": "Logistics",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "23",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H4P00000eXhW7UAK",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": true,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t4P000007aEZJQA2",
+                        "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": "Text",
+                        "value__c": "nuSlice Communications",
+                        "valuedatatype__c": "Text",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ]
+            },
+            "Description": "Base Video Streaming Package",
+            "Name": "5G Base Plan",
+            "ProductCode": "VLO-STR-5GBASE",
+            "addtocart": {
+                "rest": {
+                    "link": "v3/catalogs/STREAM/basket",
+                    "method": "POST",
+                    "params": {
+                        "basketAction": "AddWithNoConfig",
+                        "offer": "VLO-STR-5GBASE"
+                    }
+                }
+            },
+            "offerDetailsAction": {
+                "client": {
+                    "params": {
+                    },
+                    "records": [
+                    ]
+                },
+                "remote": {
+                    "params": {
+                    }
+                },
+                "rest": {
+                    "link": "/v3/catalogs/STREAM/offers/VLO-STR-5GBASE",
+                    "method": "GET",
+                    "params": {
+                    }
+                }
+            },
+            "offerType": "Product",
+            "priceResult": [
+                {
+                    "Amount__c": 10,
+                    "ChargeType__c": "Recurring",
+                    "DisplayText__c": "10",
+                    "IsBasePrice__c": true,
+                    "IsVirtualPrice__c": false,
+                    "RecurringFrequency__c": "Monthly",
+                    "SubType__c": "Standard",
+                    "Type__c": "Price",
+                    "adjustments": [
+                    ],
+                    "baseamount": 10,
+                    "chargeamount": 10,
+                    "effectivefromdatespec": null,
+                    "effectiveuntildatespec": null,
+                    "overrides": [
+                    ]
+                },
+                {
+                    "Amount__c": 0,
+                    "ChargeType__c": "One-time",
+                    "DisplayText__c": "0",
+                    "IsBasePrice__c": true,
+                    "IsVirtualPrice__c": false,
+                    "RecurringFrequency__c": null,
+                    "SubType__c": "Standard",
+                    "Type__c": "Price",
+                    "UnitPrice": 0,
+                    "adjustments": [
+                    ],
+                    "baseamount": 0,
+                    "chargeamount": 0,
+                    "effectivefromdatespec": null,
+                    "effectiveuntildatespec": null,
+                    "overrides": [
+                    ]
+                },
+                {
+                    "Amount__c": 10,
+                    "ChargeType__c": "Recurring",
+                    "DisplayText__c": "10",
+                    "IsBasePrice__c": false,
+                    "IsVirtualPrice__c": false,
+                    "RecurringFrequency__c": "Monthly",
+                    "SubType__c": "Standard",
+                    "Type__c": "Cost",
+                    "adjustments": [
+                    ],
+                    "baseamount": 10,
+                    "chargeamount": 10,
+                    "effectivefromdatespec": null,
+                    "effectiveuntildatespec": null,
+                    "overrides": [
+                    ]
+                }
+            ]
+        },
+        {
+            "Attachments": [
+                {
+                    "contentType": "Image",
+                    "defaultAttachment": true,
+                    "description": null,
+                    "displayConditionsData": null,
+                    "mimeType": null,
+                    "sequenceNumber": 1,
+                    "title": "0154P000005t7blQAA",
+                    "url": "/servlet/servlet.FileDownload?file=0154P000005t7blQAA"
+                }
+            ],
+            "AttributeCategory": {
+                "Streaming": [
+                    {
+                        "$$AttributeDefinitionEnd$$": null,
+                        "$$AttributeDefinitionStart$$": null,
+                        "attributeRunTimeInfo": {
+                            "dataType": "Picklist",
+                            "default": [
+                            ],
+                            "uiDisplayType": "Dropdown",
+                            "values": [
+                                {
+                                    "displayText": "4K",
+                                    "id": "1f246ecc-911a-9991-638f-bcbe1460ba11",
+                                    "sequence": 10,
+                                    "value": "4K"
+                                },
+                                {
+                                    "displayText": "1080p",
+                                    "id": "90f66ae5-4854-eb03-68e2-1a31e5964303",
+                                    "sequence": 20,
+                                    "value": "1080p"
+                                },
+                                {
+                                    "displayText": "780p",
+                                    "id": "6a1a3a33-44bd-7d7a-1e22-63d058c4a2a8",
+                                    "sequence": 30,
+                                    "value": "780p"
+                                },
+                                {
+                                    "displayText": "480p",
+                                    "id": "90db3470-13a1-7a3b-7c81-562bd01ac63c",
+                                    "sequence": 40,
+                                    "value": "480p"
+                                }
+                            ]
+                        },
+                        "attributecategoryid__c": "a0I4P000015keW4UAI",
+                        "attributecloneable__c": true,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Resolution",
+                        "attributedisplaysequence__c": "10",
+                        "attributefilterable__c": false,
+                        "attributegrouptype__c": null,
+                        "attributeid__c": "a0J4P00000RAoc3UAD",
+                        "attributeuniquecode__c": "VLO-ATT-RES",
+                        "categorycode__c": "Streaming",
+                        "categorydisplaysequence__c": 1000,
+                        "categoryname__c": "Streaming",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "1000",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H4P00000eXhVxUAK",
+                        "isactive__c": true,
+                        "isconfigurable__c": true,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "a2S4P00000RLk5kUAD",
+                        "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": "Dropdown",
+                        "value__c": null,
+                        "valuedatatype__c": "Picklist",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ],
+                "VLO-PRO-0006": [
+                    {
+                        "$$AttributeDefinitionEnd$$": null,
+                        "$$AttributeDefinitionStart$$": null,
+                        "attributeRunTimeInfo": {
+                            "dataType": "Picklist",
+                            "default": [
+                                {
+                                    "displayText": "None",
+                                    "id": "d06c317f-0c72-ac99-3242-fe6c314a34f0",
+                                    "sequence": 1,
+                                    "value": "None"
+                                }
+                            ],
+                            "uiDisplayType": "Dropdown",
+                            "values": [
+                                {
+                                    "displayText": "None",
+                                    "id": "d06c317f-0c72-ac99-3242-fe6c314a34f0",
+                                    "sequence": 1,
+                                    "value": "None"
+                                },
+                                {
+                                    "displayText": "90% QoS",
+                                    "id": "38465ba8-143d-50da-9b31-65737179cffd",
+                                    "sequence": 2,
+                                    "value": "90% QoS"
+                                },
+                                {
+                                    "displayText": "95% QoS",
+                                    "id": "f3b95f91-d27e-ace4-3a11-8e0d0fb12e36",
+                                    "sequence": 3,
+                                    "value": "95% QoS"
+                                },
+                                {
+                                    "displayText": "100% QoS",
+                                    "id": "bfba3233-0be7-f8ac-6edf-a7f19c1952f2",
+                                    "sequence": 4,
+                                    "value": "100% QoS"
+                                }
+                            ]
+                        },
+                        "attributecategoryid__c": "a0I4P000011NlfcUAC",
+                        "attributecloneable__c": true,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "QoS Required",
+                        "attributedisplaysequence__c": "1",
+                        "attributefilterable__c": true,
+                        "attributegrouptype__c": null,
+                        "attributeid__c": "a0J4P00000NlXGWUA3",
+                        "attributeuniquecode__c": "ATTRIBUTE-151",
+                        "categorycode__c": "VLO-PRO-0006",
+                        "categorydisplaysequence__c": 14,
+                        "categoryname__c": "Cloud Services",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "14",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H4P00000eXixBUAS",
+                        "isactive__c": true,
+                        "isconfigurable__c": true,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "a2S4P00000RLk5kUAD",
+                        "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": "Dropdown",
+                        "value__c": "None",
+                        "valuedatatype__c": "Picklist",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ],
+                "VLO-PRO-0015": [
+                    {
+                        "$$AttributeDefinitionEnd$$": null,
+                        "$$AttributeDefinitionStart$$": null,
+                        "attributeRunTimeInfo": {
+                            "dataType": "Text",
+                            "uiDisplayType": "Text"
+                        },
+                        "attributecategoryid__c": "a0I4P000011NlfiUAC",
+                        "attributecloneable__c": false,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Provider",
+                        "attributedisplaysequence__c": "4",
+                        "attributefilterable__c": true,
+                        "attributegrouptype__c": null,
+                        "attributeid__c": "a0J4P00000NlXFuUAN",
+                        "attributeuniquecode__c": "ATTRIBUTE-124",
+                        "categorycode__c": "VLO-PRO-0015",
+                        "categorydisplaysequence__c": 23,
+                        "categoryname__c": "Logistics",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "23",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H4P00000eXhWCUA0",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": true,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t4P000007aFykQAE",
+                        "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": "Text",
+                        "value__c": null,
+                        "valuedatatype__c": "Text",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ]
+            },
+            "Description": "Sports Plus Streaming Package",
+            "Name": "5G Sports Plan",
+            "ProductCode": "VLO-STR-SPPL",
+            "addtocart": {
+                "rest": {
+                    "link": "v3/catalogs/STREAM/basket",
+                    "method": "POST",
+                    "params": {
+                        "basketAction": "AddWithNoConfig",
+                        "offer": "VLO-STR-SPPL"
+                    }
+                }
+            },
+            "offerDetailsAction": {
+                "client": {
+                    "params": {
+                    },
+                    "records": [
+                    ]
+                },
+                "remote": {
+                    "params": {
+                    }
+                },
+                "rest": {
+                    "link": "/v3/catalogs/STREAM/offers/VLO-STR-SPPL",
+                    "method": "GET",
+                    "params": {
+                    }
+                }
+            },
+            "offerType": "Product",
+            "priceResult": [
+                {
+                    "Amount__c": 15,
+                    "ChargeType__c": "Recurring",
+                    "DisplayText__c": "15",
+                    "IsBasePrice__c": true,
+                    "IsVirtualPrice__c": false,
+                    "RecurringFrequency__c": "Monthly",
+                    "SubType__c": "Standard",
+                    "Type__c": "Price",
+                    "adjustments": [
+                    ],
+                    "baseamount": 15,
+                    "chargeamount": 15,
+                    "effectivefromdatespec": null,
+                    "effectiveuntildatespec": null,
+                    "overrides": [
+                    ]
+                },
+                {
+                    "Amount__c": 5,
+                    "ChargeType__c": "Recurring",
+                    "DisplayText__c": "5",
+                    "IsBasePrice__c": false,
+                    "IsVirtualPrice__c": false,
+                    "RecurringFrequency__c": "Monthly",
+                    "SubType__c": "Standard",
+                    "Type__c": "Cost",
+                    "adjustments": [
+                    ],
+                    "baseamount": 5,
+                    "chargeamount": 5,
+                    "effectivefromdatespec": null,
+                    "effectiveuntildatespec": null,
+                    "overrides": [
+                    ]
+                },
+                {
+                    "Amount__c": 0,
+                    "ChargeType__c": "One-time",
+                    "DisplayText__c": "0",
+                    "IsBasePrice__c": false,
+                    "IsVirtualPrice__c": false,
+                    "RecurringFrequency__c": null,
+                    "SubType__c": "Standard",
+                    "Type__c": "Price",
+                    "UnitPrice": 0,
+                    "adjustments": [
+                    ],
+                    "baseamount": 0,
+                    "chargeamount": 0,
+                    "effectivefromdatespec": null,
+                    "effectiveuntildatespec": null,
+                    "overrides": [
+                    ]
+                }
+            ]
+        },
+        {
+            "Attachments": [
+                {
+                    "contentType": "Image",
+                    "defaultAttachment": true,
+                    "description": null,
+                    "displayConditionsData": null,
+                    "mimeType": null,
+                    "sequenceNumber": 1,
+                    "title": "0154P000005t7bgQAA",
+                    "url": "/servlet/servlet.FileDownload?file=0154P000005t7bgQAA"
+                }
+            ],
+            "AttributeCategory": {
+                "Streaming": [
+                    {
+                        "$$AttributeDefinitionEnd$$": null,
+                        "$$AttributeDefinitionStart$$": null,
+                        "attributeRunTimeInfo": {
+                            "dataType": "Picklist",
+                            "default": [
+                            ],
+                            "uiDisplayType": "Dropdown",
+                            "values": [
+                                {
+                                    "displayText": "4K",
+                                    "id": "1f246ecc-911a-9991-638f-bcbe1460ba11",
+                                    "sequence": 10,
+                                    "value": "4K"
+                                },
+                                {
+                                    "displayText": "1080p",
+                                    "id": "90f66ae5-4854-eb03-68e2-1a31e5964303",
+                                    "sequence": 20,
+                                    "value": "1080p"
+                                },
+                                {
+                                    "displayText": "780p",
+                                    "id": "6a1a3a33-44bd-7d7a-1e22-63d058c4a2a8",
+                                    "sequence": 30,
+                                    "value": "780p"
+                                },
+                                {
+                                    "displayText": "480p",
+                                    "id": "90db3470-13a1-7a3b-7c81-562bd01ac63c",
+                                    "sequence": 40,
+                                    "value": "480p"
+                                }
+                            ]
+                        },
+                        "attributecategoryid__c": "a0I4P000015keW4UAI",
+                        "attributecloneable__c": true,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Resolution",
+                        "attributedisplaysequence__c": "10",
+                        "attributefilterable__c": false,
+                        "attributegrouptype__c": null,
+                        "attributeid__c": "a0J4P00000RAoc3UAD",
+                        "attributeuniquecode__c": "VLO-ATT-RES",
+                        "categorycode__c": "Streaming",
+                        "categorydisplaysequence__c": 1000,
+                        "categoryname__c": "Streaming",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "1000",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H4P00000eXhVxUAK",
+                        "isactive__c": true,
+                        "isconfigurable__c": true,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "a2S4P00000RLk5kUAD",
+                        "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": "Dropdown",
+                        "value__c": null,
+                        "valuedatatype__c": "Picklist",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ],
+                "VLO-PRO-0006": [
+                    {
+                        "$$AttributeDefinitionEnd$$": null,
+                        "$$AttributeDefinitionStart$$": null,
+                        "attributeRunTimeInfo": {
+                            "dataType": "Picklist",
+                            "default": [
+                                {
+                                    "displayText": "None",
+                                    "id": "d06c317f-0c72-ac99-3242-fe6c314a34f0",
+                                    "sequence": 1,
+                                    "value": "None"
+                                }
+                            ],
+                            "uiDisplayType": "Dropdown",
+                            "values": [
+                                {
+                                    "displayText": "None",
+                                    "id": "d06c317f-0c72-ac99-3242-fe6c314a34f0",
+                                    "sequence": 1,
+                                    "value": "None"
+                                },
+                                {
+                                    "displayText": "90% QoS",
+                                    "id": "38465ba8-143d-50da-9b31-65737179cffd",
+                                    "sequence": 2,
+                                    "value": "90% QoS"
+                                },
+                                {
+                                    "displayText": "95% QoS",
+                                    "id": "f3b95f91-d27e-ace4-3a11-8e0d0fb12e36",
+                                    "sequence": 3,
+                                    "value": "95% QoS"
+                                },
+                                {
+                                    "displayText": "100% QoS",
+                                    "id": "bfba3233-0be7-f8ac-6edf-a7f19c1952f2",
+                                    "sequence": 4,
+                                    "value": "100% QoS"
+                                }
+                            ]
+                        },
+                        "attributecategoryid__c": "a0I4P000011NlfcUAC",
+                        "attributecloneable__c": true,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "QoS Required",
+                        "attributedisplaysequence__c": "1",
+                        "attributefilterable__c": true,
+                        "attributegrouptype__c": null,
+                        "attributeid__c": "a0J4P00000NlXGWUA3",
+                        "attributeuniquecode__c": "ATTRIBUTE-151",
+                        "categorycode__c": "VLO-PRO-0006",
+                        "categorydisplaysequence__c": 14,
+                        "categoryname__c": "Cloud Services",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "14",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H4P00000eXixBUAS",
+                        "isactive__c": true,
+                        "isconfigurable__c": true,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "a2S4P00000RLk5kUAD",
+                        "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": "Dropdown",
+                        "value__c": "None",
+                        "valuedatatype__c": "Picklist",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ],
+                "VLO-PRO-0015": [
+                    {
+                        "$$AttributeDefinitionEnd$$": null,
+                        "$$AttributeDefinitionStart$$": null,
+                        "attributeRunTimeInfo": {
+                            "dataType": "Text",
+                            "uiDisplayType": "Text"
+                        },
+                        "attributecategoryid__c": "a0I4P000011NlfiUAC",
+                        "attributecloneable__c": false,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Provider",
+                        "attributedisplaysequence__c": "4",
+                        "attributefilterable__c": true,
+                        "attributegrouptype__c": null,
+                        "attributeid__c": "a0J4P00000NlXFuUAN",
+                        "attributeuniquecode__c": "ATTRIBUTE-124",
+                        "categorycode__c": "VLO-PRO-0015",
+                        "categorydisplaysequence__c": 23,
+                        "categoryname__c": "Logistics",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "23",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H4P00000eXhWHUA0",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": true,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t4P000007aFypQAE",
+                        "objecttype__c": "%vlocity_namespace%__ObjectClass__c",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": "Text",
+                        "value__c": null,
+                        "valuedatatype__c": "Text",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ]
+            },
+            "Description": "Premium Streaming Package",
+            "Name": "5G Premium Plan",
+            "ProductCode": "VLO-STR-PREM",
+            "addtocart": {
+                "rest": {
+                    "link": "v3/catalogs/STREAM/basket",
+                    "method": "POST",
+                    "params": {
+                        "basketAction": "AddWithNoConfig",
+                        "offer": "VLO-STR-PREM"
+                    }
+                }
+            },
+            "offerDetailsAction": {
+                "client": {
+                    "params": {
+                    },
+                    "records": [
+                    ]
+                },
+                "remote": {
+                    "params": {
+                    }
+                },
+                "rest": {
+                    "link": "/v3/catalogs/STREAM/offers/VLO-STR-PREM",
+                    "method": "GET",
+                    "params": {
+                    }
+                }
+            },
+            "offerType": "Product",
+            "priceResult": [
+                {
+                    "Amount__c": 0,
+                    "ChargeType__c": "One-time",
+                    "DisplayText__c": "0",
+                    "IsBasePrice__c": false,
+                    "IsVirtualPrice__c": false,
+                    "RecurringFrequency__c": null,
+                    "SubType__c": "Standard",
+                    "Type__c": "Price",
+                    "UnitPrice": 0,
+                    "adjustments": [
+                    ],
+                    "baseamount": 0,
+                    "chargeamount": 0,
+                    "effectivefromdatespec": null,
+                    "effectiveuntildatespec": null,
+                    "overrides": [
+                    ]
+                },
+                {
+                    "Amount__c": 20,
+                    "ChargeType__c": "Recurring",
+                    "DisplayText__c": "20",
+                    "IsBasePrice__c": false,
+                    "IsVirtualPrice__c": false,
+                    "RecurringFrequency__c": "Monthly",
+                    "SubType__c": "Standard",
+                    "Type__c": "Cost",
+                    "adjustments": [
+                    ],
+                    "baseamount": 20,
+                    "chargeamount": 20,
+                    "effectivefromdatespec": null,
+                    "effectiveuntildatespec": null,
+                    "overrides": [
+                    ]
+                },
+                {
+                    "Amount__c": 35,
+                    "ChargeType__c": "Recurring",
+                    "DisplayText__c": "35",
+                    "IsBasePrice__c": true,
+                    "IsVirtualPrice__c": false,
+                    "RecurringFrequency__c": "Monthly",
+                    "SubType__c": "Standard",
+                    "Type__c": "Price",
+                    "adjustments": [
+                    ],
+                    "baseamount": 35,
+                    "chargeamount": 35,
+                    "effectivefromdatespec": null,
+                    "effectiveuntildatespec": null,
+                    "overrides": [
+                    ]
+                }
+            ]
+        },
+        {
+            "Attachments": [
+                {
+                    "contentType": "Image",
+                    "defaultAttachment": true,
+                    "description": null,
+                    "displayConditionsData": null,
+                    "mimeType": null,
+                    "sequenceNumber": 1,
+                    "title": "0154P000005t7lCQAQ",
+                    "url": "/servlet/servlet.FileDownload?file=0154P000005t7lCQAQ"
+                }
+            ],
+            "AttributeCategory": {
+                "VLO-PRO-0023": [
+                    {
+                        "$$AttributeDefinitionEnd$$": null,
+                        "$$AttributeDefinitionStart$$": null,
+                        "attributeRunTimeInfo": {
+                            "dataType": "Text",
+                            "uiDisplayType": "Text"
+                        },
+                        "attributecategoryid__c": "a0I4P000015lTfHUAU",
+                        "attributecloneable__c": true,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Share Service",
+                        "attributedisplaysequence__c": "20",
+                        "attributefilterable__c": false,
+                        "attributegrouptype__c": null,
+                        "attributeid__c": "a0J4P00000RApQGUA1",
+                        "attributeuniquecode__c": "VLO-SHR-SHRSVC",
+                        "categorycode__c": "VLO-PRO-0023",
+                        "categorydisplaysequence__c": 70,
+                        "categoryname__c": "Share",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "null",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H4P00000eXiVKUA0",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t4P000007aGpzQAE",
+                        "objecttype__c": "Product2",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": "Text",
+                        "value__c": null,
+                        "valuedatatype__c": "Text",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    },
+                    {
+                        "$$AttributeDefinitionEnd$$": null,
+                        "$$AttributeDefinitionStart$$": null,
+                        "attributeRunTimeInfo": {
+                            "dataType": "Text",
+                            "uiDisplayType": "Text"
+                        },
+                        "attributecategoryid__c": "a0I4P000015lTfHUAU",
+                        "attributecloneable__c": true,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Share User",
+                        "attributedisplaysequence__c": "1",
+                        "attributefilterable__c": false,
+                        "attributegrouptype__c": null,
+                        "attributeid__c": "a0J4P00000RAokwUAD",
+                        "attributeuniquecode__c": "VLO-ATT-SHRUSR",
+                        "categorycode__c": "VLO-PRO-0023",
+                        "categorydisplaysequence__c": 70,
+                        "categoryname__c": "Share",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "null",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H4P00000eXhxrUAC",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t4P000007aGpzQAE",
+                        "objecttype__c": "Product2",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": "Text",
+                        "value__c": null,
+                        "valuedatatype__c": "Text",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ]
+            },
+            "Description": "Share a service with a friend",
+            "Name": "Stream and GO Sharing",
+            "ProductCode": "VLO-SHR-SHRSET",
+            "addtocart": {
+                "rest": {
+                    "link": "v3/catalogs/STREAM/basket",
+                    "method": "POST",
+                    "params": {
+                        "basketAction": "AddWithNoConfig",
+                        "offer": "VLO-SHR-SHRSET"
+                    }
+                }
+            },
+            "offerDetailsAction": {
+                "client": {
+                    "params": {
+                    },
+                    "records": [
+                    ]
+                },
+                "remote": {
+                    "params": {
+                    }
+                },
+                "rest": {
+                    "link": "/v3/catalogs/STREAM/offers/VLO-SHR-SHRSET",
+                    "method": "GET",
+                    "params": {
+                    }
+                }
+            },
+            "offerType": "Product",
+            "priceResult": [
+                {
+                    "Amount__c": 0,
+                    "ChargeType__c": "Recurring",
+                    "DisplayText__c": "0",
+                    "IsBasePrice__c": true,
+                    "IsVirtualPrice__c": false,
+                    "RecurringFrequency__c": "Monthly",
+                    "SubType__c": "Standard",
+                    "Type__c": "Price",
+                    "adjustments": [
+                    ],
+                    "baseamount": 0,
+                    "chargeamount": 0,
+                    "effectivefromdatespec": null,
+                    "effectiveuntildatespec": null,
+                    "overrides": [
+                    ]
+                },
+                {
+                    "Amount__c": 0,
+                    "ChargeType__c": "Recurring",
+                    "DisplayText__c": "0",
+                    "IsBasePrice__c": true,
+                    "IsVirtualPrice__c": false,
+                    "RecurringFrequency__c": "Monthly",
+                    "SubType__c": "Standard",
+                    "Type__c": "Cost",
+                    "adjustments": [
+                    ],
+                    "baseamount": 0,
+                    "chargeamount": 0,
+                    "effectivefromdatespec": null,
+                    "effectiveuntildatespec": null,
+                    "overrides": [
+                    ]
+                },
+                {
+                    "Amount__c": 0,
+                    "ChargeType__c": "One-time",
+                    "DisplayText__c": "0",
+                    "IsBasePrice__c": true,
+                    "IsVirtualPrice__c": false,
+                    "RecurringFrequency__c": null,
+                    "SubType__c": "Standard",
+                    "Type__c": "Price",
+                    "UnitPrice": 0,
+                    "adjustments": [
+                    ],
+                    "baseamount": 0,
+                    "chargeamount": 0,
+                    "effectivefromdatespec": null,
+                    "effectiveuntildatespec": null,
+                    "overrides": [
+                    ]
+                }
+            ]
+        }
+    ]
+}

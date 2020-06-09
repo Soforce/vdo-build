@@ -1,0 +1,289 @@
+.csm-content{
+    
+.csm-asset{
+    padding:0 0 0 0;
+}
+.csm-header-card{
+    width:100%;
+    height:450px;
+    background:#FFF;
+    border-radius:10px;
+    box-shadow:0px 0px 30px rgba(0,0,0,0.1);
+    box-sizing:border-box;
+}
+.csm-title{
+    font-size:30px;
+    color:#16325c;
+    width:100%;
+    padding:25px 0px 40px 0px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.csm-header-card-title{
+    height:80px;
+    color:#FFF;
+    font-family:'Salesforce Sans';
+    font-size:26px;
+    line-height:60px;
+    padding:10px 10px 10px 10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    position:relative;
+}
+.csm-plan .csm-header-card-title{
+}
+.csm-header-card-product{
+    height:215px;
+}
+.csm-header-card-img, .csm-header-card-fields{
+    width:60%;
+    float:left;
+    padding-top:20px;
+    box-sizing:border-box;
+    font-size:14px;
+}
+.csm-header-card-fields{
+    width:40%;
+    padding-top:60px;
+}
+.csm-header-card-img img{
+    width:100%;
+}
+.csm-plan .csm-header-profile-image{
+    width:50px !important;
+    height:50px !important;
+    float:left;
+    position:relative;
+    top:-19px;
+    margin-right:-10px;
+    left:-19px;
+    display:block;
+    z-index:10;
+    padding:5px;
+    filter: brightness(0) invert(1);
+    border-radius:50%;
+}
+.csm-plan .csm-header-profile-image-background{
+    display:block;
+    width:60px;
+    height:60px;
+    border:5px solid #fff;
+    background:#FF6E0D;
+    border-radius:40px;
+    position:absolute;
+    left:-14px;
+    top:-14px;
+    z-index:9;
+    box-sizing:border-box;
+}
+.csm-header-card-offer{
+    width:100%;
+    float:left;
+}
+.csm-header-card-offer-title{
+    font-size:26px;
+    padding:0px 30px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.csm-header-card-offer-text{
+    font-size:18px;
+    padding:0px 30px;
+}
+.csm-header-card-offer-button{
+    font-size:14px;
+    background:#0070D2;
+    color:#fff;
+    width:150px;
+    border-radius:20px;
+    height:40px;
+    line-height:40px;
+    box-sizing:border-box;
+    text-align:center;
+    margin:16px 0px 0px 30px;
+}
+.csm-content-wrapper{
+    width:100%;
+    margin-top:60px;
+}
+.csm-content-card{
+    width:100%;
+    padding:10px 30px 30px 30px;
+}
+.csm-content-card:after{
+    content: ' ';
+    width:calc(100% + 140px);
+    height:4px;
+    background:#F2F5F9;
+    display:block;
+    margin-top:40px;
+    position:relative;
+    left:-70px;
+}
+.csm-content-card:last-child:after{
+    display:none;
+}
+.csm-content-card-title{
+    font-size:32px;
+    color:#16325c;
+}
+.csm-content-card-title:after{
+    content: ' ';
+    width:60px;
+    height:3px;
+    background:#FF6E0D;
+    display:block;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.csm-content-card-detail{
+    width:100%;
+    min-height:100px;
+    display:table;
+}
+
+.csm-detail-family-block{
+    width:calc(50% - 10px);
+    height:auto;
+    float:left;
+    background:#F9FBFE;
+    text-align:center;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+.csm-detail-family-block:hover{
+    background:#e8eef5;
+}
+
+.csm-detail-family-block:nth-child(2n){
+    margin-left:20px;
+}
+.csm-detail-family-block:nth-child(3), .csm-detail-family-block:nth-child(4){
+    margin-top:20px;
+}
+.csm-detail-family-block p:nth-child(2){
+    font-weight:800;
+}
+.csm-detail-family-block img{
+    width:75%;
+    height:auto;
+    display:block;
+    margin:auto;
+}
+.csm-detail-device-detail, .csm-detail-manage-device a{
+    font-size:16px;
+}
+.csm-detail-device-detail label{
+    font-weight:800;
+    font-size:16px;
+}
+.csm-detail-device-detail > div, .csm-detail-manage-device > div{
+    height:40px;
+    line-height:40px;
+}
+.csm-detail-offer{
+    width:100%;
+    padding:20px;
+    background: #F8FBFE;
+    border: 1px solid #e8eef5;
+    border-radius:5px;
+    text-align:center;
+    margin-bottom:20px;
+}
+.csm-detail-offer img{
+    margin-bottom:20px;
+    width:100%;
+    height:auto;
+}
+.csm-detail-offer > div:first-child{
+    font-weight:600;
+    height:40px;
+    line-height:40px;
+    font-size:16px;
+}
+.csm-detail-offer > div:last-child{
+    font-size:16px;
+    height:40px;
+    line-height:40px;
+    color:#FF6E0D;
+}
+.csm-detail-offer-button{
+    font-size:14px;
+    background:#0070D2;
+    color:#fff;
+    width:150px;
+    border-radius:20px;
+    height:40px;
+    line-height:40px;
+    box-sizing:border-box;
+    text-align:center;
+}
+
+
+
+.csm-detail-chart{
+    background: -webkit-linear-gradient(45deg, #ffc7a3 0%,#ff6e0d 54%);
+    width:135px;
+    height:135px;
+    position:relative;
+    float:left;
+    margin-bottom:20px;
+}
+.csm-detail-chart img{
+    width:135px;
+    height:135px;
+}
+.csm-detail-chart-number{
+    text-align:center;
+    width:123px;
+    height:123px;
+    position:absolute;
+    top:6px;
+    left:6px;
+    background:transparent;
+    border-radius:50%;
+    border: 6px solid #e8eef5;
+    box-sizing:border-box;
+    font-size:40px;
+    line-height:110px;
+}
+.csm-detail-chart-number span{
+    font-size:16px;
+}
+.csm-detail-chart-text{
+    width:calc(100% - 155px);
+    margin-left:20px;
+    margin-top:30px;
+    float:left;
+    font-size:14px;
+}
+.csm-detail-chart-text > div:first-child{
+    font-size:16px;
+    font-weight:600;
+}
+.csm-chart-trends{
+    margin-bottom:20px;
+}
+.csm-header-card-product .csm-content-card-detail{
+    padding-left:30px;
+    padding-top:40px;
+    margin-bottom:0px;
+}
+
+
+.chart1-0{
+    background: -webkit-linear-gradient(45deg, #b644fe 0%,#8303d5 54%);
+}
+.chart2-0{
+    background: -webkit-linear-gradient(45deg, #8fcf41 0%,#429321 54%);
+}
+.chart3-0{
+    background: -webkit-linear-gradient(45deg,#03a0e7 0%,#0077d5 54%);
+}
+.title-0{
+    background: -webkit-linear-gradient(left, #ff6e0d 0%,#f99f0e 98%);
+}
+
+}

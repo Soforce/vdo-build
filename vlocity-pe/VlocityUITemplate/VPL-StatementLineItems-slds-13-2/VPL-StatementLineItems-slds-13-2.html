@@ -1,0 +1,86 @@
+<div class='slds-col--padded slds-size--1-of-1'>
+    <div class="vlc-slds-table-heading">
+        <label>{{::control.propSetMap.label}}</label>
+    </div>
+    <table class="slds-table slds-table--bordered slds-table--cell-buffer vlc-slds-table">
+       <thead>
+            <tr class="slds-text-heading--label">
+                <th width="20px"></th>
+                <th scope="col">
+                    <div class="slds-truncate">Line Item Number</div>
+                </th>
+                 <th scope="col">
+                    <div class="slds-truncate">Statement Date</div>
+                </th>
+                 <th scope="col">
+                    <div class="slds-truncate">Asset</div>
+                </th>
+                 <th scope="col">
+                    <div class="slds-truncate">Service Name</div>
+                </th>
+                 <!--<th scope="col">
+                    <div class="slds-truncate">Service Type</div>
+                </th>
+                 <th scope="col">
+                    <div class="slds-truncate">Sub Type</div>
+                </th>-->
+                <th scope="col">
+                    <div class="slds-truncate">Amount</div>
+                </th>
+                <th scope="col">
+                    <div class="slds-truncate">Category</div>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" >
+                <th class="slds-cell-shrink">
+                    <label class="slds-checkbox">
+                        <input type="checkbox" ng-model='p.vlcSelected' ng-change='onSelectItem(control, p, $index, this)'/>
+                        <span class="slds-checkbox--faux"></span>
+                        <span class="slds-assistive-text">Select</span>
+                    </label>
+                </th>
+                <td>
+                    <div class="slds-truncate">{{p['LineItemName']}}</div>
+                </td>
+                <td>
+                    <div class="slds-truncate">{{p['StatementDate']}}</div>
+                </td>
+                <td>
+                    <div class="slds-truncate">{{p['AssetName']}}</div>
+                </td> 
+                 <td>
+                    <div class="slds-truncate">{{p['ServiceName']}}</div>
+                </td>
+                <!--<td>
+                    <div class="slds-truncate">{{p['ServiceType']}}</div>
+                </td>
+                 <td>
+                    <div class="slds-truncate">{{p['Subtype']}}</div>
+                </td>-->
+                <td>
+                    <div class="slds-truncate">{{p['Amount']}}</div>
+                </td>
+                <td>
+                    <div class="slds-truncate">{{p['Category']}}</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="vlc-slds-error-block">
+
+    <div class='error' ng-show='control.srvErr'>
+        <small class='description'>{{control.srvErr}}</small>
+    </div>
+
+    <div class='error' ng-if='loopform.loopname.$error && loopform.loopname.$dirty'>
+        <small ng-show='loopform.loopname.$error.minlength' class='description'>{{::OmniMinLength}} {{::control.propSetMap.minLength}}</small>
+        <small ng-show='loopform.loopname.$error.maxlength' class='description'>{{::OmniMaxLength}} {{::control.propSetMap.maxLength}}</small>
+        <small ng-show='loopform.loopname.$error.min' class='description'>{{::OmniMinValue}} {{::control.propSetMap.min}}</small>
+        <small ng-show='loopform.loopname.$error.max' class='description'>{{::OmniMaxValue}} {{::control.propSetMap.max}}</small>
+        <small ng-show='loopform.loopname.$error.required' class='description'>{{::OmniRequired}}</small>
+        <small ng-show='loopform.loopname.$error.pattern' class='description'>{{::control.propSetMap.ptrnErrText}}</small>
+    </div>
+</div>

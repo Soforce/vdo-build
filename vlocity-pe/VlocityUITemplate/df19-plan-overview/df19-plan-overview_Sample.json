@@ -1,0 +1,15 @@
+{
+    "AssetDetails": {
+        "CreatedDate": "2018-12-18T01:37:24.000Z",
+        "EffectiveOneTimeTotal": 0,
+        "EffectiveRecurringTotal": 30,
+        "MobileData": "250 MB",
+        "MobileMessages": "Unlimited",
+        "MobileMinutes": "50 Minutes",
+        "Name": "Rogers Pay As You Go $30 Talk, Text, & Data",
+        "OneTimeTotal": "$0.00",
+        "Product2Id": "01t1U000000QmwyQAC",
+        "ProvisioningStatus": "Active",
+        "RecurringTotal": "$30.00"
+    }
+}

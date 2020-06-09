@@ -1,0 +1,19 @@
+<div ng-click="performAction(data.actions[0])" ng-controller="policyAssetDriverController" class="policy-asset-drivers--card slds-p-vertical--x-large  slds-p-horizontal--medium slds-text-align--center custom-bg">
+     <!-- layout session variable DefaultIcon is undefined displaying the default-->
+    <div >
+        <!-- layout session variable DefaultIcon = '/resource/npResource/npResource/user.png' if no profile photo in the layout field-->
+        <img src="{{obj.image_url}}">
+    </div>
+    <!--ng-repeat all the field from layout card state except photoUrl-->
+    <div class="slds-p-top--small">
+        <div ng-if="$index == 1" ng-repeat="field in data.fields" >
+        <b><p>{{obj | getter: field | picker:field.type}} </p></b>
+        
+    </div>
+        <div ng-if="$index > 1" ng-repeat="field in data.fields" >
+        <p>{{obj | getter: field | picker:field.type}} </p>
+        
+    </div>
+    </div>
+    
+</div>

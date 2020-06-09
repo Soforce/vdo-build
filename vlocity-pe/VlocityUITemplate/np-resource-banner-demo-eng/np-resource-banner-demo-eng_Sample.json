@@ -1,0 +1,302 @@
+[
+    {
+        "acceptDecay": 0,
+        "acceptDecayRatio": 1,
+        "acceptLast": null,
+        "aggregatedScore": 0,
+        "attachment": {
+            "5g-high-speed-network-connection-reaching-5g-PRECA6D-1500x750": "00P4P00001MQ1dHUAT"
+        },
+        "componentScores": [
+            {
+                "normalizedScore": 0,
+                "rawMaxScore": 0,
+                "rawMinScore": 0,
+                "rawMultiplier": 1,
+                "rawScore": 0,
+                "scaledRawScore": 0,
+                "scaledScore": 0,
+                "scoreParameters": [
+                ],
+                "scoringComponentName": "VqScoringImplProfileMatch"
+            }
+        ],
+        "contextId": "0014P0000263kz2QAA",
+        "currentMachine": "nuslice",
+        "formattedAggregatedScore": 0,
+        "info": {
+            "%vlocity_namespace%__ApplicableUserProfiles__c": "All",
+            "%vlocity_namespace%__DisplayLabel__c": "Purchase A New Phone",
+            "%vlocity_namespace%__LinkType__c": "OmniScript",
+            "%vlocity_namespace%__OpenURLMode__c": "New Tab / Window",
+            "%vlocity_namespace%__URL__c": "/apex/VDOOmniscript?id=0014100000HENR3#/OmniScriptType/VDO/OmniScriptSubType/Consumer Order Mobile/OmniScriptLang/English/ContextId/0014100000HENR3/PrefillDataRaptorBundle//false/true",
+            "%vlocity_namespace%__UrlParameters__c": "id",
+            "%vlocity_namespace%__VlocityIcon__c": "icon-v-phone-line",
+            "Id": "a214P000009PCjgQAG",
+            "Name": "Mobile Order",
+            "attributes": {
+                "type": "%vlocity_namespace%__VlocityAction__c",
+                "url": "/services/data/v47.0/sobjects/%vlocity_namespace%__VlocityAction__c/a214P000009PCjgQAG"
+            }
+        },
+        "interactionId": null,
+        "rankings": null,
+        "rejectDecay": 0,
+        "rejectDecayRatio": 1,
+        "rejectLast": null,
+        "resource": {
+            "%vlocity_namespace%__IsActive__c": true,
+            "%vlocity_namespace%__TargetObjectKey__c": "Mobile Order",
+            "%vlocity_namespace%__TargetObjectType__c": "VlocityAction",
+            "CreatedById": "0054P000006UUtHQAW",
+            "CreatedDate": "2019-10-29T15:41:01.000+0000",
+            "Id": "a3H4P000003QrJrUAK",
+            "IsDeleted": false,
+            "LastModifiedById": "0054P000006UUtHQAW",
+            "LastModifiedDate": "2019-10-29T18:16:59.000+0000",
+            "LastReferencedDate": "2019-10-29T19:03:02.000+0000",
+            "LastViewedDate": "2019-10-29T19:03:02.000+0000",
+            "Name": "nuSlice-5G-Offer-2",
+            "OwnerId": "0054P000006UUtHQAW",
+            "SystemModstamp": "2019-10-29T18:16:59.000+0000",
+            "attributes": {
+                "type": "%vlocity_namespace%__VqResource__c",
+                "url": "/services/data/v47.0/sobjects/%vlocity_namespace%__VqResource__c/a3H4P000003QrJrUAK"
+            }
+        },
+        "resourceId": "a3H4P000003QrJrUAK",
+        "scaledRawScore": 0,
+        "targetObjectKey": "Mobile Order",
+        "targetObjectType": "VlocityAction",
+        "viewDecay": 0,
+        "viewDecayRatio": 1,
+        "viewLast": null,
+        "virtualResourceData": null,
+        "virtualResourceId": null
+    },
+    {
+        "acceptDecay": 0,
+        "acceptDecayRatio": 1,
+        "acceptLast": null,
+        "aggregatedScore": 0,
+        "attachment": {
+            "communication-circuit-board-closeup-P3QEBMC-1500x1000": "00P4P00001MQ1cJUAT"
+        },
+        "componentScores": [
+            {
+                "normalizedScore": 0,
+                "rawMaxScore": 0,
+                "rawMinScore": 0,
+                "rawMultiplier": 1,
+                "rawScore": 0,
+                "scaledRawScore": 0,
+                "scaledScore": 0,
+                "scoreParameters": [
+                ],
+                "scoringComponentName": "VqScoringImplProfileMatch"
+            }
+        ],
+        "contextId": "0014P0000263kz2QAA",
+        "currentMachine": "nuslice",
+        "formattedAggregatedScore": 0,
+        "info": {
+            "%vlocity_namespace%__ApplicableUserProfiles__c": "All",
+            "%vlocity_namespace%__DisplayLabel__c": "Purchase A New Phone",
+            "%vlocity_namespace%__LinkType__c": "OmniScript",
+            "%vlocity_namespace%__OpenURLMode__c": "New Tab / Window",
+            "%vlocity_namespace%__URL__c": "/apex/VDOOmniscript?id=0014100000HENR3#/OmniScriptType/VDO/OmniScriptSubType/Consumer Order Mobile/OmniScriptLang/English/ContextId/0014100000HENR3/PrefillDataRaptorBundle//false/true",
+            "%vlocity_namespace%__UrlParameters__c": "id",
+            "%vlocity_namespace%__VlocityIcon__c": "icon-v-phone-line",
+            "Id": "a214P000009PCjgQAG",
+            "Name": "Mobile Order",
+            "attributes": {
+                "type": "%vlocity_namespace%__VlocityAction__c",
+                "url": "/services/data/v47.0/sobjects/%vlocity_namespace%__VlocityAction__c/a214P000009PCjgQAG"
+            }
+        },
+        "interactionId": null,
+        "rankings": null,
+        "rejectDecay": 0,
+        "rejectDecayRatio": 1,
+        "rejectLast": null,
+        "resource": {
+            "%vlocity_namespace%__IsActive__c": true,
+            "%vlocity_namespace%__TargetObjectKey__c": "Mobile Order",
+            "%vlocity_namespace%__TargetObjectType__c": "VlocityAction",
+            "CreatedById": "0054P000006UUtHQAW",
+            "CreatedDate": "2019-10-29T15:44:50.000+0000",
+            "Id": "a3H4P000003QrJwUAK",
+            "IsDeleted": false,
+            "LastModifiedById": "0054P000006UUtHQAW",
+            "LastModifiedDate": "2019-10-29T18:12:57.000+0000",
+            "LastReferencedDate": "2019-10-29T19:02:33.000+0000",
+            "LastViewedDate": "2019-10-29T19:02:33.000+0000",
+            "Name": "nuSlice-5G-Streaming-Offer",
+            "OwnerId": "0054P000006UUtHQAW",
+            "SystemModstamp": "2019-10-29T18:12:57.000+0000",
+            "attributes": {
+                "type": "%vlocity_namespace%__VqResource__c",
+                "url": "/services/data/v47.0/sobjects/%vlocity_namespace%__VqResource__c/a3H4P000003QrJwUAK"
+            }
+        },
+        "resourceId": "a3H4P000003QrJwUAK",
+        "scaledRawScore": 0,
+        "targetObjectKey": "Mobile Order",
+        "targetObjectType": "VlocityAction",
+        "viewDecay": 0,
+        "viewDecayRatio": 1,
+        "viewLast": null,
+        "virtualResourceData": null,
+        "virtualResourceId": null
+    },
+    {
+        "acceptDecay": 0,
+        "acceptDecayRatio": 1,
+        "acceptLast": null,
+        "aggregatedScore": 0,
+        "attachment": {
+            "snowboarder-makes-a-jump-on-speed-slope-PMFK7LJ-1500x1000": "00P4P00001MQ1YNUA1"
+        },
+        "componentScores": [
+            {
+                "normalizedScore": 0,
+                "rawMaxScore": 0,
+                "rawMinScore": 0,
+                "rawMultiplier": 1,
+                "rawScore": 0,
+                "scaledRawScore": 0,
+                "scaledScore": 0,
+                "scoreParameters": [
+                ],
+                "scoringComponentName": "VqScoringImplProfileMatch"
+            }
+        ],
+        "contextId": "0014P0000263kz2QAA",
+        "currentMachine": "nuslice",
+        "formattedAggregatedScore": 0,
+        "info": {
+            "%vlocity_namespace%__ApplicableUserProfiles__c": "All",
+            "%vlocity_namespace%__DisplayLabel__c": "Purchase A New Phone",
+            "%vlocity_namespace%__LinkType__c": "OmniScript",
+            "%vlocity_namespace%__OpenURLMode__c": "New Tab / Window",
+            "%vlocity_namespace%__URL__c": "/apex/VDOOmniscript?id=0014100000HENR3#/OmniScriptType/VDO/OmniScriptSubType/Consumer Order Mobile/OmniScriptLang/English/ContextId/0014100000HENR3/PrefillDataRaptorBundle//false/true",
+            "%vlocity_namespace%__UrlParameters__c": "id",
+            "%vlocity_namespace%__VlocityIcon__c": "icon-v-phone-line",
+            "Id": "a214P000009PCjgQAG",
+            "Name": "Mobile Order",
+            "attributes": {
+                "type": "%vlocity_namespace%__VlocityAction__c",
+                "url": "/services/data/v47.0/sobjects/%vlocity_namespace%__VlocityAction__c/a214P000009PCjgQAG"
+            }
+        },
+        "interactionId": null,
+        "rankings": null,
+        "rejectDecay": 0,
+        "rejectDecayRatio": 1,
+        "rejectLast": null,
+        "resource": {
+            "%vlocity_namespace%__IsActive__c": true,
+            "%vlocity_namespace%__TargetObjectKey__c": "Mobile Order",
+            "%vlocity_namespace%__TargetObjectType__c": "VlocityAction",
+            "CreatedById": "0054P000006UUtHQAW",
+            "CreatedDate": "2019-10-29T17:50:49.000+0000",
+            "Id": "a3H4P000003QrK1UAK",
+            "IsDeleted": false,
+            "LastModifiedById": "0054P000006UUtHQAW",
+            "LastModifiedDate": "2019-10-29T20:51:07.000+0000",
+            "LastReferencedDate": "2019-10-29T20:51:07.000+0000",
+            "LastViewedDate": "2019-10-29T20:51:07.000+0000",
+            "Name": "nuSlice-5G-Offer-1",
+            "OwnerId": "0054P000006UUtHQAW",
+            "SystemModstamp": "2019-10-29T20:51:07.000+0000",
+            "attributes": {
+                "type": "%vlocity_namespace%__VqResource__c",
+                "url": "/services/data/v47.0/sobjects/%vlocity_namespace%__VqResource__c/a3H4P000003QrK1UAK"
+            }
+        },
+        "resourceId": "a3H4P000003QrK1UAK",
+        "scaledRawScore": 0,
+        "targetObjectKey": "Mobile Order",
+        "targetObjectType": "VlocityAction",
+        "viewDecay": 0,
+        "viewDecayRatio": 1,
+        "viewLast": null,
+        "virtualResourceData": null,
+        "virtualResourceId": null
+    },
+    {
+        "acceptDecay": 0,
+        "acceptDecayRatio": 1,
+        "acceptLast": null,
+        "aggregatedScore": 0,
+        "attachment": {
+            "cell-phones-on-shelf-in-telecommunication-shop-4NRNU5U-1500x1000": "00P4P00001MQ1aIUAT"
+        },
+        "componentScores": [
+            {
+                "normalizedScore": 0,
+                "rawMaxScore": 0,
+                "rawMinScore": 0,
+                "rawMultiplier": 1,
+                "rawScore": 0,
+                "scaledRawScore": 0,
+                "scaledScore": 0,
+                "scoreParameters": [
+                ],
+                "scoringComponentName": "VqScoringImplProfileMatch"
+            }
+        ],
+        "contextId": "0014P0000263kz2QAA",
+        "currentMachine": "nuslice",
+        "formattedAggregatedScore": 0,
+        "info": {
+            "%vlocity_namespace%__ApplicableUserProfiles__c": "All",
+            "%vlocity_namespace%__DisplayLabel__c": "Purchase A New Phone",
+            "%vlocity_namespace%__LinkType__c": "OmniScript",
+            "%vlocity_namespace%__OpenURLMode__c": "New Tab / Window",
+            "%vlocity_namespace%__URL__c": "/apex/VDOOmniscript?id=0014100000HENR3#/OmniScriptType/VDO/OmniScriptSubType/Consumer Order Mobile/OmniScriptLang/English/ContextId/0014100000HENR3/PrefillDataRaptorBundle//false/true",
+            "%vlocity_namespace%__UrlParameters__c": "id",
+            "%vlocity_namespace%__VlocityIcon__c": "icon-v-phone-line",
+            "Id": "a214P000009PCjgQAG",
+            "Name": "Mobile Order",
+            "attributes": {
+                "type": "%vlocity_namespace%__VlocityAction__c",
+                "url": "/services/data/v47.0/sobjects/%vlocity_namespace%__VlocityAction__c/a214P000009PCjgQAG"
+            }
+        },
+        "interactionId": null,
+        "rankings": null,
+        "rejectDecay": 0,
+        "rejectDecayRatio": 1,
+        "rejectLast": null,
+        "resource": {
+            "%vlocity_namespace%__IsActive__c": true,
+            "%vlocity_namespace%__TargetObjectKey__c": "Mobile Order",
+            "%vlocity_namespace%__TargetObjectType__c": "VlocityAction",
+            "CreatedById": "0054P000006UUtHQAW",
+            "CreatedDate": "2019-10-29T18:02:18.000+0000",
+            "Id": "a3H4P000003QrK6UAK",
+            "IsDeleted": false,
+            "LastModifiedById": "0054P000006UUtHQAW",
+            "LastModifiedDate": "2019-10-29T18:18:03.000+0000",
+            "LastReferencedDate": "2019-10-29T19:02:00.000+0000",
+            "LastViewedDate": "2019-10-29T19:02:00.000+0000",
+            "Name": "nuSlice-5G-Bogo-Galaxy",
+            "OwnerId": "0054P000006UUtHQAW",
+            "SystemModstamp": "2019-10-29T18:18:03.000+0000",
+            "attributes": {
+                "type": "%vlocity_namespace%__VqResource__c",
+                "url": "/services/data/v47.0/sobjects/%vlocity_namespace%__VqResource__c/a3H4P000003QrK6UAK"
+            }
+        },
+        "resourceId": "a3H4P000003QrK6UAK",
+        "scaledRawScore": 0,
+        "targetObjectKey": "Mobile Order",
+        "targetObjectType": "VlocityAction",
+        "viewDecay": 0,
+        "viewDecayRatio": 1,
+        "viewLast": null,
+        "virtualResourceData": null,
+        "virtualResourceId": null
+    }
+]

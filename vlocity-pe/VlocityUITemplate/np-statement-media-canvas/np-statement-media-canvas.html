@@ -1,0 +1,12 @@
+<div class="via-slds statement-media-canvas np-canvas">
+    <div ng-init="setData(cards,session.limit)" class="slds-p-around--small">
+         <h3 class="slds-is-relative slds-m-bottom--large np-session--title" style="margin-bottom:60px;">
+        {{session.Title}} </h3>
+        
+    <div class="slds-grid slds-wrap slds-grid--vertical-stretch slds-m-around--xx-small slds-grid--pull-padded cards-container">
+        <div vloc-card ng-repeat="card in cards |orderBy:order|filter: searchFunc(card)" ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}"
+            class="slds-p-right--small slds-p-bottom-small slds-size--1-of-1 slds-small-size--2-of-6 slds-medium-size--2-of-6 slds-large-size--3-of-12 custom-bg" use-existing-element-type></div>
+        <span id="flyout" class="slds-p-around--small slds-size-1-of-1"></span>
+    </div>
+    </div>
+</div>

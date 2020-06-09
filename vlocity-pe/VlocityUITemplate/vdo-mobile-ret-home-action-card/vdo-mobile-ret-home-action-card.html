@@ -1,0 +1,11 @@
+<div class="home-actions" ng-controller="RetHomeActionController as rt">
+	<div class="home-action" ng-repeat="action in data.actions | limitTo: (data.limitActionLinksTo?data.limitActionLinksTo:5)">
+		<a class="slds-button via-slds-button slds-button--neutral slds-size--1-of-1" href="javascript:void(0)" ng-click="rt.createOrder(action)" hotkey-card-action>
+			<img src="{{$root.instanceUrl + '/resource/VDOProductResources/images/TNiPadPro.png' | trusted}}" class="np-catalog-img"  ng-if="$index == 0">
+			<img src="{{$root.instanceUrl + '/resource/VDOProductResources/images/TNEssential.png' | trusted}}" class="np-catalog-img"  ng-if="$index == 1">
+			<img src="{{$root.instanceUrl + '/resource/VDOProductResources/images/TNWatch.png' | trusted}}" class="np-catalog-img"  ng-if="$index == 2">
+			<span class="action-text">{{action.displayName}}</span>
+			<span class="action-view">View <span></span></span>
+		</a>
+	</div>
+</div>

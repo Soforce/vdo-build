@@ -1,0 +1,45 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.csm-content{
+	width: 100%;
+	box-sizing: border-box;
+	background: #FFF;
+}
+.swiper-slide {
+    width: calc(100% - 80px) !important;
+    height: 100%;
+    box-sizing: border-box;
+}
+.buttons-left:after{
+    content: ' ';
+    width:40px;
+    height:40px;
+	background-image: url('https://vdo-cmt--c.na30.content.force.com/servlet/servlet.ImageServer?id=01536000003KixT&oid=00D36000000qC4j&lastMod=1508831527000');
+	background-size: 40px 40px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.ion-plus-round{
+	display:none !important;
+}
+
+.float-button a{
+	background-image: url('https://vdo-cmt--c.na30.content.force.com/servlet/servlet.ImageServer?id=01536000003KivS&oid=00D36000000qC4j&lastMod=1508829968000') !important;
+	background-size: 35px 35px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border:5px solid #fff !important;
+}
+.swiper-pagination {
+    position: fixed;
+    top:555px;
+    z-index:1000;
+    transition: top 1s !important;
+    -webkit-transition: top 1s !important;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    pointer-events:none !important;
+}

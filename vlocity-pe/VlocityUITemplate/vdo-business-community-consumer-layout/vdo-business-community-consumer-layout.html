@@ -1,0 +1,33 @@
+<div class="vdo-consumer-layout">
+    <div class="slds-tabs--scoped" ng-init="deviceTabIndex=0;">
+        <ul class="slds-tabs--scoped__nav" role="tablist">
+            
+            <li class="slds-tabs--scoped__item" title="Item One" role="presentation" ng-repeat="device in records" ng-class="{'slds-active': (deviceTabIndex === $index)}">
+                
+                <a class="slds-tabs--scoped__link slds-text-align--center" href="javascript:void(0);" role="tab" tabindex="0" aria-selected="true" aria-controls="tab-scoped-1" ng-click="$parent.deviceTabIndex=$index">
+                <slds-svg-icon sprite="'utility'" ng-attr-icon="device.deviceType ==='tablet'?'tablet_portrait':'phone_portrait'" size="'large'" ></slds-svg-icon>
+                {{device.productName}} <br/>
+                <div class="vdo-device-type">{{device.productType}}</div>
+                </a>
+                
+                </li>
+                
+                <li class="slds-tabs--scoped__item vdo-tab-add" title="Item One" role="presentation">
+                
+                <a class="slds-tabs--scoped__link" href="javascript:void(0);" role="tab" tabindex="0" aria-selected="true" aria-controls="tab-scoped-1" onclick="">
+                <slds-svg-icon sprite="'utility'" icon="'add'" size="'large'" ></slds-svg-icon>
+                
+                Add Line
+                </a>
+                
+                </li>
+        </ul>
+        <div id="tab-scoped-{{$index}}" class="slds-tabs--scoped__content slds-p-around--x-large slds-show" ng-class="(deviceTabIndex === $index)?'slds-show':'slds-hide'" role="tabpanel" aria-labelledby="tab-scoped-1__item" ng-repeat="device in records" ng-init="tabContentIndex=$index">
+            <!--Item {{$index}} - {{$parent.deviceTabIndex}} - {{deviceTabIndex === $index}}-->
+            <div ng-if="deviceTabIndex === $index">
+                <!--{{tabContentIndex}}-{{[records[tabContentIndex]]}}-->
+                <vloc-card ng-repeat="card in cards |orderBy:order"  obj="records[tabContentIndex]" ng-model="card$index" data="card" index="{{$index}}"></vloc-card>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+<script src="/resource/VDOInternalResources/js/chart.bundle.js"></script>
+<div class="vdo-ban-usage slds-grid" ng-controller="vdoBanUsageController">
+    <div>
+        <h2 class="slds-text-heading--medium">Monthly Budget</h2>
+        <div class="vdo-ban-usage-graph slds-p-around--large slds-m-top--small">
+            <div class="slds-form--horizontal slds-p-around--small">
+                <div class="slds-form-element">
+                    <label for="vdo-ban-usage-graph">For </label>
+                    <div class="slds-form-element__control">
+                      <select ng-model="usageGraphMonths" id="vdo-ban-usage-graph" class="slds-select" ng-change="chartTimeline('budget');">
+                        <option value="6">Past six months</option>
+                        <option value="12">Past one year</option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <canvas id="myBarChart" width="600" height="500"></canvas>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2 class="slds-text-heading--medium">Monthly Breakdown</h2>
+        
+        <div class="vdo-ban-usage-graph slds-p-around--large slds-m-top--small">
+            <div class="slds-form--horizontal slds-p-around--small">
+            <div class="slds-form-element">
+                <label for="vdo-ban-usage-graph2">For </label>
+                <div class="slds-form-element__control">
+                  <select ng-model="usageBreakdownGraphMonths"  id="vdo-ban-usage-graph2" class="slds-select" ng-change="chartTimeline('breakdown');">
+                    <option value="month">Current Month</option>
+                    <option value="quarter">Past three months</option>
+                    <option value="half">Past six months</option>
+                  </select>
+                </div>
+            </div>
+        </div>
+        <div>
+            <canvas id="myPieChart" width="500" height="500"></canvas>
+        </div>
+        </div>
+    </div>
+</div>

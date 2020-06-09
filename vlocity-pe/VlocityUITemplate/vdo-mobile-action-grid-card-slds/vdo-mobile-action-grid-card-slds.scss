@@ -1,0 +1,55 @@
+.via-slds .via-slds-action-grid-card {
+    flex-wrap: wrap;
+    .via-icon {
+        font-size: 2.5em;
+        color: #0070d2;
+    }
+    .via-slds-button {
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        color: rgb(84, 105, 141);
+        p {
+            font-size: 12px;
+            line-height: 20px;
+            color: rgb(0, 112, 210);
+            overflow-wrap: normal;
+            margin-top:5px;
+        }
+    }
+    .via-slds-button:hover {
+        text-decoration: none;
+        color:#FF6E0D;
+        p{
+            color:#FF6E0D;
+        }
+    }
+    .via-action-icon:before {
+        font-size: 250%;
+    }
+    .retail-action{
+        width: 25% !important;
+        height:85px;
+    }
+    .recommend{
+    position: absolute;
+    top: 10px;
+    left: -13px;
+}
+.recommend img{
+    width: 40px !important;
+    height: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 129, 249, 0.5);
+    border-radius: 35px;
+    position: relative;
+    top: -20px;
+    left: 5px;
+}
+}
+
+.via-slds .slds-size--1-of-1, .via-slds .slds-size_1-of-1 {
+    -ms-flex: 0% !important;
+    flex: 0% !important;
+    box-sizing: border-box;
+}

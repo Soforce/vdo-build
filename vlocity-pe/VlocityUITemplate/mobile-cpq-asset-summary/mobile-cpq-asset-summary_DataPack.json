@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "vlocity-cpq",
+    "%vlocity_namespace%__CustomJavascript__c": "",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "mobile-cpq-asset-summary/2/vlocity-cpq/1493796214591",
+    "%vlocity_namespace%__HTML__c": "mobile-cpq-asset-summary.html",
+    "%vlocity_namespace%__ParentID__c": "vdo-card-active/1/Vlocity Demo Org/1467193381859",
+    "%vlocity_namespace%__SampleJson__c": "mobile-cpq-asset-summary_Sample.json",
+    "%vlocity_namespace%__Sass__c": "mobile-cpq-asset-summary.scss",
+    "%vlocity_namespace%__Type__c": "Cards",
+    "%vlocity_namespace%__Version__c": 2,
+    "Name": "mobile-cpq-asset-summary",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/mobile-cpq-asset-summary"
+}

@@ -1,0 +1,47 @@
+.vlocity .flyout{
+    .flyout-content {
+        padding:5px;
+        .items {
+            overflow:auto;
+            width:calc(100%-450px);
+        }
+        .usage{
+            width:450px;
+            .usagetitle{
+                font-weight:bold;
+                padding:20px 0px 10px 0px;
+            }
+            .usageChartFlyout{
+                margin:10px;
+                float:left;
+            }
+        }
+    }
+    
+    @media only screen and (max-width : 725px) {
+        .flyout-content {
+            .flyout-actions {
+                padding-bottom:20px;
+            }
+            .items {
+                padding:10px 0px 0px;
+            }
+        }
+    }
+    
+    @media only screen and (min-width : 725px) {
+        .flyout-content {
+            display:table;
+            .flyout-actions {
+                display:table-cell;
+                vertical-align:top;
+                border-right: 2px solid #efefef;
+            }
+            .items {
+                display:table-cell;
+                width: 75%;
+                vertical-align:top;
+            }
+        }
+    }
+}

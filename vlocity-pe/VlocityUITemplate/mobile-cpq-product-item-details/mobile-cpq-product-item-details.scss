@@ -1,0 +1,85 @@
+.cpq-product-item-details {
+    
+    .product-order-form {
+        display: flex;
+        justify-items: flex-start;
+    }
+    
+    .product-gallery {
+        flex-grow: 0;
+        flex-shrink: 0;
+        width: 25%;
+        margin-right: 2em;
+        
+        /* Ensure only first image is shown until carousel support is added */
+        ul li {
+            display: none;
+        }
+        
+        ul li:first-child {
+            display: block;
+        }
+    }
+    
+    .product-details {
+        flex-grow: 1;
+        position: relative;
+    }
+    
+    .product-name {
+        font-size: 2.25em;
+        color: #061C3F;
+        margin-bottom: 1.5rem;
+    }
+    
+    .rating {
+        margin-bottom: 1em;
+        
+        .star {
+            display: inline-block;
+            margin-right: 0.25em;
+            width: 1em;
+            height: 1em;
+            
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        
+        .star-filled {
+            background-image: url('https://c.na35.content.force.com/servlet/servlet.ImageServer?id=01541000001gHjd&oid=00D41000002IGRk&lastMod=1488000483000');
+        }
+        
+        .star-unfilled {
+            background-image: url('https://c.na35.content.force.com/servlet/servlet.ImageServer?id=01541000001gHji&oid=00D41000002IGRk&lastMod=1488000571000');
+        }
+    }
+    
+    .description {
+        font-size: 1em;
+        color: #54698D;
+        
+        margin-bottom: 2.5em;
+    }
+    
+    .product-features {
+        
+        .features-label {
+            margin-bottom: 0.25em;
+        }
+    }
+    
+    .pricing-options {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 2.5em;
+        padding-left: 2em;
+        
+        .price {
+            margin-right: 3em;
+            
+            font-size: 1.375em;
+            color: #061C3F;
+        }
+    }
+}

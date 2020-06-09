@@ -1,0 +1,45 @@
+@import "npVariables";
+
+    /*** STYLES ***/
+    .vlocity {   /* Always use vlocity class as a wrapper */
+        .np-product-highlight-card { 
+            color:$text-color;
+            width:100%;
+            max-width: 300px;
+            min-width: 280px;
+            
+            .np-card
+            {
+                background: #f4f6f9;
+                border-color: #d8dde6;
+                    min-height: 380px;
+                
+            }
+            
+            img{
+               
+                width:100%;
+                margin:0 auto;
+            }
+            
+            table{
+                
+            }
+            .price
+            {
+                text-decoration: line-through;
+            }
+            
+            .offer-price
+            {
+                color:$theme-color-2;
+            }
+            
+            .product-extra
+            {
+                color:$dark-grey;
+                font-size:10px;
+            }
+            
+        }   
+    }

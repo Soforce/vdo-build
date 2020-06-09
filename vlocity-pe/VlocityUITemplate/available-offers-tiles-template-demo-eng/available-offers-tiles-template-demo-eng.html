@@ -1,0 +1,40 @@
+<!-- Offer Tiles -->
+
+            
+<div class="slds-col slds-large_1-of-4 slds-medium-size_1-of-4 slds-small-size_1-of-1" index="{{$index}}" >
+
+    <!-- Offer Tile -->
+    <div class="vlc-slds-selectableItem slds-p-around_x-large">
+
+        <!-- Images -->
+        <!--
+        <div class="slds-m-vertical_medium">
+            <img src="..{{a.url}}" alt="{{a.title}}" ng-if="a.contentType === 'Image'"/>
+        </div>
+        -->
+
+        <!-- Name + Description -->
+        <div class="slds-m-vertical_medium">
+            <div class="slds-text-heading_large vlc-slds-item--details slds-align_absolute-center"><strong>{{data[index].Name}}<strong></div>
+            <div class="vlc-slds-item--details slds-align_absolute-center">{{data.Description}}</div>
+        </div>
+
+        
+        <!-- Price -->
+        <!--
+        <div class="slds-m-vertical_medium slds-align_absolute-center vlc-slds-item--onecost" ng-repeat="pricing in data.priceResult | filter: {Type__c: 'Price', ChargeType__c: 'Recurring'}">            
+            <strong>$</strong><span class="slds-text-heading_large"><strong>{{pricing.chargeamount | currency:"":0}}</strong></span> /Month
+        </div>
+        -->
+        
+        <!-- bind actions from the card data set -->
+        <!--
+        <div class="slds-m-vertical_medium slds-text-body_regular slds-align_absolute-center">
+                <a  href="javascript:void(0)" ng-repeat="action in data.actions" ng-click="performAction(action)" hotkey-card-action>
+                <button class="slds-button slds-button_brand">{{action.displayName}}</button>
+            </a>
+        </div>
+        -->
+        
+    </div>
+</div>

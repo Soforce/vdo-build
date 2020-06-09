@@ -1,0 +1,49 @@
+<div class="slds-grid slds-grid--vertical campaign-member-detail-top" ng-init="importedScope.setObj(obj)">
+    <!-- <pre>{{importedScope.campaignMember | json}}</pre> -->
+    <div class="slds-spinner_container" ng-show="!importedScope.isLoaded">
+        <div class="slds-spinner--brand slds-spinner slds-spinner--medium" aria-hidden="false" role="alert">
+            <div class="slds-spinner__dot-a"></div>
+            <div class="slds-spinner__dot-b"></div>
+        </div>
+    </div>
+    <div class="member-information slds-grid">
+        <div class="left slds-col--padded slds-size--3-of-4 slds-p-left--none">
+            <h2><a ng-click="importedScope.navigateTo(importedScope.campaignMember)">{{importedScope.campaignMember.FirstName.value}} {{importedScope.campaignMember.LastName.value}}</a></h2>
+            <span class="line title-employer">{{importedScope.campaignMember.Title.value}}<span ng-if="importedScope.campaignMember.Title.value">,</span> {{importedScope.campaignMember.Company.value}}</span>
+            <span class="line phone-email">{{importedScope.campaignMember.Phone.value}}<span ng-if="importedScope.campaignMember.Phone.value"> |</span> {{importedScope.campaignMember.Email.value}}</span>
+        </div>
+        <div class="right slds-col--padded slds-size--1-of-4 slds-p-right--none">
+            <div class="slds-dropdown-trigger slds-dropdown-trigger--click slds-is-open member-status-select" aria-expanded="true" ng-if="importedScope.campaignMember.CampaignId && importedScope.$parent.$root.memberStatus.result.records.length">
+                <button class="slds-button slds-button--neutral slds-truncate" ng-click="importedScope.toggleStatusDropdown($event)">
+                    <slds-button-svg-icon size="type === 'button-group' ? null : 'small'" sprite="'utility'" icon="'down'" extra-classes="'slds-button__icon--left'"></slds-button-svg-icon>
+                    <span>{{importedScope.campaignMember.Status.value}}</span>
+                </button>
+                <div class="slds-dropdown slds-dropdown--right" ng-if="importedScope.statusOpen">
+                    <ul class="dropdown__list" role="menu">
+                        <li class="slds-dropdown__item" ng-repeat="record in importedScope.$parent.$root.memberStatus.result.records | filter: importedScope.statusFilter">
+                            <a role="menuitem" ng-href="#" ng-click="importedScope.updateMemberStatus(importedScope.campaignMember.Id.value, record.Label.value, isOpen)" title="{{record.Label.value}}">
+                                <p class="slds-truncate">{{record.Label.value}}</p>
+                            </a>
+                        </li>
+                        <li class="slds-dropdown__item" ng-class="{'slds-has-divider--top-space': $index === 0}" ng-repeat="callBack in importedScope.callBacks">
+                            <a role="menuitem" title="{{callBack.label}}" ng-click="importedScope.changeCallDate(callBack.action)">
+                                <p class="slds-truncate">{{callBack.label}}</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="member-actions">
+        <div class="target-call-date-wrapper slds-m-right--x-large">
+            <div class="slds-text-heading--label" ng-if="importedScope.campaignMember.formattedDate">Target Call Date</div>
+            <span class="target-call-date" ng-if="importedScope.campaignMember.formattedDate">{{importedScope.campaignMember.formattedDate}}</span>
+        </div>
+        <button class="slds-button slds-button--brand {{action.class}}" ng-repeat="action in importedScope.memberActions" ng-click="importedScope.invokeMemberActions(action)">
+            <svg aria-hidden="true" class="slds-button__icon slds-button__icon--left">
+                <use xlink:href="{{'/assets/icons/utility-sprite/svg/symbols.svg#' + action.icon | sldsStaticResourceURL}}"></use>
+            </svg>{{action.label}}
+        </button>
+    </div>
+</div>

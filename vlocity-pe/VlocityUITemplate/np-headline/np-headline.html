@@ -1,0 +1,9 @@
+<section class="np-actions-and-filter">
+        <h1 class="slds-text-heading--large slds-is-relative slds-m-bottom--large action-link-header">
+        <span>{{placeholder.Title.label}} {{placeholder.Title.value}} </span></h1>
+        <div class="slds-col via-slds-col slds-m-bottom--large slds-p-horizontal--small slds-text-align--center " ng-repeat="action in data.actions | limitTo:1">
+          <a href="javascript:void(0)" ng-click="performAction(action)" hotkey-card-action title="{{action.displayName}}" class="slds-text-link--reset">
+             {{action.displayName}}
+          </a>
+        </div>
+        </section>

@@ -1,0 +1,6 @@
+<div ng-init="importedScope.setData(records.result)">
+    <label class="slds-page-header slds-p-left--large slds-align--absolute-center slds-m-top--none slds-text-heading--label">{{importedScope.totalSize}}<span class="slds-p-left--xx-small slds-text-heading--label">Campaign Members</span></label>
+    <canvas id="doughnut" class="chart chart-doughnut slds-p-top--medium" 
+    chart-data="importedScope.data" chart-labels="importedScope.labels">
+    </canvas>
+</div>

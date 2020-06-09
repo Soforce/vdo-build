@@ -1,0 +1,19 @@
+<div class="via-slds npStatement-media-canvas np-canvas" ng-controller="npMedialistCanvasCtrl">
+    <div ng-init="setData(cards,session.limit)" class=" slds-p-around--large  np-card">
+        <!-- hide if layout session variable Title is undefined -->
+             <h3 class="slds-is-relative slds-m-bottom--large np-session--title">
+        {{session.Title}} </h3>
+    
+        <!-- scrollable div if content overlapped-->
+         <!-- vloc-card directive is used to define the cards
+            use ng-repeat cards to repeat the data records.
+        -->
+        <div class="slds-scrollable--x">
+            <div class="slds-grid slds-grid--overflow slds-wrap cards-container slds-grid--vertical-stretch">
+                <div vloc-card ng-repeat="card in cards |orderBy:order|filter: searchFunc(card)" ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}"
+                    class="slds-p-right--small slds-p-top--medium slds-p-bottom--large custom-bg" use-existing-element-type></div>
+               
+                </div>
+            </div>
+        </div>
+</div>

@@ -1,0 +1,29 @@
+<div class="via-slds np-canvas  slds-m-top--small"  ng-controller="npCanvasCtrl"   ng-class="sessionBorder== 'false'  ? '' : 'np-border'">    
+    <!--div><p>{{params}}</p></div-->
+    <!--div><p>{{data}}</p></div-->
+    <!--div><p>{{$root.vlocity}}</p></div-->
+    <!-- layout session variable: Border = 'true/false' to remove border-->
+    <!-- layout session variable: Title = 'Layout Title'-->
+     <div class="slds-p-around--small">
+         <!-- hide if layout session variable Title is undefined -->
+         <h3 ng-hide="!sessionTitle" class="slds-is-relative slds-m-bottom--large np-session--title">
+        {{sessionTitle}}
+            </h3>
+        <!-- vloc-card directive is used to define the cards
+            use ng-repeat cards to repeat the data records.
+        -->
+        <div class="slds-grid slds-m-bottom--small slds-wrap cards-container">
+            <div 
+            vloc-card ng-repeat="card in cards" 
+            ctrl="{{ctrl}}" 
+            ng-model="card" 
+            data="card" 
+            records="records" 
+            index="{{$index}}" 
+            session-id="{{sessionId}}" 
+            class="slds-size--1-of-1" 
+            use-existing-element-type>
+            </div>
+        </div>
+    </div>
+</div>

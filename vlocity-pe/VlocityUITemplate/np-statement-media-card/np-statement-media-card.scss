@@ -1,0 +1,35 @@
+/*** STYLES ***/
+    .vlocity {   /* Always use vlocity class as a wrapper */
+        .statement-media--card { 
+            position:relative;
+            cursor:pointer;
+            .custom-statement-icon
+            {
+               fill:#2972cb; 
+            }
+            
+            .custom-button-close
+            {
+                fill:#B0BBCD;
+                position:absolute;
+                top:8px;
+                right:8px;
+                cursor:pointer;
+            }
+            
+            &.custom-bg{
+                background:#f9fbfe;
+                border:none;
+                border-radius:0px;
+                    height: 100%;
+            }
+            
+            img{
+                max-width:50px;
+            }
+            
+            &:hover{
+                background: #e8eef5;
+            }
+        }
+    }

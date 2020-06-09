@@ -1,0 +1,142 @@
+@import 'campaign-variables';
+
+.campaign-member-log-actions {
+    transition: max-height .5s linear;
+    max-height: 2.7rem;
+    position: relative;
+    z-index: 5;
+
+    .member-log-actions-tabs {
+        .slds-tabs--scoped__nav {
+            position: relative;
+            border-radius: 0.25rem;
+            transition: all .5s linear;
+            background-color: lighten($cards-border-gray, 4%);
+
+            li.tabs-icon {
+                width: 2.5rem;
+                text-align: center;
+
+                .slds-icon_container {
+                    line-height: 2.45rem;
+
+                    .slds-icon {
+                        fill: white;
+                        position: relative;
+                        top: -1px;
+                    }
+                }
+            }
+
+            .slds-tabs--scoped__item {
+                background-color: $cards-gray;
+                margin-bottom: 0; //this
+
+                .slds-tabs--scoped__link {
+                    transition: all .15s linear;
+                    border-left-color: $cards-border-gray;
+                    border-right-color: $cards-border-gray;
+                    // margin-bottom: -1px;
+                }
+
+                &:first-child {
+                    border-top-left-radius: 0.25rem;
+                    border-bottom-left-radius: 0.25rem;
+                }
+
+                &.slds-active {
+                    background-color: white;
+
+                    .slds-tabs--scoped__link {
+                        height: calc(100% + 1px);
+                        border-bottom: 1px solid white;
+                    }
+                }
+            }
+        }
+        .slds-tabs--scoped__content {
+            position: relative;
+            transform: scaleY(0);
+            transform-origin: top;
+            transition: transform .4s linear;
+            transition-delay: .1s;
+            
+            &:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 1;
+                content: '';
+                display: block;
+                width: 100%;
+                height: 100%;
+                transition: opacity .5s linear;
+                opacity: 1;
+                visibility: visible;
+                background-color: white;
+            }
+        }
+        .slds-form--stacked {
+            .slds-button--brand, .slds-button--neutral {
+                min-width: 7rem;
+            }
+        }
+    }
+    &.via-toggle-tabs-collapsed {
+        max-height: 2.7rem;
+
+        .member-log-actions-tabs {
+            .slds-tabs--scoped__content {
+                transform: scaleY(0);
+
+                &:before {
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+        }
+    }
+
+    &.via-toggle-tabs-expanded {
+        max-height: 35rem;
+
+        .member-log-actions-tabs {
+            .slds-tabs--scoped__nav {
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+
+                .slds-tabs--scoped__item {
+                    margin-bottom: -1px;
+
+                    &:first-child {
+                        border-bottom-left-radius: 0;
+                    }
+                }
+            }
+            .slds-tabs--scoped__content {
+                transform: scaleY(1);
+
+                &:before {
+                    opacity: 0;
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+
+    .slds-dropdown.slds-datepicker.timepicker {
+        .slds-button {
+            min-width: 2.5rem;
+
+            + .slds-button {
+                margin-left: 0;
+            }
+        }
+        td {
+            .slds-day.slds-is-selected {
+                background: $primary-medium;
+                color: #fff;
+            }
+        }
+    }
+}

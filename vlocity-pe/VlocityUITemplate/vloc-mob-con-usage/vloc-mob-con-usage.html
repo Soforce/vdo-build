@@ -1,0 +1,231 @@
+<script>
+
+    //Animated selected donut segment
+    function highlightDonut(donutid){
+        var usagepercent = Math.round(($('.con-usage-tab-content-active .circle' + donutid).attr('amount') / 500)*100);
+        $('.circle_usage_animation').removeClass('circle_usage_animation-selected');
+        $('.con-usage-tab-content-active .circle' + donutid).addClass('circle_usage_animation-selected');
+        $('.con-usage-tab-content-active .con-usage-circle-title').html(usagepercent + '<span>%</span><span class="con-usage-circle-subtitle">' + $('.con-usage-tab-content-active #usage' + donutid + ' .con-usage-activity-title').html() + '</span>');
+    }
+
+    $(document).ready(function(){
+        
+        //Page finished loading so show navbar
+	    showPage();
+	    
+	   //Scrolling graph animation
+	   $('.scroll-content').on('scroll', function(){
+	        if($('.con-usage-graph').offset() != null){
+    	        if($('.con-usage-graph').offset().top < (($( window ).height()/3)*2)){
+    	            $('.con-usage-graph').removeClass('con-usage-graph-small');
+    	        }else{
+    	            $('.con-usage-graph').addClass('con-usage-graph-small');
+    	        }
+	        }
+	    });
+    });
+    
+    function showPage(){
+        if($('.con-navbar-usage').length){
+            $('.con-usage, .con-navbar-usage').css('opacity', '1');
+    	    setTimeout(function(){
+    	        $('.con-navbar-usage').addClass('con-loaded');
+    	        $('.circle_usage_animation').removeClass('circle_usage_animation_active');
+    	    }, 1000);
+        }else{
+            setTimeout(function(){showPage();},500);
+        }
+    }
+    
+</script>
+<div class="con-usage" ng-controller="usageController as uc" ng-init="uc.init(payload);">
+    <div class="con-usage-tab-content con-usage-tab-content-active" id="con-usage-1">
+        <!-- Usage Overview -->
+        <div class="con-device-details-section">
+            <div class="con-usage-details-title">
+                Your data usage is at
+            </div>
+            
+            <div class="con-usage-details-total" ng-repeat="bar in payload | limitTo:3" ng-if="bar.%vlocity_namespace%__Type__c == 'Data'">
+                {{(bar.expr0 / thresholdData) * 100 | number: 0}}%
+            </div>
+            
+            <div class="con-usage-details-subtotal" ng-repeat="bar in payload | limitTo:3" ng-if="bar.%vlocity_namespace%__Type__c == 'Data'">
+                You only have {{thresholdData - bar.expr0 | number: 2}} GB left for this month.
+            </div>
+        </div>
+        
+        <!-- Usage Donut -->
+        <div class="con-usage-donut-wrapper">
+            <vloc-layout layout-name="vloc-mob-con-usage-donut-layout" type="Data" sid="{{payload[0].%vlocity_namespace%__StatementId__c}}"></vloc-layout>
+        </div>
+        
+        <!-- Bill Graph -->
+        <div class="con-device-details-section">
+            <div class="con-usage-details-title">
+                Last 6 months
+            </div>
+            <div class="con-usage-graph con-usage-graph-small">
+                <div class="con-usage-graph-bar-overage" ng-if="thresholdData > 0" style="top: {{225 - ((thresholdData / topData) * 200)}}px !important">
+                    {{thresholdData}} GB Limit
+                </div>
+                
+                <div ng-repeat="bar in payload | orderBy:'%vlocity_namespace%__ServiceEndDate__c':false" class="con-usage-graph-bar-wrapper" ng-if="bar.%vlocity_namespace%__Type__c == 'Data'">
+                    <div class="con-usage-graph-bar">
+                        <div class="con-usage-graph-bar-segment con-usage-graph-bar-segment-overage" style="height:{{(bar.expr0 / topData) * 200}}px;" ng-if="bar.expr0 >= bar.expr1 && bar.expr1 != 0">
+                        </div>
+                        <div class="con-usage-graph-bar-segment" style="height:{{(bar.expr0 / topData) * 200}}px;" ng-if="bar.expr0 < bar.expr1 || bar1.expr1 == 0">
+                        </div>
+                    </div>
+                    <div class="con-usage-graph-bar-axis">
+                        {{bar.%vlocity_namespace%__ServiceEndDate__c | date : 'MMM'}}
+                    </div>
+                </div>
+
+                <div class="con-usage-graph-legend">
+                    <div class="con-usage-graph-legend-bar">
+                    </div>
+                    Overage
+                </div>
+                
+            </div>
+
+            <div class="con-usage-details-table-row" ng-repeat="bar in payload" ng-if="bar.%vlocity_namespace%__Type__c == 'Data'">
+                <div class="con-usage-details-table-label">
+                    {{bar.%vlocity_namespace%__ServiceEndDate__c | date : 'MMMM yyyy'}}
+                </div>
+                <div class="con-usage-details-table-value">
+                    {{bar.expr0}} GB
+                    <span></span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="con-usage-tab-content" id="con-usage-2">
+        <!-- Usage Overview -->
+        <div class="con-device-details-section">
+            <div class="con-usage-details-title">
+                You've used
+            </div>
+            
+            <div class="con-usage-details-total" ng-repeat="bar in payload | limitTo:3" ng-if="bar.%vlocity_namespace%__Type__c == 'Talk'">
+                {{bar.expr0}} minutes
+            </div>
+            
+            <div class="con-usage-details-subtotal">
+                You're on our unlimited minutes plan so you can talk as much as you like.
+            </div>
+        </div>
+        
+        <!-- Usage Donut -->
+        <div class="con-usage-donut-wrapper">
+            <vloc-layout layout-name="vloc-mob-con-usage-donut-layout" type="Talk" sid="{{payload[0].%vlocity_namespace%__StatementId__c}}"></vloc-layout>
+        </div>
+        
+        <!-- Bill Graph -->
+        <div class="con-device-details-section">
+            <div class="con-usage-details-title">
+                Last 6 months
+            </div>
+            <div class="con-usage-graph con-usage-graph-small">
+                <div class="con-usage-graph-bar-overage" ng-if="thresholdTalk > 0" style="top: {{225 - ((thresholdTalk / topData) * 200)}}px !important">
+                    {{thresholdTalk}} Minutes Limit
+                </div>
+                
+                <div ng-repeat="bar in payload | orderBy:'%vlocity_namespace%__ServiceEndDate__c':false" class="con-usage-graph-bar-wrapper" ng-if="bar.%vlocity_namespace%__Type__c == 'Talk'">
+                    <div class="con-usage-graph-bar">
+                        <div class="con-usage-graph-bar-segment con-usage-graph-bar-segment-overage" style="height:{{(bar.expr0 / topTalk) * 200}}px;" ng-if="bar.expr0 >= bar.expr1 && bar.expr1 != 0">
+                        </div>
+                        <div class="con-usage-graph-bar-segment" style="height:{{(bar.expr0 / topTalk) * 200}}px;" ng-if="bar.expr0 < bar.expr1 || bar.expr1 == 0">
+                        </div>
+                    </div>
+                    <div class="con-usage-graph-bar-axis">
+                        {{bar.%vlocity_namespace%__ServiceEndDate__c | date : 'MMM'}}
+                    </div>
+                </div>
+
+                <div class="con-usage-graph-legend">
+                    <div class="con-usage-graph-legend-bar">
+                    </div>
+                    Overage
+                </div>
+                
+            </div>
+
+            <div class="con-usage-details-table-row" ng-repeat="bar in payload" ng-if="bar.%vlocity_namespace%__Type__c == 'Talk'">
+                <div class="con-usage-details-table-label">
+                    {{bar.%vlocity_namespace%__ServiceEndDate__c | date : 'MMMM yyyy'}}
+                </div>
+                <div class="con-usage-details-table-value">
+                    {{bar.expr0}} Minutes
+                    <span></span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="con-usage-tab-content" id="con-usage-3">
+        <!-- Usage Overview -->
+        <div class="con-device-details-section">
+            <div class="con-usage-details-title">
+                You've sent
+            </div>
+            
+            <div class="con-usage-details-total" ng-repeat="bar in payload | limitTo:1" ng-if="bar.%vlocity_namespace%__Type__c == 'Text'">
+                {{bar.expr0}} texts
+            </div>
+            
+            <div class="con-usage-details-subtotal">
+                You're on our unlimited messages plan so you can text as much as you like.
+            </div>
+        </div>
+        
+        <!-- Usage Donut -->
+        <div class="con-usage-donut-wrapper">
+            <vloc-layout layout-name="vloc-mob-con-usage-donut-layout" type="Text" sid="{{payload[0].%vlocity_namespace%__StatementId__c}}"></vloc-layout>
+        </div>
+        
+        <!-- Bill Graph -->
+        <div class="con-device-details-section">
+            <div class="con-usage-details-title">
+                Last 6 months
+            </div>
+            <div class="con-usage-graph con-usage-graph-small">
+                <div class="con-usage-graph-bar-overage" ng-if="thresholdText > 0" style="top: {{225 - ((thresholdText / topText) * 200)}}px !important">
+                    {{thresholdData}} Text Limit
+                </div>
+                
+                <div ng-repeat="bar in payload | orderBy:'%vlocity_namespace%__ServiceEndDate__c':false" class="con-usage-graph-bar-wrapper" ng-if="bar.%vlocity_namespace%__Type__c == 'Text'">
+                    <div class="con-usage-graph-bar">
+                        <div class="con-usage-graph-bar-segment con-usage-graph-bar-segment-overage" style="height:{{(bar.expr0 / topText) * 200}}px;" ng-if="bar.expr0 >= bar.expr1 && bar.expr1 != 0">
+                        </div>
+                        <div class="con-usage-graph-bar-segment" style="height:{{(bar.expr0 / topText) * 200}}px;" ng-if="bar.expr0 < bar.expr1 || bar.expr1 == 0">
+                        </div>
+                    </div>
+                    <div class="con-usage-graph-bar-axis">
+                        {{bar.%vlocity_namespace%__ServiceEndDate__c | date : 'MMM'}}
+                    </div>
+                </div>
+
+                <div class="con-usage-graph-legend">
+                    <div class="con-usage-graph-legend-bar">
+                    </div>
+                    Overage
+                </div>
+                
+            </div>
+
+            <div class="con-usage-details-table-row" ng-repeat="bar in payload" ng-if="bar.%vlocity_namespace%__Type__c == 'Text'">
+                <div class="con-usage-details-table-label">
+                    {{bar.%vlocity_namespace%__ServiceEndDate__c | date : 'MMMM yyyy'}}
+                </div>
+                <div class="con-usage-details-table-value">
+                    {{bar.expr0}} Texts
+                    <span></span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

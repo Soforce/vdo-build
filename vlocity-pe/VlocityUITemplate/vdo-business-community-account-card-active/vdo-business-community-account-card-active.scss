@@ -1,0 +1,123 @@
+/*** VARIABLES ***/
+@import "variables";
+
+/*** MIXINS ***/
+@import "mixin";
+
+.vdo-card{
+    width:100%;
+    overflow:auto;
+    box-shadow:0px 3px 10px #DDD;
+    padding:20px 50px;
+    box-sizing:border-box;
+    font-family:'Salesforce Sans';
+    font-weight:100;
+    background:#FFF;
+    z-index:2;
+    margin-top:20px;
+}
+
+.vdo-card-info{
+    width:calc(100% - 120px);
+    float:left;
+    
+}
+
+.vdo-card-name{
+    font-family:'Salesforce Sans';
+    font-weight:100;
+    font-size:36px;
+    float:left;
+    width: calc(100% - 400px);
+    height: 60px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    a {
+        text-decoration:none !important;
+    }
+}
+
+.vdo-details{
+    float:right;
+    height:90px;
+    
+}
+
+.vdo-detail{
+    float:right;
+    height:90px;
+    padding-right:50px;
+    text-align: right;
+}
+
+.vdo-value{
+    display:block;
+    font-size:20px;
+    height:50px;
+    line-height:50px;
+    color:grey;
+}
+
+.vdo-label{
+    color:grey;
+    text-transform:uppercase;
+    display:block;
+}
+
+.vdo-alerts{
+    width:120px;
+    height:100%;
+    float:right;
+    border-left: 2px solid #eee;
+    cursor:pointer;
+}
+
+.vdo-alert-number{
+    width:60px;
+    height:60px;
+    border-radius:125px;
+    color:#FFF;
+    font-size:30px;
+    text-align:center;
+    line-height:60px;
+    float:right;
+}
+.vdo-no-alert-number{
+    width:60px;
+    height:60px;
+    background:FFF;
+    border-radius:125px;
+    color:#ccc;
+    font-size:30px;
+    text-align:center;
+    line-height:60px;
+    float:right;
+}
+.vdo-alert{
+    text-align:center;
+    float:right;
+    width:65px;
+    margin-top:5px;
+    color:#333;
+    text-transform:uppercase;
+}
+
+.vdo-alert-panel{
+    width:100%;
+    min-width:900px;
+    min-height:150px;
+    padding:30px 50px;
+    box-sizing:border-box;
+    font-family:'Salesforce Sans';
+    font-weight:100;  
+    font-size:16px;
+    color:#8E8E8E;
+    line-height:40px;
+    background:#F7F7F7;
+    z-index:1;
+}
+
+
+.vdo-alert-highlight{
+}

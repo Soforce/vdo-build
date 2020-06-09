@@ -1,0 +1,85 @@
+<section class="asset-summary slds-card slds-card--narrow" data-card="card-{{cardIndex}}" hotkey-layout-card>
+    <div class="card-top slds-card__header" ng-click="performFlyout('card-'+cardIndex)">
+        
+        <!-- TODO - Populate with proper data -->
+        <h2 ng-class="{ 'status-warning': obj.Status === 'Warning', 'status-active': obj.Status === 'Active', 'status-normal': obj.Status !== 'Warning' && obj.Status !== 'Active' }" class="slds-text-heading--small">
+            {{obj.Status}}
+        </h2>
+        
+        <!-- Original
+        <div class="card-image">
+            <img src="{{obj.Product_Family_Image__c}}"/>
+        </div>
+        <div>
+            <a ng-data-url="/app/univ/CPQAssetDetail/{{obj.Id}}/" tooltip-placement="bottom" tooltip="{{obj.Name}}">
+                {{obj.Product2.Family}} {{obj.Product2.%vlocity_namespace%__SubType__c}}
+            </a>
+        </div>
+        <span class="account-number">{{obj.Name}}</span>
+        <span ng-if="obj.Status == 'Warning'" class="warning">
+            <i tooltip="Outage Detected" class="icon icon-v-warning-cirlce"></i>
+            {{obj.Status}}
+        </span>
+        <span ng-if="obj.Status == 'Active'" class="active">
+            {{obj.Status}}
+        </span>
+        <span ng-if="obj.Status != 'Warning' && obj.Status != 'Active'" class="good">
+            {{obj.Status}}
+        </span>
+        -->
+    </div>
+    
+    <div class="card-info slds-card__body">
+        
+        <div class="asset-preview">
+            <img ng-src="{{$root.instanceUrl + obj['Product_Family_Image__c']}}"/>
+        </div>
+        
+        <div class="account-data">
+            <div class="account-type">Consumer</div>
+            <div class="account-holder">{{obj.Name}}</div>
+            <div class="model-name">{{obj.Account.Name}}</div>
+        </div>
+        
+        <table class="plan-details">
+            <tr class="plan-field" ng-repeat="field in data.fields">
+                <td class="field-label">{{field.label}}:</td>
+                <td class="field-value">{{obj | getter: field | picker: field.type}}</td>
+            </tr>
+        </table>
+        
+    
+        <a
+            class="more-details-link"
+            xng-click="performFlyout('card-'+cardIndex)"
+            ng-data-url="/app/univ/CPQAssetDetail/{{obj.Id}}/"
+        >
+            More Details
+        </a>
+        
+        
+        
+        <!-- Original markup
+        <ul class="actions">
+            <li ng-repeat="action in data.actions | limitTo: (data.limitActionLinksTo?data.limitActionLinksTo:5)">
+                <a href="#" ng-click="performAction(action)" hotkey-card-action>
+                    <i ng-if="!action.imageRef" class="icon {{action.vlocityIcon}}"></i>
+                    <span ng-if="action.imageRef">
+                        <img ng-src="{{action.imageRef}}" alt="{{action.displayName}}"/>
+                    </span>
+                    <span>{{action.displayName}}</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="details">
+            <li class="detail" ng-repeat="field in data.fields" ng-show="key != 'attributes'">
+                <span class="detail-label">{{field.label}}</span>
+                <span class="value" ng-if="!obj[field.relationshipName]">
+                    {{obj | getter: field | picker: field.type}}
+                </span>
+                <span class="value" ng-if="obj[field.relationshipName]">{{obj[field.relationshipName]['Name']}}</span>
+            </li>
+        </ul>
+        -->
+    </div>
+</section>

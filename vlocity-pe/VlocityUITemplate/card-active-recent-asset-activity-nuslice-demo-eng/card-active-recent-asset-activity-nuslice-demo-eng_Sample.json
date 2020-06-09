@@ -1,0 +1,162 @@
+{
+    "data": {
+        "title": "Recent Activity"
+    },
+    "obj": {
+        "activities": [
+            {
+                "Balance_Added__c": 0,
+                "Balance_Remaining__c": 4,
+                "Balance_Type__c": "Bursts",
+                "Balance_Used__c": 1,
+                "Event_Date_Time__c": "2019-10-12T23:00:00.000+0000",
+                "Id": "a5M4P000000crscUAA",
+                "Transaction_Description__c": "Streaming Burst & GO Used",
+                "Transaction_Type__c": "Usage Event",
+                "attributes": {
+                    "type": "Transaction__c",
+                    "url": "/services/data/v47.0/sobjects/Transaction__c/a5M4P000000crscUAA"
+                }
+            },
+            {
+                "Balance_Added__c": 0,
+                "Balance_Remaining__c": 2,
+                "Balance_Type__c": "Bursts",
+                "Balance_Used__c": 1,
+                "Event_Date_Time__c": "2019-10-14T22:24:00.000+0000",
+                "Id": "a5M4P000000crsXUAQ",
+                "Transaction_Description__c": "Streaming Burst & GO Used (Share)",
+                "Transaction_Type__c": "Usage Event",
+                "attributes": {
+                    "type": "Transaction__c",
+                    "url": "/services/data/v47.0/sobjects/Transaction__c/a5M4P000000crsXUAQ"
+                }
+            },
+            {
+                "Balance_Added__c": 5,
+                "Balance_Remaining__c": 5,
+                "Balance_Type__c": "Bursts",
+                "Balance_Used__c": 0,
+                "Charge_Amount__c": 5,
+                "Event_Date_Time__c": "2019-10-12T19:00:00.000+0000",
+                "Id": "a5M4P000000crsrUAA",
+                "Transaction_Description__c": "Purchase Stream & GO 5-Pack",
+                "Transaction_Type__c": "Balance TopUp Charge",
+                "attributes": {
+                    "type": "Transaction__c",
+                    "url": "/services/data/v47.0/sobjects/Transaction__c/a5M4P000000crsrUAA"
+                }
+            },
+            {
+                "Charge_Amount__c": 4.99,
+                "Event_Date_Time__c": "2019-10-08T16:37:00.000+0000",
+                "Id": "a5M4P000000crswUAA",
+                "Transaction_Description__c": "Prem Content Stream Movie",
+                "Transaction_Type__c": "Premium Content Charge",
+                "attributes": {
+                    "type": "Transaction__c",
+                    "url": "/services/data/v47.0/sobjects/Transaction__c/a5M4P000000crswUAA"
+                }
+            },
+            {
+                "Charge_Amount__c": 10,
+                "Event_Date_Time__c": "2019-10-07T19:00:00.000+0000",
+                "Id": "a5M4P000000crsmUAA",
+                "Transaction_Description__c": "Monthly Base Streaming Plan (Oct 15 - Nov 15)",
+                "Transaction_Type__c": "Monthly Plan Charge",
+                "attributes": {
+                    "type": "Transaction__c",
+                    "url": "/services/data/v47.0/sobjects/Transaction__c/a5M4P000000crsmUAA"
+                }
+            },
+            {
+                "Charge_Amount__c": 40,
+                "Event_Date_Time__c": "2019-10-02T19:00:00.000+0000",
+                "Id": "a5M4P000000crshUAA",
+                "Transaction_Description__c": "Monthly Mobile Plan (Oct 2 - Nov 2)",
+                "Transaction_Type__c": "Monthly Plan Charge",
+                "attributes": {
+                    "type": "Transaction__c",
+                    "url": "/services/data/v47.0/sobjects/Transaction__c/a5M4P000000crshUAA"
+                }
+            },
+            {
+                "Balance_Added__c": -1,
+                "Balance_Remaining__c": -1,
+                "Balance_Type__c": "Bursts",
+                "Balance_Used__c": 0,
+                "Charge_Amount__c": 19,
+                "Event_Date_Time__c": "2019-10-18T19:00:00.000+0000",
+                "Id": "a5M4P000000crtLUAQ",
+                "Transaction_Description__c": "Monthly Burst & GO - Unlimited (Oct 18 - Nov 18)",
+                "Transaction_Type__c": "Balance TopUp Charge",
+                "attributes": {
+                    "type": "Transaction__c",
+                    "url": "/services/data/v47.0/sobjects/Transaction__c/a5M4P000000crtLUAQ"
+                }
+            },
+            {
+                "Event_Date_Time__c": "2019-10-07T19:00:00.000+0000",
+                "Id": "a5M4P000000crt1UAA",
+                "Transaction_Description__c": "Streaming Share - marysdaughter@gmail.com",
+                "Transaction_Type__c": "Share Event",
+                "attributes": {
+                    "type": "Transaction__c",
+                    "url": "/services/data/v47.0/sobjects/Transaction__c/a5M4P000000crt1UAA"
+                }
+            },
+            {
+                "Balance_Added__c": 0,
+                "Balance_Remaining__c": 0,
+                "Balance_Type__c": "Bursts",
+                "Balance_Used__c": 1,
+                "Event_Date_Time__c": "2019-10-16T00:27:00.000+0000",
+                "Id": "a5M4P000000crtGUAQ",
+                "Transaction_Description__c": "Streaming Burst & GO Used (Share)",
+                "Transaction_Type__c": "Usage Event",
+                "attributes": {
+                    "type": "Transaction__c",
+                    "url": "/services/data/v47.0/sobjects/Transaction__c/a5M4P000000crtGUAQ"
+                }
+            },
+            {
+                "Event_Date_Time__c": "2019-10-12T23:02:00.000+0000",
+                "Id": "a5M4P000000crt6UAA",
+                "Transaction_Description__c": "Streaming Share - chrismarysfriend@gmail.com",
+                "Transaction_Type__c": "Share Event",
+                "attributes": {
+                    "type": "Transaction__c",
+                    "url": "/services/data/v47.0/sobjects/Transaction__c/a5M4P000000crt6UAA"
+                }
+            },
+            {
+                "Balance_Added__c": 0,
+                "Balance_Remaining__c": 3,
+                "Balance_Type__c": "Bursts",
+                "Balance_Used__c": 1,
+                "Event_Date_Time__c": "2019-10-12T23:05:00.000+0000",
+                "Id": "a5M4P000000crt7UAA",
+                "Transaction_Description__c": "Streaming Burst & GO Used (Share)",
+                "Transaction_Type__c": "Usage Event",
+                "attributes": {
+                    "type": "Transaction__c",
+                    "url": "/services/data/v47.0/sobjects/Transaction__c/a5M4P000000crt7UAA"
+                }
+            },
+            {
+                "Balance_Added__c": 0,
+                "Balance_Remaining__c": 1,
+                "Balance_Type__c": "Bursts",
+                "Balance_Used__c": 1,
+                "Event_Date_Time__c": "2019-10-15T21:34:00.000+0000",
+                "Id": "a5M4P000000crtBUAQ",
+                "Transaction_Description__c": "Streaming Burst & GO Used (Share)",
+                "Transaction_Type__c": "Usage Event",
+                "attributes": {
+                    "type": "Transaction__c",
+                    "url": "/services/data/v47.0/sobjects/Transaction__c/a5M4P000000crtBUAQ"
+                }
+            }
+        ]
+    }
+}

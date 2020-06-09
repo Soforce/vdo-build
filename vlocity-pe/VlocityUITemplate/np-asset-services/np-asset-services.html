@@ -1,0 +1,37 @@
+<section ng-controller="NpServiceActions" class="np-asset-services custom-border--bottom slds-p-around--medium">
+<h2> 
+        <span class="np-list-inline"  ng-click="toggle = !toggle" ng-show="!toggle" >
+        <slds-button-svg-icon ng-if="obj.childAssets.records.length > 0"  sprite="'utility'" icon="'chevronright'" no-hint="true" ></slds-button-svg-icon></span>
+        <span ng-click="toggle = !toggle" ng-show="toggle">
+        <slds-button-svg-icon class="np-list-inline" ng-if="obj.childAssets.records.length > 0 " sprite="'utility'" icon="'chevrondown'" no-hint="true" ></slds-button-svg-icon></span>
+        <div ng-click="performAction(data.actions[0])"  class="slds-grid">
+            <div class="slds-text-align--left slds-size--10-of-12">{{obj.Name}}</div>
+            <div class="slds-text-align--right slds-size--2-of-12">{{obj[prefixNamespace +'__OneTimeTotal__c'].value | currency}}</div>
+        </div>
+</h2>
+    <ul  ng-repeat="child in obj.childAssets.records">
+    
+         <li ng-show="toggle" class="np-services-list slds-m-top--small ">
+         <div class="slds-grid">
+             <div class="np-toggle-button">
+            <span class="np-list-inline" ng-click="toggle1 = !toggle1" ng-show="!toggle1">
+            <slds-button-svg-icon ng-if="child.childAssets.records.length > 0"  sprite="'utility'" icon="'chevronright'" no-hint="true" ></slds-button-svg-icon></span>
+            <span class="np-list-inline" ng-click="toggle1 = !toggle1" ng-show="toggle1">
+            <slds-button-svg-icon ng-if="child.childAssets.records.length > 0 " sprite="'utility'" icon="'chevrondown'" no-hint="true" ></slds-button-svg-icon></span>
+          </div>
+         <span class="slds-size--9-of-12 slds-medium-size--5-of-12 slds-large-size--5-of-12 np-list-inline slds-m-right--medium slds-p-left--large" ng-click="openStory(child)">{{child.Name}} </span>
+         <span class="slds-size--6-of-12 slds-medium-size--5-of-12 slds-large-size--5-of-12 np-asset-desc slds-medium-show">{{child.attributeCategories.records[0].productAttributes.records[0].description}}</span>
+         <span class="slds-size--3-of-12 slds-medium-size--2-of-12 slds-large-size--2-of-12 np-asset-desc slds-text-align--right">{{child.%vlocity_namespace%__OneTimeTotal__c.value  | currency}}</span>
+         </div>
+        
+         <div class=" slds-grid slds-m-top--x-small np-child-assets" ng-show="toggle1" ng-repeat="childs in child.childAssets.records" ng-click="openStory(childs)">
+              <span class="slds-size--9-of-12 slds-medium-size--5-of-12 slds-large-size--5-of-12 np-list-inline slds-m-right--medium slds-p-left--xx-large" ng-click="openStory(child)">{{childs.Name}} </span>
+         <span class="slds-size--6-of-12 slds-medium-size--5-of-12 slds-large-size--5-of-12 slds-medium-show np-asset-desc">{{childs.attributeCategories.records[0].productAttributes.records[0].description}}</span>
+         <span class="slds-size--3-of-12 slds-medium-size--2-of-12 slds-large-size--2-of-12 np-asset-desc slds-text-align--right">{{childs.%vlocity_namespace%__OneTimeTotal__c.value | currency}}</span>
+         </div>
+        </li>  
+        
+     
+    </ul>
+    
+</section>

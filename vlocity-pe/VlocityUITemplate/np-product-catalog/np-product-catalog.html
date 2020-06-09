@@ -1,0 +1,20 @@
+<div class="slds-card slds-is-relative np-card  np-product-category-card slds-p-around--small" data-card="card-{{cardIndex}}">
+    <div>
+     <div class="np-product-title slds-m-bottom--large">
+      <span class="slds-p-right--x-small">{{placeholder.Title.value}}</span>
+      
+     <a href="#" ng-repeat="action in data.actions | limitTo:1" > 
+        <span class="product-action-name" ng-click="performAction(action)" hotkey-card-action>
+          {{action.displayName}}
+          </span>
+          <span class="product-action-link slds-text-heading--medium">></span>
+    </a> 
+      
+    </div>
+    <div>
+        <!--<vloc-layout   layout-name="np-product-image" productid="{{obj.catalogId}}"></vloc-layout>-->
+        <img src="{{obj.url}}" class="np-catalog-img">
+    </div>
+    </div>
+    
+</div>

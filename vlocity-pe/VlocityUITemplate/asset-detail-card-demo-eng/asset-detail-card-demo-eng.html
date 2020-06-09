@@ -1,0 +1,112 @@
+<!-- Original HTML from template: list-card-slds
+
+<tr data-card="card-{{cardIndex}}" >
+    <td class="slds-truncate" data-label="{{field.label}}" ng-repeat="field in data.fields" ng-show="key != 'attributes'">{{obj | getter: field | picker: field.type}}</td>
+    <td class="slds-cell-shrink" ng-if="data.actions.length > 0" data-label="Actions" style="overflow: visible">
+        <slds-dropdown content="data.actions" ng-if="data.actions.length > 0" icon-attribute="vlocityIcon" label-attribute="displayName" action-function="performAction(item)"></slds-dropdown>
+    </td>
+</tr>
+
+<!-- Original HTLM from template: list-table-card
+
+<td class="slds-truncate slds-p-vertical--medium" ng-if="data" data-label="{{field.label}}" ng-repeat="field in data.fields" ng-show="key != 'attributes'">{{obj | getter: field | picker: field.type}}</td>
+
+<td class="slds-truncate slds-p-vertical--medium" ng-if="data.actions.length">
+    <div class="slds-col--padded">
+      <div class="slds-p-top--x-small slds-p-bottom--small slds-truncate" ng-repeat="action in data.actions | limitTo: (data.limitActionLinksTo?data.limitActionLinksTo:5)">
+          <p class="slds-truncate slds-text-heading--label"> </p>
+          <a href="javascript:void(0);" class="slds-truncate via-action-link slds-text-link--reset" ng-click="performAction(action)">
+            <vloc-card-icon data="action" obj="obj" size="'small'" extra-classes="'big via-action-icon slds-icon-text-default'"></vloc-card-icon>{{action.displayName}}
+          </a>
+      </div>
+  </div>
+</td>
+
+
+-->
+
+
+<td class="slds-truncate slds-p-vertical--medium" ng-if="data" data-label="{{field.label}}" ng-repeat="field in data.fields" ng-show="key != 'attributes'">
+    {{obj | getter: field | picker: field.type}}
+</td>
+
+<td class="slds-truncate slds-p-vertical--medium" ng-if="data.actions.length">
+    <div class="slds-col--padded">
+      <div class="slds-p-top--x-small slds-p-bottom--small slds-truncate" ng-repeat="action in data.actions | limitTo: (data.limitActionLinksTo?data.limitActionLinksTo:5)">
+          <p class="slds-truncate slds-text-heading--label"> </p>
+          <a href="javascript:void(0);" class="slds-truncate via-action-link slds-text-link--reset" ng-click="performAction(action)">
+            <vloc-card-icon data="action" obj="obj" size="'small'" extra-classes="'big via-action-icon slds-icon-text-default'"></vloc-card-icon>{{action.displayName}}
+          </a>
+      </div>
+  </div>
+</td>
+
+
+
+<!--
+<section class="console-card active" data-card="card-{{cardIndex}}" ng-class="{selected:isSelected(cardIndex)}" hotkey-layout-card>
+    
+    
+    <!-- Header -->
+<!--    <div class="card-top" ng-click="performFlyout('card-'+cardIndex)">
+        <div class="card-image">
+            <vloc-layout  layout-name="np-product-image" productid="{{obj.Product2.Id}}" ng-if="!obj.Name.includes('Unlimited')"></vloc-layout>
+            <div class="unlimited-icon" ng-if="obj.Name.includes('Unlimited')"></div>
+        </div>
+        <div>
+            <h2 tooltip-placement="bottom" tooltip="{{obj.Name}}">
+                {{obj.Product2.Family}} {{obj.Product2.%vlocity_namespace%__SubType__c}}
+            </h2>
+        </div>
+        <span class="account-number">{{obj.Name}}</span>
+        <span ng-if="obj.Status == 'Warning'" class="warning">
+            <i tooltip="Outage Detected" class="icon icon-v-warning-cirlce"></i>
+            {{obj.Status}}
+        </span>
+        <span ng-if="obj.Status == 'Active'" class="active">
+            {{obj.Status}}
+        </span>
+        <span ng-if="obj.Status != 'Warning' && obj.Status != 'Active'" class="good">
+            {{obj.Status}}
+        </span>
+        <span ng-repeat="action in data.actions | limitTo: (data.limitActionLinksTo?data.limitActionLinksTo:5)">
+                <a href="#" ng-click="performAction(action)" hotkey-card-action>
+                    <i ng-if="!action.imageRef" class="icon {{action.vlocityIcon}}"></i>
+                    <span ng-if="action.imageRef">
+                        <img ng-src="{{action.imageRef}}" alt="{{action.displayName}}"/>
+                    </span>
+                        <span>{{action.displayName}}</span>
+                </a>
+        </span>
+    </div>
+-->
+
+    <!-- Right Column - Actions --> 
+<!--
+    <div class="card-info">
+        <ul class="actions">
+            <li ng-repeat="action in data.actions | limitTo: (data.limitActionLinksTo?data.limitActionLinksTo:5)">
+                <a href="#" ng-click="performAction(action)" hotkey-card-action>
+                    <i ng-if="!action.imageRef" class="icon {{action.vlocityIcon}}"></i>
+                    <span ng-if="action.imageRef">
+                        <img ng-src="{{action.imageRef}}" alt="{{action.displayName}}"/>
+                    </span>
+                        <span>{{action.displayName}}</span>
+                </a>
+            </li>
+        </ul>
+-->
+        <!-- Left Column - Data Fields --> 
+<!--
+            <ul class="details">
+            <li class="detail" ng-repeat="field in data.fields" ng-show="key != 'attributes'">
+                <span class="detail-label">{{field.label}}</span>
+                <span class="value" ng-if="!obj[field.relationshipName]">
+                    {{obj | getter: field | picker: field.type}}
+                </span>
+                <span class="value" ng-if="obj[field.relationshipName]">{{obj[field.relationshipName]['Name']}}</span>
+            </li>
+        </ul>
+    </div>
+</section>
+-->

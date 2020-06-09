@@ -1,0 +1,43 @@
+.via-slds {
+    .vdo-consumer-layout {
+        //SLDS tab customization
+        //TODO: use custom classes
+        .slds-active .slds-tabs--scoped__link {
+            border: none;
+        }
+        
+        .slds-tabs--scoped__nav{
+            margin-bottom:0px;   
+        }
+
+        .slds-tabs--scoped__link {
+            height: 170px;
+            padding: 2.5rem 2rem 1.5rem;
+            line-height: 1.5rem;
+            
+            &:focus, &:hover {
+            }
+            
+            svg {
+                display:block;
+                margin:auto;
+                margin-bottom:10px;
+            }
+        }
+    
+        .slds-tabs--scoped__nav, .slds-tabs--scoped__content {
+            border:none;
+        }
+        .slds-tabs--scoped__content {
+            a {
+            }
+        }
+        
+        .vdo-tab-add {
+            opacity: 0.7;
+        }
+        .vdo-device-type {
+            text-transform:uppercase;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "data": {
+        "actions": [
+            {
+                "displayName": "Email",
+                "vlocityIcon": "icon-v-email"
+            },
+            {
+                "displayName": "Phone",
+                "vlocityIcon": "icon-v-phone"
+            },
+            {
+                "displayName": "Chat",
+                "vlocityIcon": "icon-v-chat2"
+            },
+            {
+                "displayName": "Map",
+                "vlocityIcon": "icon-v-location"
+            }
+        ],
+        "fields": [
+            {
+                "label": "",
+                "name": "Name"
+            },
+            {
+                "label": "",
+                "name": "Title"
+            },
+            {
+                "label": "",
+                "name": "Company"
+            }
+        ],
+        "title": "Card Title"
+    },
+    "obj": {
+        "Company": "",
+        "Id": "001o000000SLNueAAH",
+        "Name": "Kyle Aaron",
+        "Title": "Underwriter",
+        "Website": "www.genepoint.com",
+        "attributes": {
+            "type": "Account",
+            "url": "/services/data/v37.0/sobjects/Account/001o000000SLNueAAH"
+        }
+    }
+}

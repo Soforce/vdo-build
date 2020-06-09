@@ -1,0 +1,45 @@
+{
+    "bpTree": {
+        "response": {
+            "intelligence": [
+                {
+                    "acceptDecay": 0,
+                    "acceptDecayRatio": 1,
+                    "aggregatedScore": 0,
+                    "attachment": {
+                        "sidebar": "00P6F00001KAXRAUA5"
+                    },
+                    "componentScores": [
+                    ],
+                    "contextId": "",
+                    "currentMachine": "offers",
+                    "formattedAggregatedScore": 0,
+                    "rejectDecay": 0,
+                    "rejectDecayRatio": 1,
+                    "resource": {
+                        "%vlocity_namespace%__Description__c": "Get free tickets!",
+                        "%vlocity_namespace%__Headline__c": "Concert Tickets",
+                        "%vlocity_namespace%__IsActive__c": true,
+                        "CreatedById": "0056F0000077bTYQAY",
+                        "CreatedDate": "2017-07-07T07:38:35.000+0000",
+                        "Id": "a1a6F00000VsQfvQAF",
+                        "IsDeleted": false,
+                        "LastModifiedById": "0056F0000077bTYQAY",
+                        "LastModifiedDate": "2017-07-07T07:42:42.000+0000",
+                        "Name": "Concert Tickets",
+                        "OwnerId": "0056F0000077bTYQAY",
+                        "SystemModstamp": "2017-07-07T07:42:42.000+0000",
+                        "attributes": {
+                            "type": "%vlocity_namespace%__VqResource__c",
+                            "url": "/services/data/v40.0/sobjects/%vlocity_namespace%__VqResource__c/a1a6F00000VsQfvQAF"
+                        }
+                    },
+                    "resourceId": "a1a6F00000VsQfvQAF",
+                    "scaledRawScore": 0,
+                    "viewDecay": 0,
+                    "viewDecayRatio": 1
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "OS",
+    "%vlocity_namespace%__CustomJavascript__c": "AdjustmentPricing.js",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "AdjustmentPricing/1/OS/1508907402146",
+    "%vlocity_namespace%__HTML__c": "AdjustmentPricing.html",
+    "%vlocity_namespace%__ParentID__c": "Adjustment Pricing/2/OS/1508907386772",
+    "%vlocity_namespace%__SampleJson__c": "",
+    "%vlocity_namespace%__Sass__c": "AdjustmentPricing.scss",
+    "%vlocity_namespace%__Type__c": "OS",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "AdjustmentPricing",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/AdjustmentPricing"
+}

@@ -1,0 +1,28 @@
+<div class="via-slds np-list-scrollable-canvas slds-m-top--small" ng-controller="npListScrollableCanvasCtrl" ng-class="sessionBorder== 'false'  ? '' : 'np-border'">
+    <!-- layout session variable: Border = 'false/true' to remove border-->
+    <div class=" slds-p-around--small  np-card"  ng-init="setData(session.Scroll,session.Title)" >
+        <!-- hide if layout session variable Title is undefined -->
+        <!-- scrollable div if content overlapped-->
+         <!-- vloc-card directive is used to manipulate the DOM
+            use ng-repeat cards to repeat the data records.
+        -->
+         <h3 ng-hide="!sessionTitle" class="slds-is-relative slds-m-bottom--large np-session--title">
+                {{sessionTitle}}
+            </h3>
+        <!-- ng-class to define horizontal and vertical scroll using session variable :Scroll-->
+       
+         <div vloc-card ng-repeat="card in cards |orderBy:order|filter: searchFunc(card) | limitTo: sessionLimit as results" ng-if="$index == (sessionTitle ? -1 : 0)" ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}" limit="{{sessionLimit}}"
+                    class="slds-p-horizontal--small slds-p-top--medium slds-p-bottom--large custom-bg np-vloc-card-margin" use-existing-element-type></div>
+        
+                    
+        <div ng-class="{'slds-scrollable--x': sessionScroll.toLowerCase() === 'horizontal', 'slds-scrollable--y': sessionScroll.toLowerCase() === 'vertical','slds': sessionScroll.toLowerCase() == 'none'}" >
+            <!-- ng-class to define the layout to be stacked using session variable :Scroll-->
+            <div ng-class="{'slds-grid--overflow' : sessionScroll.toLowerCase() === 'horizontal'}" class="slds-grid slds-wrap cards-container slds-grid--vertical-stretch">
+                
+                <div vloc-card ng-repeat="card in cards |orderBy:order|filter: searchFunc(card) | limitTo: sessionLimit as results" ctrl="{{ctrl}}" ng-if="$index > (sessionTitle ? -1 : 0)" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}" limit="{{sessionLimit}}"
+                    class="slds-p-horizontal--small slds-p-top--medium slds-p-bottom--large custom-bg np-vloc-card-margin" use-existing-element-type></div>
+               
+                </div>
+            </div>
+        </div>
+</div>

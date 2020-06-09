@@ -1,0 +1,98 @@
+.asset-detail {
+    
+    &.slds-card.slds-card--narrow {
+        padding: 1.25rem 2rem 1.75rem;
+        background-color: #FFF;
+        
+        .slds-card__header {
+            position: relative;
+            padding: 0;
+        }
+    }
+    
+    .slds-text-heading--small {
+        font-size: 0.875rem;
+        font-weight: bold;
+    }
+    
+    .slds-text-heading--warning {
+        color: #C23934;
+    }
+    
+    .more-options-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .slds-card__body {
+        
+        .asset-information {
+            justify-content: flex-start;
+            margin-bottom: 3em;
+        }
+        
+        .asset-actions {
+            justify-content: space-between;
+            padding: 0 1em;
+        }
+        
+        .account-data, .plan-details {
+            margin-left: 2.5em;
+        }
+        
+        .asset-preview {
+            flex-grow: 0;
+            width: 80px;
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+        
+        .account-data {
+            flex-grow: 0;
+            
+            .account-type {
+                font-size: 0.875rem;
+                font-weight: bold;
+                color: #00A3E3;
+                text-transform: uppercase;
+            }
+            
+            .account-holder {
+                font-size: 1.125rem;
+                color: #061C3F;
+            }
+            
+            .model-name {
+                font-size: 0.875rem;
+                color: #061C3F;
+            }
+        }
+        
+        .plan-details {
+            width: 30%;
+            
+            .field-label {
+                color: #54698D;
+                padding-right: 1.5em;
+            }
+            
+            .field-value {
+                color: #061C3F;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+        
+        .asset-actions .slds-button {
+            width: 20%;
+            font-size: 0.875rem;
+            font-weight: bold;
+            color: #0070D2;
+            line-height: 2.75em;
+        }
+    }
+}

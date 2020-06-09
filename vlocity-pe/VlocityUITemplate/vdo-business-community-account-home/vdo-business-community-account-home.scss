@@ -1,0 +1,140 @@
+@font-face {
+    font-family: vdolight;
+    src: url("/resource/VDOInternalResources/fonts/SalesforceSans-Light.woff2") format("woff2"), url("../resource/VDOInternalResources/fonts/SalesforceSans-Light.woff") format("woff");
+}
+@font-face {
+    font-family: vdoreg;
+    src: url("/resource/VDOInternalResources/fonts/SalesforceSans-Regular.woff2") format("woff2"), url("../resource/VDOInternalResources/fonts/SalesforceSans-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: vdobold;
+    src: url("/resource/VDOInternalResources/fonts/SalesforceSans-Bold.woff2") format("woff2"), url("../resource/VDOInternalResources/fonts/SalesforceSans-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: vdoultrabold;
+    src: url("/resource/VDOInternalResources/fonts/SalesforceSans-Bold.woff2") format("woff2"), url("../resource/VDOInternalResources/fonts/SalesforceSans-Bold.woff") format("woff");
+}
+
+    input:focus,
+    select:focus,
+    textarea:focus,
+    button:focus {
+        outline: none;
+    }
+    
+    img.welcomeImage {
+        width: 866px;
+    }
+    .profilePic {
+        width: 150px !important;
+        height: 150px !important;
+        margin-left: 40px !important;
+    }
+    .userPhoto{
+        background-position: 50% 50%;
+        margin: 0px !important;
+        width: 140px !important;
+        height: 140px !important;
+    }
+    .profileName {
+        margin-top: 30px;
+    }
+    .sectionBuffer {
+        margin-bottom: 20px;
+    }
+    
+    .vdo-container{
+        width:100%;
+        font-family:'Salesforce Sans';
+        font-weight:300;
+    }
+    .vdo-header{
+        height:200px;
+        width:100%;
+        min-width:900px;
+        opacity:0.9;
+        
+    }
+    .vdo-header-wrapper{
+        padding:50px;
+        padding-top:30px;
+        
+        .vdo-search{
+            width:calc(100% - 150px);
+            float:left;
+        }
+        
+        .icon-v-search{
+            font-size:75px;
+        }
+        .icon-v-search:before{
+            margin-left:-10px !important;
+        }
+    
+        input{
+            
+            background:none;
+            font-size:55px;
+            color:#ffffff;
+            height:150px;
+            font-family:'Salesforce Sans';
+            font-weight:100;
+            border:0px;
+            min-width: 600px;
+        }
+        ::-webkit-input-placeholder{
+            font-size:55px;
+            color:#ffffff;
+            font-family:'Salesforce Sans';
+            font-weight:100;
+        }
+        
+        .vdo-buttons{
+            float:right;
+            width:150px;
+        }
+        
+        button, .vdo-button{
+            width:150px;
+            border:2px solid #FFF;
+            height:50px;
+            border-radius:50px;
+            color:#FFF;
+            font-size:16px;
+            background:none;
+            cursor:pointer;
+            font-family:'Salesforce Sans';
+            font-weight:100;
+            float:left;
+            margin-top:10px;
+        }
+        
+    }
+    .vdo-cards-wrapper{
+        padding:50px;
+        background:#FFF;
+        width:100%;
+        display:table;
+        
+        .vdo-title-account{
+            font-family:'Salesforce Sans';
+            font-weight:100;  
+            font-size:18px;
+            color:rgba(142, 142, 142, 0.53);
+            float:left;
+            margin-bottom:30px;
+        }
+        .vdo-add-account{
+            font-family:'Salesforce Sans';
+            font-weight:100;  
+            font-size:18px;
+            color:rgba(142, 142, 142, 0.53);
+            float:right;
+            margin-bottom:30px;
+        }
+        .vdo-cards{
+            width:100%;
+            float:left;
+        }
+        
+    }

@@ -1,0 +1,32 @@
+<div class="panel panel-default div-tpl_5zv2n"  ng-controller='siController_5zv2n'>
+    <table class="table slds-table slds-table--bordered slds-table--cell-buffer nds-table nds-table_bordered nds-table_cell-buffer nds-table_striped" style="table-layout: auto;">
+      <thead>
+        <tr class="tpl_5zv2n">
+          <th class="slds-cell-shrink">Select&nbsp;&nbsp;</th>
+            <th><a href="" ng-click="setOrderBy('Name')">Name&nbsp;&nbsp;</a></th>
+            <th><a href="" ng-click="setOrderBy('ProductCode')">Product Code&nbsp;&nbsp;</a></th>
+<!--            <th><a href="" ng-click="setOrderBy('offerType')">Type&nbsp;&nbsp;</a></th> -->
+            <th><a href="" ng-click="setOrderBy('Description')">Description&nbsp;&nbsp;</a></th>
+        </tr>
+      </thead>
+    <tbody class="ins">
+       <tr class='tpl_5zv2n' ng-repeat='p in control.vlcSI[control.itemsKey] | orderBy : orderByField' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" >
+          <td class="slds-cell-shrink">
+            <label class="slds-checkbox">
+          <input 
+            type="checkbox" 
+            ng-model='p.vlcSelected' 
+            ng-change='onSelectItem(control, p, $index, this)'
+          />
+          <span class="slds-checkbox--faux"></span>
+        </label>
+      </td>
+      <td>{{p["Name"]}}&nbsp;&nbsp;</td>
+      <td>{{p["ProductCode"]}}&nbsp;&nbsp;</td>
+<!--      <td>{{p["offerType"]}}&nbsp;&nbsp;</td> -->
+      <td>{{p["Description"] | limitTo: 50}}&nbsp;&nbsp;</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <p>&nbsp;</p>

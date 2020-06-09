@@ -1,0 +1,101 @@
+.asset-detail-charts-container  {
+    background: transparent;
+    width:990px !important;
+    box-sizing:border-box;
+    padding:0px !important;
+    margin:0px !important;
+}
+
+.via-slds .slds-text-heading--large {
+    font-weight: 300 !important;
+    font-size: 1.75rem;
+    line-height: 1.25;
+    color:#16325c !important;
+}
+.asset-detail-charts-container .slds-card {
+    min-width:100%;
+}
+article.slds-col.slds-card.slds-theme--default.slds-card--narrow{
+    padding:0px !important;
+    background: #fcfcfc;
+            background: -moz-linear-gradient(top, #F8FBFE 0%, #EDF2F8 53%, #EDF2F8 53%, #EDF2F8 57%, #D1D9E9 100%);
+            background: -webkit-linear-gradient(top, #F8FBFE 0%, #EDF2F8 53%, #EDF2F8 53%, #EDF2F8 57%, #D1D9E9 100%);
+            background: linear-gradient(to bottom, #F8FBFE 0%, #EDF2F8 53%, #EDF2F8 53%, #EDF2F8 57%, #D1D9E9 100%);
+            filter: progid:npImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#dbdbdb',GradientType=0 );
+            border:0px;
+    
+}
+.asset-detail-charts-container .slds-card .slds-card__header a {
+    font-size: 14px;
+}
+
+.slds-button--brand{
+
+    background-color: #0081f9 !important;
+    border-color:#0081f9 !important;
+
+}
+
+.slds-card__header.slds-grid{
+    padding:20px !important
+    
+}
+
+.slds-card__body.slds-p-around--large{
+    padding:20px !important
+
+}
+ 
+@keyframes spin {
+  to { transform: rotate(.5turn); }
+}
+
+@keyframes bg {
+  50% { background:  #e9ecfe; }
+}
+
+.pie {
+  width: 70vw; 
+  height: 70vw;
+  border-radius: 50%;
+  background: #f5a623;
+  background-image:
+  linear-gradient(to right, transparent 50%, #e9ecfe 0);
+}
+
+.pie:before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background-color: inherit;
+  transform-origin: left;
+  animation: spin 50s linear infinite,
+             bg 100s step-end infinite;
+  animation-play-state: paused;
+  animation-delay: inherit;
+  transform: translate3d(0,0,0)
+}
+
+.pie-hole {
+    width: 60vw; 
+    height: 60vw;
+    border-radius: 50%;
+    background: #fff;
+    margin-top: 5vw;
+    margin-left: 5vw;
+}
+
+@media (min-width:64em) {
+    .pie {
+        width: 20vw; 
+        height: 20vw;
+    }
+    .pie-hole {
+        width: 15vw; 
+        height: 15vw;
+        margin-top: 2.5vw;
+        margin-left: 2.5vw;
+    }
+}

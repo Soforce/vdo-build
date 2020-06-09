@@ -1,0 +1,19 @@
+<div class="vdo-consumer-upsell slds-p-around--medium">
+    <h2 class="slds-text-heading--large">Special Offers</h2>
+    <ul class="vdo-upsell-offers slds-p-around--medium">
+        <li ng-repeat="offer in obj.offers">
+            <div class="slds-grid">
+                <div>
+                    <img src="{{offer.image}}" />
+                </div>
+                <div>
+                    <a href="#">{{offer.name}}</a>
+                    <div>
+                        <del>{{offer.listPrice}}</del>
+                    </div>
+                    <div class="vdo-upsell-price">{{offer.price}}</div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

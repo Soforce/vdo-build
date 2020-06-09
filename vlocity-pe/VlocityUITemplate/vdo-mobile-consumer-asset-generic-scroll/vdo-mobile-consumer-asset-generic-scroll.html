@@ -1,0 +1,163 @@
+<script type="text/javascript">
+	$( document ).ready(function() {
+	    if(mySwiper != ''){
+	        mySwiper.destroy();
+	    }
+		mySwiper = new Swiper ('.swiper-container', {
+			slidesPerView: 'auto',
+  			centeredSlides: true,
+			spaceBetween: 20,
+			loop: false,
+			preventClicks: false,
+			preventClicksPropagation: false,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			}
+
+	    });
+	    mySwiper.on('slideChangeTransitionEnd', function () {
+	        if($('ion-content').scrollTop() != 0){
+			    $('ion-content').animate({ scrollTop: 0 }, 'slow');
+	        }
+		});
+	});
+</script>
+<div ng-controller="npTableListPlusController" data-card="card-{{cardIndex}}" data-popover-flyout="true" class="csm-asset" ng-init="setRowData(obj, cardIndex)">
+    <div class="csm-title">
+        {{placeholder.Title.value}}
+    </div>
+    <div class="csm-header-card">
+        <div class="csm-header-card-title title-{{cardIndex}}"> 
+            <div ng-repeat="field in data.fields">
+                <img class="csm-header-profile-image" src="{{$root.instanceUrl + obj.Product_Family_Image__c.value | trusted}}">
+                <div class="csm-header-profile-image-background"></div>
+                <!--<img class="csm-header-profile-image" src="{{obj.Product_Family_Image__c.value}}">-->
+                {{obj | getter: field | picker: field.type }}
+            </div>
+        </div>
+        <div class="csm-header-card-product">
+            <div class="csm-header-card-img-generic">
+                <vloc-layout  layout-name="vdo-np-product-image" productid="{{obj.Product2Id.value}}"></vloc-layout>
+            </div>
+ 
+        </div>
+        <div class="csm-header-card-offer">
+            <div class="csm-header-card-offer-title">
+                <span ng-if="cardIndex > 3">Welcome!</span>
+            </div>
+            <div class="csm-header-card-offer-text">
+                <span ng-if="cardIndex > 3">You're ready to go.</span>
+            </div>
+            <div class="csm-header-card-offer-button">
+                <span ng-if="cardIndex > 3">Get Started</span>
+            </div>
+        </div>
+    </div>
+    <div class="csm-content-wrapper">
+        
+        <div class="csm-content-card">
+            <div class="csm-content-card-title">
+                My Household
+            </div>
+            <div class="csm-content-card-detail">
+                <div class="csm-detail-family-block">
+                    <img src="{{$root.instanceUrl + '/resource/VDOCommunityResources/images/profilepicjenny.png' | trusted}}">
+                    <p>Jenny</p>
+                    <p>Owner</p>
+                </div>
+                <div class="csm-detail-family-block">
+                    <img src="{{$root.instanceUrl + '/resource/VDOCommunityResources/images/profilepicsophie.png' | trusted}}">
+                    <p>Sophie</p>
+                    <p>User</p>
+                </div>
+                <div class="csm-detail-family-block">
+                    <img src="{{$root.instanceUrl + '/resource/VDOCommunityResources/images/profilepicpeter.png' | trusted}}">
+                    <p>Alex</p>
+                    <p>Authorized</p>
+                </div>
+                <div class="csm-detail-family-block">
+                    <img src="{{$root.instanceUrl + '/resource/npResource/add.svg' | trusted}}">
+                    <p> </p>
+                    <p>Add</p>
+                </div>
+            </div>
+        </div>
+        <div class="csm-content-card">
+            <div class="csm-content-card-title">
+                Statements
+            </div>
+            <div class="csm-content-card-detail">
+                <div class="csm-detail-family-block">
+                    <img src="{{$root.instanceUrl + '/resource/npResource/investment.svg' | trusted}}">
+                    <p>2017</p>
+                    <p>Jan 1st</p>
+                </div>
+                <div class="csm-detail-family-block">
+                    <img src="{{$root.instanceUrl + '/resource/npResource/investment.svg' | trusted}}">
+                    <p>2016</p>
+                    <p>Jan 1st</p>
+                </div>
+                <div class="csm-detail-family-block">
+                    <img src="{{$root.instanceUrl + '/resource/npResource/investment.svg' | trusted}}">
+                    <p>2015</p>
+                    <p>Jan 1st</p>
+                </div>
+            </div>
+        </div>
+        <div class="csm-content-card">
+            <div class="csm-content-card-title">
+                Manage Service
+            </div>
+            <div class="csm-content-card-detail csm-detail-manage-device">
+                <div ng-repeat="action in data.actions">
+                    <a ng-click="performAction(action, null, '')">
+                        <p>{{action.displayName}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="csm-content-card">
+            <div class="csm-content-card-title">
+                Product Details
+            </div>
+            <div class="csm-content-card-detail csm-detail-device-detail">
+                <div ng-repeat="field in data.fields">
+                    <label>{{field.label}}:</label> {{obj | getter: field | picker: field.type }}
+                </div>
+                <div ng-repeat="field in row.attrs.slice(0,6)">
+                    <div ng-if="field.inputType === 'dropdown'">
+                        <div ng-repeat="value in field.values" ng-if="value.value === field.userValues">
+                            <span ng-init="field.userValues = value"></span>
+                        </div>
+                        <label>{{field.label}}:</label> {{field.values[0].label}}
+                    </div>
+                    <div ng-if="field.inputType !== 'dropdown' && field.inputType !== 'checkbox'">
+                        <label>{{field.label}}:</label> {{field.userValues}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="csm-content-card">
+            <div class="csm-content-card-title">
+                Offers
+            </div>
+            <div class="csm-content-card-detail">
+                <div class="csm-detail-offer">
+                    <img src="{{$root.instanceUrl + '/resource/VDOProductResources/images/TNiPadPro.png' | trusted}}">
+                    <div>Tablets</div>
+                    <div>From $239.95</div>
+                </div>
+                <div class="csm-detail-offer">
+                    <img src="{{$root.instanceUrl + '/resource/VDOProductResources/images/TNWatchSport.png' | trusted}}">
+                    <div>Wearables</div>
+                    <div>From $109.95</div>
+                </div>
+                <div class="csm-detail-offer-button">
+                    <span>Shop Now</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

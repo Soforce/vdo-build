@@ -1,0 +1,32 @@
+<span class="slds-assistive-text">{{obj.objType}}</span>
+<div class="slds-media">
+  <div class="slds-media__body">
+    <div class="slds-media slds-media--timeline slds-timeline__media--{{$root.cardIconFactory(obj.objType + ' ' + obj.title).sprite}}-{{$root.cardIconFactory(obj.objType + ' ' + obj.title).icon}}">
+      <div class="slds-media__figure slds-timeline__icon">
+        <div class="slds-icon_container">
+            <slds-svg-icon sprite="$root.cardIconFactory(obj.objType + ' ' + obj.title).sprite" icon="$root.cardIconFactory(obj.objType + ' ' + obj.title).icon" size="'small'" extra-classes="'slds-icon-' + $root.cardIconFactory(obj.objType + ' ' + obj.title).sprite + '-' + $root.cardIconFactory(obj.objType + ' ' + obj.title).icon" no-hint="true"></slds-svg-icon>
+        </div>
+      </div>
+      <div class="slds-media__body">
+        <p class="slds-truncate" title="{{obj.title}}">
+            <a href="javascript:void(0);" ng-click="performAction(data.actions[0])" ng-if="data.actions.length > 0">{{obj.title}}</a>
+            <a ng-href="/{{obj.Id}}" ng-data-url="/{{obj.Id}}" ng-if="!(data.actions.length > 0)" ng-object-type="{{obj.objType}}">{{obj.title}}</a>
+        </p>
+        <p class="slds-truncate" ng-repeat="detailField in obj.detailFieldList">{{obj.detailValueMap[detailField]}}</p>
+        <ul class="slds-list--horizontal slds-wrap">
+          <li class="slds-m-right--large" ng-repeat="field in data.fields" ng-show="key != 'attributes'">
+            <span class="tile__label slds-text-heading--label-normal">{{field.label}}:</span>
+            <span class="slds-text-body--small" ng-if="!obj[field.relationshipName]"><a class="slds-text-link--reset" href="javascript:void(0);">{{obj | getter: field | picker: field.type}}</a></span>
+            <span class="slds-text-body--small" ng-if="obj[field.relationshipName]"><a class="slds-text-link--reset" href="javascript:void(0);">{{obj[field.relationshipName]['Name']}}</a></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="slds-media__figure slds-media__figure--reverse">
+    <div class="slds-timeline__actions">
+      <p class="slds-timeline__date">{{obj.monthNameLastActivityDate}}</p>
+        <!--<slds-dropdown content="data.actions" ng-if="data.actions.length > 0" icon-attribute="vlocityIcon" label-attribute="displayName" action-function="performAction(item)" button-size="x-small" icon-size="x-small"></slds-dropdown>-->
+    </div>
+  </div>
+</div>

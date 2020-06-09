@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "Radif",
+    "%vlocity_namespace%__CustomJavascript__c": "np-banner-canvas-demo-eng.js",
+    "%vlocity_namespace%__Definition__c": "{\"zones\":[]}",
+    "%vlocity_namespace%__Description__c": "this template holds the index of the card to achieve carousel and index buttons.\r\nif the container has N number of cards it's dynamically added to the carousel with 5 sec timeout",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "np-banner-canvas-demo-eng/1/Radif/1572460115577",
+    "%vlocity_namespace%__HTML__c": "np-banner-canvas-demo-eng.html",
+    "%vlocity_namespace%__ParentID__c": "np-banner-canvas/1/Vlocity/1495773865883",
+    "%vlocity_namespace%__SampleJson__c": "",
+    "%vlocity_namespace%__Sass__c": "np-banner-canvas-demo-eng.scss",
+    "%vlocity_namespace%__Type__c": "Containers",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "np-banner-canvas-demo-eng",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/np-banner-canvas-demo-eng"
+}

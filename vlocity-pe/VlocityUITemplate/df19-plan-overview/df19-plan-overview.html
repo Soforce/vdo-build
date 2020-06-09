@@ -1,0 +1,57 @@
+<div class="dx-via-slds-card--left-profile" ng-controller="dxviaProfileController as vm">
+    <!--p>{{data}}</p-->
+
+    <!--
+   <div  ng-init="image = (obj | getter: data.fields[1] | picker: data.fields[1].type)" class="profile-picture big-profile-picture"   >
+    
+        <!-- <img ng-src="..{{vm.getPhotoUrl(obj)}}"> -->
+<!--
+           <span id="pimage" >
+         
+       </span>
+    </div>
+-->
+        <!--/Your Plan (card title)-->
+        <div class="slds-text-heading--medium slds-is-relative" style="margin-top:20px;">
+            {{data.title}}
+        </div>
+        <div class="profile-detail">
+            <!-- Plan Name -->
+            <div class="slds-text-heading--large slds-is-relative" style="color:#DA271C;">
+                <span><!--{{data.fields[0].label}}--> {{obj | getter:data.fields[0] | picker:data.fields[0]}}</span>
+            </div>
+            <!-- Plan Attributes --> 
+<!-- orig tag: (trying to get row to line up)
+            <div class="slds-card__body via-slds-card__body slds-grid slds-wrap slds-theme--default slds-p-around--medium">
+-->
+            <div class="slds-card__body via-slds-card__body slds-grid slds-wrap slds-theme--default slds-p-around--medium">
+
+
+                <!-- before attribute list -->
+<!-- orig tag: (trying to get row to line up)
+                <div class="slds-tile slds-col--padded-medium slds-size--1-of-3 slds-grid--align-space slds-grid--align-center slds-grid--vertical-align-center" ng-repeat="field in data.fields.slice(1) " ng-show="key != 'attributes'"> 
+-->
+                <div class="slds-col--padded-medium slds-size--1-of-3 slds-grid--align-space slds-grid--align-center slds-grid--vertical-align-center" ng-repeat="field in data.fields.slice(1) " ng-show="key != 'attributes'"> 
+
+
+                    <!-- Field Label -->
+<!-- orig tag: (trying to get row to line up)
+                    <p id=fieldlabel class="slds-truncate slds-text-heading--label slds-col--bump-bottom" title="{{field.label}}">{{field.label}}</p> 
+-->
+                    <p id=fieldlabel class="slds-truncate slds-text-heading--label slds-col--bump-bottom" title="{{field.label}}">{{field.label}}</p>
+
+
+                    <!-- Field Value --> 
+<!-- orig div tag: (trying to get row to line up)
+                    <div class="slds-tile__detail slds-text-heading--medium slds-col--bump-top" style="> 
+-->
+                    <div class="slds-text-heading--medium slds-col--bump-top" style="> 
+
+
+                        <p class="slds-truncate" ng-if="!obj[field.relationshipName]">{{obj | getter: field | picker: field.type}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

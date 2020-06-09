@@ -1,0 +1,34 @@
+<div class="account-header">
+    
+    <div class="account-fields">
+        <div class="account-field" ng-repeat="field in data.fields">
+            <span class="field-label">Next Payment:</span>
+            <span class="field-value">
+                $79
+            </span>
+        </div>
+        <div class="account-field" ng-repeat="field in data.fields">
+            <span class="field-label">{{obj | getter: field: 'label'}}:</span>
+            <span class="field-value">
+                {{obj | getter: field | picker: field.type}}
+            </span>
+        </div>
+    </div>
+  
+    <div class="account-actions">
+        <div
+            class="account-action"
+            ng-repeat="action in data.actions"
+        >
+         
+            <button
+                class="slds-button slds-button--neutral"
+                ng-click="performAction(action)"
+                id="{{idPrefix}}-import-btn" 
+                title="{{action.displayName}}"
+            >
+                  {{action.displayName}}
+            </button>
+        </div>
+    </div>
+</div>

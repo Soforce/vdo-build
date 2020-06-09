@@ -1,0 +1,106 @@
+input:focus,
+    select:focus,
+    textarea:focus,
+    button:focus {
+        outline: none;
+    }
+    
+    
+    .sectionBuffer {
+        margin-bottom: 20px;
+    }
+    
+    .vdo-container{
+        width:100%;
+        font-family:'Salesforce Sans';
+        font-weight:600;
+    }
+    .vdo-header{
+        height:200px;
+        width:100%;
+        opacity:0.9;
+        
+    }
+    .vdo-header-wrapper{
+        padding:50px;
+        padding-top:30px;
+        
+        .vdo-search{
+            width:calc(100% - 150px);
+            float:left;
+        }
+        
+        .icon-v-search{
+            font-size:75px;
+        }
+        .icon-v-search:before{
+            margin-left:-10px !important;
+        }
+    
+        input{
+            
+            background:none;
+            font-size:55px;
+            color:#ffffff;
+            height:150px;
+            font-family:'Salesforce Sans';
+            font-weight:100;
+            border:0px;
+            width: calc(100% - 100px);
+        }
+        ::-webkit-input-placeholder{
+            font-size:55px;
+            color:#ffffff;
+            font-family:'Salesforce Sans';
+            font-weight:100;
+        }
+        
+        .vdo-buttons{
+            float:right;
+            width:150px;
+        }
+        
+        button, .vdo-button{
+            width:150px;
+            border:2px solid #FFF;
+            height:50px;
+            border-radius:50px;
+            color:#FFF;
+            font-size:16px;
+            background:none;
+            cursor:pointer;
+            font-family:'Salesforce Sans';
+            font-weight:100;
+            float:left;
+            margin-top:10px;
+        }
+        
+    }
+    .vdo-cards-wrapper{
+        padding:50px;
+        background:#FFF;
+        width:100%;
+        display:table;
+        
+        .vdo-title-account{
+            font-family:'Salesforce Sans';
+            font-weight:100;  
+            font-size:18px;
+            color:rgba(142, 142, 142, 0.53);
+            float:left;
+            margin-bottom:30px;
+        }
+        .vdo-add-account{
+            font-family:'Salesforce Sans';
+            font-weight:100;  
+            font-size:18px;
+            color:rgba(142, 142, 142, 0.53);
+            float:right;
+            margin-bottom:30px;
+        }
+        .vdo-cards{
+            width:100%;
+            float:left;
+        }
+        
+    }

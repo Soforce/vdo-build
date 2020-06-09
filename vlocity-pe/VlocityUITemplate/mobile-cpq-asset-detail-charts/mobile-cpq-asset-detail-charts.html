@@ -1,0 +1,87 @@
+<div class="asset-detail-charts-container slds-grid slds-wrap slds-grid--vertical-stretch slds-grid--pull-padded-small slds-grid--align-center slds-p-top--large" ng-controller="assetDetailChartsCtrl as ctrl">
+    <div class="slds-large-size--1-of-3 slds-size--1-of-1 slds-p-horizontal--small slds-grid slds-grid--vertical-stretch slds-p-bottom--small" style="padding-left:0px !important;">
+        <article class="slds-col slds-card slds-theme--default slds-card--narrow">
+              <div class="slds-card__header slds-grid">
+                <h2 class="slds-text-heading--largera">Usage</h2>
+                <div class="slds-col--bump-left slds-p-top--x-small">
+                    <a ng-class="{'slds-text-link--reset': card1Filter === 'thisperiod'}" ng-click="card1Filter = 'thisperiod'">This Period</a> | 
+                    <a ng-class="{'slds-text-link--reset': card1Filter === 'trends'}" ng-click="card1Filter = 'trends'">Trends</a>
+                </div>
+              </div>
+              <div class="slds-card__body slds-p-around--large">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="auto" data-view-box="{{'0 0 300 ' +usageData.length * 50}}" preserveAspectRatio = "xMinYMin slice">
+                    <g x="0" y="0" ng-repeat="data in usageData" ng-attr-transform="translate(0, {{$index * 50}})">
+                      <text x="0" y="12" class="slds-text-title">{{data.data}}</text>
+                      <rect width="300" height="19" x="0" y="20" fill="#e9ecfe"></rect>
+                      <rect ng-attr-width="{{data.thisPeriod * 3}}" height="19" x="0" y="20" ng-attr-fill="{{getColor($index)}}"></rect>
+                    </g>
+                  </svg>
+              </div>
+        </article>
+    </div>
+    <div class="slds-large-size--1-of-3 slds-size--1-of-1 slds-p-horizontal--small slds-grid slds-grid--vertical-stretch slds-p-bottom--small">
+        <article class="slds-col slds-card slds-theme--default slds-card--narrow">
+              <div class="slds-card__header slds-grid">
+                <h2 class="slds-text-heading--largera">Usage</h2>
+                <div class="slds-col--bump-left slds-p-top--x-small">
+                    <a ng-class="{'slds-text-link--reset': card2Filter === 'thisperiod'}" ng-click="card2Filter = 'thisperiod'">This Period</a> | 
+                    <a ng-class="{'slds-text-link--reset': card2Filter === 'trends'}" ng-click="card2Filter = 'trends'">Trends</a>
+                </div>
+
+              </div>
+              <div class="slds-card__body slds-p-around--large">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="auto" data-view-box="{{'0 0 ' + viewportWidth + ' ' + viewportHeight}}" preserveAspectRatio = "xMinYMin slice" ng-init="viewportHeight = 150; viewportWidth = 300">
+                    <g class="vertical-axis" x="0" y="0">
+                      <text x="0" ng-attr-y="{{viewportHeight/6 * 1}}">500</text>
+                      <text x="0" ng-attr-y="{{viewportHeight/6 * 2}}">400</text>
+                      <text x="0" ng-attr-y="{{viewportHeight/6 * 3}}">300</text>
+                      <text x="0" ng-attr-y="{{viewportHeight/6 * 4}}">200</text>
+                      <text x="0" ng-attr-y="{{viewportHeight/6 * 5}}">100</text>
+                    </g>
+                    <g class="vertical-bars">
+                        <g ng-repeat="data in usageDataByMonth"  ng-attr-transform="translate({{($index * ((viewportWidth-30)/usageDataByMonth.length)) + 60}}, 0)" ng-init="width = ((viewportWidth-30)-(30 * usageDataByMonth.length))/usageDataByMonth.length">
+                            <rect ng-attr-width="{{width}}" ng-attr-height="{{viewportHeight }}" x="0" y="0" fill="#e9ecfe"></rect>
+                            <rect ng-attr-width="{{width}}" ng-attr-height="{{data[usageByField]}}" x="0" ng-attr-y="{{viewportHeight-((viewportHeight/500) * data[usageByField])}}" ng-attr-fill="{{data.color}}"></rect>
+                        </g>
+                    </g>
+                    <g class="horizontal-base" ng-attr-transform="translate(0, {{viewportHeight}})"> 
+                      <line x0="0" y0="0" ng-attr-x1="{{viewportWidth}}" y1="0" fill="black" stroke="black"></line> 
+                    </g>
+                </svg>
+                <div class="slds-align--absolute-center slds-m-top--small">
+                    <div class="slds-button-group" role="group">
+                      <button class="slds-button" ng-class="{'slds-button--brand': usageByField == 'data', 'slds-button--neutral': usageByField != 'data'}" ng-click="setUsageToData()">Data</button>
+                      <button class="slds-button" ng-class="{'slds-button--brand': usageByField == 'bandwidth', 'slds-button--neutral': usageByField != 'bandwidth'}" ng-click="setUsageToBandwidth()">Bandwidth</button>
+                    </div>
+                </div>
+              </div>
+        </article>
+    </div>
+    <div class="slds-large-size--1-of-3 slds-size--1-of-1 slds-p-horizontal--small slds-grid slds-grid--vertical-stretch slds-p-bottom--small" style="padding-right:0px !important;">
+        <article class="slds-col slds-card slds-theme--default slds-card--narrow">
+              <div class="slds-card__header slds-grid">
+                <h2 class="slds-text-heading--largera">Usage</h2>
+                <div class="slds-col--bump-left slds-p-top--x-small">
+                    <a ng-class="{'slds-text-link--reset': card3Filter === 'thisperiod'}" ng-click="card3Filter = 'thisperiod'">This Period</a> | 
+                    <a ng-class="{'slds-text-link--reset': card3Filter === 'trends'}" ng-click="card3Filter = 'trends'">Trends</a>
+                </div>
+              </div>
+              <div class="slds-card__body slds-p-around--large slds-align--absolute-center">
+                <div style="position: relative">
+                    <div style="position: absolute; top: 0; left: 0;height: 100%;width: 100%;z-index: 2; transform: translate3d(0,0,0)" class="slds-align--absolute-center">
+                        <div class="slds-text-align--center slds-m-around--medium">
+                        <p class="slds-text-heading--large" style="color:#1589ee">{{(usageThisMonth.used/usageThisMonth.totalAvailable) * 100 | number:0}}%</p>
+                        <p>{{usageThisMonth.totalAvailable - usageThisMonth.used}} of {{usageThisMonth.totalAvailable}}GB</p>
+                        </div>
+                    </div>
+                    <div style="position: absolute; top: 0; left: 0;height: 100%;width: 100%;z-index: 1; transform: translate3d(0,0,0)">
+                        <div class="pie-hole"></div>
+                    </div>
+                    <div>
+                        <div class="pie"></div>
+                    </div>
+                </div>
+              </div>
+        </article>
+    </div>
+</div>

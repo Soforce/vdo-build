@@ -1,0 +1,58 @@
+{
+    "data": {
+        "actions": [
+            {
+                "displayName": "Like Action",
+                "vlocityIcon": "icon-v-heart"
+            }
+        ],
+        "fields": [
+            {
+                "label": "image",
+                "name": "image"
+            },
+            {
+                "label": "Name",
+                "name": "Name"
+            },
+            {
+                "label": "",
+                "name": "cost",
+                "type": "currency"
+            },
+            {
+                "label": "/mo",
+                "name": "offer",
+                "type": "currency"
+            },
+            {
+                "label": "For",
+                "name": "month"
+            },
+            {
+                "label": "month,",
+                "name": ""
+            },
+            {
+                "label": "",
+                "name": "APR",
+                "type": "percentage"
+            },
+            {
+                "label": "APR",
+                "name": ""
+            }
+        ],
+        "title": "Card Title"
+    },
+    "obj": {
+        "APR": 0,
+        "Id": "123456",
+        "LastModifiedDate": "2017-05-03T03:53:22.329Z",
+        "Name": "Samsung Galaxy S7",
+        "cost": 34.52,
+        "description": "Some description",
+        "month": 24,
+        "offer": 29.32
+    }
+}

@@ -1,0 +1,25 @@
+<section class="asset-summary slds-col slds-card slds-theme--default slds-card--narrow mobile-cpq-bar-chart" ng-controller="mobileCpqSummaryStatsChartsCtrl">
+      <div class="slds-card__header slds-grid">
+        <h2 class="slds-text-heading--large">Usage</h2>
+        <div class="slds-col--bump-left slds-p-top--x-small">
+            <a ng-class="{'slds-text-link--reset': card1Filter === 'thisperiod'}" ng-click="card1Filter = 'thisperiod'">This Period</a> | 
+            <a ng-class="{'slds-text-link--reset': card1Filter === 'trends'}" ng-click="card1Filter = 'trends'">Trends</a>
+        </div>
+      </div>
+      <div class="slds-card__body slds-p-around--large slds-grid">
+        <div class="slds-col slds-align--absolute-center">
+            <div class="slds-text-align--center slds-m-around--medium">
+                <p class="slds-text-heading--large" style="color:#1589ee; font-size: 3rem;">{{usageTexts}}</p>
+                <p class="slds-text-heading--medium">texts sent</p>
+                <p class="slds-text-heading--medium">UNLIMITED</p>
+            </div>
+        </div>
+        <div class="slds-col slds-align--absolute-center">
+            <div class="slds-text-align--center slds-m-around--medium">
+                <p class="slds-text-heading--large" style="color:#1589ee; font-size: 3rem;">{{usageData}}</p>
+                <p class="slds-text-heading--medium">GB used</p>
+                <p class="slds-text-heading--medium">UNLIMITED</p>
+            </div>
+        </div>
+      </div>
+</section>

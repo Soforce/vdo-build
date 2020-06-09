@@ -1,0 +1,13 @@
+<div class="vdo-ban-details-header slds-m-horizontal--x-large slds-p-vertical--small">
+    <h2 class="slds-text-heading--large">{{::obj.Name}}</h2>
+    <ul class="vdo-ban-details-fields">
+        <li ng-repeat="field in data.fields">
+            <div class="vdo-ban-details-field-label">
+                {{::field.label}}
+            </div>
+            <div class="vdo-ban-details-field-value">
+                {{obj | getter: field | picker: field.type}}
+            </div>
+        </li>
+    </ul>
+</div>

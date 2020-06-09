@@ -1,0 +1,31 @@
+<!-- slds-scrollable class used to make the content inside scrollable-->
+<div class="via-slds np-subnav-wrapper" ng-controller="subnavcontroller">
+   
+    <div class="slds-grid np-subnav-wrapper-inner  cards-container slds-grid--vertical-stretch np-subnav-dropdown">
+        <!--vloc-carddirective for DOM manipulation -->
+        <!--ng-repeat cards is the object to repeat the card -->
+        <a class="np-nav-card-style np-overview-card"  target="_parent" ng-href="{{CommunityHomeURL}}">
+            <section class="np-subnav-card-active overview tabSelected">
+        <div class="card-top">
+             <div class="card-image slds-m-bottom--x-small slds-grid slds-grid--vertical-align-center">
+                 <!--define the placeholder 'NavIcon' in the layout card state.-->
+                 <img class="np-custom-svg" src="../resource/npResource/mobile.svg">
+             </div>
+            <div class="cardValues">
+                <h2>
+                   <!-- {{data.title is default if NavTitle is not defined in the layout card states }}-->
+                        Mobile
+                </h2>
+            </div>
+        </div>
+    </section>
+    </a>
+<div class="slds-scrollable--x" >
+     <div class="slds-grid">
+        <div vloc-card  ng-repeat="card in cards  | orderBy:order|filter: searchFunc(card) "  ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}" salesforce-id="{{salesforceId}}"
+            class=" np-nav-card-style " use-existing-element-type>
+        </div>
+    </div>
+    </div>
+    </div>
+</div>

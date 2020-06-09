@@ -1,0 +1,29 @@
+<div class="campaign-base-grid">
+    <!--LOADER: -->
+    <div class="slds-spinner_container" ng-show="!isLoaded">
+        <div class="slds-spinner--brand slds-spinner slds-spinner--medium" aria-hidden="false" role="alert">
+            <div class="slds-spinner__dot-a"></div>
+            <div class="slds-spinner__dot-b"></div>
+        </div>
+    </div>
+    <div class="slds-grid slds-grid--frame slds-grid--vertical">
+        <div class="slds-col slds-grid slds-wrap slds-small-nowrap campaign-container" via-screen-height="viaScreenHeight">
+            <div class="slds-is-relative slds-col slds-no-flex slds-grid slds-size--1-of-1 slds-small-size--3-of-6 slds-medium-size--3-of-8 slds-large-size--3-of-12 slds-grid--vertical campaign-member-list-container" ng-class="{'slds-hide slds-large-show': importedScope.isConfigAttrsPanelEnabled}">
+               
+                <div class="campaign-member-container">
+                     <vloc-layout layout-name="campaign-member-list" ctrl="CampaignCallListController"></vloc-layout>
+                </div>
+            </div>
+            
+            <div class="slds-is-relative slds-col slds-no-flex slds-grid slds-size--1-of-1 slds-small-size--3-of-6 slds-medium-size--5-of-8 slds-large-size--{{$root.rightColumn.largeBPWidth}}-of-12 slds-grid--vertical campaign-member-detail {{$root.rightColumn.toggleRightClass}}">
+                <div class="campaign-member-container slds-p-horizontal--large slds-p-vertical--medium">
+                    <vloc-layout layout-name="campaign-member-detail" ctrl="CampaignMemberController"></vloc-layout>
+                    <vloc-layout layout-name="campaign-member-log-actions" ctrl="CampaignMemberController"></vloc-layout>
+                    <vloc-layout layout-name="campaign-member-stories" ctrl="CampaignMemberStoriesController"></vloc-layout>
+                </div>
+            </div>
+           
+            <vloc-layout class="slds-is-relative slds-col slds-no-flex slds-grid slds-size--1-of-1 slds-small-size--3-of-8 slds-medium-size--2-of-8 slds-large-size--3-of-12 slds-grid--vertical campaign-details-right {{$root.rightColumn.toggleRightClass}}" layout-name="campaign-detail" ctrl="CampaignDetailsController"></vloc-layout>
+        </div>
+    </div>
+</div>

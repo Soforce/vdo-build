@@ -1,0 +1,31 @@
+<div class="np-product-highlight-card" onclick="top.location='/digital/s/omniscript?actionUrl=%2Fapex%2F%vlocity_namespace%__OmniScriptUniversalPage%3Fid%3D0013600000FBB69%26layout%3Dlightning%26omniCancelAction%3Dback%26%23%2FOmniScriptType%2FVDO%2FOmniScriptSubType%2FConsumer%20Mobile%20Configuration%2FOmniScriptLang%2FEnglish%2FContextId%2F0013600000FBB69%2FPrefillDataRaptorBundle%2F%2Ftrue';">
+    <div class="slds-text-align--center slds-card np-card  slds-p-around--small">
+    <div class="np-sale {{obj.sale}}"><img src="../resource/VDOInternalResources/images/VILogo1.png">FOR YOU</div>
+    <img src="..{{obj.url}}">
+    
+    
+    <div>
+      
+            <div colspan="2" class="slds-text-align--center slds-p-bottom--xx-small">
+                <p class="np-product--title">{{placeholder.Title.label}} {{placeholder.Title.value}}</p>
+            </div>
+  
+
+            <div colspan="2" class="slds-text-align--center">
+                 <span class="offer-price slds-p-around--medium"> {{placeholder.recurringPrice.value | picker: placeholder.recurringPrice.type  }} {{placeholder.recurringPrice.label }}</span>
+            </div>
+           
+  
+    </div>
+    
+   
+        
+    </div>
+
+    <p class="slds-p-horizontal--small slds-text-align--center slds-p-top--x-small slds-text-body--x-small product-extra">
+        <span ng-repeat="field in data.fields" >
+            {{ field.label }} {{obj | getter: field | picker: field }}
+        </span>
+        
+    </p>
+</div>

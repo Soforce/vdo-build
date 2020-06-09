@@ -1,0 +1,51 @@
+<div class="slds-small-size_1-of-1">
+        
+        <div class="vlc-slds-selectableItem slds-p-around_x-large">
+
+            <!--************** -->
+            <!--Debugging Only -->
+            <!--************** -->
+            <!--
+            <p>{{attrs.index}}</p>    
+            <p>{{data.obj}}</p> 
+            -->
+            <!--************** -->
+            <!--Debugging Only -->
+            <!--************** -->
+        
+            <div class="slds-m-vertical_medium">
+                <div ng-if="!data.obj.Attachments"></div>
+                <div ng-repeat="a in data.obj.Attachments">
+                    <img src="../servlet/servlet.FileDownload?file={{a.title}}" alt="{{a.title}}" ng-if="a.contentType === 'Image'"/>
+                </div>
+
+                <!--Promotions have the image under product -->
+                <div ng-if="!data.obj.Product[0].Attachments"></div>
+                <div ng-repeat="a in data.obj.Product[0].Attachments">
+                    <img src="../servlet/servlet.FileDownload?file={{a.title}}" alt="{{a.title}}" ng-if="a.contentType === 'Image'"/>
+                </div>
+            </div>
+
+            
+            <div class="slds-m-vertical_medium">
+                <div style="text-align:center" class="slds-text-heading_large vlc-slds-item--details slds-align_absolute-center"><strong>{{data.obj.Name}}<strong></div>
+                <div style="text-align:center" class="vlc-slds-item--details slds-align_absolute-center">{{data.obj.Description}}</div>
+            </div>
+
+
+            <!--
+            <div class="slds-m-vertical_medium slds-align_absolute-center vlc-slds-item--onecost" ng-repeat="pricing in data.obj.priceResult | filter: {Type__c: 'Price', ChargeType__c: 'Recurring'}">            
+                <strong>$</strong><span class="slds-text-heading_large"><strong>{{pricing.chargeamount | currency:"":0}}</strong></span> /Month
+            </div>
+            -->
+
+            
+            <div class="slds-m-vertical_medium slds-text-body_regular slds-align_absolute-center">
+            
+                <a  href="javascript:void(0)" ng-repeat="action in data.actions" ng-click="performAction(action)" hotkey-card-action>
+                    <button class="slds-button slds-button_brand">{{action.displayName}}</button>
+                </a>
+            </div>
+
+        </div>
+</div>

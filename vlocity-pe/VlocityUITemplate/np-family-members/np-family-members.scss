@@ -1,0 +1,40 @@
+@import "npVariables";
+// include mixin "npVariables" for fonts and colors.
+// npVariables mixin template should be active.
+/*** STYLES ***/
+    .vlocity {   /* Always use vlocity class as a wrapper */
+        .policy-asset-drivers--card { 
+            position:relative;
+            cursor:pointer;
+            p{
+                font-size:$font-medium;
+            }
+            .custom-statement-icon
+            {
+            }
+            
+            .custom-button-close
+            {
+                position:absolute;
+                top:8px;
+                right:8px;
+                cursor:pointer;
+            }
+            
+            &.custom-bg{
+                background:#F9FBFE;
+                border:none;
+                border-radius:0px;
+                    height: 100%;
+                min-width: 190px;
+            }
+            
+            img{
+                width:60px;
+                border-radius: 60px;
+            }
+            &:hover{
+                background:#e8eef5;
+            }
+        }
+    }

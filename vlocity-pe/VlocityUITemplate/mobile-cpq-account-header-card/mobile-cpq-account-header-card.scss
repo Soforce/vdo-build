@@ -1,0 +1,66 @@
+.account-header {
+    $primary-blue: #0070D2;
+    $button-border: #D8DDE6;
+    
+    font-size: 1em;
+    color: #001c3f;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    .account-fields {
+        justify-content: flex-start;
+    }
+    
+    .account-actions {
+        justify-content: flex-end;
+    }
+    
+    .account-fields, .account-actions {
+        display: flex;
+        align-items: center;
+    }
+    
+    .account-field {
+        margin-right: 2rem;
+        
+        span {
+            display: inline;
+        }
+        
+        .field-label {
+            font-size: 0.75rem;
+            margin-right: 0.625em;
+        }
+        
+        .field-value {
+            font-size: 1.75rem;
+            font-weight: lighter;
+            text-transform: uppercase;
+        }
+    }
+    
+    .account-action {
+        margin-left: 0.625em;
+        
+        button {
+            font-size: 0.875em;
+            font-weight: bold;
+            color: $primary-blue;
+            background-color: #FFF;
+            border: 1px solid $button-border;
+            line-height: 2.5rem;
+            
+            &:hover {
+                background-color: $button-border;
+                color: $primary-blue;
+            }
+        }
+        
+        &:first-child button {
+            background-color: $primary-blue;
+            color: #FFF;
+            border: 1px solid $primary-blue;
+        }
+    }
+}

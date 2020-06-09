@@ -1,0 +1,22 @@
+<section class="activity-feed-timeline-card" data-card="card-{{cardIndex}}" ng-class="{selected:isSelected(cardIndex)}" ng-controller='dxOpenStory'>
+    <ul length="{{attrs.length}}" index={{cardIndex}}  class="slds-grid slds-wrap activity-feed-card_items {{ (attrs.limit == cardIndex || (attrs.length < attrs.limit && cardIndex == attrs.length)) ? 'hideLine':'' }}" >
+          <li class=" slds-size--1-of-1 slds-text-align--left slds-m-bottom--xx-large">
+            
+            <div class="activity-feed-timeline--circle"></div>
+            <time class="activity-feed-card_item--date"><span class="slds-text-body--small">{{obj | getter: data.fields[0] | date : 'MMM dd, yyyy' }} </span></time>
+            <div class="activity-feed-timeline--label slds-text-heading--small">
+               
+                
+            <!--<div class="custom-text-bold"> -->
+            <strong> <p> {{data.fields[1].label}} {{obj | getter: data.fields[1] | picker: data.fields[1].type}} {{obj | getter: data.fields[2] | picker: data.fields[2].type}} </p></strong>
+            
+             <p ng-if="$index > 2" ng-repeat="field in data.fields">
+                {{data.fields[3].label}} {{obj | getter: field | picker:field.type}}
+             </p>
+       
+                 
+          <a ng-repeat="action in data.actions"  ng-click="performAction(action)" href="#" class="slds-m-bottom--small" hotkey-card-action>{{action.displayName}}</a>
+            </div>
+          </li>
+        </ul>
+</section>

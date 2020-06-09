@@ -1,0 +1,13 @@
+.via-slds {
+    .vdo-ban-usage {
+        padding: 0px 20px;
+        > div {
+            padding:20px;
+        }
+        .vdo-ban-usage-graph {
+            background-color:#fff;
+            min-width:520px;
+            min-height:520px;
+        }
+    }
+}

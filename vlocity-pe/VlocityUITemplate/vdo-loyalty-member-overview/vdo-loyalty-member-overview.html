@@ -1,0 +1,49 @@
+<div class="dx-via-slds-card--left-profile" ng-controller="dxviaProfileController as vm">
+    <!--/banner-->
+   <div  ng-init="image = (obj | getter: data.fields[1] | picker: data.fields[1].type)" class="profile-picture big-profile-picture"   >
+    
+        <img ng-src="{{obj.avatar_url}}">
+       
+       <span id="pimage" >
+         
+       </span>
+       
+       
+       
+
+       
+    </div>
+    <!--/pic-->
+     <div class="slds-text-heading--large slds-is-relative" style="margin-top:20px;">
+        {{obj.first_name}} {{obj.last_name}} <div class="ribbon {{obj | getter: data.fields[0] | picker: data.fields[0].type}}">★</div>    </div>
+  
+    <div class="profile-detail">
+        <div class="profile-name slds-text-heading--medium">  
+            <b>{{obj | getter: data.fields[0] | picker: data.fields[0].type}}</b> member since <b>{{obj | getter: data.fields[1] | picker: data.fields[1].type}}</b>
+        
+        <div class="profile-info">
+         
+        </div>
+       
+
+      <div class="slds-grid slds-grid--align-spread slds-p-top--small slds-p-bottom--small slds-grid--vertical-align-center">
+          <div class="slds-col via-slds-col slds-size--1-of-3 slds-text-align--center slds-grid--align-center" >
+              <a href="javascript:void(0)" ng-click="#" class="slds-text-link--reset">
+                  {{obj | getter: data.fields[2] | picker: data.fields[2].type}} 
+              </a>
+          </div>
+          <div class="slds-col via-slds-col slds-size--1-of-3 slds-text-align--center slds-grid--align-center" >
+              <a href="javascript:void(0)" ng-click="#" class="slds-text-link--reset">
+                  {{obj | getter: data.fields[3] | picker: data.fields[3].type}} 
+              </a>
+          </div>
+          <div class="slds-col via-slds-col slds-size--1-of-3 slds-text-align--center slds-grid--align-center" >
+              <a href="javascript:void(0)" ng-click="#" class="slds-text-link--reset">
+                  {{obj | getter: data.fields[4] | picker: data.fields[4].type}} 
+              </a>
+          </div>
+      </div>
+      
+    </div>
+    </div>
+    </div>

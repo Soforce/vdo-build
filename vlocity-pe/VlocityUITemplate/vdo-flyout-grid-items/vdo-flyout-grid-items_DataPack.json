@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__CustomJavascript__c": "",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "A collection of flyout elements.",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "vdo-flyout-grid-items/1/Vlocity Demo Org/1467193459776",
+    "%vlocity_namespace%__HTML__c": "vdo-flyout-grid-items.html",
+    "%vlocity_namespace%__ParentID__c": "demo-flyout-grid-items/1/Vlocity Demo Org/1462379497077",
+    "%vlocity_namespace%__SampleJson__c": "vdo-flyout-grid-items_Sample.json",
+    "%vlocity_namespace%__Sass__c": "vdo-flyout-grid-items.scss",
+    "%vlocity_namespace%__Type__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "vdo-flyout-grid-items",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/vdo-flyout-grid-items"
+}

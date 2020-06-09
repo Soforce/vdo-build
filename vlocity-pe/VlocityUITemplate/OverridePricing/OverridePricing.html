@@ -1,0 +1,62 @@
+<div ng-controller="OverridePriceListEntry">
+<button type="button" class="slds-button slds-button--neutral" ng-click="buttonClick(control)" >Refresh</button> <br/>
+<div class="slds-tabs--default__link vloc-right-pane-tab ng-binding">Adjustments</div>
+<div class="slds-scrollable--x" >
+     <table class="slds-table slds-table--bordered slds-no-row-hover tbl-charge-discounts" style="width:10px">
+                        <thead>
+                            <tr class="slds-text-heading--label">
+                                <th class=""><div class="slds-truncate">Context</div></th>
+                                <th class=""><div class="slds-truncate">Price List</div></th>
+                                <th class=""><div class="slds-truncate">Display Text</div></th>
+                                
+                                <th class="pricing-element-info"><div class="slds-truncate">Pricing Element</div></th>
+                               <!-- <th class=""><div class="slds-truncate">Time Plan</div></th>
+                                <th class=""><div class="slds-truncate">Time Policy</div></th>
+                                <th class=""><div class="slds-truncate">Effectivity</div></th> -->
+                            </tr>
+                        </thead>
+                        <tbody>
+                          
+                           <tr  ng-If="arr.length == 0">
+                                <td colspan="10">There are no adjustments.</td>
+                            </tr>
+                            <tr ng-If="arr.length>0" ng-repeat="item in arr" class="ng-scope">
+                                <td>{{item.%vlocity_namespace%__PromotionId__r.Name}}</td>
+                                 <td>{{item.%vlocity_namespace%__PriceListId__r.Name}}</td>
+                                  <td>{{item.%vlocity_namespace%__DisplayText__c}}</td>
+                                  
+                                
+                                
+                                <td class="pricing-element-info"><div class="slds-card slds-card--narrow vloc-pricing-element-info-card ng-isolate-scope" price-list-entry="item">
+    <div class="slds-card__body">
+        <div class="slds-card__body--inner">
+            <div class="slds-tile">
+                <!-- ngIf: pricingElement[nsp+'CalculationType__c'] === 'Simple' --><div class="slds-tile__detail slds-text-body--small ng-scope">
+                   
+                        <dl class="slds-list--horizontal slds-wrap">
+                            <dt class="slds-item--label slds-text-color--weak" title="Name">Name:</dt>
+                            <dd class="slds-item--detail slds-truncate ng-binding"> {{item.%vlocity_namespace%__PricingElementId__r.Name}}  </dd>
+                            <dt class="slds-item--label slds-text-color--weak" title="Code">Code:</dt>
+                            <dd class="slds-item--detail slds-truncate ng-binding">{{item.%vlocity_namespace%__PricingElementId__r.%vlocity_namespace%__Code__c}}</dd>
+                            <dt class="slds-item--label slds-text-color--weak" title="Display Text">Display Text:</dt>
+                            <dd class="slds-item--detail slds-truncate ng-binding">{{item.%vlocity_namespace%__PricingElementId__r.%vlocity_namespace%__DisplayText__c}}</dd>
+                            <dt class="slds-item--label slds-text-color--weak" title="Calculation Type">Calculation Type:</dt>
+                            <dd class="slds-item--detail slds-truncate ng-binding">{{item.%vlocity_namespace%__PricingElementId__r.%vlocity_namespace%__CalculationType__c}}</dd>
+                            <dt class="slds-item--label slds-text-color--weak" title="Display Text">Adjustment:</dt>
+                            <dd  class="slds-item--detail slds-truncate ng-binding ng-scope">{{item.%vlocity_namespace%__PricingElementId__r.%vlocity_namespace%__AdjustmentValue__c}}
+                            <!--<span ng-if="pricingVariable[nsp+'AdjustmentMethod__c'] === 'Absolute'" class="ng-binding ng-scope">USD</span> -->
+                            </dd>
+                        </dl>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div></td>
+</tr>
+                        </tbody>
+                    </table> 
+                      </div>
+               
+              
+                </div>

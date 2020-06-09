@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__CustomJavascript__c": "np-list-canvas-2x.js",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "This is a container which holds a scrollable list of tiles along with the below list of session variables.\r\nTitle(describes layout title) ,\r\nScroll - determines if the layout needs horizontal scroll or stacked vertical scroll.\r\nLimit - defined the number of records to be displayed.",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "np-list-canvas-2x/1/Vlocitydev/1507636423965",
+    "%vlocity_namespace%__HTML__c": "np-list-canvas-2x.html",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleJson__c": "",
+    "%vlocity_namespace%__Sass__c": "np-list-canvas-2x.scss",
+    "%vlocity_namespace%__Type__c": "Containers",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "np-list-canvas-2x",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/np-list-canvas-2x"
+}

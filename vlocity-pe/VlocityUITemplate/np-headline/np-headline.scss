@@ -1,0 +1,32 @@
+@import "npVariables";
+
+/*** Styles ***/
+// include mixin "npVariables" for fonts and colors.
+// npVariables mixin template should be active.
+.vlocity {
+          .np-actions-and-filter {
+        a{
+            color:$theme-color-1;
+            font-size:$font-medium;
+        }
+        background: #fff;
+        h1{
+        font-size: 46px;
+        position: relative;
+        text-align: center;
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 34px;
+            border: 2px solid rgba(231, 236, 243, 0.54);
+            }
+        span {
+            background: #fff;
+            position: relative;
+            padding: 0 10px;
+            }
+        }
+    }
+    }

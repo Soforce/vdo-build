@@ -1,0 +1,36 @@
+<div class="np-product-highlight-card" ng-controller="npCatalogController">
+    <div class="slds-text-align--center slds-card np-card  slds-p-around--small">
+    <vloc-layout  layout-name="np-product-image" productid="{{obj[prefixNamespace + 'Product2Id__c']}}"></vloc-layout>
+    <table>
+      
+        <tr>
+            <td colspan="2" class="slds-text-align--center slds-p-bottom--xx-small">
+                <p class="product--title slds-text-heading--small slds-m-top--medium">{{placeholder.Title.label}} {{placeholder.Title.value}}</p>
+            </td>
+        </tr>
+          <tr>
+           <!--<td colspan="2" class="slds-text-align--center"><span class="price slds-p-around--medium"> {{placeholder.unitPrice.value | picker: placeholder.unitPrice.type  }}{{placeholder.unitPrice.label }}</span>
+                 <span class="offer-price slds-p-around--medium"> {{placeholder.recurringPrice.value | picker: placeholder.unitPrice.type  }} {{placeholder.recurringPrice.label }}</span>
+            </td>-->
+           <td colspan="2"> 
+           <vloc-layout  layout-name="np-catalog-product-details" productid="{{obj[prefixNamespace + 'Product2Id__c']}}"></vloc-layout>
+           </td>
+        </tr>
+    </table>
+    
+   
+        
+    </div>
+    <p class="slds-p-horizontal--small slds-text-align--center slds-p-top--x-small slds-text-body--x-small product-extra">
+        <span >
+             {{obj.Product2.Description}}
+        </span>
+        
+    </p>
+    <p class="slds-p-horizontal--small slds-text-align--center slds-p-top--x-small slds-text-body--x-small product-extra">
+        <span ng-repeat="field in data.fields" >
+            {{ field.label }} {{obj | getter: field | picker: field }}
+        </span>
+        
+    </p>
+</div>

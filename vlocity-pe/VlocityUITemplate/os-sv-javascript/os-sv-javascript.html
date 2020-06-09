@@ -1,0 +1,17 @@
+<!-- Trigger on step -->
+<div ng-bind="osjsStepIsActive(child)"></div>
+<!-- Trigger on click -->
+<div class='slds-col--padded slds-size--1-of-1 jsButton' ng-show="osjsShowthis(child)">
+    <ng-form name='loopform' class='slds-form-element vlc-flex vlc-form-group vlc-slds-remote-action--button' ng-repeat='control in child.eleArray'>
+        <div class="slds-form-element__control">
+            <div class="vlc-control-wrapper">
+                <div ng-show="osjsShowUploader(child)">
+                   <span>{{::control.propSetMap.label}}:</span> <input name="uploader" id="uploader" type="file">
+                </div>
+                <div class='slds-box' title='{{::control.propSetMap.label}}' ng-click="osjsButtonClickCode(child)" ng-show="!osjsShowUploader(child)">
+                    <p>{{::control.propSetMap.label}}</p>
+                </div>
+            </div>
+        </div>
+    </ng-form>
+</div>

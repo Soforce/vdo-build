@@ -1,0 +1,66 @@
+<a class="slds-size--6-of-12 slds-medium-size--6-of-12 slds-large-size--6-of-12 slds-col vlc-slds-items--container npwidth"
+
+   ng-click="baseCtrl.addProductToBasket(p, control, this)"
+   vlc-slds-prod-desc="{{ p.Description }}"
+   ng-repeat='p in control.vlcSI[control.itemsKey]'>
+
+    <div class="slds-grid slds-box vlc-slds-selectableItem">
+
+        <div class="recommend"  ng-if="$index == 0 || $index == 1 || $index == 2">
+		    <img src="../resource/VDOInternalResources/images/VILogo1.png">
+	    </div>
+
+        <div class="slds-size--2-of-12 slds-box vlc-slds-item--image" ng-if="!p.Attachments"></div>
+        <div class="slds-size--2-of-12 slds-box vlc-slds-item--image" ng-repeat='a in p.Attachments'>            
+            <img src="..{{a.url}}" alt="{{a.title}}" ng-if="a.contentType === 'Image'"/>
+        </div>
+
+        <div class="slds-size--6-of-12 vlc-slds-item--details">
+
+            <label class="slds-form__element__label">
+                {{p.Name}}
+            </label>
+
+            <label class="slds-form__element__label">
+                {{p.Description}}
+            </label>
+
+        </div>
+
+        <div class="slds-size--2-of-12 vlc-slds-item--onecost" ng-repeat="pricing in p.priceResult | filter: {Type__c: 'Price', ChargeType__c: 'One-time'}">
+
+            <label class="slds-form__element__label">
+                <span>{{pricing.CurrencySymbol}}</span>
+                {{pricing.chargeamount | currency  | numFormatFilter}}
+            </label>
+
+            <label class="slds-form__element__label">{{::customLabels.OmniOneTime}}</label> 
+        </div>
+
+        <div class="slds-size--2-of-12 vlc-slds-item--onecost" ng-repeat="pricing in p.priceResult | filter: {Type__c: 'Price', ChargeType__c: 'Recurring'}">            
+
+            <label class="slds-form__element__label">
+                <span>{{pricing.CurrencySymbol}}</span>
+                {{pricing.chargeamount | currency  | numFormatFilter}}
+            </label>
+
+            <label class="slds-form__element__label">{{::customLabels.OmniMonthly }}</label>
+        </div>
+
+
+        <div class="vls-slds-item--action">
+
+            <span class="slds-icon_container slds-icon-action-approval slds-icon_container--circle">
+                <slds-svg-icon aria-hidden="true"
+                               sprite="'action'"
+                               icon="'approval'"
+                               size="'small'"
+                               extra-classes="''">
+                </slds-svg-icon>
+            </span>
+
+        </div>
+
+    </div>
+
+</a>

@@ -1,0 +1,72 @@
+/*** VARIABLES ***/
+@import "variables";
+
+/*** MIXINS ***/
+@import "mixin";
+
+
+li.vlc-list-card-row {
+    list-style: none;
+    border-top: 1px solid #f2f2f2;
+	display: block;
+	cursor: pointer;
+
+    section {
+        padding: 20px 0;
+        &:hover, &:active, &:focus, .selected {
+        	transform: translateZ(0);
+        	backface-visibility: hidden;
+        	-moz-osx-font-smoothing: grayscale;
+        	transition-duration: 0.4s;
+        	transition-property: background-color;
+
+            .vlc-list-card {
+        	    div, ul.actions>li>a>.icon {
+        	    }
+            }
+        }
+
+    }
+}
+
+.vlc-list-card {
+	display: block;
+
+	> div {
+		color: $light-blue;
+		text-transform: uppercase;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		
+		> div {
+		    float:left;
+	        overflow: hidden;
+            text-overflow: ellipsis;
+		}
+	}
+	
+	ul.actions {
+	    padding: 0;
+	    margin: 0 4px;
+	    list-style: none;
+	    float: right;
+	    width:100% !important;
+	    > li {
+	        float: left;
+	        > a{
+	            height:18px !important;
+	            border:0px !important;
+	            > .icon {
+	               width:25px !important; 
+	            }
+	        }
+	        > a >.icon:before {
+	            font-size: 18px;
+	            line-height:18px !important;
+	        }
+	    }
+	}
+	
+	
+}

@@ -1,0 +1,186 @@
+.via-slds {
+    .barcode-reader {
+        #container {
+            max-width: 800px;
+            padding: 10px;
+        }
+        #interactive.viewport {
+            width: 640px;
+            height: 480px;
+        }
+        #interactive.viewport canvas,
+        video {
+            float: left;
+            width: 640px;
+            height: 480px;
+        }
+        #interactive.viewport canvas.drawingBuffer,
+        video.drawingBuffer {
+            margin-left: -640px;
+        }
+        .barcode-controls .reader-config-group {
+            float: right;
+        }
+        .barcode-controls .reader-config-group label {
+            display: block;
+        }
+        .barcode-controls .reader-config-group label span {
+            width: 9rem;
+            display: inline-block;
+            text-align: right;
+        }
+        .barcode-controls:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        #result_strip {
+            margin: 10px 0;
+            border-top: 1px solid #EEE;
+            border-bottom: 1px solid #EEE;
+            padding: 10px 0;
+        }
+        #result_strip>ul {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            width: auto;
+            overflow-x: auto;
+            overflow-y: hidden;
+            white-space: nowrap;
+        }
+        #result_strip>ul>li {
+            display: inline-block;
+            vertical-align: middle;
+            width: 160px;
+        }
+        #result_strip>ul>li .thumbnail {
+            padding: 5px;
+            margin: 4px;
+            border: 1px dashed #CCC;
+        }
+        #result_strip>ul>li .thumbnail img {
+            max-width: 140px;
+        }
+        #result_strip>ul>li .thumbnail .caption {
+            white-space: normal;
+        }
+        #result_strip>ul>li .thumbnail .caption h4 {
+            text-align: center;
+            word-wrap: break-word;
+            height: 40px;
+            margin: 0px;
+        }
+        #result_strip>ul:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .scanner-overlay {
+            display: none;
+            width: 640px;
+            height: 510px;
+            position: absolute;
+            padding: 20px;
+            top: 50%;
+            margin-top: -275px;
+            left: 50%;
+            margin-left: -340px;
+            background-color: #FFF;
+            -moz-box-shadow: #333333 0px 4px 10px;
+            -webkit-box-shadow: #333333 0px 4px 10px;
+            box-shadow: #333333 0px 4px 10px;
+        }
+        .scanner-overlay>.header {
+            position: relative;
+            margin-bottom: 14px;
+        }
+        .scanner-overlay>.header h4,
+        .scanner-overlay>.header .close {
+            line-height: 16px;
+        }
+        .scanner-overlay>.header h4 {
+            margin: 0px;
+            padding: 0px;
+        }
+        .scanner-overlay>.header .close {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            height: 16px;
+            width: 16px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        @media (max-width: 603px) {
+            .reader-config-group {
+                width: 100%;
+            }
+            .reader-config-group label>span {
+                width: 50%;
+            }
+            .reader-config-group label>select,
+            .reader-config-group label>input {
+                max-width: calc(50% - 2px);
+            }
+            #interactive.viewport {
+                width: 300px;
+                height: 300px;
+                overflow: hidden;
+            }
+            #interactive.viewport canvas,
+            video {
+                margin-top: -50px;
+                width: 300px;
+                height: 400px;
+            }
+            #interactive.viewport canvas.drawingBuffer,
+            video.drawingBuffer {
+                margin-left: -300px;
+            }
+            #result_strip {
+                margin-top: 5px;
+                padding-top: 5px;
+            }
+            #result_strip ul.thumbnails>li {
+                width: 150px;
+            }
+            #result_strip ul.thumbnails>li .thumbnail .imgWrapper {
+                width: 130px;
+                height: 130px;
+                overflow: hidden;
+            }
+            #result_strip ul.thumbnails>li .thumbnail .imgWrapper img {
+                margin-top: -25px;
+                width: 130px;
+                height: 180px;
+            }
+        }
+        @media (max-width: 603px) {
+            .overlay.scanner {
+                width: 640px;
+                height: 510px;
+                padding: 20px;
+                margin-top: -275px;
+                margin-left: -340px;
+                background-color: #FFF;
+                -moz-box-shadow: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+            }
+            .overlay.scanner>.header {
+                margin-bottom: 14px;
+            }
+            .overlay.scanner>.header h4,
+            .overlay.scanner>.header .close {
+                line-height: 16px;
+            }
+            .overlay.scanner>.header .close {
+                height: 16px;
+                width: 16px;
+            }
+        }
+    }
+}

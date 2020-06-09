@@ -1,0 +1,173 @@
+/*** VARIABLES ***/
+@import "variables";
+
+/*** MIXINS ***/
+@import "mixin";
+
+
+/*** STYLES ***/
+.vdo-device-image{
+    img{
+        max-width:350px;
+        width:350px;
+    }
+}
+
+.vlocity {
+    section.vdo-consumer-device-details-card {
+        &.active {
+            background-color: $white;
+            border-bottom:1px solid #ccc;
+            padding-bottom:20px;
+            width:auto;
+            max-width:1200px;
+            .card-top {
+                padding: 15px 20px;
+                cursor:pointer;
+                @include clearfix;
+
+                h2 {
+                    margin: 0 0 4px 0;
+                    font: $font-light;
+                    font-size: $font-title-size;
+                    line-height: $font-title-size;
+                    height: 28px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    cursor: default;
+                    display: inline-block;
+                    max-width: 100%;
+                }
+
+                span {
+                    letter-spacing: 0.02em;
+
+                    &.account-number {
+                        float: left;
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+
+                    &.expires {
+                        float: right;
+                        font-size: 12px;
+                        position: relative;
+                        text-transform: uppercase;
+
+                        i.icon {
+                            color: $warning;
+                            font-size: 22px;
+                            position: absolute;
+                            top: -3px;
+                            left: -32px;
+
+                            &+ .tooltip .tooltip-inner {
+                                text-transform: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .card-info {
+                @include clearfix;
+                padding: 5px 20px;
+                
+                .vdo-device-image {
+                    float:left;
+                }
+                .vdo-consumer-action-label {
+                    color:#333;
+                }
+
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+
+                    &.details {
+                        float: left;
+                        padding: 10px 5px 0px 0px;
+                        cursor:pointer;
+                        word-wrap: break-word;
+                        li {
+                            margin-bottom: 16px;
+
+                            &:last-of-type {
+                                margin: 0;
+                            }
+                        }
+
+                        span {
+                            display: block;
+
+                            &.detail-label {
+                                color: $text-gray;
+                                font-size: 12px;
+                                text-transform: uppercase;
+                            }
+
+                            &.value {
+                                text-transform: none;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+
+                    &.actions {
+                        float: right;
+                        max-width: 250px;
+                        word-wrap: break-word;
+
+                        a {
+                            display: table;
+                            width: 100%;
+                            height: 53px;
+                            border-bottom: 2px solid $light-gray;
+
+                            img {
+                                width: 29px;
+                                height: 29px;
+                                margin: 5px 9px;
+                                display: table-cell;
+                                vertical-align: middle;
+                            }
+
+                            i.icon {
+                                display: table-cell;
+                                vertical-align: middle;
+                                font-size: 25px;
+                                line-height: 34px;
+                                width: 40px;
+                                
+                                &:before {
+                                    font-weight: 100;
+                                    line-height: 34px;
+                                }
+                            }
+
+                            span {
+                                font-size: 12px;
+                                font-weight: bold;
+                                line-height: 1;
+                                display: table-cell;
+                                vertical-align: middle;
+                            }
+
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+
+                        li:last-of-type {
+                            a {
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,426 @@
+/*Fonts*/
+@font-face{
+    font-family: Brown-Regular;
+    src: url('https://vdo-cmt-site.secure.force.com/resource/VLOCMOBCON/fonts/Brown-Regular.woff');
+}
+@font-face{
+    font-family: Brown-Bold;
+    src: url('https://vdo-cmt-site.secure.force.com/resource/VLOCMOBCON/fonts/Brown-Bold.woff');
+}
+@font-face{
+    font-family: Brown-Light;
+    src: url('https://vdo-cmt-site.secure.force.com/resource/VLOCMOBCON/fonts/Brown-Light.woff');
+}
+@font-face{
+    font-family: fontello;
+    src: url('https://vdo-cmt-site.secure.force.com/resource/VLOCMOBCON/fonts/fontello.woff');
+}
+
+
+
+.vlocity.via-slds .cpq-base-header .cpq-base-header-container{
+    background:#fff;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 0px 30px rgba(0,0,0,.3);
+    border: 0px;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.summary-header .field-label {
+    color: black;
+    padding-top: 3px;
+    font-size: 18px;
+    font-family: Brown-Bold;
+    line-height: 39px;
+}
+
+.slds-grid.summary-header .slds-button {
+    background: #0081f9;
+    color: #fff;
+    border-radius: 20px;
+    border: 0px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Brown-Bold;
+    height: 40px;
+    padding: 0px 25px;
+    line-height: 40px;
+}
+
+.vlocity .home-container .search-box input:focus {
+    outline-width: 0;
+    box-shadow: none;
+}
+
+.summary-header .field-value {
+    color: black;
+    padding-top: 3px;
+    font-family: Brown-Light;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+div[layout-name="mobile-ret-home"]{
+    display: table;
+    height: 100vh;
+    width: 100vw;
+    background-image:url('https://vdo-cmt--c.na30.content.force.com/servlet/servlet.ImageServer?id=01536000003Kc2B&oid=00D36000000qC4j&lastMod=1536753805000');
+    background-color:#0081f9;
+}
+
+.float-button .content .ion-plus-round {
+    line-height: 60px !important;
+}
+
+.cpq-product-item .cpq-product-item-container .product-image img {
+    width: auto !important;
+    height: auto !important;
+    margin: auto;
+    display: block;
+    max-height: 230px;
+}
+.cmt-bot-icon-img{
+    margin-top:4px !important;
+    display:none;
+}
+span.cmt-bot-icon-nav-bar {
+    width: 30px;
+    height: 30px;
+    background-image: url(https://vdo-cmt--c.na30.content.force.com/servlet/servlet.ImageServer?id=01536000003KivS&oid=00D36000000qC4j&lastMod=1536753878000);
+    background-size: 100% 100%;
+}
+.con-device-chat-icon-lines{
+    margin:20px auto;
+    display:table;
+}
+.con-device-chat-icon-lines > div{
+    float: left;
+    width: 2px;
+    background: #0081f9;
+    border-radius: 10px;
+}
+.con-device-chat-icon-line1, .con-device-chat-icon-line5{
+    height: 5px;
+    margin: 5px 1.5px;
+    opacity: 0.6;
+    animation: growlarge 4s 1s infinite;
+}
+.con-device-chat-icon-line5{
+    animation-delay:4s;
+}
+.con-device-chat-icon-line2, .con-device-chat-icon-line4{
+    height: 9px;
+    margin: 3px 1.5px;
+    opacity: 0.7;
+    animation: growmedium 4s 3s infinite;
+}
+.con-device-chat-icon-line2{
+    animation-delay:5s;
+}
+.con-device-chat-icon-line3{
+    height: 13px;
+    margin: 1px 1.5px;
+    opacity: 0.8;
+    animation: growsmall 4s 2s infinite;
+}
+.con-device-chat-icon-lines:after{
+    content:' ';
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background: #0081f9;
+    position: absolute;
+    top: -1.5px;
+    left: -1.5px;
+    z-index:-1;
+    animation: spin 6s linear infinite;
+    opacity: 0.5;
+}
+
+/*Chat Bot Icon Animations*/
+@keyframes growlarge {
+    0% {transform:scaleY(1);}
+    15% {transform:scaleY(1.75);}
+    30% {transform:scaleY(0.6);}
+    45% {transform:scaleY(1.5);}
+    60% {transform:scaleY(0.7);}
+    75% {transform:scaleY(2);}
+    90%,100% {transform:scaleY(1);}
+}
+@keyframes growmedium {
+    0% {transform:scaleY(1);}
+    15% {transform:scaleY(1.3);}
+    30% {transform:scaleY(0.85);}
+    45% {transform:scaleY(1.15);}
+    60% {transform:scaleY(0.7);}
+    75% {transform:scaleY(1.45);}
+    90%,100% {transform:scaleY(1);}
+}
+@keyframes growsmall {
+    0% {transform:scaleY(1);}
+    15% {transform:scaleY(1.25);}
+    30% {transform:scaleY(0.9);}
+    45% {transform:scaleY(1.1);}
+    60% {transform:scaleY(0.85);}
+    75% {transform:scaleY(1.4);}
+    90%,100% {transform:scaleY(1);}
+}
+@keyframes spin {
+    0% {transform:rotate(0deg) scale(1, 1);}
+    5% {transform:rotate(180deg) scale(1.06, 1.1);}
+    10% {transform:rotate(360deg) scale(1.02, 1);}
+    15% {transform:rotate(540deg) scale(1, 1);}
+    20% {transform:rotate(720deg) scale(1, 1);}
+    25% {transform:rotate(900deg) scale(1.09, 1.15);}
+    30% {transform:rotate(1080deg) scale(1.02, 1);}
+    35% {transform:rotate(1260deg) scale(1, 1);}
+    40% {transform:rotate(1440deg) scale(1, 1);}
+    45% {transform:rotate(1620deg) scale(1.12, 1.19);}
+    50% {transform:rotate(1800deg) scale(1.02, 1);}
+    55% {transform:rotate(1980deg) scale(1, 1);}
+    100% {transform:rotate(0deg) scale(1, 1);}
+}
+
+
+.vlocity {
+    /* Uncomment for Vlocity Editor preview */
+    min-height: 640px;
+    font-family: Brown-Regular;
+    
+    .home-container {
+        $card-padding-top: 2em;
+        $card-padding-horizontal: 2em;
+        $card-padding-bottom: 2em;
+        $card-padding: $card-padding-top
+                       $card-padding-horizontal
+                       $card-padding-bottom;
+        
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        
+        font-size: 1rem;
+        
+        background-size: cover;
+        
+        .column-divider {
+            position: absolute;
+            top: $card-padding-top + 0.5em;
+            bottom: $card-padding-bottom + 0.5em;
+            left: 50%;
+            width: 1px;
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        
+        .left-coloumn {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 50%;
+            bottom: 0;
+            
+            margin: 0;
+            padding: 0;
+        }
+        
+        
+        .right-coloumn {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            right: 0;
+            
+            margin: 0;
+            padding: 0;
+        }
+        
+        .left-wrapper, .right-wrapper {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: $card-padding;
+            padding: 0;
+            
+            .home-actions {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+        }
+        
+        .chat-icon{
+            height: 60px;
+            width: 60px;
+            background:#fff;
+            border-radius: 40px;
+            border: 2px solid #0081f9;
+            position: absolute;
+            top: 225px;
+            left: 20px;
+            box-shadow: 0px 0px 15px rgba(0,129,249,0.5);
+        }
+        
+        .welcome-image{
+            width:80%;
+            display:block;
+            margin:auto;
+            margin-top:20px;
+            position:relative;
+            z-index:-2;
+        }
+        
+        .cards-container{
+            overflow: visible;
+        }
+            
+        .left-wrapper {
+            border-radius: 10px;
+            overflow:hidden;
+            background: #fff;
+            box-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+            //background: -moz-linear-gradient(top, #F8FBFE 0%, #EDF2F8 53%, #EDF2F8 53%, #EDF2F8 57%, #D1D9E9 100%);
+            //background: -webkit-linear-gradient(top, #F8FBFE 0%, #EDF2F8 53%, #EDF2F8 53%, #EDF2F8 57%, #D1D9E9 100%);
+            //background: linear-gradient(to bottom, #F8FBFE 0%, #EDF2F8 53%, #EDF2F8 53%, #EDF2F8 57%, #D1D9E9 100%);
+            //filter: progid:npImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#dbdbdb',GradientType=0 );
+            
+        }
+        
+        .home-logo {
+        
+            background-image: url(https://vdo-cmt--c.na30.content.force.com/servlet/servlet.ImageServer?id=01536000003KbcD&oid=00D36000000qC4j&lastMod=1508518237000);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center top;
+            
+            position: absolute;
+            top: 10%;
+            left: 15%;
+            right: 15%;
+            height: 20%;
+         }
+         
+        .left-content {
+            position: absolute;
+            top: 28%;
+            bottom: 5em;
+            left: 1em;
+            right: 1em;
+            z-index: 1;
+        }
+         
+        .search-box {
+            padding: 0px 15px;
+            input {
+                background-color: #e9ecfe;
+                border: none;
+                font-size: 14px;
+                color:#000;
+                padding: 0.5rem 1rem;
+                 
+                &::placeholder {
+                    color:#16325c;
+                }
+                
+                &::-webkit-input-placeholder {
+                    color:#16325c;
+                }
+            }
+        }
+         
+        .welcome-message {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 37px;
+            font-family: Brown-Bold;
+            color: #000;
+			
+			span{
+			    font-size: 19px;
+                color: #6a6f7f;
+                font-weight: normal;
+                font-family: Brown-Light;
+                margin-top: 10px;
+                display: block;
+                padding-top: 15px;
+			}
+        }
+        
+        .learn-more-link {
+            margin-top: 1em;
+            text-align: center;
+            
+            a {
+                padding-bottom: 0.25em;
+                color:#0070d2;
+                font-size:18px;
+                font-family:Brown-Bold;
+                
+                &:link, &:active, &:hover, &:visited {
+                    text-decoration: none;
+                }
+            }
+        }
+        
+        .search-results {
+            position: absolute;
+            top: 2em;
+            left: 15px;
+            right: 15px;
+            bottom: 0;
+            margin-top: 0.25em;
+            background: #e9ecfe;
+            overflow-y: auto;
+            
+            border-radius: 5px;
+
+            li {
+                position: relative;
+                border-bottom: 1px solid #fff;
+                padding: 1em;
+            }
+            
+            .search-result-name {
+                color: #000;
+                font-size: 16px;
+            }
+            
+            .search-result-phone {
+                color: #4B749A;
+                font-size: 14px;
+            }
+            
+            .search-result-location {
+                position: absolute;
+                top: 1em;
+                right: 1em;
+                
+                color: #4B749A;
+            }
+        }
+         
+        .sign-out-btn {
+            position: absolute;
+            bottom: 1.8em;
+            width: 100%;
+            text-align: center;
+            
+            button {
+                color: #FFF;
+                font-size: 1em;
+            }
+        }
+   }
+}

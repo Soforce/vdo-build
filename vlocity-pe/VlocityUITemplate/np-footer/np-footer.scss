@@ -1,0 +1,54 @@
+@import "npVariables";
+
+    .vlocity {   
+    
+            .np-footer{
+                    width:100%;
+                    background:#16325C;
+                    height:auto;
+                    display:table;
+                    color:#fff;
+                    font-size:14px;
+                    text-transform:uppercase;
+                    margin-top:50px;
+                    
+                    .np-footer-wrapper{
+                        max-width:1300px;
+                        margin:auto;
+                        padding:60px 0px 100px 0px;
+                        display:table;
+                        width:100%;
+                        
+                        .np-footer-column{
+                            width:25%;
+                            border-left:1px solid rgba(255,255,255,0.2);;
+                            float:left;
+                            box-sizing:border-box;
+                            padding-left:70px;
+                            padding-bottom: 15px;
+                            min-width:250px;
+                            margin-bottom:100px;
+                            
+                            &:first-child{
+                                border-left:0px;
+                            }
+                            
+                            .np-footer-title{
+                                font-weight:bold;  
+                                height:50px;
+                                line-height:50px;
+                                margin-bottom:50px;
+                            }
+                            
+                            .np-footer-element{
+                                height:40px;
+                                line-height:40px;
+                                margin-bottom:5px;
+                                cursor:pointer;
+                            }
+                        }
+                        
+                    }
+            }
+
+    }

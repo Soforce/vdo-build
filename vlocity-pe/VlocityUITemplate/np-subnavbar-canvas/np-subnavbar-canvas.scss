@@ -1,0 +1,169 @@
+@import "npVariables";
+
+
+/*** Styles ***/
+// include mixin "npVariables" for fonts and colors.
+// npVariables mixin template should be active.
+.vlocity {
+/* Always use vlocity class as a wrapper */
+
+    a.np-nav-card-style.np-overview-card {
+        border-left: 1px solid rgba(0,0,0,0.1) !important;
+    }
+
+ .np-subnav-card-active{
+       display:flex;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    border-left: 0;
+    padding: 10px;
+    cursor:pointer;
+    border-bottom: 1px solid #dfe2e4;
+    background: #f8fbfe;
+        color: rgb(22, 50, 92);
+   
+      &.tabSelected {
+        border-left:1px solid rgba(0,0,0,0.1);
+      //  -webkit-box-shadow: 0px 10px 0px 0px rgba(255,110,13,1);
+      //  -moz-box-shadow: 0px 10px 0px 0px rgba(255,110,13,1);
+       // box-shadow: 0px 10px 0px 0px rgba(255,110,13,1);
+        background:rgba(255,110,13,1);
+        border-bottom:0;
+        color:#fff;
+        img{
+                -webkit-filter: brightness(0.25);
+filter: brightness(5);
+        }
+        
+        &:hover{
+           border-bottom-color:transparent;
+       }
+    }
+    &.tabSelected .card-top{
+        vertical-align : middle;
+        margin : auto;
+    }
+ }
+ 
+ .np-subnav-card-active.tabSelected
+    {
+        .cardValues h2:first-child
+        {
+            font-size: 18px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            line-height: 17px;
+            height: 36px; 
+            -webkit-line-clamp: 2; 
+            -webkit-box-orient: vertical;
+        }
+    }
+    
+.np-custom-svg{
+     pointer-events: none;
+     height:60px;
+    }    
+ .np-overview-card{
+     -webkit-animation: cssAnimation 0.55s forwards; 
+    animation: cssAnimation 0.55s forwards; 
+    max-width:150px;
+    width: 90px;
+    max-height:173px;
+ }
+ 
+ 
+ @keyframes cssAnimation {
+    0%   {opacity: 0;}
+    90%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes cssAnimation {
+    0%   {opacity: 0;}
+    90%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+      ::-webkit-scrollbar {
+        width: 0px;  
+        background: transparent;
+        display:none;
+        }
+       
+        ::-webkit-scrollbar-thumb {
+        background: background-color-1;
+        }
+     .cfp-hotkeys-container.fade{display:none !important}
+     .np-subnav-wrapper{
+         .slds-scrollable--x{
+             width:100%;
+          
+         }
+         padding-bottom: 10px;
+         .np-subnav-wrapper-inner
+         {
+             background:#F8FBFE;
+            padding-left:40px;
+            padding-right:40px;
+                            border-bottom: 0px solid rgba(0, 0, 0, 0.04);
+            max-width: 1980px;
+            margin: auto;
+                
+                .np-nav-card-style:first-child
+                {
+                    border-left: 0px solid rgba(0, 0, 0, 0.1);
+                    text-decoration:none;
+                }
+        }
+//DLQ            padding-bottom: 10px;
+        
+    }
+
+    .np-nav-card-style{
+        position:relative;
+        width: 100%;
+        min-width:140px;
+        height:173px;
+        text-decoration:none;
+        
+        
+        &.active{
+            border-left:1px solid rgba(0,0,0,0.1);
+            -webkit-box-shadow: 0px 10px 0px 0px rgba(255,110,13,1);
+            -moz-box-shadow: 0px 10px 0px 0px rgba(255,110,13,1);
+            box-shadow: 0px 10px 0px 0px rgba(255,110,13,1);
+            background:rgba(255,110,13,1);
+            img{
+                    -webkit-filter: brightness(0.25);
+    filter: brightness(255);
+            }
+            .dx-subnav-card-active{
+                border-bottom:0;
+                color:#fff;
+            }
+        }
+         &:last-of-type,&:nth-child(7),&:nth-child(6){
+            .np-subnav-card-active .np-submenu--hover {
+                right: 0;
+                left: initial;
+            }
+        }
+    }
+    .np-subnav-wrapper{
+        position:relative;
+        background: #F8FBFE;
+        border-bottom: 1px solid #dfe2e4;
+        padding:0px;
+    }
+    
+    @media only screen and (max-width:767px){
+        .np-subnav-wrapper-inner
+         {
+            padding-left:10px !important;
+            padding-right:10px !important;
+
+         }
+    }
+}

@@ -1,0 +1,1479 @@
+[
+    {
+        "%vlocity_namespace%__BillingAccountId__c": {
+            "actions": {
+            },
+            "dataType": "REFERENCE",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__BillingAccountId__c",
+            "hidden": false,
+            "label": "Billing Account",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "0013600000FBB67AAH"
+        },
+        "%vlocity_namespace%__JSONAttribute__c": {
+            "actions": {
+            },
+            "dataType": "TEXTAREA",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__JSONAttribute__c",
+            "hidden": true,
+            "label": "JSONAttribute",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "{\"VLO-PRO-0003\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t36000001CmYDAA0\",\"attributeid__c\":\"a0J36000000rXpvEAE\",\"attributecategoryid__c\":\"a0I36000001YsHREA0\",\"categorycode__c\":\"VLO-PRO-0003\",\"categoryname__c\":\"Mobile Handset\",\"attributeuniquecode__c\":\"ATTRIBUTE-016\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"1\",\"attributefilterable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Colour\",\"displaysequence__c\":\"11\",\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product2\",\"querycode__c\":null,\"isreadonly__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0H36000002wRvwEAE\",\"isrequired__c\":true,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":null,\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":\"The colour of the handset\",\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"values\":[{\"value\":\"Silver\",\"displayText\":\"Silver\",\"id\":1},{\"value\":\"Silver\",\"displayText\":\"Silver\",\"id\":2},{\"value\":\"Space Gray\",\"displayText\":\"Space Gray\",\"id\":3},{\"value\":\"Gold\",\"displayText\":\"Gold\",\"id\":4}],\"default\":[{\"value\":\"Rose Gold\",\"displayText\":\"Rose Gold\",\"id\":1}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t36000001CmYDAA0\",\"attributeid__c\":\"a0J36000000rXq0EAE\",\"attributecategoryid__c\":\"a0I36000001YsHREA0\",\"categorycode__c\":\"VLO-PRO-0003\",\"categoryname__c\":\"Mobile Handset\",\"attributeuniquecode__c\":\"ATTRIBUTE-017\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"2\",\"attributefilterable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Storage\",\"displaysequence__c\":\"11\",\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product2\",\"querycode__c\":null,\"isreadonly__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0H36000002wRvxEAE\",\"isrequired__c\":true,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":null,\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":\"The storage size of the handset\",\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"values\":[{\"value\":\"16GB\",\"displayText\":\"16GB\",\"id\":1},{\"value\":\"64GB\",\"displayText\":\"64GB\",\"id\":3},{\"value\":\"128GB\",\"displayText\":\"128GB\",\"id\":4}],\"default\":[{\"value\":\"16GB\",\"displayText\":\"16GB\",\"id\":1}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t36000001CmYDAA0\",\"attributeid__c\":\"a0J36000001Qh6LEAS\",\"attributecategoryid__c\":\"a0I36000001YsHREA0\",\"categorycode__c\":\"VLO-PRO-0003\",\"categoryname__c\":\"Mobile Handset\",\"attributeuniquecode__c\":\"ATTRIBUTE-064\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"3\",\"attributefilterable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Manufacturer\",\"displaysequence__c\":\"11\",\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":false,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product2\",\"querycode__c\":null,\"isreadonly__c\":true,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0H36000002wS6xEAE\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"Apple\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":\"The manufacturer of the handset\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"Apple\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t36000001CmYDAA0\",\"attributeid__c\":\"a0J36000001Qh6QEAS\",\"attributecategoryid__c\":\"a0I36000001YsHREA0\",\"categorycode__c\":\"VLO-PRO-0003\",\"categoryname__c\":\"Mobile Handset\",\"attributeuniquecode__c\":\"ATTRIBUTE-065\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"4\",\"attributefilterable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Operating System\",\"displaysequence__c\":\"11\",\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":false,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product2\",\"querycode__c\":null,\"isreadonly__c\":true,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0H36000002wS7REAU\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"iOS\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":\"The operating system of the handset\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"iOS\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t36000001CmYDAA0\",\"attributeid__c\":\"a0J36000001Qh6VEAS\",\"attributecategoryid__c\":\"a0I36000001YsHREA0\",\"categorycode__c\":\"VLO-PRO-0003\",\"categoryname__c\":\"Mobile Handset\",\"attributeuniquecode__c\":\"ATTRIBUTE-066\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"5\",\"attributefilterable__c\":false,\"isactive__c\":true,\"attributedisplayname__c\":\"Network Compatibility\",\"displaysequence__c\":\"11\",\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":false,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product2\",\"querycode__c\":null,\"isreadonly__c\":true,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0H36000002wS7oEAE\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"4G\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":\"The network the handset is compatible with\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"4G\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t36000001CmYDAA0\",\"attributeid__c\":\"a0J36000001QnHfEAK\",\"attributecategoryid__c\":\"a0I36000001YsHREA0\",\"categorycode__c\":\"VLO-PRO-0003\",\"categoryname__c\":\"Mobile Handset\",\"attributeuniquecode__c\":\"ATTRIBUTE-071\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"6\",\"attributefilterable__c\":false,\"isactive__c\":true,\"attributedisplayname__c\":\"IMEI\",\"displaysequence__c\":\"11\",\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":false,\"ishidden__c\":false,\"valueinnumber__c\":351756051523999,\"objecttype__c\":\"Product2\",\"querycode__c\":null,\"isreadonly__c\":true,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0H36000002wfG9EAI\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"351756051523999\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":\"The International Mobile Equipment Identity of the handset\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"351756051523999\"},\"$$AttributeDefinitionEnd$$\":null}]}"
+        },
+        "%vlocity_namespace%__LineNumber__c": {
+            "actions": {
+            },
+            "dataType": "STRING",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__LineNumber__c",
+            "hidden": true,
+            "label": "Line Number",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "0001"
+        },
+        "%vlocity_namespace%__OneTimeCalculatedPrice__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__OneTimeCalculatedPrice__c",
+            "hidden": true,
+            "label": "One Time Calculated Price",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 99
+        },
+        "%vlocity_namespace%__OneTimeCharge__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__OneTimeCharge__c",
+            "hidden": true,
+            "label": "One Time Charge",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 99
+        },
+        "%vlocity_namespace%__OneTimeManualDiscount__c": {
+            "actions": {
+            },
+            "dataType": "PERCENT",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__OneTimeManualDiscount__c",
+            "hidden": true,
+            "label": "One Time Manual Discount",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 0
+        },
+        "%vlocity_namespace%__OneTimeTotal__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__OneTimeTotal__c",
+            "hidden": true,
+            "label": "One Time Total",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 99
+        },
+        "%vlocity_namespace%__PricebookEntryId__c": {
+            "actions": {
+            },
+            "dataType": "STRING",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__PricebookEntryId__c",
+            "hidden": true,
+            "label": "PricebookEntryId",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "01u36000001dMCfAAM"
+        },
+        "%vlocity_namespace%__ProvisioningStatus__c": {
+            "actions": {
+            },
+            "dataType": "STRING",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__ProvisioningStatus__c",
+            "hidden": true,
+            "label": "Provisioning Status",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "Active"
+        },
+        "%vlocity_namespace%__RecurringCalculatedPrice__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__RecurringCalculatedPrice__c",
+            "hidden": true,
+            "label": "Recurring Calculated Price",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 0
+        },
+        "%vlocity_namespace%__RecurringCharge__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__RecurringCharge__c",
+            "hidden": true,
+            "label": "Recurring Charge",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 0
+        },
+        "%vlocity_namespace%__RecurringManualDiscount__c": {
+            "actions": {
+            },
+            "dataType": "PERCENT",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__RecurringManualDiscount__c",
+            "hidden": true,
+            "label": "Recurring Manual Discount",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 0
+        },
+        "%vlocity_namespace%__RecurringTotal__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__RecurringTotal__c",
+            "hidden": true,
+            "label": "Recurring Total",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 0
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "actions": {
+            },
+            "dataType": "STRING",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__RootItemId__c",
+            "hidden": true,
+            "label": "RootItemId",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "02i360000001oNaAAI"
+        },
+        "%vlocity_namespace%__ServiceAccountId__c": {
+            "actions": {
+            },
+            "dataType": "REFERENCE",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__ServiceAccountId__c",
+            "hidden": false,
+            "label": "Service Account",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "0013600000FBB67AAH"
+        },
+        "Id": {
+            "actions": {
+            },
+            "dataType": "ID",
+            "editable": false,
+            "fieldName": "Id",
+            "hidden": true,
+            "label": "Asset ID",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "02i360000001oNaAAI"
+        },
+        "Name": "Jenny's iPhone SE",
+        "Product2Id": {
+            "actions": {
+            },
+            "dataType": "REFERENCE",
+            "editable": false,
+            "fieldName": "Product2Id",
+            "hidden": false,
+            "label": "Product ID",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "01t36000001TFOOAA4"
+        },
+        "Quantity": {
+            "actions": {
+            },
+            "dataType": "DOUBLE",
+            "editable": false,
+            "fieldName": "Quantity",
+            "hidden": true,
+            "label": "Quantity",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 1
+        },
+        "SerialNumber": {
+            "actions": {
+            },
+            "dataType": "STRING",
+            "editable": false,
+            "fieldName": "SerialNumber",
+            "hidden": true,
+            "label": "Serial Number",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "VLO-7012"
+        },
+        "Status": {
+            "actions": {
+            },
+            "dataType": "PICKLIST",
+            "editable": false,
+            "fieldName": "Status",
+            "hidden": true,
+            "label": "Status",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "Warning"
+        },
+        "actions": {
+            "assetchangesite": {
+                "client": {
+                    "params": {
+                    }
+                },
+                "remote": {
+                    "params": {
+                        "assetList": [
+                            "02i360000001oNaAAI"
+                        ],
+                        "fromServiceLocation": null,
+                        "moveDate": null,
+                        "toServiceLocation": null
+                    }
+                },
+                "rest": {
+                    "link": "/services/apexrest/%vlocity_namespace%/v2/carts?subaction=assetChangeSite",
+                    "method": "POST",
+                    "params": {
+                    }
+                }
+            },
+            "assettoorder": {
+                "client": {
+                    "params": {
+                    }
+                },
+                "remote": {
+                    "params": {
+                        "assetList": [
+                            "02i360000001oNaAAI"
+                        ],
+                        "requestDate": null
+                    }
+                },
+                "rest": {
+                    "link": "/services/apexrest/%vlocity_namespace%/v2/carts?subaction=assetToOrder",
+                    "method": "POST",
+                    "params": {
+                    }
+                }
+            },
+            "assettoquote": {
+                "client": {
+                    "params": {
+                    }
+                },
+                "remote": {
+                    "params": {
+                        "assetList": [
+                            "02i360000001oNaAAI"
+                        ],
+                        "requestDate": null
+                    }
+                },
+                "rest": {
+                    "link": "/services/apexrest/%vlocity_namespace%/v2/carts?subaction=assetToQuote",
+                    "method": "POST",
+                    "params": {
+                    }
+                }
+            }
+        },
+        "attributeCategories": {
+            "messages": [
+            ],
+            "records": [
+                {
+                    "Code__c": "VLO-PRO-0003",
+                    "Name": "Mobile Handset",
+                    "id": "a0I36000001YsHREA0",
+                    "messages": [
+                    ],
+                    "productAttributes": {
+                        "messages": [
+                        ],
+                        "records": [
+                            {
+                                "attributeId": "a0J36000000rXpvEAE",
+                                "code": "ATTRIBUTE-016",
+                                "dataType": "text",
+                                "description": "The colour of the handset",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "inputType": "dropdown",
+                                "label": "Colour",
+                                "messages": [
+                                ],
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": true,
+                                "userValues": "1",
+                                "values": [
+                                    {
+                                        "defaultSelected": true,
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "Silver",
+                                        "name": "1",
+                                        "readonly": false,
+                                        "value": "1"
+                                    },
+                                    {
+                                        "defaultSelected": false,
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "Silver",
+                                        "name": "2",
+                                        "readonly": false,
+                                        "value": "2"
+                                    },
+                                    {
+                                        "defaultSelected": false,
+                                        "disabled": false,
+                                        "id": "3",
+                                        "label": "Space Gray",
+                                        "name": "3",
+                                        "readonly": false,
+                                        "value": "3"
+                                    },
+                                    {
+                                        "defaultSelected": false,
+                                        "disabled": false,
+                                        "id": "4",
+                                        "label": "Gold",
+                                        "name": "4",
+                                        "readonly": false,
+                                        "value": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0J36000000rXq0EAE",
+                                "code": "ATTRIBUTE-017",
+                                "dataType": "text",
+                                "description": "The storage size of the handset",
+                                "disabled": false,
+                                "displaySequence": 2,
+                                "filterable": true,
+                                "hasRules": false,
+                                "inputType": "dropdown",
+                                "label": "Storage",
+                                "messages": [
+                                ],
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": true,
+                                "userValues": "1",
+                                "values": [
+                                    {
+                                        "defaultSelected": true,
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "16GB",
+                                        "name": "1",
+                                        "readonly": false,
+                                        "value": "1"
+                                    },
+                                    {
+                                        "defaultSelected": false,
+                                        "disabled": false,
+                                        "id": "3",
+                                        "label": "64GB",
+                                        "name": "3",
+                                        "readonly": false,
+                                        "value": "3"
+                                    },
+                                    {
+                                        "defaultSelected": false,
+                                        "disabled": false,
+                                        "id": "4",
+                                        "label": "128GB",
+                                        "name": "4",
+                                        "readonly": false,
+                                        "value": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0J36000001Qh6LEAS",
+                                "code": "ATTRIBUTE-064",
+                                "dataType": "text",
+                                "description": "The manufacturer of the handset",
+                                "disabled": true,
+                                "displaySequence": 3,
+                                "filterable": true,
+                                "hasRules": false,
+                                "inputType": "text",
+                                "label": "Manufacturer",
+                                "messages": [
+                                ],
+                                "readonly": true,
+                                "required": false,
+                                "userValues": "Apple",
+                                "values": [
+                                    {
+                                        "defaultValue": "Apple",
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0J36000001Qh6QEAS",
+                                "code": "ATTRIBUTE-065",
+                                "dataType": "text",
+                                "description": "The operating system of the handset",
+                                "disabled": true,
+                                "displaySequence": 4,
+                                "filterable": true,
+                                "hasRules": false,
+                                "inputType": "text",
+                                "label": "Operating System",
+                                "messages": [
+                                ],
+                                "readonly": true,
+                                "required": false,
+                                "userValues": "iOS",
+                                "values": [
+                                    {
+                                        "defaultValue": "iOS",
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0J36000001Qh6VEAS",
+                                "code": "ATTRIBUTE-066",
+                                "dataType": "text",
+                                "description": "The network the handset is compatible with",
+                                "disabled": true,
+                                "displaySequence": 5,
+                                "filterable": false,
+                                "hasRules": false,
+                                "inputType": "text",
+                                "label": "Network Compatibility",
+                                "messages": [
+                                ],
+                                "readonly": true,
+                                "required": false,
+                                "userValues": "4G",
+                                "values": [
+                                    {
+                                        "defaultValue": "4G",
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0J36000001QnHfEAK",
+                                "code": "ATTRIBUTE-071",
+                                "dataType": "text",
+                                "description": "The International Mobile Equipment Identity of the handset",
+                                "disabled": true,
+                                "displaySequence": 6,
+                                "filterable": false,
+                                "hasRules": false,
+                                "inputType": "text",
+                                "label": "IMEI",
+                                "messages": [
+                                ],
+                                "readonly": true,
+                                "required": false,
+                                "userValues": "351756051523999",
+                                "values": [
+                                    {
+                                        "defaultValue": "351756051523999",
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 6
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "displaySequence": -1,
+        "messages": [
+        ],
+        "promotions": {
+            "messages": [
+            ],
+            "totalSize": 0
+        }
+    },
+    {
+        "%vlocity_namespace%__BillingAccountId__c": {
+            "actions": {
+            },
+            "dataType": "REFERENCE",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__BillingAccountId__c",
+            "hidden": false,
+            "label": "Billing Account",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "0013600000FBB67AAH"
+        },
+        "%vlocity_namespace%__JSONAttribute__c": {
+            "actions": {
+            },
+            "dataType": "TEXTAREA",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__JSONAttribute__c",
+            "hidden": true,
+            "label": "JSONAttribute",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "{\"VLO-PRO-0003\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t36000001CmYDAA0\",\"attributeid__c\":\"a0J36000000rXpvEAE\",\"attributecategoryid__c\":\"a0I36000001YsHREA0\",\"categorycode__c\":\"VLO-PRO-0003\",\"categoryname__c\":\"Mobile Handset\",\"attributeuniquecode__c\":\"ATTRIBUTE-016\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"1\",\"attributefilterable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Colour\",\"displaysequence__c\":\"11\",\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product2\",\"querycode__c\":null,\"isreadonly__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0H36000002wRvwEAE\",\"isrequired__c\":true,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":null,\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":\"The colour of the handset\",\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"values\":[{\"value\":\"Rose Gold\",\"displayText\":\"Rose Gold\",\"id\":1},{\"value\":\"Silver\",\"displayText\":\"Silver\",\"id\":2},{\"value\":\"Space Gray\",\"displayText\":\"Space Gray\",\"id\":3},{\"value\":\"Gold\",\"displayText\":\"Gold\",\"id\":4}],\"default\":[{\"value\":\"Rose Gold\",\"displayText\":\"Rose Gold\",\"id\":1}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t36000001CmYDAA0\",\"attributeid__c\":\"a0J36000000rXq0EAE\",\"attributecategoryid__c\":\"a0I36000001YsHREA0\",\"categorycode__c\":\"VLO-PRO-0003\",\"categoryname__c\":\"Mobile Handset\",\"attributeuniquecode__c\":\"ATTRIBUTE-017\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"2\",\"attributefilterable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Storage\",\"displaysequence__c\":\"11\",\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product2\",\"querycode__c\":null,\"isreadonly__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0H36000002wRvxEAE\",\"isrequired__c\":true,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":null,\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":\"The storage size of the handset\",\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"values\":[{\"value\":\"16GB\",\"displayText\":\"16GB\",\"id\":1},{\"value\":\"64GB\",\"displayText\":\"64GB\",\"id\":3},{\"value\":\"128GB\",\"displayText\":\"128GB\",\"id\":4}],\"default\":[{\"value\":\"16GB\",\"displayText\":\"16GB\",\"id\":1}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t36000001CmYDAA0\",\"attributeid__c\":\"a0J36000001Qh6LEAS\",\"attributecategoryid__c\":\"a0I36000001YsHREA0\",\"categorycode__c\":\"VLO-PRO-0003\",\"categoryname__c\":\"Mobile Handset\",\"attributeuniquecode__c\":\"ATTRIBUTE-064\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"3\",\"attributefilterable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Manufacturer\",\"displaysequence__c\":\"11\",\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":false,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product2\",\"querycode__c\":null,\"isreadonly__c\":true,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0H36000002wS6xEAE\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"Apple\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":\"The manufacturer of the handset\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"Apple\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t36000001CmYDAA0\",\"attributeid__c\":\"a0J36000001Qh6QEAS\",\"attributecategoryid__c\":\"a0I36000001YsHREA0\",\"categorycode__c\":\"VLO-PRO-0003\",\"categoryname__c\":\"Mobile Handset\",\"attributeuniquecode__c\":\"ATTRIBUTE-065\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"4\",\"attributefilterable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Operating System\",\"displaysequence__c\":\"11\",\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":false,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product2\",\"querycode__c\":null,\"isreadonly__c\":true,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0H36000002wS7REAU\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"iOS\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":\"The operating system of the handset\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"iOS\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t36000001CmYDAA0\",\"attributeid__c\":\"a0J36000001Qh6VEAS\",\"attributecategoryid__c\":\"a0I36000001YsHREA0\",\"categorycode__c\":\"VLO-PRO-0003\",\"categoryname__c\":\"Mobile Handset\",\"attributeuniquecode__c\":\"ATTRIBUTE-066\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"5\",\"attributefilterable__c\":false,\"isactive__c\":true,\"attributedisplayname__c\":\"Network Compatibility\",\"displaysequence__c\":\"11\",\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":false,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product2\",\"querycode__c\":null,\"isreadonly__c\":true,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0H36000002wS7oEAE\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"4G\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":\"The network the handset is compatible with\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"4G\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t36000001CmYDAA0\",\"attributeid__c\":\"a0J36000001QnHfEAK\",\"attributecategoryid__c\":\"a0I36000001YsHREA0\",\"categorycode__c\":\"VLO-PRO-0003\",\"categoryname__c\":\"Mobile Handset\",\"attributeuniquecode__c\":\"ATTRIBUTE-071\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"6\",\"attributefilterable__c\":false,\"isactive__c\":true,\"attributedisplayname__c\":\"IMEI\",\"displaysequence__c\":\"11\",\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":false,\"ishidden__c\":false,\"valueinnumber__c\":351756051523999,\"objecttype__c\":\"Product2\",\"querycode__c\":null,\"isreadonly__c\":true,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0H36000002wfG9EAI\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"351756051523999\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":\"The International Mobile Equipment Identity of the handset\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"351756051523999\"},\"$$AttributeDefinitionEnd$$\":null}]}"
+        },
+        "%vlocity_namespace%__LineNumber__c": {
+            "actions": {
+            },
+            "dataType": "STRING",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__LineNumber__c",
+            "hidden": true,
+            "label": "Line Number",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "0002"
+        },
+        "%vlocity_namespace%__OneTimeCalculatedPrice__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__OneTimeCalculatedPrice__c",
+            "hidden": true,
+            "label": "One Time Calculated Price",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 129
+        },
+        "%vlocity_namespace%__OneTimeCharge__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__OneTimeCharge__c",
+            "hidden": true,
+            "label": "One Time Charge",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 129
+        },
+        "%vlocity_namespace%__OneTimeManualDiscount__c": {
+            "actions": {
+            },
+            "dataType": "PERCENT",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__OneTimeManualDiscount__c",
+            "hidden": true,
+            "label": "One Time Manual Discount",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 0
+        },
+        "%vlocity_namespace%__OneTimeTotal__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__OneTimeTotal__c",
+            "hidden": true,
+            "label": "One Time Total",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 129
+        },
+        "%vlocity_namespace%__PricebookEntryId__c": {
+            "actions": {
+            },
+            "dataType": "STRING",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__PricebookEntryId__c",
+            "hidden": true,
+            "label": "PricebookEntryId",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "01u36000001dMCVAA2"
+        },
+        "%vlocity_namespace%__ProvisioningStatus__c": {
+            "actions": {
+            },
+            "dataType": "STRING",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__ProvisioningStatus__c",
+            "hidden": true,
+            "label": "Provisioning Status",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "Active"
+        },
+        "%vlocity_namespace%__RecurringCalculatedPrice__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__RecurringCalculatedPrice__c",
+            "hidden": true,
+            "label": "Recurring Calculated Price",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 0
+        },
+        "%vlocity_namespace%__RecurringCharge__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__RecurringCharge__c",
+            "hidden": true,
+            "label": "Recurring Charge",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 0
+        },
+        "%vlocity_namespace%__RecurringManualDiscount__c": {
+            "actions": {
+            },
+            "dataType": "PERCENT",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__RecurringManualDiscount__c",
+            "hidden": true,
+            "label": "Recurring Manual Discount",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 0
+        },
+        "%vlocity_namespace%__RecurringTotal__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__RecurringTotal__c",
+            "hidden": true,
+            "label": "Recurring Total",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 0
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "actions": {
+            },
+            "dataType": "STRING",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__RootItemId__c",
+            "hidden": true,
+            "label": "RootItemId",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "02i360000001oNcAAI"
+        },
+        "%vlocity_namespace%__ServiceAccountId__c": {
+            "actions": {
+            },
+            "dataType": "REFERENCE",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__ServiceAccountId__c",
+            "hidden": false,
+            "label": "Service Account",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "0013600000FBB67AAH"
+        },
+        "Id": {
+            "actions": {
+            },
+            "dataType": "ID",
+            "editable": false,
+            "fieldName": "Id",
+            "hidden": true,
+            "label": "Asset ID",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "02i360000001oNcAAI"
+        },
+        "Name": "Sophie's iPhone 6s",
+        "Product2Id": {
+            "actions": {
+            },
+            "dataType": "REFERENCE",
+            "editable": false,
+            "fieldName": "Product2Id",
+            "hidden": false,
+            "label": "Product ID",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "01t36000001CmYDAA0"
+        },
+        "Quantity": {
+            "actions": {
+            },
+            "dataType": "DOUBLE",
+            "editable": false,
+            "fieldName": "Quantity",
+            "hidden": true,
+            "label": "Quantity",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 1
+        },
+        "SerialNumber": {
+            "actions": {
+            },
+            "dataType": "STRING",
+            "editable": false,
+            "fieldName": "SerialNumber",
+            "hidden": true,
+            "label": "Serial Number",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "VLO-7278"
+        },
+        "Status": {
+            "actions": {
+            },
+            "dataType": "PICKLIST",
+            "editable": false,
+            "fieldName": "Status",
+            "hidden": true,
+            "label": "Status",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "Active"
+        },
+        "actions": {
+            "assetchangesite": {
+                "client": {
+                    "params": {
+                    }
+                },
+                "remote": {
+                    "params": {
+                        "assetList": [
+                            "02i360000001oNcAAI"
+                        ],
+                        "fromServiceLocation": null,
+                        "moveDate": null,
+                        "toServiceLocation": null
+                    }
+                },
+                "rest": {
+                    "link": "/services/apexrest/%vlocity_namespace%/v2/carts?subaction=assetChangeSite",
+                    "method": "POST",
+                    "params": {
+                    }
+                }
+            },
+            "assettoorder": {
+                "client": {
+                    "params": {
+                    }
+                },
+                "remote": {
+                    "params": {
+                        "assetList": [
+                            "02i360000001oNcAAI"
+                        ],
+                        "requestDate": null
+                    }
+                },
+                "rest": {
+                    "link": "/services/apexrest/%vlocity_namespace%/v2/carts?subaction=assetToOrder",
+                    "method": "POST",
+                    "params": {
+                    }
+                }
+            },
+            "assettoquote": {
+                "client": {
+                    "params": {
+                    }
+                },
+                "remote": {
+                    "params": {
+                        "assetList": [
+                            "02i360000001oNcAAI"
+                        ],
+                        "requestDate": null
+                    }
+                },
+                "rest": {
+                    "link": "/services/apexrest/%vlocity_namespace%/v2/carts?subaction=assetToQuote",
+                    "method": "POST",
+                    "params": {
+                    }
+                }
+            }
+        },
+        "attributeCategories": {
+            "messages": [
+            ],
+            "records": [
+                {
+                    "Code__c": "VLO-PRO-0003",
+                    "Name": "Mobile Handset",
+                    "id": "a0I36000001YsHREA0",
+                    "messages": [
+                    ],
+                    "productAttributes": {
+                        "messages": [
+                        ],
+                        "records": [
+                            {
+                                "attributeId": "a0J36000000rXpvEAE",
+                                "code": "ATTRIBUTE-016",
+                                "dataType": "text",
+                                "description": "The colour of the handset",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "inputType": "dropdown",
+                                "label": "Colour",
+                                "messages": [
+                                ],
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": true,
+                                "userValues": "1",
+                                "values": [
+                                    {
+                                        "defaultSelected": true,
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "Rose Gold",
+                                        "name": "1",
+                                        "readonly": false,
+                                        "value": "1"
+                                    },
+                                    {
+                                        "defaultSelected": false,
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "Silver",
+                                        "name": "2",
+                                        "readonly": false,
+                                        "value": "2"
+                                    },
+                                    {
+                                        "defaultSelected": false,
+                                        "disabled": false,
+                                        "id": "3",
+                                        "label": "Space Gray",
+                                        "name": "3",
+                                        "readonly": false,
+                                        "value": "3"
+                                    },
+                                    {
+                                        "defaultSelected": false,
+                                        "disabled": false,
+                                        "id": "4",
+                                        "label": "Gold",
+                                        "name": "4",
+                                        "readonly": false,
+                                        "value": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0J36000000rXq0EAE",
+                                "code": "ATTRIBUTE-017",
+                                "dataType": "text",
+                                "description": "The storage size of the handset",
+                                "disabled": false,
+                                "displaySequence": 2,
+                                "filterable": true,
+                                "hasRules": false,
+                                "inputType": "dropdown",
+                                "label": "Storage",
+                                "messages": [
+                                ],
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": true,
+                                "userValues": "1",
+                                "values": [
+                                    {
+                                        "defaultSelected": true,
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "16GB",
+                                        "name": "1",
+                                        "readonly": false,
+                                        "value": "1"
+                                    },
+                                    {
+                                        "defaultSelected": false,
+                                        "disabled": false,
+                                        "id": "3",
+                                        "label": "64GB",
+                                        "name": "3",
+                                        "readonly": false,
+                                        "value": "3"
+                                    },
+                                    {
+                                        "defaultSelected": false,
+                                        "disabled": false,
+                                        "id": "4",
+                                        "label": "128GB",
+                                        "name": "4",
+                                        "readonly": false,
+                                        "value": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0J36000001Qh6LEAS",
+                                "code": "ATTRIBUTE-064",
+                                "dataType": "text",
+                                "description": "The manufacturer of the handset",
+                                "disabled": true,
+                                "displaySequence": 3,
+                                "filterable": true,
+                                "hasRules": false,
+                                "inputType": "text",
+                                "label": "Manufacturer",
+                                "messages": [
+                                ],
+                                "readonly": true,
+                                "required": false,
+                                "userValues": "Apple",
+                                "values": [
+                                    {
+                                        "defaultValue": "Apple",
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0J36000001Qh6QEAS",
+                                "code": "ATTRIBUTE-065",
+                                "dataType": "text",
+                                "description": "The operating system of the handset",
+                                "disabled": true,
+                                "displaySequence": 4,
+                                "filterable": true,
+                                "hasRules": false,
+                                "inputType": "text",
+                                "label": "Operating System",
+                                "messages": [
+                                ],
+                                "readonly": true,
+                                "required": false,
+                                "userValues": "iOS",
+                                "values": [
+                                    {
+                                        "defaultValue": "iOS",
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0J36000001Qh6VEAS",
+                                "code": "ATTRIBUTE-066",
+                                "dataType": "text",
+                                "description": "The network the handset is compatible with",
+                                "disabled": true,
+                                "displaySequence": 5,
+                                "filterable": false,
+                                "hasRules": false,
+                                "inputType": "text",
+                                "label": "Network Compatibility",
+                                "messages": [
+                                ],
+                                "readonly": true,
+                                "required": false,
+                                "userValues": "4G",
+                                "values": [
+                                    {
+                                        "defaultValue": "4G",
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0J36000001QnHfEAK",
+                                "code": "ATTRIBUTE-071",
+                                "dataType": "text",
+                                "description": "The International Mobile Equipment Identity of the handset",
+                                "disabled": true,
+                                "displaySequence": 6,
+                                "filterable": false,
+                                "hasRules": false,
+                                "inputType": "text",
+                                "label": "IMEI",
+                                "messages": [
+                                ],
+                                "readonly": true,
+                                "required": false,
+                                "userValues": "351756051523999",
+                                "values": [
+                                    {
+                                        "defaultValue": "351756051523999",
+                                        "disabled": true,
+                                        "readonly": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 6
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "displaySequence": -1,
+        "messages": [
+        ],
+        "promotions": {
+            "messages": [
+            ],
+            "totalSize": 0
+        }
+    },
+    {
+        "%vlocity_namespace%__BillingAccountId__c": {
+            "actions": {
+            },
+            "dataType": "REFERENCE",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__BillingAccountId__c",
+            "hidden": false,
+            "label": "Billing Account",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "0013600000FBB67AAH"
+        },
+        "%vlocity_namespace%__ConnectDate__c": {
+            "actions": {
+            },
+            "dataType": "DATETIME",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__ConnectDate__c",
+            "hidden": true,
+            "label": "Connect Date",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "2017-05-02T00:00:00.000Z"
+        },
+        "%vlocity_namespace%__LineNumber__c": {
+            "actions": {
+            },
+            "dataType": "STRING",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__LineNumber__c",
+            "hidden": true,
+            "label": "Line Number",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "0003"
+        },
+        "%vlocity_namespace%__OneTimeCalculatedPrice__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__OneTimeCalculatedPrice__c",
+            "hidden": true,
+            "label": "One Time Calculated Price",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 129
+        },
+        "%vlocity_namespace%__OneTimeManualDiscount__c": {
+            "actions": {
+            },
+            "dataType": "PERCENT",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__OneTimeManualDiscount__c",
+            "hidden": true,
+            "label": "One Time Manual Discount",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 0
+        },
+        "%vlocity_namespace%__OneTimeTotal__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__OneTimeTotal__c",
+            "hidden": true,
+            "label": "One Time Total",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 129
+        },
+        "%vlocity_namespace%__ProvisioningStatus__c": {
+            "actions": {
+            },
+            "dataType": "STRING",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__ProvisioningStatus__c",
+            "hidden": true,
+            "label": "Provisioning Status",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "Active"
+        },
+        "%vlocity_namespace%__RecurringCalculatedPrice__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__RecurringCalculatedPrice__c",
+            "hidden": true,
+            "label": "Recurring Calculated Price",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 0
+        },
+        "%vlocity_namespace%__RecurringCharge__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__RecurringCharge__c",
+            "hidden": true,
+            "label": "Recurring Charge",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 0
+        },
+        "%vlocity_namespace%__RecurringManualDiscount__c": {
+            "actions": {
+            },
+            "dataType": "PERCENT",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__RecurringManualDiscount__c",
+            "hidden": true,
+            "label": "Recurring Manual Discount",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 0
+        },
+        "%vlocity_namespace%__RecurringTotal__c": {
+            "actions": {
+            },
+            "dataType": "CURRENCY",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__RecurringTotal__c",
+            "hidden": true,
+            "label": "Recurring Total",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 0
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "actions": {
+            },
+            "dataType": "STRING",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__RootItemId__c",
+            "hidden": true,
+            "label": "RootItemId",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "02i36000003EidnAAC"
+        },
+        "%vlocity_namespace%__ServiceAccountId__c": {
+            "actions": {
+            },
+            "dataType": "REFERENCE",
+            "editable": false,
+            "fieldName": "%vlocity_namespace%__ServiceAccountId__c",
+            "hidden": false,
+            "label": "Service Account",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "0013600000FBB67AAH"
+        },
+        "Id": {
+            "actions": {
+            },
+            "dataType": "ID",
+            "editable": false,
+            "fieldName": "Id",
+            "hidden": true,
+            "label": "Asset ID",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "02i36000003EidnAAC"
+        },
+        "Name": "Family Mobile Plan Large",
+        "Product2Id": {
+            "actions": {
+            },
+            "dataType": "REFERENCE",
+            "editable": false,
+            "fieldName": "Product2Id",
+            "hidden": false,
+            "label": "Product ID",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "01t36000001TSFhAAO"
+        },
+        "Quantity": {
+            "actions": {
+            },
+            "dataType": "DOUBLE",
+            "editable": false,
+            "fieldName": "Quantity",
+            "hidden": true,
+            "label": "Quantity",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": 1
+        },
+        "SerialNumber": {
+            "actions": {
+            },
+            "dataType": "STRING",
+            "editable": false,
+            "fieldName": "SerialNumber",
+            "hidden": true,
+            "label": "Serial Number",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "VLO-9045"
+        },
+        "Status": {
+            "actions": {
+            },
+            "dataType": "PICKLIST",
+            "editable": false,
+            "fieldName": "Status",
+            "hidden": true,
+            "label": "Status",
+            "messages": [
+            ],
+            "originalValue": null,
+            "previousValue": null,
+            "value": "Active"
+        },
+        "actions": {
+            "assetchangesite": {
+                "client": {
+                    "params": {
+                    }
+                },
+                "remote": {
+                    "params": {
+                        "assetList": [
+                            "02i36000003EidnAAC"
+                        ],
+                        "fromServiceLocation": null,
+                        "moveDate": null,
+                        "toServiceLocation": null
+                    }
+                },
+                "rest": {
+                    "link": "/services/apexrest/%vlocity_namespace%/v2/carts?subaction=assetChangeSite",
+                    "method": "POST",
+                    "params": {
+                    }
+                }
+            },
+            "assettoorder": {
+                "client": {
+                    "params": {
+                    }
+                },
+                "remote": {
+                    "params": {
+                        "assetList": [
+                            "02i36000003EidnAAC"
+                        ],
+                        "requestDate": null
+                    }
+                },
+                "rest": {
+                    "link": "/services/apexrest/%vlocity_namespace%/v2/carts?subaction=assetToOrder",
+                    "method": "POST",
+                    "params": {
+                    }
+                }
+            },
+            "assettoquote": {
+                "client": {
+                    "params": {
+                    }
+                },
+                "remote": {
+                    "params": {
+                        "assetList": [
+                            "02i36000003EidnAAC"
+                        ],
+                        "requestDate": null
+                    }
+                },
+                "rest": {
+                    "link": "/services/apexrest/%vlocity_namespace%/v2/carts?subaction=assetToQuote",
+                    "method": "POST",
+                    "params": {
+                    }
+                }
+            }
+        },
+        "displaySequence": -1,
+        "messages": [
+        ],
+        "promotions": {
+            "messages": [
+            ],
+            "totalSize": 0
+        }
+    }
+]

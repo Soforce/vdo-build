@@ -1,0 +1,227 @@
+/*Variables*/
+@import "vloc-mob-con-variables";
+
+
+/*Bill Details*/
+.con-bill{
+    width:100%;
+    height:100%;
+    background:#FFF;
+    padding-top:80px;
+    box-sizing:border-box;
+    opacity:0;
+    transition:opacity 1s linear;
+}
+.con-bill-details-title {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    min-height: 28px;
+}
+.con-bill-details-total{
+    font-size:48px;
+    color:$theme-colour;
+    font-family: Brown-Bold;
+    line-height: 48px;
+    margin-bottom: 15px;
+}
+.con-bill-details-subtotal{
+    color:$subtitle-colour;
+    line-height:20px;
+}
+.con-bill-details-subtotal img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+.con-bill-details-manage{
+    color:$theme-colour;
+    font-family: Brown-Bold;
+    margin-top:5px;
+}
+.con-bill-details-manage span{
+    font-family:fontello;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.con-bill-details-section{
+    padding:25px;
+    text-align:left;
+}
+
+/*Bill Table*/
+.con-bill-details-table-header{
+    font-family:Brown-Bold;
+    width:100%;
+    border-bottom:1px solid #000;
+    height:50px;
+    line-height:50px;
+    font-size:16px;
+}
+.con-bill-details-table-row{
+    width:100%;
+    border-bottom:1px solid #e9ecfe;
+    height:50px;
+    line-height:50px;
+}
+.con-bill-details-table-label{
+    width:70%;
+    color:$subtitle-colour;
+    float:left;
+}
+.con-bill-details-table-value{
+    width:30%;
+    float:right;
+    text-align:right;
+    height: 50px;
+    font-family: Brown-Bold;
+}
+.con-bill-details-table-value span{
+    font-family:fontello;
+    color:$theme-colour;
+    margin-left:10px;
+}
+.con-bill-details-table-row:last-child{
+    border-bottom:0px;
+    margin-bottom:25px;
+}
+
+/*Bill Notification*/
+.con-bill .con-device-details-notification-icon-line1, .con-bill .con-device-details-notification-icon-line5{
+    animation: growlarge 4s 1s infinite;
+}
+.con-bill .con-device-details-notification-icon-line5{
+    animation-delay:4s;
+}
+.con-bill .con-device-details-notification-icon-line2, .con-bill .con-device-details-notification-icon-line4{
+    animation: growmedium 4s 3s infinite;    
+}
+.con-bill .con-device-details-notification-icon-line2{
+    animation-delay:5s;
+}
+.con-bill .con-device-details-notification-icon-line3{
+    animation: growsmall 4s 2s infinite;
+}
+
+/*Bill Graph*/
+.con-bill-graph{
+    height:410px;
+    width:100%;
+    padding-top:50px;
+    pointer-events:none;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform:translate3d(0,0,0);
+}
+.con-bill-graph-bar-wrapper{
+    width:calc(100% / 6);
+    height:234px;
+    float:left;
+    position:relative;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform:translate3d(0,0,0);
+}
+.con-bill-graph-bar{
+    width:12px;
+    position:absolute;
+    bottom:30px;
+    left: 50%;
+    margin-left: -7.5px;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform:translate3d(0,0,0);
+}
+.con-bill-graph-bar-segment{
+    width:12px;
+    background:$theme-colour;
+    margin-top:2px;
+    transition:height 0.5s linear;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform:translate3d(0,0,0);
+}
+.con-bill-graph-small .con-bill-graph-bar-segment{
+    height:0px !important;
+}
+.con-bill-graph-bar-segment:nth-child(2){
+    background:#7fbffc;
+}
+.con-bill-graph-bar-segment:nth-child(1){
+    background:#ff2953;
+}
+.con-bill-graph-bar-axis{
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    position: absolute;
+    bottom: 0px;
+    border-top: 1px solid #e9ecfe;
+    font-weight: bold;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform:translate3d(0,0,0);
+}
+.con-bill-graph-legend{
+    width: 100%;
+    height: 20px;
+    font-family: Brown-Bold;
+    margin-bottom: 5px;
+    float: left;
+}
+.con-bill-graph-legend-bar{
+    width: 25px;
+    height: 10px;
+    float: left;
+    margin-right: 15px;
+    background: $theme-colour;
+    margin-top: 6px;
+    margin-left: 15px;
+}
+.con-bill-graph-legend:nth-child(7){
+    margin-top:25px;
+}
+.con-bill-graph-legend:nth-child(8) .con-bill-graph-legend-bar{
+    background:#7fbffc;
+}
+.con-bill-graph-legend:nth-child(9) .con-bill-graph-legend-bar{
+    background:#ff2953;
+}
+
+/*Bill Button*/
+.con-bill-button{
+    color: #ffffff;
+    font-size: 14px;
+    background: $theme-colour;
+    border-radius: 5px;
+    line-height: 40px;
+    width: 100%;
+    height: 40px;
+    display: table;
+    padding: 0px 25px;
+    text-align:center;
+    margin:auto;
+    margin-top:35px;
+}
+
+
+
+/*Device Specific Styling*/
+/*iPhone 5/SE*/
+@media only screen 
+    and (max-device-height : 640px) {
+ 
+}
+/*iPhone 6/7/8*/
+@media only screen 
+    and (max-device-height : 667px) {
+
+}
+/*iPhone 6/7/8 Plus*/
+@media only screen 
+    and (min-device-height : 668px) and (max-device-height : 737px) {
+
+}
+/*iPhone X*/
+@media only screen 
+    and (min-device-height : 738px) {
+
+}

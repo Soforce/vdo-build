@@ -1,0 +1,57 @@
+/*** STYLES ***/
+    .vlocity {   /* Always use vlocity class as a wrapper */
+        .np-product-plan-highlight-card { 
+            color:#16325c;
+            width:100%;
+            width:190px;
+            min-width:190px;
+            .np-product--title{
+                font-size:16px;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                border-top: 1px solid #e8eef5;
+                padding-top: 15px;
+                margin-top: 10px;
+            }
+            .np-card
+            {
+                    background: #F8FBFE !important;
+                    border-color: #e8eef5 !important;
+                    min-height: 150px;
+                    position:relative;
+                    
+                    &:hover{
+                        background: #e8eef5 !important;
+                        cursor:pointer;
+                    }
+                
+            }
+            
+            img{
+               
+                width:100%;
+                margin:0 auto;
+            }
+            
+            .np-plan{
+                font-size:50px;
+                color:#0070D2;
+                font-weight: bold;
+            }
+            
+          
+            .price
+            {
+                text-decoration: line-through;
+                font-size:18px;
+            }
+            
+            .offer-price
+            {
+                color:#ff7900;
+                font-size:18px;
+            }
+            
+        }   
+    }

@@ -1,0 +1,136 @@
+<link rel="stylesheet" type="text/css" href="/apex/VDODemoCSS"/>
+<div class="vdo-ban-lines  slds-m-around--large" ng-controller="vdoBanLinesController">
+    <div ng-if="records.length >0">
+        <div class="slds-clearfix vdo-search-bar">
+            <div class="slds-float--right">
+                <div class="slds-dropdown-trigger slds-dropdown-trigger--click"  ng-class="{'slds-is-open': banLineActions.show}" ng-click="banLineActions.show = !banLineActions.show">
+                    <button class="slds-button vdo-primary-button" aria-live="assertive" >
+                        <span class="slds-text-not-selected">
+                            Bulk Action
+                        </span>
+                    </button>
+                    <vloc-layout layout-name="vdo-business-community-bulk-actions-layout"></vloc-layout>
+                </div>
+                |
+                <button class="slds-button vdo-primary-button slds-m-right--large" aria-live="assertive" onclick="">
+                    <span class="slds-text-not-selected">
+                        Add A Line
+                    </span>
+                </button>
+                
+            </div>
+            <div class="slds-float--left vdo-ban-lines-searchbar">
+                    <div class=" slds-input-has-icon slds-input-has-icon--left">
+                        <slds-svg-icon sprite="'utility'" icon="'search'" size="'small'" class="slds-input__icon slds-icon-text-default"></slds-svg-icon>
+                        <input type="text" class="slds-input vdo-ban-lines-search" placeholder="Search" ng-model="linesSearchInput" />
+                  </div>
+            </div>
+        </div>
+
+        <table class="vdo-lines-table">
+            <thead>
+                <tr class="vdo-ban-lines-header">
+                    <th>
+                        <span class="slds-checkbox">
+                          <input type="checkbox" name="options" ng-model="all.isAllSelected" id="vdo-ban-lines-h" ng-click="toggleAll()"/>
+                          <label class="slds-checkbox__label" for="vdo-ban-lines-h">
+                            <span class="slds-checkbox--faux"></span>
+                            <span class="slds-form-element__label slds-assistive-text">Select All</span>
+                          </label>
+                        </span>
+                    </th>
+                    <th ng-repeat="field in cards[0].states[0].fields">
+                        {{field.label}}
+                    </th>
+                    <th>
+                        Manage
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="record in records|filter:linesSearchInput" class="vdo-ban-lines-row">
+                    <td>
+                        <span class="slds-checkbox">
+                          <input type="checkbox" name="options" ng-model="record.isSelected" ng-checked="record.isSelected" id="vdo-ban-line-{{$index}}" ng-change="optionToggled()"/>
+                          <label class="slds-checkbox__label" for="vdo-ban-line-{{$index}}">
+                            <span class="slds-checkbox--faux"></span>
+                            <span class="slds-form-element__label slds-assistive-text">Select item {{$index}}</span>
+                          </label>
+                        </span>
+                    </td>
+                    <td ng-repeat="field in cards[0].states[0].fields">
+                        <div ng-if="$index===0">
+                            <a href="/apex/VDOCards?layout=vdo-business-community-consumer-layout" target="_self">
+                                {{record | getter: field | picker: field.type}}
+                            </a>
+                        </div>
+                        
+                        <div ng-if="$index!=0">
+                        {{record | getter: field | picker: field.type}}
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <div class="slds-dropdown-trigger slds-dropdown-trigger--click"  ng-class="{'slds-is-open': lineActions.show}" ng-click="lineActions.show = !lineActions.show">
+                            <button class="slds-button" ng-blur="lineActions.show =false">
+                                <slds-svg-icon sprite="'utility'" icon="'threedots'" size="'small'" ></slds-svg-icon>
+                            </button>
+                            <div class="slds-dropdown slds-dropdown--left">
+                                <ul class="slds-dropdown__list" role="menu">
+                                    <li class="slds-dropdown__item" role="presentation" ng-repeat="action in cards[0].states[0].definedActions.actions">
+                                        <a href="#" ng-click="performAction(action)" role="menuitem">
+                                            <span class="slds-truncate">{{action.id}}</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div ng-if="records.length ==0">
+        No Lines found for this account
+    </div>
+    
+    <div class="vdo-ban-lines-actionbar slds-p-around--large" ng-show="selectedItems > 0 && showLinesActionBar">
+        <div class="vdo-selected-num">{{selectedItems}} item(s) selected</div>
+        <div class="slds-grid slds-grid--align-spread slds-p-horizontal--medium">
+            <div>
+                <ul>
+                    <li>
+                        <button class="slds-button">
+                            <slds-svg-icon sprite="'utility'" icon="'reply'" size="'medium'" ></slds-svg-icon>
+                            Move
+                        </button>
+                    </li>
+                    <li>
+                        <button class="slds-button">
+                            <slds-svg-icon sprite="'utility'" icon="'lock'" size="'medium'" ></slds-svg-icon>
+                            Suspend
+                        </button>
+                    </li>
+                    <li>
+                        <button class="slds-button">
+                            <slds-svg-icon sprite="'utility'" icon="'delete'" size="'medium'" ></slds-svg-icon>
+                            Delete
+                        </button>
+                    </li>
+                    <li>
+                        <button class="slds-button">
+                            <slds-svg-icon sprite="'utility'" icon="'threedots'" size="'medium'" ></slds-svg-icon>
+                            More
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <!--<div ng-click="showLinesActionBar=false">
+                <button class="slds-button">
+                    <slds-svg-icon sprite="'utility'" icon="'close'" size="'medium'" ></slds-svg-icon>
+                    Close
+                </button>
+            </div>-->
+        </div>
+    </div>
+</div>

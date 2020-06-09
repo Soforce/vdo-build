@@ -1,0 +1,190 @@
+<script type="text/javascript">
+	$( document ).ready(function() {
+	    if(mySwiper != ''){
+	        mySwiper.destroy();
+	    }
+		mySwiper = new Swiper ('.swiper-container', {
+			slidesPerView: 'auto',
+  			centeredSlides: true,
+			spaceBetween: 20,
+			loop: false,
+			preventClicks: false,
+			preventClicksPropagation: false,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			}
+
+	    });
+	    mySwiper.on('slideChangeTransitionEnd', function () {
+	        if($('ion-content').scrollTop() != 0){
+			    $('ion-content').animate({ scrollTop: 0 }, 'slow');
+	        }
+		});
+	});
+</script>
+<div ng-controller="npTableListPlusController" data-card="card-{{cardIndex}}" data-popover-flyout="true" class="csm-asset csm-plan" ng-init="setRowData(obj, cardIndex)">
+    <div class="csm-title">
+        My Plan
+    </div>
+    <div class="csm-header-card">
+        <div class="csm-header-card-title title-{{cardIndex}}"> 
+            <div>
+                <img class="csm-header-profile-image" src="{{$root.instanceUrl + '/resource/npResource/speedometer.svg' | trusted}}">
+                <div class="csm-header-profile-image-background"></div>
+                Family Plan Large
+            </div>
+        </div>
+        <div class="csm-header-card-product">
+            <div class="csm-content-card-detail">
+                <div class="csm-detail-chart chart1-0">
+                    <img src="{{$root.instanceUrl + '/resource/VDOInternalResources/images/VDOCharts1.png' | trusted}}"/>
+                    <div class="csm-detail-chart-number">84<span>%</span></div>
+                </div>
+                <div class="csm-detail-chart-text">
+                    <div>Data</div>
+                    <div>2.6 of 15GB remaining</div>
+                </div>
+            </div>
+        </div>
+        <div class="csm-header-card-offer">
+            <div class="csm-header-card-offer-title">
+                <span>Your data is low.</span>
+            </div>
+            <div class="csm-header-card-offer-text">
+                <span>Add 10GB for only $10.</span>
+            </div>
+            <div class="csm-header-card-offer-button">
+                <span>Add Now</span>
+            </div>
+        </div>
+    </div>
+    <div class="csm-content-wrapper">
+        
+        <div class="csm-content-card">
+            <div class="csm-content-card-title">
+                Usage
+            </div>
+            <div class="csm-chart-trends">This period | <a href="#">Trends</a></div>
+            <div class="csm-content-card-detail">
+                <div class="csm-detail-chart chart2-{{cardIndex}}">
+                    <img src="{{$root.instanceUrl + '/resource/VDOInternalResources/images/VDOCharts3.png' | trusted}}"/>
+                    <div class="csm-detail-chart-number">43<span>%</span></div>
+                </div>
+                <div class="csm-detail-chart-text">
+                    <div>Voice</div>
+                    <div>2302 mins remaining</div>
+                </div>
+            </div>
+            <div class="csm-content-card-detail">
+                <div class="csm-detail-chart chart3-{{cardIndex}}">
+                    <img src="{{$root.instanceUrl + '/resource/VDOInternalResources/images/VDOCharts2.png' | trusted}}"/>
+                    <div class="csm-detail-chart-number">61<span>%</span></div>
+                </div>
+                <div class="csm-detail-chart-text">
+                    <div>SMS</div>
+                    <div>195 of 500 remaining</div>
+                </div>
+            </div>
+            <div class="csm-content-card-detail">
+                <div class="csm-detail-chart chart1-{{cardIndex}}">
+                    <img src="{{$root.instanceUrl + '/resource/VDOInternalResources/images/VDOCharts1.png' | trusted}}"/>
+                    <div class="csm-detail-chart-number">84<span>%</span></div>
+                </div>
+                <div class="csm-detail-chart-text">
+                    <div>Data</div>
+                    <div>2.6 of 15GB remaining</div>
+                </div>
+            </div>
+            <div><a hred="#">Add more data</a></div>
+        </div>
+        <div class="csm-content-card">
+            <div class="csm-content-card-title">
+                My Household
+            </div>
+            <div class="csm-content-card-detail">
+                <div class="csm-detail-family-block">
+                    <img src="{{$root.instanceUrl + '/resource/VDOCommunityResources/images/profilepicjenny.png' | trusted}}">
+                    <p>Jenny</p>
+                    <p>Owner</p>
+                </div>
+                <div class="csm-detail-family-block">
+                    <img src="{{$root.instanceUrl + '/resource/VDOCommunityResources/images/profilepicsophie.png' | trusted}}">
+                    <p>Sophie</p>
+                    <p>User</p>
+                </div>
+                <div class="csm-detail-family-block">
+                    <img src="{{$root.instanceUrl + '/resource/VDOCommunityResources/images/profilepicpeter.png' | trusted}}">
+                    <p>Alex</p>
+                    <p>Authorized</p>
+                </div>
+                <div class="csm-detail-family-block">
+                    <img src="{{$root.instanceUrl + '/resource/npResource/add.svg' | trusted}}">
+                    <p> </p>
+                    <p>Add</p>
+                </div>
+            </div>
+        </div>
+        <div class="csm-content-card">
+            <div class="csm-content-card-title">
+                Manage Plan
+            </div>
+            <div class="csm-content-card-detail csm-detail-manage-device">
+                <div ng-repeat="action in data.actions">
+                    <a ng-click="performAction(action, null, '')">
+                        <p>{{action.displayName}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="csm-content-card">
+            <div class="csm-content-card-title">
+                Plan Details
+            </div>
+            <div class="csm-content-card-detail csm-detail-device-detail">
+                <div>
+                    <label>Name:</label> Family Mobile Large
+                </div>
+                <div>
+                    <label>Data:</label> 15GB
+                </div>
+                <div>
+                    <label>Voice:</label> 8000 Minutes
+                </div>
+                <div>
+                    <label>Messages:</label> 5000 SMS
+                </div>
+                <div>
+                    <label>Renewal:</label> 01/01/2018
+                </div>
+                <div>
+                    <label>Charges:</label> $78.99
+                </div>
+                <div>
+                    <label>Devices:</label> 4
+                </div>
+            </div>
+        </div>
+        <div class="csm-content-card">
+            <div class="csm-content-card-title">
+                Offers
+            </div>
+            <div class="csm-content-card-detail">
+                <div class="csm-detail-offer">
+                    <img src="{{$root.instanceUrl + '/resource/VDOProductResources/images/TNEssential.png' | trusted}}">
+                    <div>Phones</div>
+                    <div>From $79.95</div>
+                </div>
+                <div class="csm-detail-offer">
+                    <img src="{{$root.instanceUrl + '/resource/VDOProductResources/images/TNOnDemand.png' | trusted}}">
+                    <div>TV Packages</div>
+                    <div>From $19.95</div>
+                </div>
+                <div class="csm-detail-offer-button">
+                    <span>Shop Now</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

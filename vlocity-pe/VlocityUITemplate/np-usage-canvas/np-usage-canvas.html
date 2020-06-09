@@ -1,0 +1,36 @@
+<div class="via-slds np-canvas  slds-m-top--small np-usage-canvas"  ng-controller="npCanvasCtrl"   ng-class="sessionBorder== 'false'  ? '' : 'np-border'">
+    <!-- layout session variable: Border = 'true/false' to remove border-->
+    <!-- layout session variable: Title = 'Layout Title'-->
+     <div class="slds-p-around--medium slds-grid">
+         <!-- hide if layout session variable Title is undefined -->
+         <h3 ng-hide="!sessionTitle" class="slds-is-relative slds-m-bottom--large np-session--title">
+        {{sessionTitle}}
+            </h3>
+         <div class="slds-col--bump-left slds-p-top--x-small control-link" ng-init="cardFilter = 'thisperiod'">
+                    <a ng-class="{'slds-text-link--reset': cardFilter === 'thisperiod'}" ng-click="cardFilter = 'thisperiod'">This Period</a> | 
+                    <a ng-class="{'slds-text-link--reset': cardFilter === 'trends'}" ng-click="cardFilter = 'trends'">Trends</a>
+                </div>
+                
+         <div class="slds-col--bump-left slds-p-top--x-small control-btn" ng-init="cardFilter = 'thisperiod'">
+                    <a ng-class="{'active': cardFilter === 'thisperiod'}" ng-click="cardFilter = 'thisperiod'">This Period</a> 
+                    <a ng-class="{'active': cardFilter === 'trends'}" ng-click="cardFilter = 'trends'">Trends</a>
+                </div>
+        </div>
+        <!-- vloc-card directive is used to define the cards
+            use ng-repeat cards to repeat the data records.
+        -->
+        <div class="slds-grid slds-m-bottom--small slds-wrap cards-container">
+            <div 
+            vloc-card ng-repeat="card in cards" 
+            ctrl="{{ctrl}}" 
+            ng-model="card" 
+            data="card" 
+            records="records" 
+            index="{{$index}}" 
+            session-id="{{sessionId}}" 
+            class="slds-size--1-of-1" 
+            use-existing-element-type>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<article class="asset-summary slds-card slds-card--narrow" data-card="card-{{cardIndex}}" hotkey-layout-card ng-controller="AssetSummaryController as at">
+    <div class="card-info slds-card__body">
+        <div class="slds-media">
+            <div class="slds-media__figure asset-image">
+                <!--<img ng-src="{{$root.instanceUrl + obj['Product_Family_Image__c']}}" />-->
+                <vloc-layout  layout-name="vdo-np-product-image" productid="{{obj.Product2Id}}" ng-if="!obj.Name.includes('Unlimited')"></vloc-layout>
+                <div class="unlimited-icon" ng-if="obj.Name.includes('Unlimited')"></div>
+            </div>
+            <div class="slds-media__body">
+                <div class="account-data" >
+                <h2 class="slds-text-heading--largera objname">{{obj.Name}}</h2>
+                <div class="as{{obj.Status}}">{{obj.Status}}</div>
+                </div> 
+                
+                <div class="other-field" ng-repeat="field in data.fields">
+                <span class="field-label">{{field.label}}</span>
+                <span class="field-value">{{obj | getter: field | picker: field.type}}</span>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <footer class="slds-card__footer">
+         <div class="more-details-link" ng-click="at.viewDetail(obj)">
+            More Details<span></span>
+            </div>
+            </footer>
+</article>

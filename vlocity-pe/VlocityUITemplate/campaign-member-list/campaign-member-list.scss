@@ -1,0 +1,207 @@
+/*** VARIABLES ***/
+@import "campaign-variables";
+/*** MIXINS ***/
+@import "campaign-mixins";
+
+
+.campaign-member-list {
+
+    .campaign-list-spinner{
+        top: 10rem;
+    }
+    
+    .refresh-icon{
+        position: relative;
+        left: -.5rem;
+        top: -0.5rem;
+    
+    }
+    
+    .filter-active{
+        background-color: #f4f6f9;
+    }
+    .nav-btns{
+        width: 48.4%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .filter-modal-footer{
+        width: 100%;
+        box-shadow: none;
+        border-top: none;
+        border-left: 1px solid #d8dde6;
+        border-right: 1px solid #d8dde6;
+        border-bottom: 1px solid #d8dde6;
+    }
+    
+    .filter-list{
+        width: 19.8rem;
+         min-height: 37rem; 
+    }
+    
+    .filter-list-items{
+        border-left: 1px solid #d8dde6;
+        border-right: 1px solid #d8dde6;
+        border-bottom: 1px solid #d8dde6;
+    }
+    
+    
+    .slds-button{
+        &.slds-button--brand{
+            &.list-footer{
+            width: 5rem;
+            }
+        }
+    }
+    .target-call-date{
+        font-style: italic;
+    }
+    
+    .campaign-list-member {
+        cursor: pointer;
+    }
+    
+    .slds-icon{
+        fill: #0070d2;
+        width: 1em;
+        
+        &.status{
+            fill: #d8dde6;
+            width: 1em;
+        }
+        
+        &.past-due{
+            width: 1.2em;
+            fill:  #d4504c;
+        }
+    }
+    
+    .slds-text-body--small{
+        font-size: 10px;
+    }
+    
+    .slds-has-dividers--left>.slds-item:after {
+        margin-left: .3em;
+        margin-right: .3em;
+    }
+    
+    
+    .slds-has-dividers--left{
+        padding-top: 1px;
+    }
+    
+    .slds-form-element{
+        &.container{
+            width: calc(100% - 10px);
+            margin: 0;
+            min-height: 58px;
+            padding: .2em;
+            padding-top: 8px;
+            
+            li.slds-item {
+                display: inline-block;
+            }
+        }
+    }
+    
+    // .slds-form-element__label {
+    //     margin-right: 1px;
+    //     float: left;
+    //     line-height: 1.5;
+    //     padding-top: 3px;
+    // }
+    
+     section{
+        width: 100%;
+        min-height: 58px;
+        padding-left: 4px;
+        overflow-y: hidden;
+        border-right: 6px solid transparent;
+        
+        &:hover, &:active, &:focus, .selected {
+        	transform: translateZ(0);
+        	backface-visibility: hidden;
+        	-moz-osx-font-smoothing: grayscale;
+        	transition-duration: 0.4s;
+        	transition-property: background-color;
+            border-color: #0070d2;
+        }
+        
+    }
+    .status-icon{
+        font-size: 1.3rem;
+        float: right;
+        color: #0070d2;
+        width: 64px;
+        text-align: center;
+        min-height: 100%;
+        position: relative; 
+        top: .4rem;
+        
+        &.past-due{
+            fill: #d4504c;
+            font-size: 1.6rem;
+        }
+    }
+}
+li.vlc-list-card-row {
+    list-style: none;
+    //border-bottom: 1px solid $mid-gray;
+	display: block;
+	cursor: pointer;
+
+    section {
+        padding: 20px 0;
+        &:hover, &:active, &:focus, .selected {
+        	transform: translateZ(0);
+        	backface-visibility: hidden;
+        	-moz-osx-font-smoothing: grayscale;
+        	transition-duration: 0.4s;
+        	transition-property: background-color;
+        	//background: #0070d2;
+        
+            .vlc-list-card {
+        	    div, ul.actions>li>a>.icon {
+        		    color: white;
+        	    }
+            }
+        }
+
+    }
+}
+
+.vlc-list-card {
+	display: block;
+
+	div {
+		//color: $light-blue;
+		text-transform: uppercase;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		background: blue;
+		padding-left: 10px;
+		
+		.header{
+
+		}
+		.sub-data:first-child {
+            margin-left: 10px;
+		}
+		
+	}
+	
+	ul.actions {
+	    padding: 0;
+	    margin: 0 4px;
+	    list-style: none;
+	    float: right;
+	    > li {
+	        float: left;
+	        > a>.icon:before {
+	            font-size: 18px;
+	        }
+	    }
+	}
+}

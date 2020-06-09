@@ -1,0 +1,17 @@
+<div class="np-usage-progress-card slds-p-around--medium" ng-controller="usageProgressController">
+    <div ng-init="calculatePercent(obj,data)" class="slds-grid slds-p-top--small">
+        <div class="slds-size--2-of-12 slds-p-bottom--x-large np-bar-title"> 
+          {{placeholder.barDetails.value}}
+          </div>
+          <div class="slds-size--10-of-12 slds-p-bottom--x-large">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="30px" data-view-box="0 0 300 30" preserveAspectRatio = "xMinYMin slice" viewBox="0 0 300 30">
+                    <g x="0" y="0" ng-attr-transform="translate(0,0)">
+                
+                      <rect width="300" height="30" x="0" y="0" fill="#d8dde6"></rect>
+                      <rect ng-attr-width="{{ cirPercent* 3 }}" height="30" x="0" y="0" ng-attr-fill="{{placeholder.barDetails.label || '#45A5DE'}}"></rect>
+                    </g>
+                  </svg>
+            </div>
+    </div>
+	
+</div>

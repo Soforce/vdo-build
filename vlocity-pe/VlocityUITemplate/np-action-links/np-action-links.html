@@ -1,0 +1,16 @@
+<div  ng-controller="npActionlinks" class="slds-card__body npActionlinks">
+    <div class="slds-card__body--inner slds-grid slds-wrap slds-grid--pull-padded" >
+         <!-- limiting the data to 5 for each column-->
+      <div class="slds-tile slds-media slds-card__tile slds-p-top--x-small slds-hint-parent slds-p-horizontal--small" 
+        ng-repeat="actions in data.actions | limitTo: (data.actions.length/4)+1" >
+        <div class="slds-media__body">
+            <!-- splicing data to show 5 actions in a each column-->
+            <div class="slds-tile__detail slds-m-bottom--large" ng-init="test =  spliceData(data.actions,4,4)" 
+              ng-repeat="action in spliceData(data.actions,4 * $index, 4 * ($index+1) )">
+            <a href="#" ng-click="performAction(action)"  hotkey-card-action>{{action.displayName}}</a>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

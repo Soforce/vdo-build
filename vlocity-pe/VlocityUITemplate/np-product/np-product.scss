@@ -1,0 +1,83 @@
+/*** STYLES ***/
+    .vlocity {   /* Always use vlocity class as a wrapper */
+        .np-product-highlight-card { 
+            color:#16325c;
+            width:100%;
+            width:300px;
+            min-width:260px;
+            .np-product--title{
+                font-size:20px;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+            .np-card
+            {
+                    background: #F8FBFE !important;
+                    border-color: #e8eef5 !important;
+                    min-height: 380px;
+                    position:relative;
+                    
+                    
+                    .np-sale{
+                        position: absolute;
+                        top: -10px;
+                        left: -10px;
+                        width: 100px;
+                        height: 40px;
+                        background: #ff7900;
+                        color: #FFF;
+                        box-shadow: 1px 1px 1px #9eaabf;
+                        line-height: 40px;
+                        font-size: 14px;
+                        text-align: center;
+                        padding-left: 10px;
+                        display:none;
+                        
+                        img{
+                           position: absolute;
+                            width: 35px;
+                            height: 35px;
+                            margin-left: -5px;
+                            border-radius: 35px;
+                            top: -2px;
+                            left: -10px;
+                            z-index: 20;
+                            box-shadow: 0px 0px 10px rgba(0, 129, 249, 0.5);
+                        }
+                        
+                    }
+                    
+                    .sale{
+                        display:block !important;
+                    }
+                    
+                    &:hover{
+                        background: #e8eef5 !important;
+                        cursor:pointer;
+                    }
+                
+            }
+            
+            img{
+               
+                margin:0 auto;
+                height: 290px;
+                width: auto;
+            }
+            
+          
+            .price
+            {
+                text-decoration: line-through;
+                font-size:18px;
+            }
+            
+            .offer-price
+            {
+                color:#ff7900;
+                font-size:18px;
+            }
+            
+        }   
+    }

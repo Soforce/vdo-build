@@ -1,0 +1,23 @@
+/*** STYLES ***/
+    .vlocity {   /* Always use vlocity class as a wrapper */
+        .statement-media-canvas { 
+            margin-top:15px;
+            .bg--white
+            {
+                background:white;
+                border: 0px;
+            }
+            
+            .action-link-header:after {
+                content: "";
+                background: #e06a1a;
+                position: absolute;
+                bottom: -20px;
+                left: 0;
+                width: 50px;
+                height: 2px;
+            }
+            
+            
+        }   
+    }

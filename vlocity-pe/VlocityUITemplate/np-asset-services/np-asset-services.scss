@@ -1,0 +1,62 @@
+@import "npVariables";
+/*** STYLES ***/
+// include mixin "npVariables" for fonts and colors.
+// npVariables mixin template should be active.
+    .vlocity { /* Always use vlocity class as a wrapper */
+        .np-asset-services{
+            position:relative;
+            .np-toggle-button{
+                position:absolute;
+                left:20px;
+            }
+            .np-asset-desc{
+               
+                font-size:$font-medium;
+                color:#000;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+            .np-services-list{
+            
+                span{
+                   
+                   
+                }
+                .np-list-inline{
+                        display:inline;
+                        cursor:pointer;
+                    }
+            }
+            .np-child-assets{
+                cursor:pointer;
+            }
+            .slds-button__icon{
+                   pointer-events: none;
+                   
+                }
+            li,h2{
+                font-size:$font-medium;
+                 color:$theme-color-1;
+            }
+            h2{
+                position:relative;
+                div{
+                    cursor:pointer;
+                }
+                span{
+                    position: absolute;
+                    left: -18px;
+                     cursor:pointer;
+                }
+                
+            }
+            &.custom-border--bottom
+            {
+                border-bottom: 1px solid $border-color-1;
+            }
+        }
+       
+               
+ 
+    }

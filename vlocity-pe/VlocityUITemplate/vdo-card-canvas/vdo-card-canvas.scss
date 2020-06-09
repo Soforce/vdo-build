@@ -1,0 +1,202 @@
+/*** VARIABLES ***/
+@import "variables";
+
+/*** MIXINS ***/
+@import "mixin";
+
+/*** STYLES ***/
+body {
+    background: $white;
+    padding: 0;
+    margin: 0;
+}
+
+.vlocity {
+    
+    * {
+        font-family: "Salesforce Sans", Arial, sans-serif;
+        transition: all 100ms ease-in;
+    }
+    ul li, ol li {
+        margin-left:0px;
+    }
+
+    a {
+        &:hover, &:active, &:focus, &:visited {
+            text-decoration: none;
+        }
+    }
+
+    .cards-container {
+        @include clearfix;
+        overflow: hidden;
+        width: auto;
+        margin:0px;
+        form {
+            padding:10px;
+            button.btn.btn-primary {
+                border: 1px solid #d8dde6;
+                color:#16325C;
+                padding-left:16px;
+                padding-right:16px;
+                span{
+                }
+            }
+            
+            
+        }
+    }
+    
+    section.console-flyout {
+        float: left;
+        position: relative;
+        cursor: default;
+        min-height: 100px;
+        width: calc(100% - 20px);
+        margin:10px;
+        background-color: $white;
+        box-sizing: border-box;
+        border: 1px solid #dedede;
+        
+        &.flyout {
+            transition:all 0.3s ease-in-out;
+            .animate-leave {
+              opacity: 1;
+              top: 0;
+              border:10px red;
+              height: 30px;
+            }
+            .card-info {
+                padding:20px;
+            }
+            .flyout-arrow {
+                display: none;
+                position: absolute;
+                z-index: 10;
+                border-bottom: 18px solid #E5F2FA;
+                border-left: 18px solid transparent;
+                border-right: 18px solid transparent;
+                height: 0;
+                width: 0;
+                pointer-events: none;
+                bottom: 100%;
+                top:-17px;
+            }
+            .flyout-close {
+                display:inline-block;
+                position:absolute;
+                right:5px;
+                top:5px;
+                cursor:pointer;
+                i {
+                    font-size:30px;
+                }
+            }
+            
+            .card-info {
+                @include clearfix;
+
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+
+                    &.details {
+                        float: left;
+                        padding: 10px 5px 0px 0px;
+                        width: 48%;/* fallback */
+                        width: calc(100% - 150px); //.actions width
+                        cursor:pointer;
+                        word-wrap: break-word;
+                        li {
+                            margin-bottom: 16px;
+
+                            &:last-of-type {
+                                margin: 0;
+                            }
+                        }
+
+                        span {
+                            display: block;
+
+                            &.detail-label {
+                                font-weight: 600;
+                                font-size: 12px;
+                                text-transform: uppercase;
+                            }
+
+                            &.value {
+                                text-transform: none;
+                                color: $text-gray;
+                                font-size: 14px;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+
+                    &.actions {
+                        float: right;
+                        width: 150px;
+                        word-wrap: break-word;
+
+                        a {
+                            display: table;
+                            width: 100%;
+                            height: 53px;
+                            border-bottom: 2px solid $light-gray;
+
+                            img {
+                                width: 29px;
+                                height: 29px;
+                                margin: 5px 9px;
+                                display: table-cell;
+                                vertical-align: middle;
+                            }
+
+                            i.icon {
+                                display: table-cell;
+                                vertical-align: middle;
+                                font-size: 25px;
+                                line-height: 34px;
+                                color: $light-blue;
+                                width: 40px;
+                                
+                                &:before {
+                                    font-weight: 100;
+                                    line-height: 34px;
+                                }
+                            }
+
+                            span {
+                                font-size: 12px;
+                                color: $text-gray;
+                                line-height: 1;
+                                display: table-cell;
+                                vertical-align: middle;
+                            }
+
+                            &:hover {
+                                text-decoration: none;
+
+                                i.icon {
+                                    color: $dark-blue;
+                                }
+
+                                span {
+                                    color: $light-blue;
+                                }
+                            }
+                        }
+
+                        li:last-of-type {
+                            a {
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

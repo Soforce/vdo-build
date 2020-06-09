@@ -1,0 +1,17 @@
+@import "campaign-variables";
+@import "campaign-mixins";
+
+.via-slds-story-cards--header {
+    border: 1px solid $cards-border-gray;
+    border-radius: 0.25rem;
+}
+
+.via-slds-story-cards--header-title {
+        position: relative;
+}
+
+.via-slds-feed-item:last-child {
+    .slds-media--timeline:before {
+        display: none;
+    }    
+}

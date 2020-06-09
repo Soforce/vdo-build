@@ -1,0 +1,34 @@
+<link rel="stylesheet" type="text/css" href="/apex/VDODemoCSS"/>
+<div class="vdo-ban-details slds-m-around--small">
+
+    <vloc-card ng-repeat="card in cards |orderBy:order|filter: searchFunc(card)" ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}"></vloc-card>
+
+    <div class="slds-tabs--default slds-p-around--x-large vdo-tabs-wrapper" ng-init="selectedBANTab=0">
+        <ul class="slds-tabs--default__nav" role="tablist">
+            <li class="slds-tabs--default__item vdo-ban-tabs" ng-class="{'slds-active': (selectedBANTab ===0)}" title="Item One" role="presentation">
+                <a class="slds-tabs--default__link vdo-ban-tabs-link" href="javascript:void(0);" role="tab" tabindex="0" aria-selected="true" aria-controls="tab-default-1" ng-click="selectedBANTab =0;" id="tab-default-1__item">
+                    Lines
+                    <span ng-if="lineRecords">({{lineRecords.length}})</span>
+                </a>
+            </li>
+            <li class="slds-tabs--default__item vdo-ban-tabs" title="Item Two" role="presentation" ng-class="{'slds-active': (selectedBANTab ===1)}">
+                <a class="slds-tabs--default__link vdo-ban-tabs-link" href="javascript:void(0);" role="tab" tabindex="-1" aria-selected="false" aria-controls="tab-default-2" id="tab-default-2__item" ng-click="selectedBANTab =1;">Usage</a>
+            </li>
+      </ul>
+      <div id="tab-default-1" class="slds-tabs--default__content vdo-ban-tab-content" ng-class="selectedBANTab ===0?'slds-show':'slds-hide'" role="tabpanel" aria-labelledby="tab-default-1__item">
+            <div class="slds-spinner_container" ng-show="!lineRecords">
+                <div role="status" class="slds-spinner slds-spinner--medium">
+                   <span class="slds-assistive-text">Loading</span>
+                   <div class="slds-spinner__dot-a"></div>
+                   <div class="slds-spinner__dot-b"></div>
+              </div>
+            </div>
+          
+          <vloc-layout layout-name="vdo-business-community-account-lines-layout" records="lineRecords"></vloc-layout>
+      </div>
+      <div id="tab-default-2" class="slds-tabs--default__content vdo-ban-tab-content" ng-class="selectedBANTab ===1?'slds-show':'slds-hide'" role="tabpanel" aria-labelledby="tab-default-2__item">
+          <vloc-layout layout-name="vdo-business-community-account-usage-layout"></vloc-layout>
+      
+      </div>
+    </div>
+</div>

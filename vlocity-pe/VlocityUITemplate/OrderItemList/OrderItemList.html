@@ -1,0 +1,43 @@
+<!-- ******************************************************************** -->
+<!-- OrderItemList -->
+<!-- ******************************************************************** -->
+<div class="panel panel-default">
+  
+  <div class="panel-heading">
+    <label>Order Items</label>
+  </div>
+  
+  <table class="table slds-table slds-table--bordered slds-table--cell-buffer">
+   <thead>
+     <tr>
+       <th>Name</th>
+       <th>Quantity</th>
+       <th>Service Account</th>
+       <th>One-Time Price</th>
+       <th>Recurring Price</th>     
+     </tr>
+   </thead>   
+   <tbody>
+     <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected, 'highlight': p.ParentItemId == 'Parent' }">
+       <td>
+           <div id="orderItemName" class="slds-truncate">{{ p.ItemName | indent:p.LineNumber }}</div>
+       </td>
+       <td style="text-align:center">{{ p.Quantity }}</td>
+       <td><div class="slds-truncate">{{ p.ServiceAccount }}</div></td>
+       <td>
+         <div style="text-align:right">
+           <span>{{ p.CurrencySymbol }}</span>
+           {{ p.OneTimeTotal | currency }} 
+         </div>
+       </td>
+       <td>
+         <div style="text-align:right">
+           <span>{{ p.CurrencySymbol }}</span>
+           {{ p.RecurringTotal | currency }}
+         </div>
+       </td>
+     </tr>
+   </tbody>
+  </table>
+  
+</div>

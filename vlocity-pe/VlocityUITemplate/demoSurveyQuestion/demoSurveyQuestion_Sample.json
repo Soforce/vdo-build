@@ -1,0 +1,73 @@
+{
+    "control": {
+        "$$hashKey": "object:53",
+        "JSONPath": "",
+        "bHasAttachment": false,
+        "children": [
+        ],
+        "index": 0,
+        "indexInParent": 2,
+        "level": 1,
+        "name": "CustomerOrderSurvey2",
+        "propSetMap": {
+            "HTMLTemplateId": "",
+            "accessibleInFutureSteps": false,
+            "conditionType": "Hide if False",
+            "controlWidth": 3,
+            "controllingField": {
+                "element": "",
+                "source": "",
+                "type": ""
+            },
+            "defaultValue": null,
+            "disOnTplt": false,
+            "documentNames": [
+                "CABJBBAFAdb1338c4ecfd4f2a8296ce17f3d17a2d",
+                "CABJBBAFA75cfb977ad0d4a818ff301ce9a00821f",
+                "CABJBBAFAbbd5c6667b16485ba28f9b2623ad813d"
+            ],
+            "enableCaption": false,
+            "help": false,
+            "helpText": "",
+            "hide": false,
+            "horizontalMode": "image",
+            "imageCountInRow": 3,
+            "label": "How pleased were you with your purchase today?",
+            "optionHeight": 50,
+            "optionSource": {
+                "source": "",
+                "type": "image"
+            },
+            "optionWidth": 50,
+            "options": [
+                {
+                    "imgId": "../servlet/servlet.ImageServer?id=0154P000005t7w5QAA&&docName=CABJBBAFAdb1338c4ecfd4f2a8296ce17f3d17a2d&&oid=00D4P000000gRAhUAM",
+                    "name": "1",
+                    "value": "bad"
+                },
+                {
+                    "imgId": "../servlet/servlet.ImageServer?id=0154P000005t7wAQAQ&&docName=CABJBBAFA75cfb977ad0d4a818ff301ce9a00821f&&oid=00D4P000000gRAhUAM",
+                    "name": "5",
+                    "value": "ok"
+                },
+                {
+                    "imgId": "../servlet/servlet.ImageServer?id=0154P000005t7wFQAQ&&docName=CABJBBAFAbbd5c6667b16485ba28f9b2623ad813d&&oid=00D4P000000gRAhUAM",
+                    "name": "10",
+                    "value": "good"
+                }
+            ],
+            "readOnly": false,
+            "repeat": false,
+            "repeatClone": false,
+            "repeatLimit": null,
+            "required": false,
+            "show": null
+        },
+        "req": false,
+        "response": null,
+        "ro": false,
+        "rootIndex": 0,
+        "show": true,
+        "type": "Radio"
+    }
+}

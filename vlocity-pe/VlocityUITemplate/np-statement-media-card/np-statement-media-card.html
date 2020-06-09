@@ -1,0 +1,15 @@
+<div ng-click="performAction(data.actions[0])" ng-controller="statementMediaController" class="statement-media--card slds-p-vertical--x-large  slds-p-horizontal--small slds-text-align--center custom-bg">
+  
+    <slds-svg-icon ng-if="!sessionData" sprite="'utility'" icon="'copy'" size="'large'" extra-classes="'custom-statement-icon'"> </slds-svg-icon>
+    <div >
+        <img src="{{sessionData}}"  >
+    </div>
+    
+    <div class="slds-p-top--small">
+        <div ng-repeat="field in data.fields" >
+        <p>{{obj | getter: field | picker:field.type}} </p>
+        
+    </div>
+    </div>
+    
+</div>

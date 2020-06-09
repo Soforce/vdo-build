@@ -1,0 +1,22 @@
+<!-- banner carousel with swipe and tap functionality-->
+<div class="np-hero-resource-card" data-card="{{uniqueLayoutId}}-card-{{cardIndex}}"  data-popover-flyout="true"  ng-class="{selected:isSelected(cardIndex)}"  ng-init="viaSldsCardSlide = {index: 0}"
+    on-swipe-right="viaSldsCardSlide.index = viaSldsCardSlide.index > 0 ? viaSldsCardSlide.index - 2 : 0"  
+    on-swipe-left="viaSldsCardSlide.index = viaSldsCardSlide.index+2 >= data.fields.length ? viaSldsCardSlide.index : viaSldsCardSlide.index + 2"
+    on-tap="viaSldsCardSlide.index = viaSldsCardSlide.index+2 >= data.fields.length ? 0 : viaSldsCardSlide.index + 2">
+   <!-- banner carousel -->
+    <div class="slds-col slds-grid slds-grid--vertical " ng-init="sliderFunc(cards)" ng-controller="npResourceCarouselImages as vm">
+        <ul class="np-hero-resource-card-inner" >
+            <div vloc-card  ng-repeat="card in cards |orderBy:order|filter: searchFunc(card, searchTerm)" ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" cindex="{{viaSldsCardSlide.index}}" session-id="{{sessionId}}"
+            class="slds-size--1-of-1" use-existing-element-type></div>
+        </ul>
+        <!-- repeating the buttons based on the count and clickable to get the desired carousel banner-->
+        <div>
+           <ul class="np-hero-resource-card-carouse--buttons">
+                <li ng-repeat="field in data track by $index">
+                    <input type="radio" id="np-hero-resource-card-carousel-{{$index}}" name="np-hero-resource-card-carousel" ng-model="viaSldsCardSlide.index"  ng-value="$index">
+                    <label  for="np-hero-resource-card-carousel-{{$index}}" ></label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

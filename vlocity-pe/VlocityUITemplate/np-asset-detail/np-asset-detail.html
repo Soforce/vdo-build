@@ -1,0 +1,88 @@
+<div ng-controller="npTableListPlusController" class="np-table-list slds-row slds-p-bottom--x-small" data-card="card-{{cardIndex}}" data-popover-flyout="true"  ng-init="setRowData(obj, cardIndex)">
+
+<!-- p>ROOT: {{$root.vlocity | json}}</p -->
+<!-- p>PARAMS: {{params}}</p -->
+<!-- p>DATA: {{data}}</p --> 
+
+	<!-- Begin Title -->
+	<div class="slds-size--1-of-1 np-asset-plus-title" title="{{field.label}}">
+		{{placeholder.Title.value}}
+	</div>
+
+	<div class="slds-grid slds-wrap slds-grid--pull-padded slds-m-top--xx-large">
+
+		<!-- Reduced image size by setting the following to 3-of-12 instead of 5-of-12 -->
+		<div class="slds-size--2-of-12 ">
+			<vloc-layout  layout-name="np-product-image" productid="{{obj.Product2Id.value}}"></vloc-layout>
+		</div>
+
+		<!-- Fields, Attributes, Actions --> 
+		<div class="slds-size--8-of-12 slds-p-horizontal--large slds-size_full">
+			<div class="slds-col slds-grid slds-wrap slds-m-top--large ">
+
+				<!-- Display Fields from Card --> 
+				<div class="slds-grid slds-size--1-of-1 slds-m-bottom--x-small slds-size_full" ng-repeat="field in data.fields">
+					<div class="slds-size--1-of-2">
+						<span >{{field.label}}</span>
+					</div>
+
+					<div class="slds-size--1-of-2">
+						<div ng-repeat="field in data.fields"></div>
+
+						<span>{{obj | getter: field | picker: field.type }}</span>
+					</div>
+				</div> 
+
+				<!-- Display Attributes --> 
+				<div class="slds-grid slds-wrap slds-size--1-of-1 slds-size_full " data-card="card-{{cardIndex}}" data-popover-flyout="true" >
+					<div class="slds-grid slds-wrap slds-size--1-of-1 slds-m-top--x-small slds-m-bottom--x-small"  style="position: relative" ng-repeat="field in row.attrs.slice(1,row.attrs.length)" >
+						<div class="slds-size--1-of-2" title="{{field.label}}"> 
+							<div class="np-table-list-plus-text slds-truncate">
+								{{field.label}} 
+								<!--
+								<p>field.hidden = {{field.hidden}} </p>
+								<p>field.disabled = {{field.disabled}} </p>
+								<p>{{row}}</p>
+								<p>{{field}}</p>
+								-->
+							</div>
+						</div>
+
+						<div class="slds-size--1-of-2">
+							<div ng-if="field.inputType === 'dropdown'">
+								<div ng-repeat="value in field.values" ng-if="value.value === field.userValues"><span ng-init="field.userValues = value"></span></div>
+								<span>{{field.values[0].label}}</span>
+
+								<div class="slds-grid" ng-if="field.inputType !== 'dropdown'  && field.inputType !== 'checkbox'">
+									<div class="slds-size--3-of-4">
+										<span>{{field.userValues}}</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+		<!-- Display Actions --> 
+		<div class="slds-size--2-of-12 ">
+			<div class="slds-col slds-grid slds-wrap slds-m-top--large " ng-if="data.actions.length" slds-border_top slds-border_bottom slds-border_left slds-border_right >
+				<div class="slds-grid slds-size--1-of-1 slds-col--padded slds-size_full" slds-border_top slds-border_bottom slds-border_left slds-border_right>
+
+					<div class="slds-tile slds-p-top--x-small slds-p-bottom--medium" 
+						ng-repeat="action in data.actions | limitTo: (data.limitActionLinksTo?data.limitActionLinksTo:5)" >
+						<p class="slds-text-heading--label"> </p>
+						<a href="javascript:void(0);" class="via-action-link slds-text-link--reset slds-text-heading_small" ng-click="performAction(action)">
+				            <vloc-card-icon data="action" obj="obj" size="'small'" extra-classes="'big via-action-icon slds-icon-text-default'"></vloc-card-icon>&nbsp;
+							{{action.displayName}}
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>

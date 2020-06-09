@@ -1,0 +1,54 @@
+<div class="campaign-detail {{$root.rightColumn.toggleRightClass}}">
+    <div class="campaign-detail-header">
+        <div class="slds-icon_container slds-icon-standard-campaign" title="Campaign Details" ng-click="importedScope.toggleCollapseRightCol()">
+            <svg aria-hidden="true" class="slds-icon">
+                <use xlink:href="{{'/assets/icons/standard-sprite/svg/symbols.svg#campaign' | sldsStaticResourceURL}}"></use>
+            </svg>
+            <span class="slds-assistive-text">Campaign Details</span>
+        </div>
+        <span class="slds-text-heading--small">Campaign Details</span>
+    </div>
+    <div class="campaign-progress slds-m-bottom--medium" ng-if="$root.membersAggInfoByCampaign">
+        <div class="slds-text-heading--label">Campaign Progress</div>
+        <div class="campaign-progress-bar slds-m-top--x-small">
+            <span class="campaign-member-status campaign-member-status-{{status.label.toLowerCase()}} campaign-member-status-{{$index}}" ng-repeat="status in $root.membersAggInfoByCampaign" ng-style="importedScope.campaignAggInfo.getStatusProgessStyle(status)" bs-tooltip="status.label" ng-init="importedScope.campaignAggInfo.campaignAggInfogetStatusProgressPlacement($index)"></span>
+        </div>
+    </div>
+    <div class="slds-form-element slds-m-bottom--medium" ng-repeat="field in data.fields | limitTo:(data.actions.length  > 0 ? 11 : 12)" ng-if="field.label.indexOf('footer') === -1">
+        <label class="slds-text-heading--label">{{field.label}}</label>
+        <div class="slds-text-body--regular">
+        {{obj | getter: field | picker: field.type}}</div>
+        <div ng-if="field.label === 'Internal Notes'">
+          <div class="slds-form-element__control">
+            <textarea id="textarea-input-02" class="slds-textarea" placeholder="Jot down any personal notes here..."></textarea>
+          </div>
+        </div>
+        <div ng-if="field.label === 'Attributes'">
+            <div class="slds-box">
+            hard coded example: <div>[Golf] [High Value Client]
+            </div>
+            </div>
+        </div>
+    </div> 
+    <div class="slds-form-element slds-m-bottom--medium">
+        <div class="slds-text-align--center" ng-repeat="field in data.fields | limitTo:(data.actions.length  > 0 ? 11 : 12)" ng-if="field.label.indexOf('footer') > -1">
+            <span ng-if="field.name.indexOf('CreatedDate') > -1" class="slds-text-heading--label-normal">
+             Created On {{obj | getter: field | picker: field.type}}
+            </span>
+            <span ng-if="field.name.indexOf('CreatedBy') > -1" class="slds-text-heading--label-normal">
+                Created By {{obj | getter: field | picker: field.type}}
+            </span>
+            <span ng-if="field.name.indexOf('LastModified') > -1" class=" slds-text-heading--label-normal">
+                Last Modified On {{obj | getter: field | picker: field.type}}
+            </span>
+        </div>
+    </div>
+    <div class="toggle-panel" ng-click="importedScope.toggleCollapseRightCol()">
+        <div class="slds-icon_container" title="Toggle Right Column">
+            <svg aria-hidden="true" class="slds-icon slds-icon--small">
+                <use xlink:href="{{'/assets/icons/utility-sprite/svg/symbols.svg#' + $root.rightColumn.toggleIcon | sldsStaticResourceURL}}"></use>
+            </svg>
+          <span class="slds-assistive-text">Toggle Right Column</span>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,133 @@
+<div ng-init="importedScope.setObj(obj); importedScope.callListInit()" class="campaign-member-list slds-form-element slds-m-horizontal--small slds-clearfix">
+    <div class="slds-tabs--default">
+        <ul class="slds-tabs--default__nav" role="tablist">
+            <li class="slds-m-top--xx-small slds-float--left slds-p-horizontal--small">
+                <button class="slds-button slds-button--link" ng-click="importedScope.refreshList()"> <svg aria-hidden="true" class="slds-icon slds-icon--x-small"><use xlink:href="{{'/assets/icons/utility-sprite/svg/symbols.svg#refresh' | sldsStaticResourceURL}}"></use></svg></button>
+            </li>
+            <li class="slds-tabs--default__item slds-text-heading--label slds-float--left" ng-class="{'slds-active' : !importedScope.show_filter}" title="Members" ng-click="importedScope.show_filter = false" role="presentation">
+                <a class="slds-tabs--default__link" role="tab" tabindex="0" aria-selected="!importedScope.show_filter" aria-controls="tab-default-1" id="tab-default-1__item">Members</a>
+            </li>
+            <li class="slds-tabs--default__item slds-text-heading--label slds-clearfix slds-text-align--left" role="presentation">
+                <a class="slds-tabs--default__link slds-p-horizontal--xx-small" role="tab" tabindex="-1" aria-selected="importedScope.show_filter" aria-controls="tab-default-2" id="tab-default-2__item" ng-click="importedScope.show_filter = true">Filter
+                    <span class="slds-icon_container slds-m-left--xx-small">
+                        <svg aria-hidden="true" class="slds-icon slds-icon--x-small"><use xlink:href="{{'/assets/icons/utility-sprite/svg/symbols.svg#chevrondown' | sldsStaticResourceURL}}"></use></svg>
+                    </span>
+                </a>
+             </li>
+            <li class="slds-m-top--xx-small slds-clearfix" ng-show="!importedScope.show_filter">
+                <button class="slds-button slds-button--link" ng-class="{'disabled' : importedScope.currentPage === 0}" ng-click="importedScope.previousPage()" ng-disabled="importedScope.currentPage === 0"> 
+                    <svg aria-hidden="true" class="slds-icon slds-icon--x-small"><use xlink:href="{{'/assets/icons/utility-sprite/svg/symbols.svg#chevronleft' | sldsStaticResourceURL}}"></use></svg>
+                </button> 
+                <button class="slds-button slds-align-middle slds-text-body--small" disabled='true' ng-show="importedScope.calcPageNo() !== 'No Records'">{{importedScope.calcPageNo()}}</button>
+                <button class="slds-button slds-button--link slds-p-left--xx-small" ng-class="{'disabled' : importedScope.disableNextBtn}" ng-click="importedScope.nextPage()" ng-disabled="importedScope.disableNextBtn || !importedScope.listMembers.actions.nextMemberList;"> 
+                    <svg aria-hidden="true" class="slds-icon slds-icon--x-small"><use xlink:href="{{'/assets/icons/utility-sprite/svg/symbols.svg#chevronright' | sldsStaticResourceURL}}"></use></svg>
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div ng-show="importedScope.show_filter" class="filter-list-items slds-p-left--small">
+        <div class="form-element slds-p-top--small">
+            <div ng-show="importedScope.emptyResults" class="slds-notify slds-notify--alert slds-theme--alert-texture slds-m-right--small" role="alert">
+                <h2>No Results For Filter</h2>
+            </div>
+            <label class="slds-form-element__label" for="textarea-input-01">Sort By:</label>
+            <div class="slds-form-element__control">
+               <div class="slds-button-group" role="group">
+                  <button ng-click="importedScope.setSortBy('LastName')" class="slds-button slds-button--neutral" ng-class="{'filter-active': importedScope.filter.sortBy.LastName}">Last Name</button>
+                  <button ng-click="importedScope.setSortBy('Status')" class="slds-button slds-button--neutral" ng-class="{'filter-active': importedScope.filter.sortBy.Status}">Status</button>
+                  <button ng-click="importedScope.setSortBy('TargetCallDate__c')" class="slds-button slds-button--neutral slds-button--last" ng-class="{'filter-active': importedScope.filter.sortBy.TargetCallDate__c}">Target Date</button>
+                </div>
+            </div> 
+        </div> 
+        <div class="slds-form-element slds-m-top--small">
+            <label class="slds-form-element__label" for="textarea-input-01">Target Date Range:</label>
+            <div class="slds-form-element__control">
+               <div class="slds-button-group" role="group">
+                  <button ng-click="importedScope.setTargetDate('TODAY')" class="slds-button slds-button--neutral slds-p-horizontal--x-small" ng-class="{'filter-active': importedScope.filter.dateRange.TODAY}">Today</button>
+                  <button ng-click="importedScope.setTargetDate('THIS_WEEK')" class="slds-button slds-button--neutral slds-p-horizontal--x-small"
+                      ng-class="{'filter-active': importedScope.filter.dateRange.THIS_WEEK}">This Week</button>
+                  <button ng-click="importedScope.setTargetDate('THIS_MONTH')" class="slds-button slds-button--neutral slds-p-horizontal--x-small" ng-class="{'filter-active': importedScope.filter.dateRange.THIS_MONTH}">This Month</button>
+                   <button ng-click="importedScope.setTargetDate('ALL')" class="slds-button slds-button--neutral slds-p-horizontal--x-small slds-button--last" ng-class="{'filter-active': importedScope.filter.dateRange.ALL}">All</button>
+                </div>
+            </div> 
+        </div>
+         <div class="slds-form-element slds-m-top--small slds-m-bottom--small">
+            <label class="slds-form-element__label" for="textarea-input-01">Filter States By:</label>
+            <div class="slds-form-element__control" ng-repeat="(key, value) in importedScope.filter.status">
+                 <label class="slds-checkbox">
+                    <input type="checkbox" name="options" id="checkbox-01" ng-model="value" ng-click="importedScope.setFilterStatus(key, value)"/>
+                    <span class="slds-checkbox--faux"></span>
+                    <span class="slds-form-element__label">{{key}}
+                    </span>
+                </label>
+            </div>
+        </div>
+        </div> 
+        <div ng-show="importedScope.show_filter" class="slds-modal__footer filter-modal-footer slds-clearfix">
+            <button ng-click="importedScope.show_filter = false" class="slds-button slds-button--neutral slds-float--left">Cancel</button>
+            <button class="slds-button slds-button--neutral slds-button--brand slds-float--right" ng-click="importedScope.query()">Apply</button>
+        </div>
+    <span ng-hide="importedScope.show_filter">
+    <div class="slds-form-element slds-lookup slds-m-vertical--small" data-select="single" data-scope="single">
+        <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon--left">
+             <svg aria-hidden="true" class="slds-input__icon slds-icon-text-default">
+               <use xlink:href="{{'/assets/icons/utility-sprite/svg/symbols.svg#' + 'search' | sldsStaticResourceURL}}"></use>
+           </svg>
+        <input id="lookup-01" class="slds-lookup__search-input slds-input" type="text" aria-autocomplete="list" role="combobox" aria-expanded="true" aria-activedescendant="" placeholder="Search Members by Name" ng-model="importedScope.searchText"  ng-model-options='{ debounce: 250 }' ng-change="importedScope.search()"/>
+        </div>
+    </div>
+    <div class="slds-form-element list-container campaign-spinner-container" ng-show="importedScope.isListLoading">
+        <div class="slds-spinner_container campaign-list-spinner">
+              <div class="slds-spinner slds-spinner--medium" aria-hidden="false" role="alert">
+                <div class="slds-spinner__dot-a"></div>
+                <div class="slds-spinner__dot-b"></div>
+              </div>
+        </div>
+    </div>
+    <div class="slds-form-element list-container" ng-hide="importedScope.isListLoading">
+        <div ng-repeat="listMember in importedScope.listMembers.records" class="campaign-list-member slds-form-element slds-list--horizontal slds-has-divider--bottom">
+         <section data-card="card-{{cardIndex}}" ng-class="{selected:isSelected(cardIndex)}" ng-click="importedScope.campaignMemberDetail(listMember)" hotkey-layout-card>
+            <div class="status-icon" ng-class="{'past-due' : listMember.isPastDue && listMember.Status.value !== 'Responded'}">
+            <span class="slds-icon_container">
+              <svg aria-hidden="true" class="slds-icon status" ng-class="{'past-due' : listMember.isPastDue && listMember.Status.value !== 'Responded'}">
+                <use ng-if="!listMember.isTimeSensitive && listMember.Status.value === 'Sent'" xlink:href="{{'/assets/icons/utility-sprite/svg/symbols.svg#' + 'forward' | sldsStaticResourceURL}}"></use>
+                <use ng-if="!listMember.isTimeSensitive && listMember.Status.value === 'Received'"  xlink:href="{{'/assets/icons/utility-sprite/svg/symbols.svg#' + 'download' | sldsStaticResourceURL}}"></use>
+             <use ng-if="listMember.Status.value === 'Responded'" xlink:href="{{'/assets/icons/utility-sprite/svg/symbols.svg#' + 'check' | sldsStaticResourceURL}}"></use>
+             <use ng-if="listMember.isTimeSensitive && listMember.Status.value !== 'Responded' && !listMember.isPastDue" xlink:href="{{'/assets/icons/utility-sprite/svg/symbols.svg#' + 'clock' | sldsStaticResourceURL}}"></use>
+              <use ng-show="listMember.isPastDue && listMember.Status.value !== 'Responded'" xlink:href="{{'/assets/icons/custom-sprite/svg/symbols.svg#' + 'custom25' | sldsStaticResourceURL}}"></use>
+             </svg>
+        </span>
+        </div>
+        <div class="slds-form-element container"> 
+         <ul class="slds-list--horizontal">
+             <li class="slds-item"><a ng-click="importedScope.navigateTo(listMember)">
+            {{listMember.FirstName.value}} {{listMember.LastName.value}}</a>
+            </li>
+            <li class="slds-item slds-p-left--xx-small">
+            <span class="slds-text-body--small page-header__info target-call-date"> {{listMember.formattedDate}}</span>
+            </li>
+            </ul>
+            <ul class="slds-list--horizontal slds-text-body--small slds-m-top--xxx-small">
+                <li ng-if="listMember.Title.value" class="slds-item slds-truncate slds-p-right--xx-small" title="{{listMember.Title.value}}">{{listMember.Title.value}}, 
+                </li>
+                <li class="slds-item slds-truncate" title="{{listMember.Company.value}}">{{listMember.Company.value}}
+                </li>
+           </ul>
+         </div> 
+         <div class="col-sm-{{12/(data.fields.length + (data.actions.length  > 0 ? 1 : 0))}}" ng-if="data.actions.length > 0">
+            <ul class="actions">
+                <li ng-repeat="action in data.actions | limitTo: (data.limitActionLinksTo?data.limitActionLinksTo:5)">
+                    <a href="#" ng-click="performAction(action)" hotkey-card-action>
+                        <i ng-if="!action.imageRef" class="icon {{action.vlocityIcon}}"></i>
+                        <span ng-if="action.imageRef">
+                            <img ng-src="{{action.imageRef}}" alt="{{action.displayName}}"/>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    </div>
+    </div>
+     </span>
+</div>

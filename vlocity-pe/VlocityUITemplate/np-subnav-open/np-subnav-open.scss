@@ -1,0 +1,267 @@
+@import "npVariables";
+// include mixin "npVariables" for fonts and colors.
+// npVariables mixin template should be active.
+
+/*** STYLES ***/
+.vlocity {/* Always use vlocity class as a wrapper */
+    .np-nav-hover-image{
+        display:none;
+    }
+   .np-subnav-card-active{
+       display:flex;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    border-left: 0;
+    padding: 10px ;
+    cursor:pointer;
+    border-bottom: 0px solid #dfe2e4;
+    background: #f8fbfe;
+        color: rgb(22, 50, 92);
+    &.tabSelected {
+        border-left:1px solid rgba(0,0,0,0.1);
+      //  -webkit-box-shadow: 0px 5px 0px 0px rgba(255,110,13,1);
+    //    -moz-box-shadow: 0px 5px 0px 0px rgba(255,110,13,1);
+     //   box-shadow: 0px 5px 0px 0px rgba(255,110,13,1);
+        background:rgba(255,110,13,1);
+        border-bottom:0;
+        color:#fff;
+        img{
+                -webkit-filter: brightness(0.25);
+                filter: brightness(0) invert(1);
+        }
+        &:hover{
+           border-bottom-color:transparent;
+           border-bottom:0px;
+       }
+    }
+    &.tabSelected .card-top {
+        vertical-align: middle;
+        margin: auto;
+    }
+   
+    .cardValues h2
+    {
+        font-size: 10px;
+    }
+    .cardValues h2:first-child
+    {
+        font-size: $font-medium;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 17px;
+        height: 36px; 
+        -webkit-line-clamp: 2; 
+        -webkit-box-orient: vertical;
+    }
+    
+    .np-subnav-card-active.tabSelected
+    {
+        .cardValues h2:first-child
+        {
+            font-size: $font-xx-medium;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            line-height: 17px;
+            height: 36px; 
+            -webkit-line-clamp: 2; 
+            -webkit-box-orient: vertical;
+        }
+    }
+    
+    
+    .np-custom-svg{
+     pointer-events: none;
+     height: 60px;
+    }
+    
+    object svg
+    {
+        fill:$theme-color-1;
+    }
+   
+       .card-top{
+           text-align:center;
+           h2{
+               
+            overflow: hidden;
+            text-overflow: ellipsis;
+           }
+          .card-image{
+                display: flex;
+                justify-content: center;
+          }
+       }
+        
+       .np-submenu--hover{
+           
+           display:none;
+            position: absolute;
+            left: 0;
+            border-radius: inherit;
+            top: 100%;
+            width: 400px;
+            
+            .card-info {
+               clear:both;
+                 padding: 5px 20px;
+
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+
+                    &.details {
+                        float: left;
+                        padding: 10px 5px 0px 0px;
+                        width: 48%;/* fallback */
+                        width: calc(100% - 150px); //.actions width
+                        cursor:pointer;
+                        word-wrap: break-word;
+                        li {
+                            margin-bottom: 16px;
+
+                            &:last-of-type {
+                                margin: 0;
+                            }
+                        }
+
+                        span {
+                            display: block;
+
+                            &.detail-label {
+                                font-weight: 600;
+                                font-size: $font-x-small;
+                                text-transform: uppercase;
+                            }
+
+                            &.value {
+                                text-transform: none;
+                                color: #757C8C;
+                                font-size: $font-small;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+
+                    &.actions {
+                        float: right;
+                        width: 150px;
+                        word-wrap: break-word;
+
+                        a {
+                            display: table;
+                            width: 100%;
+                            height: 53px;
+                            border-bottom: 2px solid $border-color-1;
+
+                            img {
+                                width: 29px;
+                                height: 29px;
+                                margin: 5px 9px;
+                                display: table-cell;
+                                vertical-align: middle;
+                            }
+
+                            i.icon {
+                                display: table-cell;
+                                vertical-align: middle;
+                                font-size: $font-x-large;
+                                line-height: 34px;
+                                color: $theme-color-1;
+                                width: 40px;
+                                
+                                &:before {
+                                    font-weight: 100;
+                                    line-height: 34px;
+                                }
+                            }
+
+                            span {
+                                font-size: 12px;
+                                line-height: 1;
+                                display: table-cell;
+                                vertical-align: middle;
+                            }
+
+                            &:hover {
+                                text-decoration: none;
+
+                                i.icon {
+                                    color: $theme-color-1;
+                                }
+
+                                span {
+                                    color: $theme-color-1;
+                                }
+                            }
+                        }
+
+                        li:last-of-type {
+                            a {
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+       }
+       &:hover{
+           border-bottom:3px solid $theme-color-1;
+          .np-submenu--hover{
+           display:none;
+         }
+       }
+   } 
+}
+
+/** Media queries to achieve responsiveness**/
+@media only screen and (max-width:767px){
+    .vlocity .via-slds{
+        .np-nav-card-style{
+           min-width:100px;
+               height: 100%;
+           width:inherit;
+       }
+   .np-subnav-card-active{
+       .card-top{
+           .np-custom-svg{
+                height: 40px;
+           }
+       }
+       &:hover
+       {
+         border-bottom: 1px solid #dfe2e4;
+       }
+       .cardValues h2:first-child
+       {
+         font-size: 12px;
+         padding-bottom:2px;
+         overflow: hidden;
+         text-overflow: ellipsis;
+         display: -webkit-box;
+         line-height: 17px;
+         height: 36px; 
+         -webkit-line-clamp: 2; 
+         -webkit-box-orient: vertical;
+       }
+    }
+     .np-subnav-card-active .np-submenu--hover .card-info ul.actions{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+     .np-subnav-card-active .np-submenu--hover .card-info ul.details{
+        width:100%;
+    }
+    
+    .tabSelected {
+    
+            box-shadow:none;
+        }
+    }
+}

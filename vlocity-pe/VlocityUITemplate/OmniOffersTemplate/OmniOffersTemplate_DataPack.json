@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity Plan Daily",
+    "%vlocity_namespace%__CustomJavascript__c": "OmniOffersTemplate.js",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "OmniOffersTemplate/1/Vlocity Plan Daily/1499414260476",
+    "%vlocity_namespace%__HTML__c": "OmniOffersTemplate.html",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleJson__c": "OmniOffersTemplate_Sample.json",
+    "%vlocity_namespace%__Sass__c": "OmniOffersTemplate.scss",
+    "%vlocity_namespace%__Type__c": "OmniScript",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "OmniOffersTemplate",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/OmniOffersTemplate"
+}

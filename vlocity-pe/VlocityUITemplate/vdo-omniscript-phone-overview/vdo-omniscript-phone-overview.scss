@@ -1,0 +1,165 @@
+.overview{
+  max-width:900px;
+  margin:auto;
+  position: relative;
+  margin-top:40px;
+}
+.overviewleft{
+  width:450px;
+  float:left;
+  position:relative;
+}
+.overviewright{
+  width:450px;
+  float:right;
+  position:relative;
+}
+.overviewimage{
+  margin:auto;
+  width:450px;
+  position: absolute;
+  transition:filter 1s linear;
+  height: 600px;
+}
+.overviewimage > img{
+  display:block;
+  margin:auto;
+  transition:opacity 0.5s linear;
+  height:600px;
+}
+.alt{
+  position: relative;
+  top: -600px;
+  opacity:0;
+}
+.overviewbuttonsection{
+    width:450px;
+    height:50px;
+    margin:auto;
+    margin-top:110px;
+    margin-bottom:40px;
+    float: left;
+
+}
+.overviewbuttons{
+  width:450px;
+  float:left;
+}
+.overviewbuttonswrapper{
+  width:210px;
+  margin:auto;
+}
+.overviewbutton{
+  width:50px;
+  height:50px;
+  margin:10px;
+  border-radius:50px;
+  float:left;
+  cursor:pointer;
+}
+.overviewbutton:hover {
+    filter: grayscale(100%);
+}
+.overviewdescription{
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+.overviewdescription p{
+  color: #ff6e0d;
+  font-size: 14px;
+  display: block;
+  margin-top: 40px;
+  position: relative;
+  width: 0px;
+  overflow: hidden;
+  height: 45px;
+  text-overflow: clip;
+  white-space: nowrap;
+  transition: width 2s;
+  font-weight: bold;
+}
+.showdescription p{
+  width:260px;
+  transition: width 2s;
+}
+.overviewdescription p:after {
+    content: '';
+    display: block;
+    width: 140px;
+    border-bottom: 2px solid #ff6e0d;
+    position: relative;
+    top: 21px;
+    left: 49px;
+    box-shadow: 5px 0px 0px #fff;
+}
+.overviewdescription p:before {
+    height: 25px;
+    width: 5px;
+    border-left: 2px solid #ff6e0d;
+    content: '';
+    position: absolute;
+    transform: rotate(-40deg);
+    display: block;
+    top: 20px;
+    left: 40px;
+}
+.overviewright .overviewdescription{
+  left: 15px;
+  top: 20px;
+  min-height: 535px;
+  min-width: 10px;
+  float: right;
+}
+.overviewright .overviewdescription p{
+    text-align: right;
+}
+.overviewright .overviewdescription p:before {
+    transform: rotate(40deg);
+    display: block;
+    top: 22px;
+    left: 165px;
+}
+.overviewright .overviewdescription p:after{
+  left: 20px;
+  box-shadow: -5px 0px 0px #fff;
+}
+
+.overviewvideo{
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -350px;
+  width: 700px;
+  height: 394px;
+  background: #000;
+  box-shadow: 0px 0px 10px #000;
+  z-index: 1;
+  display:none;
+}
+.selectedvideo{
+  filter: blur(20px);
+}
+
+
+.via-slds .vlc-slds-radio-control div[horizontalmode=true]>label.slds-radio {
+    width: 50%;
+    margin: 0px;
+}
+.via-slds .vlc-slds-radio-control div[horizontalmode=true] {
+    width: 900px;
+    margin: auto;
+}
+.imgItemContainer.ng-scope {
+    margin: auto;
+    width: 210px !important;
+    height: 50px !important;
+    cursor: pointer;
+    background:#0070D2;
+}
+.via-slds .imgItem {
+    color: #fff;
+}
+.borderOverlay {
+    border: 0px !important;
+}

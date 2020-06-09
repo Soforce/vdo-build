@@ -1,0 +1,60 @@
+<script>
+
+        $(document).ready(function(){
+            
+	        //Change active usage tab
+    	    $('.con-usage-tab').on('click',function(event){
+    	        
+    	        //Remove current active tabs
+    	        $('.con-usage-tab').removeClass('con-usage-tab-active');
+    	        $('.con-usage-tab-content').removeClass('con-usage-tab-content-active');
+	            $('.circle_usage_animation').addClass('circle_usage_animation_active');
+	            $('.circle_usage_animation').removeClass('circle_usage_animation-selected');
+	            $('.con-usage-circle-title').html('');
+    	        $(event.target).addClass('con-usage-tab-active');
+    	        
+    	        //Delay adding new tab to force scroll area to top
+    	        setTimeout(function(){
+    	            $('#con-usage-' + event.target.id.substring(8)).addClass('con-usage-tab-content-active');
+    	            $('.con-usage-tab-content-active .circle_usage_animation').removeClass('circle_usage_animation_active');
+    	        },500);
+    	        //Delay to show donut selection animation
+    	        setTimeout(function(){
+    	            highlightDonut(1);
+    	        },1200);
+    	        
+    		});
+    		
+	    });
+</script>
+<div class="navbar-template con-navbar-usage" ng-controller="viaMobileNavBarController">
+	<div>
+        <button ng-click="vm.goBack()" class="button button-clear header-item nav-left-button" ng-disabled="vm.isSavingInProgress" ng-style="{'color':$root.appTheme.NavBarItemColor}">
+    		<span ng-show="vm.canGoBack">
+    			<i class="icon ion-ios-arrow-back"></i>
+    		</span>
+    		<span ng-show="!vm.canGoBack">
+    			<i class="icon ion-navicon"></i>
+    		</span>
+    	</button>
+    	
+    	<div class="title title-left header-item">
+    		{{ pageTitle }}
+    	</div>
+
+	</div>
+	
+	<!-- Usage Tabs-->
+    <div class="con-usage-tabs">
+        <div class="con-usage-tab con-usage-tab-active" id="con-tab-1">
+            Channels
+        </div>
+        <div class="con-usage-tab" id="con-tab-2">
+            Day Passes
+        </div>
+        <div class="con-usage-tab" id="con-tab-3">
+            Cloud DVR
+        </div>
+    </div>
+
+</div>

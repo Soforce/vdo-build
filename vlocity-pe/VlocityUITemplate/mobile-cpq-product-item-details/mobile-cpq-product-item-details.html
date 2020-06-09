@@ -1,0 +1,57 @@
+<div class="cpq-product-item-details slds-scrollable--y">
+    <!--form is used for input validations-->
+    <form class="product-order-form">
+        <div class="product-gallery">
+            <ul>
+                <li ng-repeat="media in obj.Attachments">
+                    <img src="{{$root.instanceUrl + media.url}}" alt="{{::media.title}}" ng-if="::media.contentType === 'Image'"/>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="product-details">
+            
+            <div class="product-name">
+                {{::obj.Name.value}}
+            </div>
+            
+            <div class="rating">
+                <span class="star star-filled"></span>
+                <span class="star star-filled"></span>
+                <span class="star star-filled"></span>
+                <span class="star star-filled"></span>
+                <span class="star star-unfilled"></span>
+            </div>
+            
+            <div class="description">
+                {{::obj.Product2.Description}}
+            </div>
+            
+            <div class="pricing-options">
+                <div class="price recurring-price">
+                    {{::obj[$root.nsPrefix+'RecurringPrice__c']['value'] | currency}}/mo
+                </div>
+                
+                <div class="price retail-price">
+                    {{::obj['UnitPrice']['value'] | currency}}/retail price
+                </div>
+            </div>
+     
+            <div class="product-features">
+                <div class="features-label slds-text-heading--small">Details</div>
+                <table class="slds-table slds-table--bordered">
+                    <tr ng-repeat="field in data.fields" ng-if="key != 'attributes'">
+                        <td class="slds-cell-shrink">
+                            <div class="slds-text-heading--label">{{::field.label}}</div>
+                        </td>
+                        <td>
+                            <div class="slds-text-body--regular">
+                                {{::obj | getter: field | picker: (field.name == "['UnitPrice']['value']") ? 'currency' : field.type}}
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </form>
+</div>
