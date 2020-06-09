@@ -1,0 +1,21 @@
+{
+    "%vlocity_namespace%__Description__c": "Implements Attribute Based Pricing",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__Expression__c": "",
+    "%vlocity_namespace%__FailureMessage__c": "",
+    "%vlocity_namespace%__FallbackId__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "d22b32d2f424fd898824f1013969ee1f",
+    "%vlocity_namespace%__HeaderId__c": "",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__ObjectName__c": "OrderItem",
+    "%vlocity_namespace%__Operation__c": "",
+    "%vlocity_namespace%__RuleAction__c": "Attribute-Based-Pricing-Rule_RuleActions.json",
+    "%vlocity_namespace%__RulePurpose__c": "",
+    "%vlocity_namespace%__RuleType__c": "",
+    "%vlocity_namespace%__Type__c": "Pricing",
+    "Name": "Attribute Based Pricing Rule",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Rule__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Rule__c/d22b32d2f424fd898824f1013969ee1f"
+}

@@ -1,0 +1,43 @@
+{
+    "%vlocity_namespace%__AppliesToAllItems__c": false,
+    "%vlocity_namespace%__BenefitTimePlanId__c": "",
+    "%vlocity_namespace%__BenefitTimePolicyId__c": "",
+    "%vlocity_namespace%__CannotBeCombined__c": false,
+    "%vlocity_namespace%__Code__c": "DIS-ORDR-TEST20",
+    "%vlocity_namespace%__Description__c": "Test Order Discount 20%",
+    "%vlocity_namespace%__DiscountType__c": "Order",
+    "%vlocity_namespace%__DurationTimePlanId__c": "",
+    "%vlocity_namespace%__DurationTimePolicyId__c": "",
+    "%vlocity_namespace%__DurationUnitOfMeasure__c": "Month",
+    "%vlocity_namespace%__Duration__c": "",
+    "%vlocity_namespace%__EffectiveEndDate__c": "",
+    "%vlocity_namespace%__EffectiveStartDate__c": "",
+    "%vlocity_namespace%__EnableAutoAddProducts__c": true,
+    "%vlocity_namespace%__EnableAutoApplyPromotion__c": true,
+    "%vlocity_namespace%__FollowOnPromotionId__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "0f421c0a-9978-bff6-cd60-2a276e23c58a",
+    "%vlocity_namespace%__IsActive__c": false,
+    "%vlocity_namespace%__IsLimitedQuantity__c": true,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__PriceListId__c": {
+        "%vlocity_namespace%__Code__c": "2019",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceList__c/2019",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PriceList__c"
+    },
+    "%vlocity_namespace%__Quantity__c": "",
+    "%vlocity_namespace%__RankOrder__c": "",
+    "%vlocity_namespace%__RedeemableCode__c": "",
+    "%vlocity_namespace%__ServiceContinuation__c": "",
+    "Name": "Test Order Discount 20%",
+    "RecordTypeId": {
+        "DeveloperName": "Discount",
+        "SobjectType": "%vlocity_namespace%__Promotion__c",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/%vlocity_namespace%__Promotion__c/Discount",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Promotion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Promotion__c/0f421c0a-9978-bff6-cd60-2a276e23c58a"
+}

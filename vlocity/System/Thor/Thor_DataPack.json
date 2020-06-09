@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "6bb2c0c4-0a34-e327-9e51-e04e1af7d554",
+    "%vlocity_namespace%__SystemInterface__c": "Thor_SystemInterfaces.json",
+    "%vlocity_namespace%__URL__c": "https://mz8xqaqi77.execute-api.eu-west-2.amazonaws.com",
+    "Image__c": "https://cdn.pixabay.com/photo/2013/07/12/17/22/database-152091__340.png",
+    "Name": "Thor",
+    "Online__c": true,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__System__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__System__c/Thor"
+}

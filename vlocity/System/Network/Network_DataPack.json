@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "6f1c346b-fb94-213b-0dcc-30768d3fa2d2",
+    "%vlocity_namespace%__SystemInterface__c": "Network_SystemInterfaces.json",
+    "%vlocity_namespace%__URL__c": "https://callouts-mock.dev.vlocity.xom.vloc-dev.com/",
+    "Image__c": "/resource/VDOXOMDemoDashboard/images/network.png",
+    "Name": "Network",
+    "Online__c": true,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__System__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__System__c/Network"
+}

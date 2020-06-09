@@ -1,0 +1,19 @@
+[
+    {
+        "%vlocity_namespace%__GlobalKey__c": "ed4b5197-9448-9356-d20a-78b2a38cce6f",
+        "%vlocity_namespace%__Implementation__c": "VDODefaultSystemInterface",
+        "%vlocity_namespace%__Key__c": "Huawei OSS:Huawei OSS",
+        "%vlocity_namespace%__Path__c": "delay/1",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Huawei OSS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Huawei OSS",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Huawei OSS",
+        "Name": "Huawei OSS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Huawei OSS/%vlocity_namespace%__System__c/Huawei OSS"
+    }
+]

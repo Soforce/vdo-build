@@ -1,0 +1,19 @@
+[
+    {
+        "%vlocity_namespace%__GlobalKey__c": "248b8e30-800b-4e9b-8c3e-f5c5f66413dc",
+        "%vlocity_namespace%__Implementation__c": "VDODefaultSystemInterface",
+        "%vlocity_namespace%__Key__c": "Network:Network System Interface",
+        "%vlocity_namespace%__Path__c": "delay/5",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Network",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Network",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Network",
+        "Name": "Network System Interface",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Network System Interface/%vlocity_namespace%__System__c/Network"
+    }
+]

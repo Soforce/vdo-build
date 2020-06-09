@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "c8847885-66ce-34a8-1101-c26bea8c8b6d",
+    "%vlocity_namespace%__SystemInterface__c": "Twilio_SystemInterfaces.json",
+    "%vlocity_namespace%__URL__c": "https://api.twilio.com/2010-04-01/Accounts/AC49f864280c3674fbed5fd7ccbe0a48b0",
+    "Image__c": "https://vdo-cmt-site.secure.force.com/resource/VDOXOMDemoDashboard/images/twiliologo.png",
+    "Name": "Twilio",
+    "Online__c": true,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__System__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__System__c/Twilio"
+}

@@ -1,0 +1,49 @@
+{
+    "%vlocity_namespace%__AppliesToAllItems__c": false,
+    "%vlocity_namespace%__BenefitTimePlanId__c": "",
+    "%vlocity_namespace%__BenefitTimePolicyId__c": "",
+    "%vlocity_namespace%__CannotBeCombined__c": false,
+    "%vlocity_namespace%__Code__c": "VLO-PROMO-0010",
+    "%vlocity_namespace%__Description__c": "40% off Sport and Movie channels for 12 months when you take the Quad Play Extra Large Offer.",
+    "%vlocity_namespace%__DiscountType__c": "",
+    "%vlocity_namespace%__DurationTimePlanId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "b8797d24-e8bf-56b3-66fa-8be95210f996",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__TimePlan__c/b8797d24-e8bf-56b3-66fa-8be95210f996",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__TimePlan__c"
+    },
+    "%vlocity_namespace%__DurationTimePolicyId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "0018ab99-cbbe-80c8-77e1-ca9fbbd693f0",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__TimePolicy__c/0018ab99-cbbe-80c8-77e1-ca9fbbd693f0",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__TimePolicy__c"
+    },
+    "%vlocity_namespace%__DurationUnitOfMeasure__c": "",
+    "%vlocity_namespace%__Duration__c": "",
+    "%vlocity_namespace%__EffectiveEndDate__c": "",
+    "%vlocity_namespace%__EffectiveStartDate__c": "2017-01-01T00:00:00.000Z",
+    "%vlocity_namespace%__EnableAutoAddProducts__c": false,
+    "%vlocity_namespace%__EnableAutoApplyPromotion__c": true,
+    "%vlocity_namespace%__FollowOnPromotionId__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "2935a5ae-81d2-994a-5a6c-daec838419f0",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsLimitedQuantity__c": true,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__PriceListEntry__c": "40-Off-Sports-and-Movies_PriceListEntries.json",
+    "%vlocity_namespace%__PriceListId__c": {
+        "%vlocity_namespace%__Code__c": "2019",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceList__c/2019",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PriceList__c"
+    },
+    "%vlocity_namespace%__PromotionItem__c": "40-Off-Sports-and-Movies_PromotionItems.json",
+    "%vlocity_namespace%__Quantity__c": "",
+    "%vlocity_namespace%__RankOrder__c": "",
+    "%vlocity_namespace%__RedeemableCode__c": "PROMO-CHANNELS-DISCOUNT",
+    "%vlocity_namespace%__ServiceContinuation__c": "",
+    "Name": "40% Off Sports and Movies",
+    "RecordTypeId": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Promotion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Promotion__c/2935a5ae-81d2-994a-5a6c-daec838419f0"
+}

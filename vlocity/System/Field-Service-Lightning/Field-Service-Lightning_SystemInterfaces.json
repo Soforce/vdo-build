@@ -1,0 +1,19 @@
+[
+    {
+        "%vlocity_namespace%__GlobalKey__c": "cccc54ef-643e-186d-ae6a-57f6c300cd7b",
+        "%vlocity_namespace%__Implementation__c": "VDODefaultSystemInterface",
+        "%vlocity_namespace%__Key__c": "Field Service Lightning:Field Service System Interface",
+        "%vlocity_namespace%__Path__c": "delay/1",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Field Service Lightning",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Field Service Lightning",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Field Service Lightning",
+        "Name": "Field Service System Interface",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Field Service System Interface/%vlocity_namespace%__System__c/Field Service Lightning"
+    }
+]

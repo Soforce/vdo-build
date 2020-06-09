@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "6e33d30c-7d10-514b-0bc2-c76d423e2820",
+    "%vlocity_namespace%__SystemInterface__c": "Salesforce_SystemInterfaces.json",
+    "%vlocity_namespace%__URL__c": "https://callouts-mock.dev.vlocity.xom.vloc-dev.com/",
+    "Image__c": "/resource/VDOXOMDemoDashboard/images/salesforcelogo.png",
+    "Name": "Salesforce",
+    "Online__c": true,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__System__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__System__c/Salesforce"
+}

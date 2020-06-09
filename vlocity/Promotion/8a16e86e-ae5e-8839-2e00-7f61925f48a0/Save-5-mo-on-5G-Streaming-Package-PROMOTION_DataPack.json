@@ -1,0 +1,55 @@
+{
+    "%vlocity_namespace%__AppliesToAllItems__c": false,
+    "%vlocity_namespace%__BenefitTimePlanId__c": "",
+    "%vlocity_namespace%__BenefitTimePolicyId__c": "",
+    "%vlocity_namespace%__CannotBeCombined__c": false,
+    "%vlocity_namespace%__Code__c": "VLO-PROMO-5GSAVE5",
+    "%vlocity_namespace%__Description__c": "Save $5/mo* on our most popular 5G Streaming Package",
+    "%vlocity_namespace%__DiscountType__c": "",
+    "%vlocity_namespace%__DurationTimePlanId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "b8797d24-e8bf-56b3-66fa-8be95210f996",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__TimePlan__c/b8797d24-e8bf-56b3-66fa-8be95210f996",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__TimePlan__c"
+    },
+    "%vlocity_namespace%__DurationTimePolicyId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "0dad44c6-6134-c23b-b917-d381da5be9fe",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__TimePolicy__c/0dad44c6-6134-c23b-b917-d381da5be9fe",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__TimePolicy__c"
+    },
+    "%vlocity_namespace%__DurationUnitOfMeasure__c": "Month",
+    "%vlocity_namespace%__Duration__c": "",
+    "%vlocity_namespace%__EffectiveEndDate__c": "",
+    "%vlocity_namespace%__EffectiveStartDate__c": "",
+    "%vlocity_namespace%__EnableAutoAddProducts__c": true,
+    "%vlocity_namespace%__EnableAutoApplyPromotion__c": true,
+    "%vlocity_namespace%__FollowOnPromotionId__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "8a16e86e-ae5e-8839-2e00-7f61925f48a0",
+    "%vlocity_namespace%__IsActive__c": false,
+    "%vlocity_namespace%__IsLimitedQuantity__c": true,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__PriceListEntry__c": "Save-5-mo-on-5G-Streaming-Package-PROMOTION_PriceListEntries.json",
+    "%vlocity_namespace%__PriceListId__c": {
+        "%vlocity_namespace%__Code__c": "2019",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceList__c/2019",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PriceList__c"
+    },
+    "%vlocity_namespace%__PromotionItem__c": "Save-5-mo-on-5G-Streaming-Package-PROMOTION_PromotionItems.json",
+    "%vlocity_namespace%__Quantity__c": "",
+    "%vlocity_namespace%__RankOrder__c": "",
+    "%vlocity_namespace%__RedeemableCode__c": "",
+    "%vlocity_namespace%__ServiceContinuation__c": "",
+    "Name": "Save $5/mo* on 5G Streaming Package PROMOTION",
+    "RecordTypeId": {
+        "DeveloperName": "Promotion",
+        "SobjectType": "%vlocity_namespace%__Promotion__c",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/%vlocity_namespace%__Promotion__c/Promotion",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Promotion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Promotion__c/8a16e86e-ae5e-8839-2e00-7f61925f48a0"
+}

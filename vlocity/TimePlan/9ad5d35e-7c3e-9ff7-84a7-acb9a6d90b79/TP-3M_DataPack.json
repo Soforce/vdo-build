@@ -1,0 +1,16 @@
+{
+    "%vlocity_namespace%__Description__c": "Recurring 3 Months",
+    "%vlocity_namespace%__EffectiveEndDate__c": "",
+    "%vlocity_namespace%__EffectiveStartDate__c": "2017-01-01T00:00:00.000Z",
+    "%vlocity_namespace%__FrequencyUnitOfMeasure__c": "",
+    "%vlocity_namespace%__Frequency__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "9ad5d35e-7c3e-9ff7-84a7-acb9a6d90b79",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__Repeat__c": "",
+    "%vlocity_namespace%__TotalDurationUoM__c": "Month",
+    "%vlocity_namespace%__TotalDuration__c": 3,
+    "Name": "TP-3M",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__TimePlan__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__TimePlan__c/9ad5d35e-7c3e-9ff7-84a7-acb9a6d90b79"
+}

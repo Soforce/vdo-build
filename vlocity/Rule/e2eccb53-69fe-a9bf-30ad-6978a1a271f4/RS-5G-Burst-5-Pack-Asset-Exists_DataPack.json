@@ -1,0 +1,21 @@
+{
+    "%vlocity_namespace%__Description__c": "A 5G Burst 5-Pack asset exists for this account",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__Expression__c": "",
+    "%vlocity_namespace%__FailureMessage__c": "Account must have an active 5G Burst 5-Pack asset to qualify",
+    "%vlocity_namespace%__FallbackId__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "e2eccb53-69fe-a9bf-30ad-6978a1a271f4",
+    "%vlocity_namespace%__HeaderId__c": "",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__ObjectName__c": "",
+    "%vlocity_namespace%__Operation__c": "",
+    "%vlocity_namespace%__RuleFilter__c": "RS-5G-Burst-5-Pack-Asset-Exists_RuleFilters.json",
+    "%vlocity_namespace%__RulePurpose__c": "Eligibility",
+    "%vlocity_namespace%__RuleType__c": "Qualification",
+    "%vlocity_namespace%__Type__c": "",
+    "Name": "RS - 5G Burst 5-Pack Asset Exists",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Rule__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Rule__c/e2eccb53-69fe-a9bf-30ad-6978a1a271f4"
+}

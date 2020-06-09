@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "057763fb-6a82-e062-63cb-3c58992c2572",
+    "%vlocity_namespace%__SystemInterface__c": "Amdocs-OSS_SystemInterfaces.json",
+    "%vlocity_namespace%__URL__c": "https://callouts-mock.dev.vlocity.xom.vloc-dev.com/",
+    "Image__c": "/resource/VDOXOMDemoDashboard/images/amdocslogo.png",
+    "Name": "Amdocs OSS",
+    "Online__c": true,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__System__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__System__c/Amdocs OSS"
+}

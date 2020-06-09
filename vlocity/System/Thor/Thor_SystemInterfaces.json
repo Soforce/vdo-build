@@ -1,0 +1,104 @@
+[
+    {
+        "%vlocity_namespace%__GlobalKey__c": "568358c9-f551-54f7-81b7-a21e30634645",
+        "%vlocity_namespace%__Implementation__c": "XOMOrderSubmitSystemInterface",
+        "%vlocity_namespace%__Key__c": "Thor:Supplemental Submit Status Interface",
+        "%vlocity_namespace%__Path__c": "/demo/orderManagement/supplemental/changeRequestStatus",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Thor",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Thor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Thor",
+        "Name": "Supplemental Submit Status Interface",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Supplemental Submit Status Interface/%vlocity_namespace%__System__c/Thor"
+    },
+    {
+        "%vlocity_namespace%__GlobalKey__c": "6f135da6-6bed-e91e-f320-d5a9fd87e05f",
+        "%vlocity_namespace%__Implementation__c": "XOMOrderSubmitSystemInterface",
+        "%vlocity_namespace%__Key__c": "Thor:Thor Interface",
+        "%vlocity_namespace%__Path__c": "/demo/orderManagement/processOrder",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Thor",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Thor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Thor",
+        "Name": "Thor Interface",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Thor Interface/%vlocity_namespace%__System__c/Thor"
+    },
+    {
+        "%vlocity_namespace%__GlobalKey__c": "7fc52959-b821-ff81-aa46-fcb56f1bd7d8",
+        "%vlocity_namespace%__Implementation__c": "XOMOrderSubmitSystemInterface",
+        "%vlocity_namespace%__Key__c": "Thor:Supplemental Ready Interface",
+        "%vlocity_namespace%__Path__c": "/demo/orderManagement/supplemental/isready",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Thor",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Thor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Thor",
+        "Name": "Supplemental Ready Interface",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Supplemental Ready Interface/%vlocity_namespace%__System__c/Thor"
+    },
+    {
+        "%vlocity_namespace%__GlobalKey__c": "963407fc-6691-075b-5fbe-5564ab1d991e",
+        "%vlocity_namespace%__Implementation__c": "XOMOrderSubmitSystemInterface",
+        "%vlocity_namespace%__Key__c": "Thor:Supplemental Valid Interface",
+        "%vlocity_namespace%__Path__c": "/demo/orderManagement/supplemental/validate",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Thor",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Thor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Thor",
+        "Name": "Supplemental Valid Interface",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Supplemental Valid Interface/%vlocity_namespace%__System__c/Thor"
+    },
+    {
+        "%vlocity_namespace%__GlobalKey__c": "c61f9f35-0a49-ed49-8af6-4db3dda59fd4",
+        "%vlocity_namespace%__Implementation__c": "XOMOrderSubmitSystemInterface",
+        "%vlocity_namespace%__Key__c": "Thor:Cancel Supplemental Order Interface",
+        "%vlocity_namespace%__Path__c": "/demo/orderManagement/supplemental/cancel",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Thor",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Thor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Thor",
+        "Name": "Cancel Supplemental Order Interface",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Cancel Supplemental Order Interface/%vlocity_namespace%__System__c/Thor"
+    },
+    {
+        "%vlocity_namespace%__GlobalKey__c": "d6bcdbb3-8671-e88a-c942-cbba95d7981f",
+        "%vlocity_namespace%__Implementation__c": "XOMOrderSubmitSystemInterface",
+        "%vlocity_namespace%__Key__c": "Thor:Unfreeze Order Interface",
+        "%vlocity_namespace%__Path__c": "/demoorderManagement/supplemental/thaw",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Thor",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Thor",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Thor",
+        "Name": "Unfreeze Order Interface",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Unfreeze Order Interface/%vlocity_namespace%__System__c/Thor"
+    }
+]

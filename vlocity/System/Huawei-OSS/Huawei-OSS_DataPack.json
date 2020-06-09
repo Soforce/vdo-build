@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "678f24e0-63a9-9744-be39-a07bb434e492",
+    "%vlocity_namespace%__SystemInterface__c": "Huawei-OSS_SystemInterfaces.json",
+    "%vlocity_namespace%__URL__c": "https://callouts-mock.dev.vlocity.xom.vloc-dev.com/",
+    "Image__c": "/resource/VDOXOMDemoDashboard/images/huaweilogo.png",
+    "Name": "Huawei OSS",
+    "Online__c": true,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__System__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__System__c/Huawei OSS"
+}

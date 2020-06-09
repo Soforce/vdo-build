@@ -1,0 +1,53 @@
+[
+    {
+        "%vlocity_namespace%__GlobalKey__c": "14526659-7c59-5637-161f-41c99c1d5bd3",
+        "%vlocity_namespace%__Implementation__c": "VDODefaultSystemInterface",
+        "%vlocity_namespace%__Key__c": "Amdocs OSS:Activate BB",
+        "%vlocity_namespace%__Path__c": "delay/1",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Amdocs OSS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Amdocs OSS",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Amdocs OSS",
+        "Name": "Activate BB",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Activate BB/%vlocity_namespace%__System__c/Amdocs OSS"
+    },
+    {
+        "%vlocity_namespace%__GlobalKey__c": "64f40ac7-149f-31d6-ff38-cc260b585dc4",
+        "%vlocity_namespace%__Implementation__c": "VDODefaultSystemInterface",
+        "%vlocity_namespace%__Key__c": "Amdocs OSS:Activate VoIP",
+        "%vlocity_namespace%__Path__c": "delay/1",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Amdocs OSS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Amdocs OSS",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Amdocs OSS",
+        "Name": "Activate VoIP",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Activate VoIP/%vlocity_namespace%__System__c/Amdocs OSS"
+    },
+    {
+        "%vlocity_namespace%__GlobalKey__c": "e60e77ce-4d41-396d-4ed0-ea7b15463c57",
+        "%vlocity_namespace%__Implementation__c": "VDODefaultSystemInterface",
+        "%vlocity_namespace%__Key__c": "Amdocs OSS:Amdocs OSS",
+        "%vlocity_namespace%__Path__c": "delay/5",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Amdocs OSS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Amdocs OSS",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Amdocs OSS",
+        "Name": "Amdocs OSS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Amdocs OSS/%vlocity_namespace%__System__c/Amdocs OSS"
+    }
+]

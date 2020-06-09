@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "9b9a6fa4-b060-1e4e-8759-c7d5856db29b",
+    "%vlocity_namespace%__SystemInterface__c": "Logistics-Inventory_SystemInterfaces.json",
+    "%vlocity_namespace%__URL__c": "https://callouts-mock.dev.vlocity.xom.vloc-dev.com/",
+    "Image__c": "/resource/VDOXOMDemoDashboard/images/logisticslogo.png",
+    "Name": "Logistics & Inventory",
+    "Online__c": true,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__System__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__System__c/Logistics & Inventory"
+}

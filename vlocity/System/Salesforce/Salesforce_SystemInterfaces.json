@@ -1,0 +1,36 @@
+[
+    {
+        "%vlocity_namespace%__GlobalKey__c": "05da7dd8-8dd0-6095-fd1e-4370d6c7c09b",
+        "%vlocity_namespace%__Implementation__c": "VDODefaultSystemInterface",
+        "%vlocity_namespace%__Key__c": "Salesforce:Activation Services",
+        "%vlocity_namespace%__Path__c": "mock/aaa?mockedCode=500",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Salesforce",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Salesforce",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Salesforce",
+        "Name": "Activation Services",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Activation Services/%vlocity_namespace%__System__c/Salesforce"
+    },
+    {
+        "%vlocity_namespace%__GlobalKey__c": "0fb28ae6-78b2-10ae-73d4-9aff7b4918aa",
+        "%vlocity_namespace%__Implementation__c": "VDODefaultSystemInterface",
+        "%vlocity_namespace%__Key__c": "Salesforce:System Interface",
+        "%vlocity_namespace%__Path__c": "mock/aaa",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Salesforce",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Salesforce",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Salesforce",
+        "Name": "System Interface",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/System Interface/%vlocity_namespace%__System__c/Salesforce"
+    }
+]

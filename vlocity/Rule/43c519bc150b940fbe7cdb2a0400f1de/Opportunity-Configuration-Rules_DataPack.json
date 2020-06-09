@@ -1,0 +1,21 @@
+{
+    "%vlocity_namespace%__Description__c": "Configuration rules for the Opportunity Object.",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__Expression__c": "",
+    "%vlocity_namespace%__FailureMessage__c": "",
+    "%vlocity_namespace%__FallbackId__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "43c519bc150b940fbe7cdb2a0400f1de",
+    "%vlocity_namespace%__HeaderId__c": "",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__ObjectName__c": "OpportunityLineItem",
+    "%vlocity_namespace%__Operation__c": "",
+    "%vlocity_namespace%__RuleAction__c": "Opportunity-Configuration-Rules_RuleActions.json",
+    "%vlocity_namespace%__RulePurpose__c": "",
+    "%vlocity_namespace%__RuleType__c": "",
+    "%vlocity_namespace%__Type__c": "Configuration",
+    "Name": "Opportunity Configuration Rules",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Rule__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Rule__c/43c519bc150b940fbe7cdb2a0400f1de"
+}

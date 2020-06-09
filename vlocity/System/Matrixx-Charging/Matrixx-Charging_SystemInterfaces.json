@@ -1,0 +1,19 @@
+[
+    {
+        "%vlocity_namespace%__GlobalKey__c": "f41a3044-e70b-4675-cd6e-2139229588ca",
+        "%vlocity_namespace%__Implementation__c": "VDODefaultSystemInterface",
+        "%vlocity_namespace%__Key__c": "Matrixx Charging:Update Billing",
+        "%vlocity_namespace%__Path__c": "delay/5",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "Matrixx Charging",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/Matrixx Charging",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "Matrixx Charging",
+        "Name": "Update Billing",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/Update Billing/%vlocity_namespace%__System__c/Matrixx Charging"
+    }
+]

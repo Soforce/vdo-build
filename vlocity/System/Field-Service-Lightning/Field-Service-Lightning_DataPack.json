@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "5a9c8852-406b-066d-d2f3-24de70436b7f",
+    "%vlocity_namespace%__SystemInterface__c": "Field-Service-Lightning_SystemInterfaces.json",
+    "%vlocity_namespace%__URL__c": "https://callouts-mock.dev.vlocity.xom.vloc-dev.com/",
+    "Image__c": "/resource/VDOXOMDemoDashboard/images/fieldservicelogo.png",
+    "Name": "Field Service Lightning",
+    "Online__c": true,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__System__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__System__c/Field Service Lightning"
+}

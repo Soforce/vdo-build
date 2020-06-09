@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "86bf84d2-0a32-dc7d-14d1-fc887f188f84",
+    "%vlocity_namespace%__SystemInterface__c": "Matrixx-Charging_SystemInterfaces.json",
+    "%vlocity_namespace%__URL__c": "https://callouts-mock.dev.vlocity.xom.vloc-dev.com/",
+    "Image__c": "/resource/VDOXOMDemoDashboard/images/matrixx.png",
+    "Name": "Matrixx Charging",
+    "Online__c": true,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__System__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__System__c/Matrixx Charging"
+}

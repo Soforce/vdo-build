@@ -1,0 +1,22 @@
+{
+    "%vlocity_namespace%__Description__c": "Evaluates child items and sets their price to 0. Inactivated, but kept as an example of setting up a rule, entity filter",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__Expression__c": "",
+    "%vlocity_namespace%__FailureMessage__c": "",
+    "%vlocity_namespace%__FallbackId__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "b10f6c4616fc8b5f4aa03fbc98421238",
+    "%vlocity_namespace%__HeaderId__c": "",
+    "%vlocity_namespace%__IsActive__c": false,
+    "%vlocity_namespace%__ObjectName__c": "OrderItem",
+    "%vlocity_namespace%__Operation__c": "",
+    "%vlocity_namespace%__RuleAction__c": "Set-Non-Discount-Child-Items-To-Zero_RuleActions.json",
+    "%vlocity_namespace%__RuleFilter__c": "Set-Non-Discount-Child-Items-To-Zero_RuleFilters.json",
+    "%vlocity_namespace%__RulePurpose__c": "",
+    "%vlocity_namespace%__RuleType__c": "",
+    "%vlocity_namespace%__Type__c": "Pricing",
+    "Name": "Set Non-Discount Child Items To Zero",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Rule__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Rule__c/b10f6c4616fc8b5f4aa03fbc98421238"
+}

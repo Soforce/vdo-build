@@ -1,0 +1,22 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "60b81d10-bc0c-25d7-43d3-08083ac46242",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "f6d96244-7d27-e762-117a-abe4445fc1f2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/f6d96244-7d27-e762-117a-abe4445fc1f2",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__SequenceNumber__c": 0,
+    "%vlocity_namespace%__UrlLong__c": "/servlet/servlet.FileDownload?file=0154P0000058U5VQAU",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "ATT Business Essentials Bundle Small Icon1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/60b81d10-bc0c-25d7-43d3-08083ac46242"
+}
