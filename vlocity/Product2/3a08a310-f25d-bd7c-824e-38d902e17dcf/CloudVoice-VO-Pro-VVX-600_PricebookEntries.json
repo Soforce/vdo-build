@@ -1,0 +1,35 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": 0,
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "CloudVoice + VO Pro + VVX 600",
+        "One_Time_Cost__c": "",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "3a08a310-f25d-bd7c-824e-38d902e17dcf",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "3a08a310-f25d-bd7c-824e-38d902e17dcf",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/3a08a310-f25d-bd7c-824e-38d902e17dcf",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "VLO-INT-0039",
+        "Recurring_Cost__c": "",
+        "SOHO_One_Time_Discount__c": "",
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/3a08a310-f25d-bd7c-824e-38d902e17dcf"
+    }
+]

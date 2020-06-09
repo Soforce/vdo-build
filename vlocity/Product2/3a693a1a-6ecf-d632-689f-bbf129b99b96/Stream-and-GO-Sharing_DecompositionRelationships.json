@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": "",
+        "%vlocity_namespace%__DestinationMinQuantity__c": 0,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "6dcc6161-84d3-5c12-07b5-b9e42b02ffb1",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/6dcc6161-84d3-5c12-07b5-b9e42b02ffb1",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "ff7013ef-152f-a5da-18ab-b6fa6739f685",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_type\":\"Attribute\",\"source_attr_name\":\"Share User\",\"source_attr_code\":\"VLO-ATT-SHRUSR\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Share User\",\"destination_attr_code\":\"VLO-ATT-SHRUSR\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Share Service\",\"source_attr_code\":\"VLO-SHR-SHRSVC\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Share Service\",\"destination_attr_code\":\"VLO-SHR-SHRSVC\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "3a693a1a-6ecf-d632-689f-bbf129b99b96",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/3a693a1a-6ecf-d632-689f-bbf129b99b96",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "3a693a1a-6ecf-d632-689f-bbf129b99b96",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Share Plan Decomposes to Share CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Share Plan Decomposes to Share CFS/Product2/3a693a1a-6ecf-d632-689f-bbf129b99b96"
+    }
+]

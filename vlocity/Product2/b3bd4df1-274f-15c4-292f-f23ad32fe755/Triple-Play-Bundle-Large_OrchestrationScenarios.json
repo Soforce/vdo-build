@@ -1,0 +1,50 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "51ce4575-4278-eb49-d485-001c66370fb7",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "E2E",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/E2E",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b3bd4df1-274f-15c4-292f-f23ad32fe755",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b3bd4df1-274f-15c4-292f-f23ad32fe755",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "b3bd4df1-274f-15c4-292f-f23ad32fe755",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Triple Play Bundle Large MACD",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Triple Play Bundle Large MACD/Product2/b3bd4df1-274f-15c4-292f-f23ad32fe755"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Disconnect",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "b5d33a39-21a0-e223-912c-c89f93ada1ce",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Cancel E2E",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Cancel E2E",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b3bd4df1-274f-15c4-292f-f23ad32fe755",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b3bd4df1-274f-15c4-292f-f23ad32fe755",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "b3bd4df1-274f-15c4-292f-f23ad32fe755",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Cancel",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Cancel/Product2/b3bd4df1-274f-15c4-292f-f23ad32fe755"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "2a8c44d4-cc47-65f6-bb3f-3859017210eb",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "E2E",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/E2E",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "9f186d06-7f8d-8a0e-3890-8242824904f0",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/9f186d06-7f8d-8a0e-3890-8242824904f0",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "9f186d06-7f8d-8a0e-3890-8242824904f0",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "5G Burst 10-Pack - MACD",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/5G Burst 10-Pack - MACD/Product2/9f186d06-7f8d-8a0e-3890-8242824904f0"
+    }
+]

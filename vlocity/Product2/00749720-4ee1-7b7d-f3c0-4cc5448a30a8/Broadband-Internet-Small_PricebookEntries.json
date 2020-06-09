@@ -1,0 +1,35 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": 20,
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Broadband Internet Small",
+        "One_Time_Cost__c": "",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "00749720-4ee1-7b7d-f3c0-4cc5448a30a8",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "00749720-4ee1-7b7d-f3c0-4cc5448a30a8",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/00749720-4ee1-7b7d-f3c0-4cc5448a30a8",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "VLO-INT-0001",
+        "Recurring_Cost__c": "",
+        "SOHO_One_Time_Discount__c": "",
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/00749720-4ee1-7b7d-f3c0-4cc5448a30a8"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "5fa30f2f-13e2-0c70-debc-59a716e723bf",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Logistics",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Logistics",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "68599a64-c007-1e70-7855-6e14c5e4079f",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/68599a64-c007-1e70-7855-6e14c5e4079f",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "68599a64-c007-1e70-7855-6e14c5e4079f",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Receiver HD Logistics",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Receiver HD Logistics/Product2/68599a64-c007-1e70-7855-6e14c5e4079f"
+    }
+]

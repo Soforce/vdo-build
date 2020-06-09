@@ -1,0 +1,64 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ac8c1d5d-1bf3-519d-6129-10a949953d9c",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/ac8c1d5d-1bf3-519d-6129-10a949953d9c",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "5f93faa8-d053-0116-edfd-8c78dd6a11bb",
+        "%vlocity_namespace%__MappingsData__c": "[{\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Part Number\",\"destination_attr_code\":\"ATTRIBUTE-123\",\"source_field_name\":\"ProductName__c\",\"source_type\":\"Field\"},{\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Provider\",\"destination_attr_code\":\"ATTRIBUTE-124\",\"source_field_name\":\"ProductName__c\",\"source_type\":\"Field\"},{\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Supplier\",\"destination_attr_code\":\"ATTRIBUTE-125\",\"source_field_name\":\"ProductName__c\",\"source_type\":\"Field\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "7bce2f9e-f628-50c5-d359-52a426ffba72",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/7bce2f9e-f628-50c5-d359-52a426ffba72",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "7bce2f9e-f628-50c5-d359-52a426ffba72",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "CPE Logistics CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/CPE Logistics CFS/Product2/7bce2f9e-f628-50c5-d359-52a426ffba72"
+    },
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "fb4b6b65-3cc7-a363-3211-7b0b087eed8d",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/fb4b6b65-3cc7-a363-3211-7b0b087eed8d",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c46b8a3c-2bee-6b1a-74b0-05cd5868259b",
+        "%vlocity_namespace%__MappingsData__c": "[{\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Billing Code\",\"destination_attr_code\":\"ATTRIBUTE-117\",\"source_field_name\":\"PricebookEntry.ProductCode\",\"source_type\":\"Field\"},{\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"MRC\",\"destination_attr_code\":\"ATTRIBUTE-121\",\"source_field_name\":\"Order.%vlocity_namespace%__EffectiveRecurringTotal__c\",\"source_type\":\"Field\"},{\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"NRC\",\"destination_attr_code\":\"ATTRIBUTE-122\",\"source_field_name\":\"Order.%vlocity_namespace%__EffectiveOneTimeTotal__c\",\"source_type\":\"Field\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "7bce2f9e-f628-50c5-d359-52a426ffba72",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/7bce2f9e-f628-50c5-d359-52a426ffba72",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "7bce2f9e-f628-50c5-d359-52a426ffba72",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "CPE Billing Spec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/CPE Billing Spec/Product2/7bce2f9e-f628-50c5-d359-52a426ffba72"
+    }
+]

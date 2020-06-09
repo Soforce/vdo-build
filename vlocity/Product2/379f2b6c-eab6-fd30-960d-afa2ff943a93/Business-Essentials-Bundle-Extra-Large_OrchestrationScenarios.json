@@ -1,0 +1,26 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "fe3e0016-3cf3-c4d3-974c-63e50c458863",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "E2E",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/E2E",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "379f2b6c-eab6-fd30-960d-afa2ff943a93",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/379f2b6c-eab6-fd30-960d-afa2ff943a93",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "379f2b6c-eab6-fd30-960d-afa2ff943a93",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Business Essentials Bundle Extra Large MACD",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Business Essentials Bundle Extra Large MACD/Product2/379f2b6c-eab6-fd30-960d-afa2ff943a93"
+    }
+]

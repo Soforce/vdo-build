@@ -1,0 +1,26 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "aee35eb3-c7b5-ef75-171e-5cd1446d091c",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Simple Consumer Fulfilment",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Simple Consumer Fulfilment",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "444f634a-5548-ad64-0118-c251b7f04514",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/444f634a-5548-ad64-0118-c251b7f04514",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "444f634a-5548-ad64-0118-c251b7f04514",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Samsung Galaxy S9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Samsung Galaxy S9/Product2/444f634a-5548-ad64-0118-c251b7f04514"
+    }
+]

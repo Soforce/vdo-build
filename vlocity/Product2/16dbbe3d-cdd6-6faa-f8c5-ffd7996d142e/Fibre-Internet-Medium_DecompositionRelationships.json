@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": "",
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "48f6d136-5d07-af33-a830-53b31fe67355",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/48f6d136-5d07-af33-a830-53b31fe67355",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "28c4db4d-4760-e440-91bd-c23c8af17928",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_attr_name\":\"Internet Download Speed\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Download TC\",\"destination_attr_code\":\"ATTRIBUTE-119\",\"source_attr_code\":\"ATTRIBUTE-120\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Internet Upload Speed\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Upload TC\",\"destination_attr_code\":\"ATTRIBUTE-126\",\"source_attr_code\":\"ATTRIBUTE-127\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Internet Data Usage Cap\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Internet Data Usage Cap\",\"destination_attr_code\":\"ATTRIBUTE-080\",\"source_attr_code\":\"ATTRIBUTE-080\",\"source_type\":\"Attribute\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 1,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "16dbbe3d-cdd6-6faa-f8c5-ffd7996d142e",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/16dbbe3d-cdd6-6faa-f8c5-ffd7996d142e",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "16dbbe3d-cdd6-6faa-f8c5-ffd7996d142e",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Fibre Internet Medium Decomposes to Broadband Internet CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Fibre Internet Medium Decomposes to Broadband Internet CFS/Product2/16dbbe3d-cdd6-6faa-f8c5-ffd7996d142e"
+    }
+]

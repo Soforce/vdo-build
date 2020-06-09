@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ab69a005-6154-4543-b694-360d790d7b33",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/ab69a005-6154-4543-b694-360d790d7b33",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c11a1ada-cc1f-6ff4-ee41-23b3750cbca5",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_type\":\"Attribute\",\"source_attr_name\":\"Mobile Minutes\",\"source_attr_code\":\"ATTRIBUTE-013\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Mobile Minutes\",\"destination_attr_code\":\"ATTRIBUTE-013\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Mobile Data\",\"source_attr_code\":\"ATTRIBUTE-014\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Mobile Data\",\"destination_attr_code\":\"ATTRIBUTE-014\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Mobile Messages\",\"source_attr_code\":\"ATTRIBUTE-015\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Mobile Messages\",\"destination_attr_code\":\"ATTRIBUTE-015\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d40ce12b-423a-1d33-34f1-f34773cf8bc1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/d40ce12b-423a-1d33-34f1-f34773cf8bc1",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "d40ce12b-423a-1d33-34f1-f34773cf8bc1",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Mobile CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Mobile CFS/Product2/d40ce12b-423a-1d33-34f1-f34773cf8bc1"
+    }
+]

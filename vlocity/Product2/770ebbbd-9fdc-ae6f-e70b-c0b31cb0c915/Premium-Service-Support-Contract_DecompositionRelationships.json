@@ -1,0 +1,64 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "74cc07f2-1756-faaa-7e25-c45edff7ef21",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/74cc07f2-1756-faaa-7e25-c45edff7ef21",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "bd9ed8ff-7b8b-404e-c208-e99737d1dcdb",
+        "%vlocity_namespace%__MappingsData__c": "[{\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Special Instructions\",\"destination_attr_code\":\"ATTRIBUTE-073\",\"source_field_name\":\"ProductName__c\",\"source_type\":\"Field\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "770ebbbd-9fdc-ae6f-e70b-c0b31cb0c915",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/770ebbbd-9fdc-ae6f-e70b-c0b31cb0c915",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "770ebbbd-9fdc-ae6f-e70b-c0b31cb0c915",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Service and Usage CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Service and Usage CFS/Product2/770ebbbd-9fdc-ae6f-e70b-c0b31cb0c915"
+    },
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "76711bf6-1258-1bb9-2581-d2b2af8c4d22",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/76711bf6-1258-1bb9-2581-d2b2af8c4d22",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2104202c-6aa9-6fe2-09f7-867c4bd096a6",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_type\":\"Field\",\"source_field_name\":\"PricebookEntry.ProductCode\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Billing Code\",\"destination_attr_code\":\"ATTRIBUTE-117\"},{\"source_type\":\"Field\",\"source_field_name\":\"Order.%vlocity_namespace%__EffectiveRecurringTotal__c\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"MRC\",\"destination_attr_code\":\"ATTRIBUTE-121\"},{\"source_type\":\"Field\",\"source_field_name\":\"Order.%vlocity_namespace%__EffectiveOneTimeTotal__c\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"NRC\",\"destination_attr_code\":\"ATTRIBUTE-122\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "770ebbbd-9fdc-ae6f-e70b-c0b31cb0c915",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/770ebbbd-9fdc-ae6f-e70b-c0b31cb0c915",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "770ebbbd-9fdc-ae6f-e70b-c0b31cb0c915",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Service Usage Billing Spec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Service Usage Billing Spec/Product2/770ebbbd-9fdc-ae6f-e70b-c0b31cb0c915"
+    }
+]

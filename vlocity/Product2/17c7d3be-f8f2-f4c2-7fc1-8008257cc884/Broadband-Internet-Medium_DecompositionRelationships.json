@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "48f6d136-5d07-af33-a830-53b31fe67355",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/48f6d136-5d07-af33-a830-53b31fe67355",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c6a423fa-d7a8-de87-06ab-2b6cf29febe9",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_attr_name\":\"Internet Download Speed\",\"value\":\"\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Download TC\",\"destination_attr_code\":\"ATTRIBUTE-119\",\"source_attr_code\":\"DownloadSpeed\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Internet Upload Speed\",\"value\":\"\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Upload TC\",\"destination_attr_code\":\"ATTRIBUTE-126\",\"source_attr_code\":\"UploadSpeed\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Internet Data Usage Cap\",\"value\":\"\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Internet Data Usage Cap\",\"destination_attr_code\":\"ATTRIBUTE-080\",\"source_attr_code\":\"ATTRIBUTE-080\",\"source_type\":\"Attribute\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "17c7d3be-f8f2-f4c2-7fc1-8008257cc884",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/17c7d3be-f8f2-f4c2-7fc1-8008257cc884",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "17c7d3be-f8f2-f4c2-7fc1-8008257cc884",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Broadband Internet CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Broadband Internet CFS/Product2/17c7d3be-f8f2-f4c2-7fc1-8008257cc884"
+    }
+]

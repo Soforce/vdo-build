@@ -1,0 +1,22 @@
+{
+    "%vlocity_namespace%__AdjustmentMethod__c": "",
+    "%vlocity_namespace%__Aggregation__c": "Quantity",
+    "%vlocity_namespace%__AppliesToVariableId__c": "",
+    "%vlocity_namespace%__AppliesTo__c": "",
+    "%vlocity_namespace%__ChargeType__c": "",
+    "%vlocity_namespace%__Code__c": "GROUP_REC_MNTH_MARGIN_TOTAL",
+    "%vlocity_namespace%__CurrencyType__c": "Currency",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "b1f9fe7a-2f44-2610-785f-321f1745e401",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__PricingVariableBinding__c": "Group-Recurring-Monthly-Margin-Total_PricingVariableBindings.json",
+    "%vlocity_namespace%__RecurringFrequency__c": "Monthly",
+    "%vlocity_namespace%__Scope__c": "Group",
+    "%vlocity_namespace%__SubType__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__ValueType__c": "Calculated",
+    "Name": "Group Recurring Monthly Margin Total",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__PricingVariable__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__PricingVariable__c/GROUP_REC_MNTH_MARGIN_TOTAL"
+}

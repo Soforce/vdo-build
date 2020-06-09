@@ -1,0 +1,64 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "395fee62-0f1a-7180-f1e1-7db8c9bba4ca",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/395fee62-0f1a-7180-f1e1-7db8c9bba4ca",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "9964dde6-865c-a515-b1e8-2057e105f7cb",
+        "%vlocity_namespace%__MappingsData__c": "[{\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Billing Code\",\"destination_attr_code\":\"ATTRIBUTE-117\",\"source_field_name\":\"PricebookEntry.ProductCode\",\"source_type\":\"Field\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "c15e80f4-78e8-0312-3cb9-b8889e46880e",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/c15e80f4-78e8-0312-3cb9-b8889e46880e",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "c15e80f4-78e8-0312-3cb9-b8889e46880e",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "IP Billing Spec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/IP Billing Spec/Product2/c15e80f4-78e8-0312-3cb9-b8889e46880e"
+    },
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "c82357e9-7773-3a5f-d4ca-6d402bb07cf2",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/c82357e9-7773-3a5f-d4ca-6d402bb07cf2",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4e676092-ec49-bd26-b410-a3b3402db9d2",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_attr_name\":\"Port Type\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Port Type\",\"destination_attr_code\":\"ATTRIBUTE-149\",\"source_attr_code\":\"ATTRIBUTE-149\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Port Speed\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Port Speed\",\"destination_attr_code\":\"ATTRIBUTE-150\",\"source_attr_code\":\"ATTRIBUTE-150\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Access Type\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Access Type\",\"destination_attr_code\":\"ATTRIBUTE-152\",\"source_attr_code\":\"ATTRIBUTE-152\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Access Speed\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Access Speed\",\"destination_attr_code\":\"ATTRIBUTE-153\",\"source_attr_code\":\"ATTRIBUTE-153\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Interface Type\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Interface Type\",\"destination_attr_code\":\"ATTRIBUTE-148\",\"source_attr_code\":\"ATTRIBUTE-148\",\"source_type\":\"Attribute\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "c15e80f4-78e8-0312-3cb9-b8889e46880e",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/c15e80f4-78e8-0312-3cb9-b8889e46880e",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "c15e80f4-78e8-0312-3cb9-b8889e46880e",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "On-Net Network CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/On-Net Network CFS/Product2/c15e80f4-78e8-0312-3cb9-b8889e46880e"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "dcfa3b4e-2cc5-2d9b-bd9e-f69b7bc74ca4",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "License Provisioning",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/License Provisioning",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b50d64e0-e79e-0809-1d08-d36fbebb0de9",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b50d64e0-e79e-0809-1d08-d36fbebb0de9",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "b50d64e0-e79e-0809-1d08-d36fbebb0de9",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "License Provisioning",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/License Provisioning/Product2/b50d64e0-e79e-0809-1d08-d36fbebb0de9"
+    }
+]

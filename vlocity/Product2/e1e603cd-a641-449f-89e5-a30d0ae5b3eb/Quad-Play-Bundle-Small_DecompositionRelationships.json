@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "16d2270f-82af-eb15-41ac-b3833e1d1f43",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/16d2270f-82af-eb15-41ac-b3833e1d1f43",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f90a4aca-53e3-2151-edab-c7773aa9d542",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_type\":\"Field\",\"source_field_name\":\"%vlocity_namespace%__OneTimeTotal__c\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"NRC\",\"destination_attr_code\":\"ATTRIBUTE-122\"},{\"source_type\":\"Field\",\"source_field_name\":\"%vlocity_namespace%__RecurringTotal__c\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"MRC\",\"destination_attr_code\":\"ATTRIBUTE-121\"},{\"transform_mappings\":[{\"destination_value\":\"Quad Play Medium\",\"source_value\":\"New\"},{\"destination_value\":\"Quad Play Medium\",\"source_value\":\"Modified\"}],\"value\":\"\",\"mapping_type\":\"list\",\"destination_attr_name\":\"Bill Literal\",\"destination_attr_code\":\"ATTRIBUTE-116\",\"source_field_name\":\"%vlocity_namespace%__ProvisioningStatus__c\",\"source_type\":\"Field\"},{\"transform_mappings\":[{\"destination_value\":\"CONS-QP-MEDIUM\",\"source_value\":\"New\"},{\"destination_value\":\"CONS-QP-MEDIUM\",\"source_value\":\"Modified\"}],\"value\":\"\",\"mapping_type\":\"list\",\"destination_attr_name\":\"Billing Code\",\"destination_attr_code\":\"ATTRIBUTE-117\",\"source_field_name\":\"%vlocity_namespace%__ProvisioningStatus__c\",\"source_type\":\"Field\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "e1e603cd-a641-449f-89e5-a30d0ae5b3eb",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/e1e603cd-a641-449f-89e5-a30d0ae5b3eb",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "e1e603cd-a641-449f-89e5-a30d0ae5b3eb",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Quad Play Billing Spec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Quad Play Billing Spec/Product2/e1e603cd-a641-449f-89e5-a30d0ae5b3eb"
+    }
+]

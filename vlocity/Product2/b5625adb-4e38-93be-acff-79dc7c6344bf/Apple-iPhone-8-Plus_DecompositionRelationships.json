@@ -1,0 +1,95 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "7ed982ff-ccd8-6f70-aaa6-8cbc2ffd90c0",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/7ed982ff-ccd8-6f70-aaa6-8cbc2ffd90c0",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4785f7fd-4b67-dfc4-24fc-1eff62da0ef6",
+        "%vlocity_namespace%__MappingsData__c": "",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b5625adb-4e38-93be-acff-79dc7c6344bf",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b5625adb-4e38-93be-acff-79dc7c6344bf",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "b5625adb-4e38-93be-acff-79dc7c6344bf",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Consumer Mobile Billing SpecGalaxy S9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Consumer Mobile Billing SpecGalaxy S9/Product2/b5625adb-4e38-93be-acff-79dc7c6344bf"
+    },
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ab69a005-6154-4543-b694-360d790d7b33",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/ab69a005-6154-4543-b694-360d790d7b33",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b8e164ab-41e7-0cee-780a-c8c77b5d0a7c",
+        "%vlocity_namespace%__MappingsData__c": "",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b5625adb-4e38-93be-acff-79dc7c6344bf",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b5625adb-4e38-93be-acff-79dc7c6344bf",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "b5625adb-4e38-93be-acff-79dc7c6344bf",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Mobile CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Mobile CFS/Product2/b5625adb-4e38-93be-acff-79dc7c6344bf"
+    },
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f3d8dd8e-6653-b567-785a-9045cd6d1854",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/f3d8dd8e-6653-b567-785a-9045cd6d1854",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c899d1a6-2c3f-686a-fbf1-e53c09ed54bc",
+        "%vlocity_namespace%__MappingsData__c": "[{\"value\":\"\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Street Address\",\"destination_attr_code\":\"ATTRIBUTE-156\",\"source_field_name\":\"Order.Account.ShippingStreet\",\"source_type\":\"Field\"},{\"value\":\"\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Suburb\",\"destination_attr_code\":\"SUBURB\",\"source_field_name\":\"Order.Account.ShippingCity\",\"source_type\":\"Field\"},{\"value\":\"\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"State\",\"destination_attr_code\":\"STATE\",\"source_field_name\":\"Order.Account.ShippingState\",\"source_type\":\"Field\"},{\"value\":\"\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Post Code\",\"destination_attr_code\":\"POST-CODE\",\"source_field_name\":\"Order.Account.ShippingPostalCode\",\"source_type\":\"Field\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b5625adb-4e38-93be-acff-79dc7c6344bf",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b5625adb-4e38-93be-acff-79dc7c6344bf",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "b5625adb-4e38-93be-acff-79dc7c6344bf",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Mobile Equipment Spec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Mobile Equipment Spec/Product2/b5625adb-4e38-93be-acff-79dc7c6344bf"
+    }
+]

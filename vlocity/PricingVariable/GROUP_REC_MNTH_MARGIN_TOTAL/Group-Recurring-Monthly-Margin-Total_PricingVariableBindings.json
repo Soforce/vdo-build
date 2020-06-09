@@ -1,0 +1,28 @@
+[
+    {
+        "%vlocity_namespace%__DestinationFieldApiName__c": "%vlocity_namespace%__RecurringMarginTotal__c",
+        "%vlocity_namespace%__DestinationSObjectType__c": "%vlocity_namespace%__OrderGroup__c",
+        "%vlocity_namespace%__PricingVariableId__c": {
+            "%vlocity_namespace%__Code__c": "GROUP_REC_MNTH_MARGIN_TOTAL",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__PricingVariable__c/GROUP_REC_MNTH_MARGIN_TOTAL",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PricingVariable__c"
+        },
+        "Name": "GROUP_REC_MNTH_MARGIN_TOTAL - OrderGroup",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PricingVariableBinding__c"
+    },
+    {
+        "%vlocity_namespace%__DestinationFieldApiName__c": "%vlocity_namespace%__RecurringMarginTotal__c",
+        "%vlocity_namespace%__DestinationSObjectType__c": "%vlocity_namespace%__QuoteGroup__c",
+        "%vlocity_namespace%__PricingVariableId__c": {
+            "%vlocity_namespace%__Code__c": "GROUP_REC_MNTH_MARGIN_TOTAL",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__PricingVariable__c/GROUP_REC_MNTH_MARGIN_TOTAL",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PricingVariable__c"
+        },
+        "Name": "GROUP_REC_MNTH_MARGIN_TOTAL - QuoteGroup",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PricingVariableBinding__c"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "9e53a672-e5a8-fddd-3788-2b1adc1cd9d8",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "IP-VPN Network Assign and Design",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/IP-VPN Network Assign and Design",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "cf882cb4-7f39-e35b-5135-2643d4a534e9",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/cf882cb4-7f39-e35b-5135-2643d4a534e9",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "cf882cb4-7f39-e35b-5135-2643d4a534e9",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "On-Net Local Loop Assign & Design",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/On-Net Local Loop Assign & Design/Product2/cf882cb4-7f39-e35b-5135-2643d4a534e9"
+    }
+]

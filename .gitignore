@@ -29,8 +29,9 @@ node_modules/
 .DS_Store
 
 # Vlocity directories
-vlocity/
-vlocity-pe/
+#vlocity/
+#vlocity-pe/
+#vlocity-doc/
 vlocity-temp/
 
 # Windows system files

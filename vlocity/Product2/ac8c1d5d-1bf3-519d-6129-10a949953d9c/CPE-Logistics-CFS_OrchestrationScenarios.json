@@ -1,0 +1,26 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "52903f5a-b175-e445-c99f-4011161d4a5c",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Logistics",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Logistics",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ac8c1d5d-1bf3-519d-6129-10a949953d9c",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ac8c1d5d-1bf3-519d-6129-10a949953d9c",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "ac8c1d5d-1bf3-519d-6129-10a949953d9c",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "CPE Logistics",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/CPE Logistics/Product2/ac8c1d5d-1bf3-519d-6129-10a949953d9c"
+    }
+]

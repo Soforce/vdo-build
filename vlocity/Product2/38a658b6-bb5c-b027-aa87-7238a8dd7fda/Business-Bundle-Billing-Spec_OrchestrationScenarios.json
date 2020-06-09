@@ -1,0 +1,26 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "74e5cd46-1e4a-3f93-099a-614e9735797e",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Billing",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Billing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "38a658b6-bb5c-b027-aa87-7238a8dd7fda",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/38a658b6-bb5c-b027-aa87-7238a8dd7fda",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "38a658b6-bb5c-b027-aa87-7238a8dd7fda",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Business Bundle Billing Spec Billing",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Business Bundle Billing Spec Billing/Product2/38a658b6-bb5c-b027-aa87-7238a8dd7fda"
+    }
+]

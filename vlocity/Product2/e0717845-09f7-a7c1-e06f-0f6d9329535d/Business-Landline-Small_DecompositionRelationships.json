@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "4d1c2242-5475-555e-7e38-a61388877bbb",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/4d1c2242-5475-555e-7e38-a61388877bbb",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "51fc6d9a-5353-fe69-e4bb-c9503ec12ffb",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_type\":\"Field\",\"source_field_name\":\"Order.Account.ShippingStreet\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Street Address\",\"destination_attr_code\":\"ATTRIBUTE-156\"},{\"source_type\":\"Field\",\"source_field_name\":\"Order.Account.ShippingCity\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Suburb\",\"destination_attr_code\":\"SUBURB\"},{\"source_type\":\"Field\",\"source_field_name\":\"Order.Account.ShippingState\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"State\",\"destination_attr_code\":\"STATE\"},{\"source_type\":\"Field\",\"source_field_name\":\"Order.Account.ShippingPostalCode\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Post Code\",\"destination_attr_code\":\"POST-CODE\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Included Minutes\",\"source_attr_code\":\"ATTRIBUTE-093\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"International Calls Included (mins)\",\"destination_attr_code\":\"INT-CALLS\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Included Minutes\",\"source_attr_code\":\"ATTRIBUTE-093\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Long Distance Calls Included (mins)\",\"destination_attr_code\":\"LD-CALLS\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Included Minutes\",\"source_attr_code\":\"ATTRIBUTE-093\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Local Call Included (mins)\",\"destination_attr_code\":\"LOCAL-CALLS\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Included Minutes\",\"source_attr_code\":\"ATTRIBUTE-093\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Calls to Mobiles Included (mins)\",\"destination_attr_code\":\"MOBILE-CALLS\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Number\",\"source_attr_code\":\"ATTRIBUTE-091\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Phone Number\",\"destination_attr_code\":\"PHONE-NUMBER\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "e0717845-09f7-a7c1-e06f-0f6d9329535d",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/e0717845-09f7-a7c1-e06f-0f6d9329535d",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "e0717845-09f7-a7c1-e06f-0f6d9329535d",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Landline CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Landline CFS/Product2/e0717845-09f7-a7c1-e06f-0f6d9329535d"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add;Modify",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "ae315c15-ce4f-a7f8-310f-f429702c9a2c",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Billing",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Billing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "c2a59fc9-24d3-cf47-d763-12df76a2bb1b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/c2a59fc9-24d3-cf47-d763-12df76a2bb1b",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "c2a59fc9-24d3-cf47-d763-12df76a2bb1b",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "IP-VPN Billing Spec Billing",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/IP-VPN Billing Spec Billing/Product2/c2a59fc9-24d3-cf47-d763-12df76a2bb1b"
+    }
+]
