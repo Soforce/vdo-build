@@ -68,6 +68,30 @@ select Id, name, vlocity_cmt__ObjectTYpeId__c, vlocity_cmt__ObjectTypeId__r.Name
 This guide helps Salesforce developers who are new to Visual Studio Code go from zero to a deployed app using Salesforce Extensions for VS Code and Salesforce CLI.
 
 
+8. Fix card-canvas and left-profile VlocityUITemplate
+Remove extra trail '}' from the *.datapack.json file
+Export the two separately
+```
+projectPath: vlocity
+manifest:
+ - VlocityUITemplate/card-canvas
+ - VlocityUITemplate/left-profile
+
+```
+
+
+9. DocumentTemplate needs to be imported separately
+Use ExportGroupSize settings and maxDepth command arg
+```
+projectPath: vlocity
+queries:
+  - DocumentTemplate
+OverrideSettings:
+  DataPacks:
+    DocumentTemplate:
+      ExportGroupSize: 1
+```
+
 ## Not Needed
 
 ## Part 1: Choosing a Development Model

@@ -1,7 +1,6 @@
 projectPath: vlocity
 queries:
   - AttributeCategory
-  - CalculationProcedure
   - ContextAction
   - ContextDimension
   - ContextScope
@@ -21,3 +20,26 @@ queries:
   - UISection
   - VlocityFunction
   - VlocityPicklist
+  - Attachment
+  - AttributeAssignmentRule
+  - VlocityAttachment
+  - VlocitySearchWidgetSetup
+  - Catalog
+  - PricingPlan
+  - OfferMigrationPlan
+  - CpqConfigurationSetup
+  - InterfaceImplementation
+  - StoryObjectConfiguration
+  - String
+  - VlocityDataPackType: SObject
+    query: SELECT Id, Name FROM vlocity_cmt__IntegrationRetryPolicy__c
+  - ContractType
+  - Document
+  - DocumentClause
+  - VlocityStateModel
+  - ItemImplementation
+  - ManualQueue
+  - OrchestrationDependencyDefinition
+  - OrchestrationItemDefinition
+  - OrchestrationPlanDefinition
+  - System

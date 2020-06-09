@@ -1,0 +1,7 @@
+projectPath: vlocity-doc
+queries:
+  - DocumentTemplate
+OverrideSettings:
+  DataPacks:
+    DocumentTemplate:
+      ExportGroupSize: 1

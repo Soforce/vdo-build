@@ -1,0 +1,13 @@
+projectPath: vlocity-pe
+queries:
+  - VlocityUITemplate
+  - VlocityDataPackType: VlocityCard
+    query: SELECT Id, Name, vlocity_cmt__Active__c FROM vlocity_cmt__VlocityCard__c WHERE vlocity_cmt__Active__c=true
+  - VlocityUILayout
+  - VlocityDataPackType: OmniScript
+    query: SELECT Id,vlocity_cmt__Type__c,vlocity_cmt__SubType__c,vlocity_cmt__Language__c FROM vlocity_cmt__OmniScript__c WHERE vlocity_cmt__IsActive__c=true AND vlocity_cmt__IsProcedure__c=false AND vlocity_cmt__Type__c NOT IN ('VDO','VPL 101-1','VPL','Energy')
+  - IntegrationProcedure
+  - VlocityAction
+  - CalculationProcedure
+  - DataRaptor
+  - CalculationMatrix

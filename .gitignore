@@ -30,6 +30,7 @@ node_modules/
 
 # Vlocity directories
 vlocity/
+vlocity-pe/
 vlocity-temp/
 
 # Windows system files
