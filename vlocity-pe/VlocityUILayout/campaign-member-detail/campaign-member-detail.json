@@ -1,0 +1,29 @@
+{
+    "Cards": [
+        "Campaign Member Detail",
+        "Campaign Member Detail Active"
+    ],
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "type": "Custom",
+        "value": {
+            "body": "{\n    \"records\": [\n        {\n            \"SortOrder\": {\n                \"actions\": {},\n                \"dataType\": \"INTEGER\",\n                \"editable\": true,\n                \"fieldName\": \"SortOrder\",\n                \"hidden\": null,\n                \"label\": \"Sort Order\",\n                \"messages\": [],\n                \"value\": 1\n            },\n            \"HasResponded\": {\n                \"actions\": {},\n                \"dataType\": \"BOOLEAN\",\n                \"editable\": true,\n                \"fieldName\": \"HasResponded\",\n                \"hidden\": null,\n                \"label\": \"Responded\",\n                \"messages\": [],\n                \"value\": false\n            },\n            \"Label\": {\n                \"actions\": {},\n                \"dataType\": \"STRING\",\n                \"editable\": false,\n                \"fieldName\": \"Label\",\n                \"hidden\": null,\n                \"label\": \"Label\",\n                \"messages\": [],\n                \"value\": \"Sent\"\n            },\n            \"Id\": {\n                \"actions\": {},\n                \"dataType\": \"ID\",\n                \"editable\": false,\n                \"fieldName\": \"Id\",\n                \"hidden\": null,\n                \"label\": \"Campaign Member Status ID\",\n                \"messages\": [],\n                \"value\": \"01Y410000001DzhEAE\"\n            },\n            \"displaySequence\": -1,\n            \"actions\": {},\n            \"messages\": [],\n            \"uiStates\": {}\n        },\n        {\n            \"SortOrder\": {\n                \"actions\": {},\n                \"dataType\": \"INTEGER\",\n                \"editable\": true,\n                \"fieldName\": \"SortOrder\",\n                \"hidden\": null,\n                \"label\": \"Sort Order\",\n                \"messages\": [],\n                \"value\": 2\n            },\n            \"HasResponded\": {\n                \"actions\": {},\n                \"dataType\": \"BOOLEAN\",\n                \"editable\": true,\n                \"fieldName\": \"HasResponded\",\n                \"hidden\": null,\n                \"label\": \"Responded\",\n                \"messages\": [],\n                \"value\": true\n            },\n            \"Label\": {\n                \"actions\": {},\n                \"dataType\": \"STRING\",\n                \"editable\": false,\n                \"fieldName\": \"Label\",\n                \"hidden\": null,\n                \"label\": \"Label\",\n                \"messages\": [],\n                \"value\": \"Responded\"\n            },\n            \"Id\": {\n                \"actions\": {},\n                \"dataType\": \"ID\",\n                \"editable\": false,\n                \"fieldName\": \"Id\",\n                \"hidden\": null,\n                \"label\": \"Campaign Member Status ID\",\n                \"messages\": [],\n                \"value\": \"01Y410000001DziEAE\"\n            },\n            \"displaySequence\": -1,\n            \"actions\": {},\n            \"messages\": [],\n            \"uiStates\": {}\n        },\n        {\n            \"SortOrder\": {\n                \"actions\": {},\n                \"dataType\": \"INTEGER\",\n                \"editable\": true,\n                \"fieldName\": \"SortOrder\",\n                \"hidden\": null,\n                \"label\": \"Sort Order\",\n                \"messages\": [],\n                \"value\": 3\n            },\n            \"HasResponded\": {\n                \"actions\": {},\n                \"dataType\": \"BOOLEAN\",\n                \"editable\": true,\n                \"fieldName\": \"HasResponded\",\n                \"hidden\": null,\n                \"label\": \"Responded\",\n                \"messages\": [],\n                \"value\": true\n            },\n            \"Label\": {\n                \"actions\": {},\n                \"dataType\": \"STRING\",\n                \"editable\": false,\n                \"fieldName\": \"Label\",\n                \"hidden\": null,\n                \"label\": \"Label\",\n                \"messages\": [],\n                \"value\": \"Golfer\"\n            },\n            \"Id\": {\n                \"actions\": {},\n                \"dataType\": \"ID\",\n                \"editable\": false,\n                \"fieldName\": \"Id\",\n                \"hidden\": null,\n                \"label\": \"Campaign Member Status ID\",\n                \"messages\": [],\n                \"value\": \"01Y410000001DzjEAE\"\n            },\n            \"displaySequence\": -1,\n            \"actions\": {},\n            \"messages\": [],\n            \"uiStates\": {}\n        }\n    ],\n    \"actions\": {},\n    \"messages\": [],\n    \"totalSize\": 3\n}",
+            "inputMap": {
+                "campaignId": "{{params.id}}"
+            },
+            "query": "SELECT Id From CampaignMember Where Id = '{{params.id}}'",
+            "remoteClass": "CampaignListHandler",
+            "remoteMethod": "getMemberStatusByCampaign",
+            "remoteNSPrefix": "%vlocity_namespace%",
+            "resultVar": ""
+        }
+    },
+    "sessionVars": [
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "campaign-column"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "Cards": [
+        "empty-card-demo-eng"
+    ],
+    "dataSource": {
+        "type": null,
+        "value": {
+            "body": "{\n\"layouttitle\": \"offers available to you\"\n}",
+            "inputMap": {
+                "apiName": "GetOffers",
+                "catalogCode": "STREAM",
+                "pageSize": "10",
+                "requestURL": "/v3/catalogs/STREAM/offers"
+            },
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.CpqAppHandler"
+            },
+            "remoteClass": "CpqAppHandler",
+            "remoteMethod": "getOffersByCatalogCode",
+            "remoteNSPrefix": "%vlocity_namespace%",
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-3x-slds-demo-eng"
+        }
+    },
+    "workspace": [
+        "empty-card-demo-eng/Radif Masud/1/1572721551699"
+    ]
+}

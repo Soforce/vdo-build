@@ -1,0 +1,26 @@
+{
+    "Cards": [
+        "acuity-sidebar-offer-card"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0014P0000263kv6QAA"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "console-right-sidebar-slds"
+        }
+    },
+    "workspace": [
+        "acuity-sidebar-offer-card/Vlocity Demo Org/1506954926859"
+    ]
+}

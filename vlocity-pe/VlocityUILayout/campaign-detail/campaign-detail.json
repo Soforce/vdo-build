@@ -1,0 +1,23 @@
+{
+    "Cards": [
+        "Campaign Detail"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "70136000000JwSFAA0"
+            }
+        ],
+        "type": "Custom",
+        "value": {
+            "body": "[\n    {\n        \"attributes\": {\n            \"type\": \"Campaign\",\n            \"url\": \"/services/data/v37.0/sobjects/Campaign/70141000000DfuhAAC\"\n        },\n        \"AmountAllOpportunities\": 0,\n        \"AmountWonOpportunities\": 0,\n        \"CreatedById\": \"00541000000QogDAAS\",\n        \"CreatedDate\": \"2016-08-25T00:34:56.000+0000\",\n        \"Description\": \"Targeting existing customers who have bought bluetooth enabled mobile devices in the past 12 months.\",\n        \"ExpectedResponse\": 0,\n        \"Id\": \"70141000000DfuhAAC\",\n        \"IsActive\": false,\n        \"Name\": \"Get Fit Mobile Wearables\",\n        \"NumberOfContacts\": 10,\n        \"NumberOfConvertedLeads\": 0,\n        \"NumberOfLeads\": 0,\n        \"NumberOfOpportunities\": 0,\n        \"NumberOfResponses\": 1,\n        \"NumberOfWonOpportunities\": 0,\n        \"NumberSent\": 0,\n        \"OwnerId\": \"00541000000QogDAAS\",\n        \"StartDate\": \"2016-01-13\",\n        \"Status\": \"Planned\",\n        \"Type\": \"Other\",\n        \"LastModifiedDate\": \"2016-08-25T00:34:56.000+0000\",\n        \"CreatedBy\": {\n            \"attributes\": {\n                \"type\": \"User\",\n                \"url\": \"/services/data/v37.0/sobjects/User/00541000000QogDAAS\"\n            },\n            \"Name\": \"Sophie Sales\",\n            \"Id\": \"00541000000QogDAAS\"\n        }\n    }\n]",
+            "query": "SELECT ActualCost,AmountAllOpportunities,AmountWonOpportunities,BudgetedCost,CampaignMemberRecordTypeId,CreatedById,CreatedDate,Description,EndDate,ExpectedResponse,ExpectedRevenue,Id,IsActive,Name,NumberOfContacts,NumberOfConvertedLeads,NumberOfLeads,NumberOfOpportunities,NumberOfResponses,NumberOfWonOpportunities,NumberSent,OwnerId,ParentId,RecordTypeId,StartDate,Status,Type, LastModifiedDate, CreatedBy.Name FROM Campaign WHERE Id = '{{params.id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "campaign-column"
+        }
+    }
+}

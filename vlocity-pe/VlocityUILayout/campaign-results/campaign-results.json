@@ -1,0 +1,27 @@
+{
+    "Cards": [
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "70136000000JwSF"
+            }
+        ],
+        "type": "Custom",
+        "value": {
+            "body": "{\n    \"result\": {\n        \"records\": [\n            {\n                \"value\": 1,\n                \"label\": \"Responded\",\n                \"displaySequence\": -1,\n                \"actions\": {},\n                \"messages\": [],\n                \"uiStates\": {}\n            },\n            {\n                \"value\": 9,\n                \"label\": \"Sent\",\n                \"displaySequence\": -1,\n                \"actions\": {},\n                \"messages\": [],\n                \"uiStates\": {}\n            }\n        ],\n        \"actions\": {},\n        \"messages\": [],\n        \"totalSize\": 10\n    },\n    \"errorCode\": \"INVOKE-200\",\n    \"error\": \"OK\"\n}",
+            "inputMap": {
+                "campaignId": "{{params.id}}"
+            },
+            "remoteClass": "CampaignListHandler",
+            "remoteMethod": "getMembersAggInfoByCampaign",
+            "remoteNSPrefix": "%vlocity_namespace%"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "campaign-results"
+        }
+    }
+}

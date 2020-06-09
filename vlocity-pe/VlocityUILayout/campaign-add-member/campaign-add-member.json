@@ -1,0 +1,20 @@
+{
+    "Cards": [
+    ],
+    "dataSource": {
+        "type": "ApexRemote",
+        "value": {
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%."
+            },
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteNSPrefix": "%vlocity_namespace%"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "campaign-add-member"
+        }
+    }
+}

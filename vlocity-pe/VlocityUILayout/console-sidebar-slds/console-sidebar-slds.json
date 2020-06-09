@@ -1,0 +1,29 @@
+{
+    "Cards": [
+        "profile-account-slds",
+        "profile-account-info-slds"
+    ],
+    "bypassSave": true,
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0014P0000263kz2QAA"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "console-sidebar-slds"
+        }
+    },
+    "workspace": [
+        "profile-account-slds/Vlocity Demo Org/1515072669235",
+        "profile-account-info-slds/Vlocity Demo Org/1515072672022"
+    ]
+}
