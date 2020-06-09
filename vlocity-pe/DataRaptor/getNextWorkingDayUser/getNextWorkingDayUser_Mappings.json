@@ -1,0 +1,38 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "WorkingDay",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__FilterValue__c": "Id",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__GlobalKey__c": "3da1e070-59cc-81f3-6799-cfee54e4cacb",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+        "%vlocity_namespace%__InterfaceObjectName__c": "User",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "getNextWorkingDayUserCustom2275",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "getNextWorkingDayUser",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ThankYouPage:NextWorkingDay",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__GlobalKey__c": "42940aaf-d891-60e1-934c-935c3cdd264f",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "WorkingDay:Next_Working_Day__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "getNextWorkingDayUserCustom27",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "getNextWorkingDayUser",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

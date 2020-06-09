@@ -1,0 +1,12 @@
+<script type="text/ng-template" id="vlcSelectAccountId.html">
+<div class="slds-grid slds-wrap slds-grid--pull-padded ng-scope">
+{{control.vlcSI[control.itemsKey]}}
+<div class="slds-size--12-of-12 slds-medium-size--12-of-12 slds-large-size--12-of-12" ng-repeat="p in control.vlcSI[control.itemsKey]">
+<div ng-init="p.Id = replaceStr(p.Id)">
+<div class="slds-grid slds-box vlc-slds-selectableItem" ng-click="bpTree.response.account =  [];bpTree.response.account.push({'SelectedAccountId':p.Id}); configureItem(bpTree.response, control, this, p,operation, baseCtrl.customHandleSelectedItem, baseCtrl.customIsConfigurable)">
+<div class="box">{{p.Name}}</div>
+</div>
+</div>
+</div>
+<div>
+</script>

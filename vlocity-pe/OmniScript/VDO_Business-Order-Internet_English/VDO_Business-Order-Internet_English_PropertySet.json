@@ -1,0 +1,58 @@
+{
+    "allowSaveForLater": false,
+    "autoSaveOnStepNext": true,
+    "cancelRedirectPageName": "OmniScriptCancelled",
+    "cancelRedirectTemplateUrl": "vlcCancelled.html",
+    "cancelSource": "%ContextId%",
+    "cancelType": "SObject",
+    "consoleTabLabel": "New",
+    "elementTypeToHTMLTemplateMapping": {
+    },
+    "enableKnowledge": false,
+    "includeCustomization": true,
+    "knowledgeArticleTypeQueryFieldsMap": {
+    },
+    "message": {
+    },
+    "persistentComponent": [
+        {
+            "id": "vlcCart",
+            "itemsKey": "cartItems",
+            "label": "Shopping Cart",
+            "modalConfigurationSetting": {
+                "modalController": "ModalProductCtrl",
+                "modalHTMLTemplateId": "vlcProductConfig.html",
+                "modalSize": "lg"
+            },
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "%vlocity_namespace%.OmniCPQServiceWrapper",
+            "remoteMethod": "updateCart",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "render": true,
+            "responseJSONNode": "",
+            "responseJSONPath": "",
+            "sendJSONNode": "",
+            "sendJSONPath": ""
+        }
+    ],
+    "saveContentEncoded": false,
+    "saveExpireInDays": null,
+    "saveForLaterRedirectPageName": "sflRedirect",
+    "saveForLaterRedirectTemplateUrl": "vlcSaveForLaterAcknowledge.html",
+    "saveNameTemplate": null,
+    "saveObjectId": "%ContextId%",
+    "seedDataJSON": {
+    },
+    "ssm": false,
+    "timeTracking": true,
+    "trackingCustomData": {
+    },
+    "visualforcePagesAvailableInPreview": {
+    },
+    "wpm": false
+}

@@ -1,0 +1,63 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Asset",
+        "%vlocity_namespace%__FilterGroup__c": 0,
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__FilterValue__c": "ContextId",
+        "%vlocity_namespace%__GlobalKey__c": "4c3afe94-46ff-493e-d84c-d143f692132e",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+        "%vlocity_namespace%__InterfaceObjectName__c": "Asset",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "GetAssetDetailCustom3285",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "GetAssetDetail",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "AccountId",
+        "%vlocity_namespace%__GlobalKey__c": "fd8e4882-ca1b-4b7d-d497-b8240b0b7c6c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Asset:AccountId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "GetAssetDetailCustom7999",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "GetAssetDetail",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "AssetId",
+        "%vlocity_namespace%__GlobalKey__c": "a16afbc1-e4aa-c3de-0b3c-0e4728d7fd0d",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Asset:Id",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "GetAssetDetailCustom2583",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "GetAssetDetail",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "AssetName",
+        "%vlocity_namespace%__GlobalKey__c": "4924a175-d178-5d9c-fed4-86263d0db916",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Asset:Name",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "GetAssetDetailCustom7580",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "GetAssetDetail",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

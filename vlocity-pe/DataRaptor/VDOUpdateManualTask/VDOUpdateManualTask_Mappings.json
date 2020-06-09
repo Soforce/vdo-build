@@ -1,0 +1,36 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "%vlocity_namespace%__OrchestrationItem__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "%vlocity_namespace%__State__c",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__GlobalKey__c": "bd16c1f5-0d81-4b92-89b1-ddaa6d901aa3",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Review:Manual Task Status",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "VDOUpdateManualTaskCustom2236",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VDOUpdateManualTask",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "%vlocity_namespace%__OrchestrationItem__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__GlobalKey__c": "139cd52c-60a1-8b2f-2520-d78803cd35a6",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ContextId",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "VDOUpdateManualTaskCustom5691",
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "VDOUpdateManualTask",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

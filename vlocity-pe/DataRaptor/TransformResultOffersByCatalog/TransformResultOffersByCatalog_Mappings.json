@@ -1,0 +1,58 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Offers:Description",
+        "%vlocity_namespace%__GlobalKey__c": "91e0a19a-5aef-5289-8a47-ce3e7b6a7add",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "data:offers:Description",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformResultOffersByCatalogCustom9710",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformResultOffersByCatalog",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Offers:Name",
+        "%vlocity_namespace%__GlobalKey__c": "f4ea6e10-358f-8475-c79a-0af6433d5ad2",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "data:offers:Name",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformResultOffersByCatalogCustom8994",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformResultOffersByCatalog",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Offers:ProductCode",
+        "%vlocity_namespace%__GlobalKey__c": "35d5e5de-118f-151b-eef8-a34d945710b8",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "data:offers:ProductCode",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformResultOffersByCatalogCustom3778",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformResultOffersByCatalog",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Offers:offerType",
+        "%vlocity_namespace%__GlobalKey__c": "6aacbd5f-3f27-fa72-95a6-866efd673137",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "data:offers:offerType",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformResultOffersByCatalogCustom4939",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformResultOffersByCatalog",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

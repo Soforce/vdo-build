@@ -1,0 +1,36 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Account",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__GlobalKey__c": "bb5e1af9-be63-7283-ecc2-d6c9e26a09e6",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ObjectId",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "AccountCreateResponseCustom3795",
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "AccountCreateResponse_Matrixx",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Account",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "RatingSystemKey__c",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__GlobalKey__c": "e88977e6-bea0-f011-132c-d7f33544fa37",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ObjectKey",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "AccountCreateResponseCustom8810",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "AccountCreateResponse_Matrixx",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

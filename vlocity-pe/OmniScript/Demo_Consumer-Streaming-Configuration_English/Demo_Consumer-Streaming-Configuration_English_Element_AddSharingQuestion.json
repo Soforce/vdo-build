@@ -1,0 +1,74 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Consumer Streaming Configuration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Demo/Consumer Streaming Configuration/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Consumer Streaming Configuration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Demo/Consumer Streaming Configuration/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "ConfigureSharing",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/Consumer Streaming Configuration/English/ConfigureSharing",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ConfigureSharing",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "demo-radio-image-tiles",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": "image",
+        "imageCountInRow": 3,
+        "label": "Would you like to share this service?",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": "image"
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "autoAdv": null,
+                "imgId": "../resource/VDONuSliceResources/icons/yes.png",
+                "name": "Yes",
+                "value": ""
+            },
+            {
+                "autoAdv": "next",
+                "imgId": "../resource/VDONuSliceResources/icons/no.png",
+                "name": "No"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Radio",
+    "Name": "AddSharingQuestion",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/Consumer Streaming Configuration/English/AddSharingQuestion"
+}

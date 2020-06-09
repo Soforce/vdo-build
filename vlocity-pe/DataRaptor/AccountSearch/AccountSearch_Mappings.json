@@ -1,0 +1,63 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Details",
+        "%vlocity_namespace%__FilterGroup__c": 0,
+        "%vlocity_namespace%__FilterOperator__c": "LIKE",
+        "%vlocity_namespace%__FilterValue__c": "Name",
+        "%vlocity_namespace%__GlobalKey__c": "d82a1c65-e55a-a39f-3355-4d75d95ddc18",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Name",
+        "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+        "%vlocity_namespace%__InterfaceObjectName__c": "Account",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "AccountSearchCustom742",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "AccountSearch",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Details:AccountNumber",
+        "%vlocity_namespace%__GlobalKey__c": "8ff7bfb2-0e51-0f4e-ac08-e15ab6156b45",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Details:AccountNumber",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "AccountSearchCustom9009",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "AccountSearch",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Details:Id",
+        "%vlocity_namespace%__GlobalKey__c": "eee9582b-49ee-5c98-3ccc-2cc9cf2f4461",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Details:Id",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "AccountSearchCustom5736",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "AccountSearch",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Details:Name",
+        "%vlocity_namespace%__GlobalKey__c": "8b5dcbac-d3ea-31b4-0358-46bb9d5c0584",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Details:Name",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "AccountSearchCustom6779",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "AccountSearch",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

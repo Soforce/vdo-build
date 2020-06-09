@@ -1,0 +1,25 @@
+{
+    "ContextId": null,
+    "createContract": {
+        "ContractDocument": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "ContractName": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "PostCreateContract": null,
+        "PostCreateContractDocument": null,
+        "createContract": null
+    }
+}

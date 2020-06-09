@@ -1,0 +1,128 @@
+{
+    "AccountKey": "78e45b0c-cb44-4c26-32c4-9a23b4024bb3",
+    "AccountType": "Individual",
+    "AdjustmentAmount": 100,
+    "AdjustmentType": "Credit",
+    "AvailableAmount": 130,
+    "CreateBody": {
+        "$": "MtxRequestSubscriberAdjustBalance",
+        "AdjustType": 1,
+        "Amount": 100,
+        "BalanceResourceId": 3,
+        "ExternalId": "78e45b0c-cb44-4c26-32c4-9a23b4024bb3:3",
+        "Info": "extended reason",
+        "Reason": "need money"
+    },
+    "CreateBodyInput": {
+        "AccountKey": "78e45b0c-cb44-4c26-32c4-9a23b4024bb3",
+        "AccountType": "Individual",
+        "AdjustmentAmount": 100,
+        "AdjustmentType": "Credit",
+        "AvailableAmount": 130,
+        "CreditLimit": 200,
+        "DisplayQuantityUnit": "USD",
+        "ExternalId": "78e45b0c-cb44-4c26-32c4-9a23b4024bb3:3",
+        "GetAccountKey": {
+            "AccountId": "0014100000W6gzlAAB",
+            "AccountOID": "0-1-5-389",
+            "AccountType": "subscriber",
+            "AssetId": "02i41000002hCyBAAU"
+        },
+        "GetAccountKeyStatus": true,
+        "Info": "extended reason",
+        "Name": "Balance",
+        "PreGetAccountKey": {
+            "AccountKey": "78e45b0c-cb44-4c26-32c4-9a23b4024bb3",
+            "ResourceId": 3
+        },
+        "PreGetAccountKeyStatus": true,
+        "Reason": "need money",
+        "ResourceId": 3,
+        "ThresholdLimit": 200,
+        "options": {
+            "isDebug": true
+        },
+        "response": {
+        }
+    },
+    "CreateBodySequence": 3,
+    "CreateBodyStatus": true,
+    "CreditLimit": 200,
+    "DisplayQuantityUnit": "USD",
+    "ErrorCalloutStatus": false,
+    "ExternalId": "78e45b0c-cb44-4c26-32c4-9a23b4024bb3:3",
+    "GetAccountKey": {
+        "AccountId": "0014100000W6gzlAAB",
+        "AccountOID": "0-1-5-389",
+        "AccountType": "subscriber",
+        "AssetId": "02i41000002hCyBAAU"
+    },
+    "GetAccountKeyInput": {
+        "AccountKey": "78e45b0c-cb44-4c26-32c4-9a23b4024bb3",
+        "ResourceId": 3
+    },
+    "GetAccountKeySequence": 2,
+    "GetAccountKeyStatus": true,
+    "Info": "extended reason",
+    "MakeCallout": {
+        "$": "MtxResponse",
+        "DomainId": 1,
+        "Result": 0,
+        "ResultText": "OK",
+        "_resultCode": 0,
+        "_resultText": "OK",
+        "_resultType": "update"
+    },
+    "MakeCalloutInput": {
+        "$": "MtxRequestSubscriberAdjustBalance",
+        "AdjustType": 1,
+        "Amount": 100,
+        "BalanceResourceId": 3,
+        "ExternalId": "78e45b0c-cb44-4c26-32c4-9a23b4024bb3:3",
+        "Info": "extended reason",
+        "Reason": "need money"
+    },
+    "MakeCalloutSequence": 4,
+    "MakeCalloutStatus": true,
+    "Name": "Balance",
+    "PreGetAccountKey": {
+        "AccountKey": "78e45b0c-cb44-4c26-32c4-9a23b4024bb3",
+        "ResourceId": 3
+    },
+    "PreGetAccountKeyInput": {
+        "AccountKey": "78e45b0c-cb44-4c26-32c4-9a23b4024bb3",
+        "AccountType": "Individual",
+        "AdjustmentAmount": 100,
+        "AdjustmentType": "Credit",
+        "AvailableAmount": 130,
+        "CreditLimit": 200,
+        "DisplayQuantityUnit": "USD",
+        "ExternalId": "78e45b0c-cb44-4c26-32c4-9a23b4024bb3:3",
+        "Info": "extended reason",
+        "Name": "Balance",
+        "Reason": "need money",
+        "ResourceId": 3,
+        "ThresholdLimit": 200,
+        "options": {
+            "isDebug": true
+        },
+        "response": {
+        }
+    },
+    "PreGetAccountKeySequence": 1,
+    "PreGetAccountKeyStatus": true,
+    "Reason": "need money",
+    "ResourceId": 3,
+    "ThresholdLimit": 200,
+    "debugLog": [
+        "2017-06-14T14:21:30.951Z: Query - SELECT Id,%vlocity_namespace%__GlobalKey__c,%vlocity_namespace%__RatingSystemKey__c,%vlocity_namespace%__ServiceSharingType__c FROM Account WHERE (%vlocity_namespace%__GlobalKey__c = '78e45b0c-cb44-4c26-32c4-9a23b4024bb3') LIMIT 50000",
+        "2017-06-14T14:21:30.965Z: Query Results Found: 1",
+        "2017-06-14T14:21:31.027Z: Query - SELECT Id,AccountId,%vlocity_namespace%__GlobalKey__c,%vlocity_namespace%__RatingSystemKey__c FROM Asset WHERE (AccountId = '0014100000W6gzlAAB' AND %vlocity_namespace%__RatingSystemKey__c = '3') LIMIT 50000",
+        "2017-06-14T14:21:31.043Z: Query Results Found: 1"
+    ],
+    "options": {
+        "isDebug": true
+    },
+    "response": {
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Create Order and Plan",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__Element__c": [
+        "VPL-101-1_Create-Order-and-Plan_English_Element_StepToSelectpriceList.json",
+        "VPL-101-1_Create-Order-and-Plan_English_Element_SelectPriceList.json",
+        "VPL-101-1_Create-Order-and-Plan_English_Element_CreateOrder.json",
+        "VPL-101-1_Create-Order-and-Plan_English_Element_SetOrderId.json",
+        "VPL-101-1_Create-Order-and-Plan_English_Element_CreateCart.json",
+        "VPL-101-1_Create-Order-and-Plan_English_Element_GetProducts.json",
+        "VPL-101-1_Create-Order-and-Plan_English_Element_Recommended-Products.json",
+        "VPL-101-1_Create-Order-and-Plan_English_Element_Products.json",
+        "VPL-101-1_Create-Order-and-Plan_English_Element_ProductsErrorMessaging.json",
+        "VPL-101-1_Create-Order-and-Plan_English_Element_SetContextIdAndCartId.json",
+        "VPL-101-1_Create-Order-and-Plan_English_Element_Checkout.json",
+        "VPL-101-1_Create-Order-and-Plan_English_Element_CreatePlan.json",
+        "VPL-101-1_Create-Order-and-Plan_English_Element_Confirmation.json",
+        "VPL-101-1_Create-Order-and-Plan_English_Element_OrderConfirmation.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "VPL-101-1_Create-Order-and-Plan_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Create Order and Plan",
+    "%vlocity_namespace%__Type__c": "VPL 101-1",
+    "Name": "VPL Create Order and Plan 101-1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL 101-1/Create Order and Plan/English"
+}

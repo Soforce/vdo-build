@@ -1,0 +1,61 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Create Consumer Mobile Order",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Vlocity Mobile Consumer/Create Consumer Mobile Order/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+            "inputFields": [
+                {
+                    "effectivedate": "01/01/2020"
+                },
+                {
+                    "status": "Draft"
+                },
+                {
+                    "AccountId": "%AccountId%"
+                },
+                {
+                    "Name": "Consumer Mobile Order"
+                },
+                {
+                    "%vlocity_namespace%__PriceListId__c": "%Get Price List:pricelistid%"
+                }
+            ],
+            "objectType": "Order"
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "RemoteAction1",
+        "remoteClass": "%vlocity_namespace%.CpqAppHandler",
+        "remoteMethod": "createCart",
+        "remoteOptions": {
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "useFormulas": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Remote Action",
+    "Name": "Create Order",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Vlocity Mobile Consumer/Create Consumer Mobile Order/Procedure/Create Order"
+}

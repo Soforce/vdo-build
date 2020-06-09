@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<SiebelMessage MessageId = "" IntObjectName = "EAI Account" MessageType = "Integration Object" IntObjectFormat = "Siebel Hierarchical">
+	<ListOfAccount>
+		<Account operation="query">
+		<!--	<Id>8SIA-8WQV9</Id>  -->
+			<MainPhoneNumber>9252223334</MainPhoneNumber>
+		</Account>
+	</ListOfAccount>
+</SiebelMessage>

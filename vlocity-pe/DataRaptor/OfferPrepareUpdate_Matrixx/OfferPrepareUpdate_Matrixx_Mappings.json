@@ -1,0 +1,36 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "AssetId",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__GlobalKey__c": "63ef4491-ec6b-7307-bcb5-ffbc8841c643",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ContextId",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "PurchaseOfferPreTransformSubCustoma0N41000003pDnHEAUItem0",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "OfferPrepareUpdate_Matrixx",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ResourceId",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__GlobalKey__c": "16f23d55-38d3-b8a0-0853-401a76c922e8",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "MakeCallout:PurchaseInfoArray:ResourceId",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "PurchaseOfferPreTransformSubCustom1000",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "OfferPrepareUpdate_Matrixx",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

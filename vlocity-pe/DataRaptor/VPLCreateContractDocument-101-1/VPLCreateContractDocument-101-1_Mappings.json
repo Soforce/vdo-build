@@ -1,0 +1,59 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Document",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Body",
+        "%vlocity_namespace%__GlobalKey__c": "4ab1429d-d80b-f6c2-2d69-af021357d621",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "createContract:ContractDocument:data",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPL-PostCreateContractDocument-100-1Custom3030",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPLCreateContractDocument-101-1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Document",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "FolderId",
+        "%vlocity_namespace%__GlobalKey__c": "8c11b37f-67ac-9edd-a44f-577482dd6d3f",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "FolderId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPL-PostCreateContractDocument-100-1Custom4888",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPLCreateContractDocument-101-1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__ConfigurationValue__c": "FAKEMAPPING",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Document",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__GlobalKey__c": "eb54c3c7-7220-2f12-ed0f-2a42cb8c85ef",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPL-PostCreateContractDocument-100-1Custom1595",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPLCreateContractDocument-101-1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Document",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Name",
+        "%vlocity_namespace%__GlobalKey__c": "28cd1352-ac8c-3c7d-7d52-5ca6b0b42416",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "createContract:ContractDocument:filename",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPL-PostCreateContractDocument-100-1Custom444",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPLCreateContractDocument-101-1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

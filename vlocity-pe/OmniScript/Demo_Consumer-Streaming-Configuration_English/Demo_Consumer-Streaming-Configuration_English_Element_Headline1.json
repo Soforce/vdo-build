@@ -1,0 +1,37 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Consumer Streaming Configuration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Demo/Consumer Streaming Configuration/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Consumer Streaming Configuration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Demo/Consumer Streaming Configuration/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "SelectOffer",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/Consumer Streaming Configuration/English/SelectOffer",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SelectOffer",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "label": "<div class=\"slds-col slds-grid slds-align_absolute-center\">\n<div class=\"slds-col slds-size_2-of-8\">&nbsp;</div>\n<div class=\"slds-col slds-size_1-of-8\"><img src=\"../resource/VDONuSliceResources/logos/5g-logo.jpg\" alt=\"\" width=\"150\" height=\"135\" /></div>\n<div class=\"slds-col slds-size_3-of-8\">\n<h2><strong>Only nuSlice offers you the choice<br />you want at the speeds you crave!</strong></h2>\n</div>\n<div class=\"slds-col slds-size_2-of-8\">&nbsp;</div>\n</div>",
+        "labelKey": "",
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Headline",
+    "Name": "Headline1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/Consumer Streaming Configuration/English/Headline1"
+}

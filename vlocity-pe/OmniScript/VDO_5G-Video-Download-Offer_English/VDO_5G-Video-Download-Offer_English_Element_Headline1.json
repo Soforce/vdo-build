@@ -1,0 +1,37 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "5G_Video_Download_Offer",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/5G Video Download Offer/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "5G_Video_Download_Offer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/5G Video Download Offer/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Share",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VDO/5G Video Download Offer/English/Share",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Share",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 3,
+        "disOnTplt": false,
+        "label": "<h3 class=\"p1\"><img src=\"https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/nuslice/VDONuSliceResources/logos/nuslice-logo2.jpg\" alt=\"share\" width=\"90\" height=\"90\" /><span style=\"color: #ffffff;\">Share download?</span></h3>\n<p><span style=\"color: #ffffff;\">Select or enter phone#</span></p>\n<p><span style=\"color: #ffffff;\">&nbsp;</span></p>",
+        "labelKey": "",
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Headline",
+    "Name": "Headline1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VDO/5G Video Download Offer/English/Headline1"
+}

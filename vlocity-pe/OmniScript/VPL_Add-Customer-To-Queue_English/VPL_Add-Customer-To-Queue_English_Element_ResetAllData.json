@@ -1,0 +1,50 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Customer Intake Assisted",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL/Add Customer To Queue/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "AccountId": "null",
+            "AccountName": "null",
+            "BillingOption": "null",
+            "Email": "null",
+            "FirstName": "null",
+            "FormulaForCIName": "null",
+            "InteractionId": "null",
+            "LastName": "null",
+            "MailOption": "null",
+            "MandatoryFieldValidation": false,
+            "Mobile": "null",
+            "MobileOption": "null",
+            "OffersEnquiryOption": "null",
+            "Preference 1": "null",
+            "RankInQueueValue": "null",
+            "TroubleShootOption": "null",
+            "UpgradeServiceOption": "null",
+            "WaitOption": "null"
+        },
+        "label": "ResetAllData",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "ResetAllData",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL/Add Customer To Queue/English/ResetAllData"
+}

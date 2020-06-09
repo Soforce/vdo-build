@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Adjust loyalty points.",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__Element__c": [
+        "VDO_Loyalty-Adjustment_English_Element_Adjust-Points.json",
+        "VDO_Loyalty-Adjustment_English_Element_Task.json",
+        "VDO_Loyalty-Adjustment_English_Element_Points.json",
+        "VDO_Loyalty-Adjustment_English_Element_Comment.json",
+        "VDO_Loyalty-Adjustment_English_Element_Status.json",
+        "VDO_Loyalty-Adjustment_English_Element_Submit-Activity.json",
+        "VDO_Loyalty-Adjustment_English_Element_Adjustment-Complete.json",
+        "VDO_Loyalty-Adjustment_English_Element_Wrap-Up.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "VDO_Loyalty-Adjustment_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Loyalty Adjustment",
+    "%vlocity_namespace%__TestHTMLTemplates__c": "VDO_Loyalty-Adjustment_English_HTMLTemplates.html",
+    "%vlocity_namespace%__Type__c": "VDO",
+    "Name": "Loyalty Adjustment",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/Loyalty Adjustment/English"
+}

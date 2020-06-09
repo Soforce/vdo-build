@@ -1,0 +1,81 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "VPL Recommend Products 101-1",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL 100-1/Recommend Products/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "VPL Recommend Products 101-1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL 100-1/Recommend Products/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "GetPriceListName",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL 100-1/Recommend Products/English/GetPriceListName",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "GetPriceListName",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "clearValue": true,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "dataSource": {
+            "mapItems": {
+                "inputParameters": [
+                ],
+                "phase1MapItems": [
+                    {
+                        "DomainObjectFieldAPIName__c": "VPL",
+                        "FilterOperator__c": "=",
+                        "FilterValue__c": "'True'",
+                        "InterfaceFieldAPIName__c": "%vlocity_namespace%__IsActive__c",
+                        "InterfaceObjectLookupOrder__c": 1,
+                        "InterfaceObjectName__c": "%vlocity_namespace%__PriceList__c"
+                    }
+                ],
+                "phase2MapItems": [
+                    {
+                        "DomainObjectAPIName__c": "JSON",
+                        "DomainObjectCreationOrder__c": 1,
+                        "DomainObjectFieldAPIName__c": "name",
+                        "InterfaceFieldAPIName__c": "VPL:Id"
+                    },
+                    {
+                        "DomainObjectAPIName__c": "JSON",
+                        "DomainObjectCreationOrder__c": 1,
+                        "DomainObjectFieldAPIName__c": "value",
+                        "InterfaceFieldAPIName__c": "VPL:Name"
+                    }
+                ]
+            },
+            "source": "",
+            "type": "SObject"
+        },
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Select Price List",
+        "placeholder": "",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": true,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Lookup",
+    "Name": "SelectPriceList",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL 100-1/Recommend Products/English/SelectPriceList"
+}

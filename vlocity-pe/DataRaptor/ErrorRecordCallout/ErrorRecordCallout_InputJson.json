@@ -1,0 +1,137 @@
+{
+    "ContextId": "0014100000cpFAF",
+    "CreateBody": {
+        "$": "MtxRequestSubscriberModify",
+        "Status": 2
+    },
+    "CreateBodyInput": {
+        "ContextId": "0014100000cpFAF",
+        "GetAccountType": {
+            "AccountOID": "0-1-5-559",
+            "AccountType": "subscriber"
+        },
+        "GetAccountTypeStatus": true,
+        "options": {
+            "isDebug": true
+        },
+        "response": {
+        }
+    },
+    "CreateBodySequence": 2,
+    "CreateBodyStatus": true,
+    "ErrorCallout": {
+        "%vlocity_namespace%__IntegrationError__c_1": [
+            {
+                "%vlocity_namespace%__Action__c": "update",
+                "%vlocity_namespace%__ErrorType__c": "Callout error",
+                "%vlocity_namespace%__ObjectId__c": "0014100000cpFAFAA2",
+                "%vlocity_namespace%__StatusCode__c": 11,
+                "%vlocity_namespace%__Status__c": "Subscriber not found.",
+                "Id": "a3n41000000E509AAC",
+                "Name": "MtxRequestSubscriberModify",
+                "UpsertSuccess": true
+            }
+        ],
+        "debugLog": [
+            "2017-07-18T08:32:57.218Z: Query - SELECT Id,ParentId,%vlocity_namespace%__RatingSystemKey__c,%vlocity_namespace%__ServiceSharingType__c FROM Account WHERE (Id = '0014100000cpFAFAA2') LIMIT 50000",
+            "2017-07-18T08:32:57.222Z: Query Results Found: 1",
+            "2017-07-18T08:32:57.304Z: Query - SELECT Id,%vlocity_namespace%__ServiceSharingType__c FROM Account WHERE (Id = '0014100000cpFAFAA2') LIMIT 50000",
+            "2017-07-18T08:32:57.306Z: Query Results Found: 1"
+        ],
+        "error": false,
+        "responseType": "SObject"
+    },
+    "ErrorCalloutInput": {
+        "ContextId": "0014100000cpFAF",
+        "CreateBody": {
+            "$": "MtxRequestSubscriberModify",
+            "Status": 2
+        },
+        "CreateBodyStatus": true,
+        "GetAccountType": {
+            "AccountOID": "0-1-5-559",
+            "AccountType": "subscriber"
+        },
+        "GetAccountTypeStatus": true,
+        "MakeCallout": {
+            "$": "MtxResponse",
+            "DomainId": 1,
+            "Result": 11,
+            "ResultText": "Subscriber not found.",
+            "_resultCode": 11,
+            "_resultText": "Subscriber not found.",
+            "_resultType": "update"
+        },
+        "MakeCalloutStatus": true,
+        "options": {
+            "isDebug": true
+        },
+        "response": {
+        }
+    },
+    "ErrorCalloutSequence": 4,
+    "ErrorCalloutStatus": false,
+    "GetAccountType": {
+        "AccountOID": "0-1-5-559",
+        "AccountType": "subscriber"
+    },
+    "GetAccountTypeInput": {
+        "ContextId": "0014100000cpFAF",
+        "options": {
+            "isDebug": true
+        },
+        "response": {
+        }
+    },
+    "GetAccountTypeSequence": 1,
+    "GetAccountTypeStatus": true,
+    "MakeCallout": {
+        "$": "MtxResponse",
+        "DomainId": 1,
+        "Result": 11,
+        "ResultText": "Subscriber not found.",
+        "_resultCode": 11,
+        "_resultText": "Subscriber not found.",
+        "_resultType": "update"
+    },
+    "MakeCalloutInput": {
+        "$": "MtxRequestSubscriberModify",
+        "Status": 2
+    },
+    "MakeCalloutSequence": 3,
+    "MakeCalloutStatus": true,
+    "debugLog": [
+        "2017-07-18T08:32:57.218Z: Query - SELECT Id,ParentId,%vlocity_namespace%__RatingSystemKey__c,%vlocity_namespace%__ServiceSharingType__c FROM Account WHERE (Id = '0014100000cpFAFAA2') LIMIT 50000",
+        "2017-07-18T08:32:57.222Z: Query Results Found: 1",
+        "2017-07-18T08:32:57.304Z: Query - SELECT Id,%vlocity_namespace%__ServiceSharingType__c FROM Account WHERE (Id = '0014100000cpFAFAA2') LIMIT 50000",
+        "2017-07-18T08:32:57.306Z: Query Results Found: 1"
+    ],
+    "options": {
+        "isDebug": true
+    },
+    "response": {
+        "result": {
+            "%vlocity_namespace%__IntegrationError__c_1": [
+                {
+                    "%vlocity_namespace%__Action__c": "update",
+                    "%vlocity_namespace%__ErrorType__c": "Callout error",
+                    "%vlocity_namespace%__ObjectId__c": "0014100000cpFAFAA2",
+                    "%vlocity_namespace%__StatusCode__c": 11,
+                    "%vlocity_namespace%__Status__c": "Subscriber not found.",
+                    "Id": "a3n41000000E509AAC",
+                    "Name": "MtxRequestSubscriberModify",
+                    "UpsertSuccess": true
+                }
+            ],
+            "debugLog": [
+                "2017-07-18T08:32:57.218Z: Query - SELECT Id,ParentId,%vlocity_namespace%__RatingSystemKey__c,%vlocity_namespace%__ServiceSharingType__c FROM Account WHERE (Id = '0014100000cpFAFAA2') LIMIT 50000",
+                "2017-07-18T08:32:57.222Z: Query Results Found: 1",
+                "2017-07-18T08:32:57.304Z: Query - SELECT Id,%vlocity_namespace%__ServiceSharingType__c FROM Account WHERE (Id = '0014100000cpFAFAA2') LIMIT 50000",
+                "2017-07-18T08:32:57.306Z: Query Results Found: 1"
+            ],
+            "error": false,
+            "responseType": "SObject"
+        },
+        "success": true
+    }
+}

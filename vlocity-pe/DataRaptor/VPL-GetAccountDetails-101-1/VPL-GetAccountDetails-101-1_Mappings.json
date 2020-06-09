@@ -1,0 +1,49 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Account",
+        "%vlocity_namespace%__FilterGroup__c": 0,
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__FilterValue__c": "ContextId",
+        "%vlocity_namespace%__GlobalKey__c": "fab2d512-544f-1d5c-df82-b575c17e5979",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+        "%vlocity_namespace%__InterfaceObjectName__c": "Account",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPL-GetAccountDetails-101-1Custom7280",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPL-GetAccountDetails-101-1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "AccountId",
+        "%vlocity_namespace%__GlobalKey__c": "35446b25-09ca-f12a-90f1-ef60ba8065cd",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Account:Id",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPL-GetAccountDetails-101-1Custom9072",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPL-GetAccountDetails-101-1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "AccountName",
+        "%vlocity_namespace%__GlobalKey__c": "a9755e5f-6b6d-3a33-5b66-855c315ff024",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Account:Name",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPL-GetAccountDetails-101-1Custom6353",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPL-GetAccountDetails-101-1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

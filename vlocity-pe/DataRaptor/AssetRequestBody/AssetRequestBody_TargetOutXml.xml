@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<SiebelMessage MessageId="" IntObjectName="Asset Management" MessageType="Integration Object" IntObjectFormat="Siebel Hierarchical">
+	<ListOfAsset_Management_Io>
+		<AssetMgmt-Asset>
+			<BillingAccount>Russ Mover1</BillingAccount>
+    <IsExpanded>Y<\IsExpanded>
+		</AssetMgmt-Asset>
+	</ListOfAsset_Management_Io>
+</SiebelMessage>

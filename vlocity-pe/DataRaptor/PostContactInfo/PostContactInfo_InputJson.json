@@ -1,0 +1,41 @@
+{
+    "Capture Customer Information": {
+        "Block 1": {
+            "Block 2": {
+                "Email": null,
+                "Mobile Number": null
+            },
+            "Checkbox 1": null,
+            "Checkbox 2": null,
+            "Checkbox 3": null,
+            "Contact Address": null,
+            "First Name": null,
+            "Last Name": null
+        }
+    },
+    "ContextId": null,
+    "Enter Unique Id": {
+        "CustomerInput": null
+    },
+    "Needs Analysis": {
+        "Option1": null,
+        "Option2": null,
+        "Option3": null,
+        "Option4": null
+    },
+    "Welcome Page": {
+        "Preference 1": null
+    },
+    "timeStamp": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Capture Customer Information": null,
+        "Enter Unique Id": null,
+        "Insert Contact Info": null,
+        "Needs Analysis": null,
+        "Welcome Page": null
+    }
+}

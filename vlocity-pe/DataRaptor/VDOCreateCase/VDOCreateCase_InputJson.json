@@ -1,0 +1,47 @@
+{
+    "AccountId": "0012v00002STEoJAAX",
+    "AccountIdLength": 18,
+    "AssetId": "02i2v00000Cgg8ZAAR",
+    "AssetIdLength": 18,
+    "AssetName": "Alex's Galaxy S9",
+    "CaseCreatedText": "<p>Thank you for submitting this dispute.&nbsp; Your case ID is 00001028.&nbsp; A representative will contact you shortly to assist you in solving this issue. You can use <u><a href=\"../5002v00002VvqeIAAR\" target=\"_blank\" rel=\"noreferrer\">this link</a></u> to view your case.</p>",
+    "CaseName": "00001028",
+    "ContextId": "02i2v00000Cgg8ZAAR",
+    "ContextIdType": "02i",
+    "ContextType": "Asset",
+    "CreatedCaseId": "5002v00002VvqeIAAR",
+    "DRId_Case": "5002v00002VvqeIAAR",
+    "GetCaseDescriptionStep": {
+        "Description": "customer desc"
+    },
+    "OverviewStep": {
+        "Problem": "No Signal",
+        "iOSVersion": null
+    },
+    "RecentCustomerActivityStep": {
+        "Stories": null
+    },
+    "error": "OK",
+    "id": "a1I2v00000fqnANEAY",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://ap-vlocity-cmtdemo-1908--vlocity-cmt.visualforce.com",
+    "testContextId": "02i2v00000Cgg8ZAAR",
+    "timeStamp": "2019-10-03T15:16:07.994Z",
+    "userCurrencyCode": "AUD",
+    "userId": "0052v00000bijb6AAA",
+    "userName": "ap1908@vlocity.comms.org",
+    "userProfile": "System Administrator",
+    "userTimeZone": 600,
+    "vlcKnowledge": {
+        "knowledgeItems": [
+        ]
+    },
+    "vlcPersistentComponent": {
+        "vlcKnowledge": {
+            "knowledgeItems": [
+            ]
+        }
+    }
+}

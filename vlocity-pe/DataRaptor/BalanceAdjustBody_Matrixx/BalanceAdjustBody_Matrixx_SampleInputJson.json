@@ -1,0 +1,16 @@
+{
+    "AccountKey": "78e45b0c-cb44-4c26-32c4-9a23b4024bb3",
+    "AccountType": "Individual",
+    "AdjustType": "Credit",
+    "AdjustmentAmount": 100,
+    "AdjustmentType": "Credit",
+    "AvailableAmount": 130,
+    "CreditLimit": 200,
+    "DisplayQuantityUnit": "USD",
+    "ExternalId": "78e45b0c-cb44-4c26-32c4-9a23b4024bb3:3",
+    "Info": "extended reason",
+    "Name": "Balance",
+    "Reason": "need money",
+    "ResourceId": 3,
+    "ThresholdLimit": 200
+}

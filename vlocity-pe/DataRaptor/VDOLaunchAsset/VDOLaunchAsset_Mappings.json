@@ -1,0 +1,18 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Asset",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__GlobalKey__c": "d896d039-03ea-0fa5-c6be-87d18be7ab4e",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "recordId",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "VDOLaunchAssetCustom7550",
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "VDOLaunchAsset",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

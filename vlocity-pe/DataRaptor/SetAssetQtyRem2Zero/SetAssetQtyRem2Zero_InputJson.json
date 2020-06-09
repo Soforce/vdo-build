@@ -1,0 +1,45 @@
+{
+    "AssetDetails": {
+        "CreatedDate": "2019-10-30T17:13:23.000Z",
+        "EffectiveOneTimeTotal": 10,
+        "EffectiveRecurringTotal": 0,
+        "Name": "5G Burst 5-Pack",
+        "OneTimeTotal": "$10.00",
+        "Product2Id": "01t4P000007aFSmQAM",
+        "ProductCode": "VLO-MOB-5BRST",
+        "ProductFamily": "Mobile",
+        "ProvisioningStatus": "Active",
+        "QuantityInitial": 5,
+        "QuantityRemaining": 1,
+        "RecurringTotal": "$0.00"
+    },
+    "AssetId": "02i4P00000BhQugQAF",
+    "Congratulations": {
+        "CustomerOrderSurvey": null,
+        "CustomerOverallSurvey": null,
+        "CustomerRecommendSurvey": null
+    },
+    "ContextId": "02i4P00000BhQugQAF",
+    "SharingOption": {
+        "AddSharingQuestion": null
+    },
+    "catalogCode": "BURST",
+    "contextKey": "99914b932bd37a50b983c5e7c90ae93b",
+    "demoAccount": "NUSLICE",
+    "error": "OK",
+    "id": "a1I4P00001CjKqEUAV",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "offers": null,
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://thardycm103--vlocity-cmt.visualforce.com",
+    "testContextId": "02i4P00000BhQugQAF",
+    "timeStamp": "2019-11-07T15:17:45.085Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054P000006UUtHQAW",
+    "userName": "adminvlocity1@vlocity.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "ContextId": "0014100000MtLaB",
+    "CreateBody": {
+        "$": "MtxRequestGroupCreate",
+        "ExternalId": "1012",
+        "Name": "Grp_266",
+        "NotificationPreference": "1"
+    },
+    "CreateBodyInput": {
+        "ContextId": "0014100000MtLaB",
+        "GetAccountType": {
+            "AccountOID": "0-1-5-266",
+            "AccountType": "group"
+        },
+        "GetAccountTypeStatus": true,
+        "options": {
+            "isDebug": true
+        },
+        "response": {
+        }
+    },
+    "CreateBodySequence": 2,
+    "CreateBodyStatus": true,
+    "ErrorRecord": {
+        "%vlocity_namespace%__IntegrationError__c_1": [
+            {
+                "%vlocity_namespace%__Action__c": "create",
+                "%vlocity_namespace%__StatusCode__c": 19,
+                "%vlocity_namespace%__Status__c": "Duplicate indexed key value.",
+                "Id": "a3n41000000DjuWAAS",
+                "UpsertSuccess": true
+            }
+        ],
+        "debugLog": [
+            "2017-06-07T08:57:32.810Z: Query - SELECT Id,ParentId,%vlocity_namespace%__RatingSystemKey__c,%vlocity_namespace%__ServiceSharingType__c FROM Account WHERE (Id = '0014100000MtLaBAAV') LIMIT 50000",
+            "2017-06-07T08:57:32.817Z: Query Results Found: 1",
+            "2017-06-07T08:57:33.028Z: Query - SELECT Id,Name,%vlocity_namespace%__GlobalKey__c FROM Account WHERE (Id = '0014100000MtLaBAAV') LIMIT 50000",
+            "2017-06-07T08:57:33.032Z: Query Results Found: 1"
+        ],
+        "error": false,
+        "responseType": "SObject"
+    },
+    "ErrorRecordInput": {
+        "ContextId": "0014100000MtLaB",
+        "CreateBody": {
+            "$": "MtxRequestGroupCreate",
+            "ExternalId": "1012",
+            "Name": "Grp_266",
+            "NotificationPreference": "1"
+        },
+        "CreateBodyStatus": true,
+        "GetAccountType": {
+            "AccountOID": "0-1-5-266",
+            "AccountType": "group"
+        },
+        "GetAccountTypeStatus": true,
+        "MakeCallout": {
+            "$": "MtxResponseCreate",
+            "DomainId": 1,
+            "ObjectId": "0-1-5-474",
+            "Result": 19,
+            "ResultText": "Duplicate indexed key value.",
+            "_resultCode": 19,
+            "_resultText": "Duplicate indexed key value.",
+            "_resultType": "create"
+        },
+        "MakeCalloutStatus": true,
+        "options": {
+            "isDebug": true
+        },
+        "response": {
+        }
+    },
+    "ErrorRecordSequence": 4,
+    "ErrorRecordStatus": false,
+    "GetAccountType": {
+        "AccountOID": "0-1-5-266",
+        "AccountType": "group"
+    },
+    "GetAccountTypeInput": {
+        "ContextId": "0014100000MtLaB",
+        "options": {
+            "isDebug": true
+        },
+        "response": {
+        }
+    },
+    "GetAccountTypeSequence": 1,
+    "GetAccountTypeStatus": true,
+    "MakeCallout": {
+        "$": "MtxResponseCreate",
+        "DomainId": 1,
+        "ObjectId": "0-1-5-474",
+        "Result": 19,
+        "ResultText": "Duplicate indexed key value.",
+        "_resultCode": 19,
+        "_resultText": "Duplicate indexed key value.",
+        "_resultType": "create"
+    },
+    "MakeCalloutInput": {
+        "$": "MtxRequestGroupCreate",
+        "ExternalId": "1012",
+        "Name": "Grp_266",
+        "NotificationPreference": "1"
+    },
+    "MakeCalloutSequence": 3,
+    "MakeCalloutStatus": true,
+    "debugLog": [
+        "2017-06-07T08:57:32.810Z: Query - SELECT Id,ParentId,%vlocity_namespace%__RatingSystemKey__c,%vlocity_namespace%__ServiceSharingType__c FROM Account WHERE (Id = '0014100000MtLaBAAV') LIMIT 50000",
+        "2017-06-07T08:57:32.817Z: Query Results Found: 1",
+        "2017-06-07T08:57:33.028Z: Query - SELECT Id,Name,%vlocity_namespace%__GlobalKey__c FROM Account WHERE (Id = '0014100000MtLaBAAV') LIMIT 50000",
+        "2017-06-07T08:57:33.032Z: Query Results Found: 1"
+    ],
+    "options": {
+        "isDebug": true
+    },
+    "response": {
+        "result": {
+            "%vlocity_namespace%__IntegrationError__c_1": [
+                {
+                    "%vlocity_namespace%__Action__c": "create",
+                    "%vlocity_namespace%__StatusCode__c": 19,
+                    "%vlocity_namespace%__Status__c": "Duplicate indexed key value.",
+                    "Id": "a3n41000000DjuWAAS",
+                    "UpsertSuccess": true
+                }
+            ],
+            "debugLog": [
+                "2017-06-07T08:57:32.810Z: Query - SELECT Id,ParentId,%vlocity_namespace%__RatingSystemKey__c,%vlocity_namespace%__ServiceSharingType__c FROM Account WHERE (Id = '0014100000MtLaBAAV') LIMIT 50000",
+                "2017-06-07T08:57:32.817Z: Query Results Found: 1",
+                "2017-06-07T08:57:33.028Z: Query - SELECT Id,Name,%vlocity_namespace%__GlobalKey__c FROM Account WHERE (Id = '0014100000MtLaBAAV') LIMIT 50000",
+                "2017-06-07T08:57:33.032Z: Query Results Found: 1"
+            ],
+            "error": false,
+            "responseType": "SObject"
+        },
+        "success": true
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorTransformAction1": null,
+        "GetUserId": null,
+        "PushNotification": null,
+        "PushNotificationResponse": null
+    }
+}

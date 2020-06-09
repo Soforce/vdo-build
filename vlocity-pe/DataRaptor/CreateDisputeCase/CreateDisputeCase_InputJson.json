@@ -1,0 +1,26 @@
+{
+    "ContextId": null,
+    "ReviewStatements": {
+        "Statement": null,
+        "isStatementSelected": null
+    },
+    "StatementDetails": {
+        "DisputeComments": null,
+        "LineItem": null,
+        "SelectedStatementID": null,
+        "SelectedStatementLineItemID": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "GetStatementLineItems": null,
+        "GetStatements": null,
+        "ReviewStatements": null,
+        "SetStatementError": null,
+        "StatementDetails": null
+    }
+}

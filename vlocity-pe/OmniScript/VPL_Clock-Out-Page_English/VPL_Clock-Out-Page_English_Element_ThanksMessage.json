@@ -1,0 +1,37 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ClockoutPage",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL/Clock Out Page/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ClockoutPage",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL/Clock Out Page/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "HomePage",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL/Clock Out Page/English/HomePage",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "HomePage",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": null,
+        "show": null,
+        "text": "<div class=\"thank-you-message\">\n<div class=\"thank-you slds-text-heading--medium\">%UserName%, <em>thank you</em> for serving our Customers today.</div>\n<div class=\"next-shift slds-text-heading--small slds-text-color--weak\">Your next shift is:\n<div class=\"slds-text-heading--large slds-text-color--default\">%ThankYouPage:NextWorkingDay%</div>\n</div>\n<div class=\"upcoming-training-label slds-text-heading--small\">As a reminder, please note you are scheduled for the following upcoming training:</div>\n</div>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "ThanksMessage",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL/Clock Out Page/English/ThanksMessage"
+}

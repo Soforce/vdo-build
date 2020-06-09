@@ -1,0 +1,37 @@
+[
+    {
+        "%vlocity_namespace%__DefaultValue__c": "Vlocity upsert",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "IntegrationError__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ErrorType__c",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__GlobalKey__c": "06bfe3cb-d971-3bb0-b22e-cfc8ec5edc5c",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "ErrorRecordUpsertCustom585",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "ErrorRecordUpsert",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "IntegrationError__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ObjectId__c",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__GlobalKey__c": "bc38eeb9-89b5-a38c-001e-2cd283e8e68a",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ContextId",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "ErrorRecordUpsertCustom9860",
+        "%vlocity_namespace%__TransformValuesMap__c": "{\"\":\"\"}",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "ErrorRecordUpsert",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

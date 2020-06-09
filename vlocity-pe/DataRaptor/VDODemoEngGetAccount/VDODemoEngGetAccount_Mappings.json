@@ -1,0 +1,36 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Account",
+        "%vlocity_namespace%__FilterGroup__c": 0,
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__FilterValue__c": "Id",
+        "%vlocity_namespace%__GlobalKey__c": "be1e7673-e287-ab9c-b1a9-7c2d2525e791",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+        "%vlocity_namespace%__InterfaceObjectName__c": "Account",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VDODemoEngGetAccountCustom6559",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VDODemoEngGetAccount",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "AccountId",
+        "%vlocity_namespace%__DomainObjectFieldType__c": "String",
+        "%vlocity_namespace%__GlobalKey__c": "7e49dc22-e609-2471-c832-f2963ba24a51",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Account:Id",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VDODemoEngGetAccountCustom6069",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VDODemoEngGetAccount",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

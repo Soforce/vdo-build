@@ -1,0 +1,24 @@
+{
+    "%vlocity_namespace%__CalculationMatrixId__c": {
+        "Name": "AttributePricingMatrix",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+    },
+    "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+    "%vlocity_namespace%__CalculationMatrixRow__c": "AttributePricingMatrix_Version_Rows.json",
+    "%vlocity_namespace%__CurrentStatus__c": "Active",
+    "%vlocity_namespace%__EndDateTime__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "56955365-0dd5-6fcf-09db-a57bf2f3b8d3",
+    "%vlocity_namespace%__GroupKeyValue__c": "",
+    "%vlocity_namespace%__MatrixUseLongOutput__c": false,
+    "%vlocity_namespace%__Priority__c": 4,
+    "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+    "%vlocity_namespace%__SubGroupKeyValue__c": "",
+    "%vlocity_namespace%__UseLongOutput__c": false,
+    "%vlocity_namespace%__VersionNumber__c": 4,
+    "Name": "AttributePricingMatrix v4",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix"
+}

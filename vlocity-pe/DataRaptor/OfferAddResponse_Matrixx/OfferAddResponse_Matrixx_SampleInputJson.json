@@ -1,0 +1,176 @@
+{
+    "AssetUpdateSubDRStatus": false,
+    "ContextId": "02i41000002gWyHAAU",
+    "GetAccountKey": {
+        "AccountOID": "0-1-5-357",
+        "AccountType": "Group"
+    },
+    "GetAccountKeyInput": {
+        "ContextId": "02i41000002gWyHAAU",
+        "response": {
+        }
+    },
+    "GetAccountKeyStatus": true,
+    "GroupOfferBodyDR": {
+        "$": "MtxRequestGroupPurchaseOffer",
+        "OfferRequestArray": [
+            {
+                "$": "MtxPurchasedOfferData",
+                "ExternalId": "Offer-2"
+            }
+        ]
+    },
+    "GroupOfferBodyDRInput": {
+        "AssetUpdateSubDRStatus": false,
+        "ContextId": "02i41000002gWyHAAU",
+        "GetAccountKey": {
+            "AccountOID": "0-1-5-357",
+            "AccountType": "Group"
+        },
+        "GetAccountKeyStatus": true,
+        "MakeSubscriberOffersCalloutStatus": false,
+        "SubscriberOfferBodyDRStatus": false,
+        "response": {
+        }
+    },
+    "GroupOfferBodyDRStatus": true,
+    "MakeGroupOffersCallout": {
+        "$": "MtxResponsePurchase",
+        "DomainId": 1,
+        "ObjectId": "0-1-5-357",
+        "PurchaseInfoArray": [
+            {
+                "$": "MtxPurchaseInfo",
+                "ExternalId": "Offer-2",
+                "OfferType": 1,
+                "ProductOfferId": 2,
+                "ProductOfferVersion": 0,
+                "RequiredBalanceArray": [
+                    {
+                        "$": "MtxRequiredBalanceInfo",
+                        "ClassId": 1001,
+                        "ResourceId": 1,
+                        "TemplateId": 4
+                    },
+                    {
+                        "$": "MtxRequiredBalanceInfo",
+                        "ClassId": 1001,
+                        "ResourceId": 2,
+                        "TemplateId": 5
+                    },
+                    {
+                        "$": "MtxRequiredBalanceInfo",
+                        "ClassId": 840,
+                        "ResourceId": 3,
+                        "TemplateId": 1
+                    }
+                ],
+                "ResourceId": 9
+            }
+        ],
+        "ResourceIdArray": [
+            9
+        ],
+        "Result": 0,
+        "ResultText": "OK",
+        "_resultCode": 0,
+        "_resultText": "OK",
+        "_resultType": "update"
+    },
+    "MakeGroupOffersCalloutInput": {
+        "$": "MtxRequestGroupPurchaseOffer",
+        "OfferRequestArray": [
+            {
+                "$": "MtxPurchasedOfferData",
+                "ExternalId": "Offer-2"
+            }
+        ]
+    },
+    "MakeGroupOffersCalloutStatus": true,
+    "MakeSubscriberOffersCalloutStatus": false,
+    "PrepAssetUpdateGrpDR": {
+        "AssetId": "02i41000002gWyHAAU",
+        "ResourceId": "9"
+    },
+    "PrepAssetUpdateGrpDRInput": {
+        "AssetUpdateSubDRStatus": false,
+        "ContextId": "02i41000002gWyHAAU",
+        "GetAccountKey": {
+            "AccountOID": "0-1-5-357",
+            "AccountType": "Group"
+        },
+        "GetAccountKeyStatus": true,
+        "GroupOfferBodyDR": {
+            "$": "MtxRequestGroupPurchaseOffer",
+            "OfferRequestArray": [
+                {
+                    "$": "MtxPurchasedOfferData",
+                    "ExternalId": "Offer-2"
+                }
+            ]
+        },
+        "GroupOfferBodyDRStatus": true,
+        "MakeGroupOffersCallout": {
+            "$": "MtxResponsePurchase",
+            "DomainId": 1,
+            "ObjectId": "0-1-5-357",
+            "PurchaseInfoArray": [
+                {
+                    "$": "MtxPurchaseInfo",
+                    "ExternalId": "Offer-2",
+                    "OfferType": 1,
+                    "ProductOfferId": 2,
+                    "ProductOfferVersion": 0,
+                    "RequiredBalanceArray": [
+                        {
+                            "$": "MtxRequiredBalanceInfo",
+                            "ClassId": 1001,
+                            "ResourceId": 1,
+                            "TemplateId": 4
+                        },
+                        {
+                            "$": "MtxRequiredBalanceInfo",
+                            "ClassId": 1001,
+                            "ResourceId": 2,
+                            "TemplateId": 5
+                        },
+                        {
+                            "$": "MtxRequiredBalanceInfo",
+                            "ClassId": 840,
+                            "ResourceId": 3,
+                            "TemplateId": 1
+                        }
+                    ],
+                    "ResourceId": 9
+                }
+            ],
+            "ResourceIdArray": [
+                9
+            ],
+            "Result": 0,
+            "ResultText": "OK",
+            "_resultCode": 0,
+            "_resultText": "OK",
+            "_resultType": "update"
+        },
+        "MakeGroupOffersCalloutStatus": true,
+        "MakeSubscriberOffersCalloutStatus": false,
+        "SubscriberOfferBodyDRStatus": false,
+        "response": {
+        }
+    },
+    "PrepAssetUpdateGrpDRStatus": true,
+    "SubscriberOfferBodyDRStatus": false,
+    "debugLog": [
+        "2017-05-03T10:19:19.447Z: Query - SELECT Id,AccountId,%vlocity_namespace%__RatingSystemKey__c FROM Asset WHERE (Id = '02i41000002gWyHAAU') LIMIT 50000",
+        "2017-05-03T10:19:19.472Z: Query Results Found: 1",
+        "2017-05-03T10:19:19.525Z: Query - SELECT Id,%vlocity_namespace%__RatingSystemKey__c,%vlocity_namespace%__ServiceSharingType__c FROM Account WHERE (Id = '0014100000Un8tiAAB') LIMIT 50000",
+        "2017-05-03T10:19:19.530Z: Query Results Found: 1",
+        "2017-05-03T10:19:19.734Z: Query - SELECT Id,Product2Id FROM Asset WHERE (Id = '02i41000002gWyHAAU') LIMIT 50000",
+        "2017-05-03T10:19:19.737Z: Query Results Found: 1",
+        "2017-05-03T10:19:19.786Z: Query - SELECT Id,ProductCode FROM Product2 WHERE (Id = '01t41000000kIRmAAM') LIMIT 50000",
+        "2017-05-03T10:19:19.790Z: Query Results Found: 1"
+    ],
+    "response": {
+    }
+}

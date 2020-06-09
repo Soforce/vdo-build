@@ -1,0 +1,56 @@
+{
+    "BeginCustomerInteraction": {
+        "Answers": null,
+        "CustomerLifeTimeValueBC": null,
+        "CustomerTierBC": null,
+        "NameBC": null,
+        "RankBC": null,
+        "StatusBC": null,
+        "WaitTimeBC": null
+    },
+    "BeginCustomerInterationLast": {
+        "CLTVLast": null,
+        "CustomerTierLast": null,
+        "NameLast": null,
+        "RankLast": null,
+        "StatusLast": null,
+        "WaitTimeLast": null
+    },
+    "ConfirmCustomer": {
+        "ContactedSuccessfully": null,
+        "CustomerLifetimeValueConfirm": null,
+        "CustomerTierConfirm": null,
+        "NameConfirm": null,
+        "RankConfirm": null,
+        "WaitTimeConfirm": null
+    },
+    "ContextId": null,
+    "SelectandReview": {
+        "SelectCustomer": null,
+        "SelectedCustomerId": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BeginCustomerInteraction": null,
+        "BeginCustomerInterationLast": null,
+        "ConfirmCustomer": null,
+        "ExtractRecordsFromQueue": null,
+        "ExtractSelectedRecord": null,
+        "ResetStatus": null,
+        "SelectandReview": null,
+        "SetAttemptingtoContactStatus": null,
+        "SetBCStepValues": null,
+        "SetMissingValues": null,
+        "SetStatusCompleted": null,
+        "SetStatusToCancelled": null,
+        "SetStatusToInProgress": null,
+        "SetValueCancelled": null,
+        "SetValueInProgress": null,
+        "SetValuesforNextStep": null
+    }
+}

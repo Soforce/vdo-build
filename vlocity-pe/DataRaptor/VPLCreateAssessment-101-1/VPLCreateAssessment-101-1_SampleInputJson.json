@@ -1,0 +1,38 @@
+{
+    "AssessmentDate": "",
+    "AssessmentName": "Test1",
+    "ContactId": "0036A00000RriGc",
+    "ContextId": "0036A00000RriGc",
+    "DRId_%vlocity_namespace%__Assessment__c": "a0F6A000001SqY6UAK",
+    "Experience": {
+        "A001": "Satisfied",
+        "Q001": "How would you rate your experience with us?"
+    },
+    "Handling": {
+        "A002": "Strongly agree",
+        "Q002": "The organization made it easy for me to handle my issue."
+    },
+    "Services": {
+        "A003": "9",
+        "Q003": "On a scale of 0-10 how likely are you to recommend our services to a friend or colleague?"
+    },
+    "id": "a1I6A000001o8J5UAI",
+    "layout": "lightning",
+    "testContextId": "0036A00000RriGc",
+    "timeStamp": "2018-04-02T19:21:44.243Z",
+    "userCurrencyCode": "USD",
+    "userId": "0056A000000t4rTQAQ",
+    "userName": "jhayle@vlocity.eglcrk.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRPostAssessment": 671,
+        "Experience": 99063,
+        "Handling": 4809,
+        "OmniScriptSessionToken": "57a66798-9ae8-4d67-9695-f4a4258de95b",
+        "Services": 252086,
+        "SetDefaults": 94
+    }
+}

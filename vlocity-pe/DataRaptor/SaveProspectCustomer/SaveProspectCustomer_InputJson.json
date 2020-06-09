@@ -1,0 +1,50 @@
+{
+    "CaptureCustomerInformation": {
+        "AddCustomerBlock": {
+            "Email": null,
+            "FirstName": null,
+            "LastName": null,
+            "MandatoryFieldValidation2": null,
+            "Mobile": null
+        },
+        "ContactInfoCollectionBlock": {
+            "MailOption": null,
+            "MobileOption": null,
+            "WaitOption": null
+        },
+        "CustomerValidationTypeAhead-Block": {
+            "CustomerValidationTypeAhead": null
+        }
+    },
+    "ContextId": null,
+    "Needs Analysis": {
+        "ContactId": null,
+        "Option1": null,
+        "Option2": null,
+        "Option3": null,
+        "Option4": null
+    },
+    "Resolution": {
+    },
+    "Welcome Page": {
+        "MandatoryFieldValidation": null,
+        "Preference 1": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AddToQueue": null,
+        "CaptureCustomerInformation": null,
+        "Go To Home Page": null,
+        "Insert Contact Info": null,
+        "Needs Analysis": null,
+        "Resolution": null,
+        "Set ContactId": null,
+        "VerifyContact": null,
+        "Welcome Page": null
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "CaptureCustomerInformation": {
+        "AddCustomerBlock": {
+            "Email": null,
+            "FirstName": null,
+            "LastName": null,
+            "Mobile": null
+        },
+        "ContactInfoCollectionBlock": {
+            "MailOption": null,
+            "MobileOption": null,
+            "WaitOption": null
+        },
+        "CustomerValidationTypeAhead-Block": {
+            "CustomerValidationTypeAhead": null
+        }
+    },
+    "ContextId": null,
+    "NeedsAnalysis": {
+        "AccountId": null,
+        "AccountName": null,
+        "BillingOption": null,
+        "ExtractedAccountId": null,
+        "FormulaForCIName": null,
+        "InteractionId": null,
+        "OffersEnquiryOption": null,
+        "TroubleShootOption": null,
+        "UpgradeServiceOption": null
+    },
+    "Resolution": {
+        "RankInQueueValue": null
+    },
+    "Welcome Page": {
+        "MandatoryFieldValidation": null,
+        "Preference 1": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CaptureCustomerInformation": null,
+        "GetQueueRank": null,
+        "NeedsAnalysis": null,
+        "Resolution": null,
+        "Welcome Page": null
+    }
+}

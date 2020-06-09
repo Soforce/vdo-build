@@ -1,0 +1,24 @@
+{
+    "%vlocity_namespace%__CalculationMatrixId__c": {
+        "Name": "Internet Attribute Based Pricing",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+    },
+    "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+    "%vlocity_namespace%__CalculationMatrixRow__c": "Internet-Attribute-Based-Pricing_Version_Rows.json",
+    "%vlocity_namespace%__CurrentStatus__c": "Active",
+    "%vlocity_namespace%__EndDateTime__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "3ed448e1-5c86-b4e8-af6a-bdb5dec3cc9a",
+    "%vlocity_namespace%__GroupKeyValue__c": "",
+    "%vlocity_namespace%__MatrixUseLongOutput__c": false,
+    "%vlocity_namespace%__Priority__c": 2,
+    "%vlocity_namespace%__StartDateTime__c": "2016-01-02T00:30:00.000Z",
+    "%vlocity_namespace%__SubGroupKeyValue__c": "",
+    "%vlocity_namespace%__UseLongOutput__c": false,
+    "%vlocity_namespace%__VersionNumber__c": 2,
+    "Name": "Internet Attribute Based Pricing v2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing"
+}

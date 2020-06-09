@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Place a new order for recommended products.",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[\"vlcHCartHyb.html\"]}",
+    "%vlocity_namespace%__Element__c": [
+        "VDO_Account-Order-Upsell_English_Element_GetPriceList.json",
+        "VDO_Account-Order-Upsell_English_Element_CreateOrder.json",
+        "VDO_Account-Order-Upsell_English_Element_GetUpsellProducts.json",
+        "VDO_Account-Order-Upsell_English_Element_CreateCart.json",
+        "VDO_Account-Order-Upsell_English_Element_RecommendedProducts.json",
+        "VDO_Account-Order-Upsell_English_Element_ChooseUpsellProducts.json",
+        "VDO_Account-Order-Upsell_English_Element_ConfigureOrder.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "VDO_Account-Order-Upsell_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Account Order Upsell",
+    "%vlocity_namespace%__Type__c": "VDO",
+    "Name": "Account Order Upsell",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/Account Order Upsell/English"
+}

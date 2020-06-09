@@ -1,0 +1,37 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Setup Bluetooth",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/Setup Bluetooth/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Setup Bluetooth",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/Setup Bluetooth/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Using Bluetooth",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VDO/Setup Bluetooth/English/Using Bluetooth",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Using Bluetooth",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 6,
+        "dataJSON": false,
+        "label": null,
+        "show": null,
+        "text": "<p><br /><br /></p>\n<p style=\"text-align: center;\"><img style=\"max-height: 300px;\" src=\"../resource/VDOOmniScriptResources/images/bluetoothsetup/ios2.jpg\" alt=\"\" height=\"300\" /></p>\n<p style=\"text-align: center;\"></p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\">While on a call you can tap audio and select the device that you want to use.</p>\n<p style=\"text-align: center;\"></p>\n<p style=\"text-align: center;\"></p>\n<p><br /><br /></p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "Audio Image",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VDO/Setup Bluetooth/English/Audio Image"
+}

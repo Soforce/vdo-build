@@ -1,0 +1,186 @@
+<style>
+html, body, .vlocity.via-slds, #VlocityBPView > .slds-col {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background-color: #FFF;
+}
+
+sidebar.slds-col--padded.slds-cleafix {
+	display: none;
+}
+
+.vlocity.via-slds .vlc-slds-bpTree-step-chart__container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+}
+
+.vlocity.via-slds .vlc-slds-bpTree-step-chart__container > bptree {
+	flex-shrink: 0;
+}
+
+.vlocity.via-slds .vlc-slds-bpTree-step-chart__container > .vlc-slds-right--panel {
+	padding-right: 0;
+}
+
+.vlocity.via-slds .vlc-slds-step--container .step-step {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: auto;
+	height: auto;
+	min-height: auto;
+}
+
+.vlocity.via-slds .vlc-slds-step--container .step-step.ng-hide {
+	display: none;
+}
+
+.vlocity.via-slds .slds-page-header.vlc-slds-page--header {
+	padding-left: 0;
+}
+
+.vlocity.via-slds form[stepform] {
+	position: absolute;
+	top: 5.6rem;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	width: auto;
+	height: auto;
+	min-height: auto;
+
+	padding: 0;
+	border-right: none;
+}
+
+.vlocity.via-slds form[stepform] > div:first-child {
+	position: absolute;
+	top: 0;
+	bottom: 7em;
+	left: 2em;
+	right: 0;
+	width: auto;
+	height: auto;
+	overflow: auto;
+	padding-top: 1em;
+}
+
+.vlocity.via-slds form[stepform] > div:last-child {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	/*
+	 * For some reason position fixed isn't working so the width of the right
+	 * column is calculated as a percentage of the width of left column. That
+	 * measurement is used to extend the button bar beyond the right edge of it's
+	 * container to the right edge of the screen.
+	 *
+	 * w = width of container,
+	 * lw = 0.7w,
+	 * rw = 0.3w
+	 *
+	 * lw * x = rw
+	 *      x = rw/lw
+	 *      x = 0.3w / 0.7w
+	 *      x = .3 / .7 ~= .428 = 42.8%
+	 */
+	right: -42.8%;
+
+	height: 7em;
+	width: auto;
+
+	margin: 0;
+}
+
+.vlocity.via-slds .slds-page-header__title.vlc-slds-page-header__title {
+	padding-left: 1em;
+
+	font-size: 2.2em;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: #001C3F;
+}
+
+.vlocity.via-slds .vlc-slds-right--panel .vlc-slds-step-chart--title:first-child {
+	display: none;
+}
+
+.vlocity.via-slds .vlc-slds-right--panel .list-group.vertical-steps {
+	padding-top: 3.75rem;
+}
+
+.vlocity.via-slds .vlc-slds-button--footer {
+	height: 100%;
+	align-items: center;
+
+	background-color: #F4F6F9;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+.vlocity.via-slds .vlc-slds-remote-action--button .vlc-control-wrapper .slds-box {
+	background-color: #0070D2;
+	border: 1px solid #0070D2;
+	color: #FFF;
+	padding: 0.5em 1em;
+	text-align: center;
+}
+
+.vlocity.via-slds .vlc-slds-remote-action--button .vlc-control-wrapper .slds-box p {
+	position: static;
+	left: auto;
+	width: auto;
+	-webkit-transform: none;
+	transform: none;
+	display: inline;
+}
+
+.vlocity.via-slds .vlc-slds-remote-action--button .vlc-control-wrapper .slds-box.vlc-slds-box--neutral {
+	background-color: #FFF;
+}
+
+.vlocity.via-slds .vlc-slds-remote-action--button .vlc-control-wrapper .slds-box.vlc-slds-box--neutral p {
+	/* Need to override style that is declared as important */
+	color: #0070D2 !important;
+}
+
+.vlocity.via-slds .vlc-slds-button--footer .vlc-slds-button--tertiary {
+	margin: 0 1em 0 0;
+	padding: 0.5em 1em;
+	color: #0070D2;
+	background-color: #FFF;
+	border: 1px solid #D8DDE6;
+	border-radius: 3px;
+}
+
+.vlocity.via-slds .slds-table {
+	table-layout: fixed;
+	font-size: 0.8em;
+}
+
+.welcome-message {
+  margin-bottom: 1em;
+}
+
+.vlocity.via-slds section[id="Welcome Page"] div.message.description {
+  margin: 1em 2em 0 0;
+}
+
+.vlocity.via-slds .thank-you,
+.vlocity.via-slds .queue-rank,
+.vlocity.via-slds .when-ready
+{
+  margin-bottom: 1em;
+}
+</style>

@@ -1,0 +1,34 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "%vlocity_namespace%__ContractVersion__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "%vlocity_namespace%__ContractId__c",
+        "%vlocity_namespace%__GlobalKey__c": "71aa91de-dba0-16da-ff5e-24bebcc96a42",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "DRId_Contract",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "UpdateContractVersionCustom5867",
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "UpdateContractVersion",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "%vlocity_namespace%__ContractVersion__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "%vlocity_namespace%__VersionNumber__c",
+        "%vlocity_namespace%__GlobalKey__c": "3c787d06-194a-cf8b-f086-d7ff2aea9cf6",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "VersionNumber",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "UpdateContractVersionCustom5205",
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "UpdateContractVersion",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

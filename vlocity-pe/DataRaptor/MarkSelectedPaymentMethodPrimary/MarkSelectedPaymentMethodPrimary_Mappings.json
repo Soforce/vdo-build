@@ -1,0 +1,53 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "%vlocity_namespace%__PaymentMethod__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "%vlocity_namespace%__AccountId__c",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__GlobalKey__c": "3cd3a05c-b484-dff5-b065-bef2a0e0c62c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ContextId",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "MarkSelectedPaymentMethodPrimaryCustom6880",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "MarkSelectedPaymentMethodPrimary",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DefaultValue__c": "True",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "%vlocity_namespace%__PaymentMethod__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "%vlocity_namespace%__IsPrimary__c",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__GlobalKey__c": "fd3a853e-71b9-e492-48b9-08d2d1504045",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "MarkSelectedPaymentMethodPrimaryCustom1367",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "MarkSelectedPaymentMethodPrimary",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "%vlocity_namespace%__PaymentMethod__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__GlobalKey__c": "17bb07cf-6604-2cc4-8584-fd483d5e6bbb",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "DefinePayment:UpdateMethodsBlock:PaymentMethodBlock:PaymentMethodLookup",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "MarkSelectedPaymentMethodPrimaryCustom4812",
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "MarkSelectedPaymentMethodPrimary",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

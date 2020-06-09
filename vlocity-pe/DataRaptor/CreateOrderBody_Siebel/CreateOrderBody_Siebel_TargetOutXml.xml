@@ -1,0 +1,31 @@
+<?Siebel-Property-Set EscapeNames="false"?>
+<SiebelMessage MessageId = "" IntObjectName = "Order Entry" MessageType = "Integration Object" IntObjectFormat = "Siebel Hierarchical">
+	<ListOfOrder>
+		<ListOfOrderHeader operation="insert">
+			<Order>
+				<AccountId>8SIA-8WQV9</AccountId>
+				<Account>Russ Mover1</Account>
+				<OrderNumber>00000104</OrderNumber>
+				<OrderType>Service Order</OrderType>
+				<ListOfOrderItem>
+					<OrderItem>
+						<LineNumber>0001</LineNumber>
+						<Qty>1</Qty>
+						<MRCCxTotal>35.00</MRCCxTotal>
+						<NRCCxTotal>95.00</NRCCxTotal>
+						<IntegrationId>00000104-0001</IntegrationId>
+						<ProductId>8SIA-8VHPK</ProductId>
+					</OrderItem>
+					<OrderItem>
+						<LineNumber>0001</LineNumber>
+						<Qty>1</Qty>
+						<MRCCxTotal>35.00</MRCCxTotal>
+						<NRCCxTotal>95.00</NRCCxTotal>
+						<IntegrationId>00000104-0001</IntegrationId>
+						<ProductId>8SIA-8VHPK</ProductId>
+					</OrderItem>
+				</ListOfOrderItem>
+			</Order>
+		</ListOfOrderHeader>
+	</ListOfOrder>
+</SiebelMessage>

@@ -1,0 +1,16 @@
+{
+    "AccountKey": "b8d477fb-8d80-22fd-6707-a6af970bad6b",
+    "AdjustmentAmount": 44,
+    "AvailableAmount": "123.34",
+    "CreditLimit": 200,
+    "DisplayQuantityUnit": "USD",
+    "EndTime": null,
+    "ExternalId": "b8d477fb-8d80-22fd-6707-a6af970bad6b:3",
+    "Info": "more",
+    "Name": "Balance",
+    "Reason": "reason",
+    "ResourceId": "3.0",
+    "ResultCode": null,
+    "StartTime": null,
+    "ThresholdLimit": 200
+}

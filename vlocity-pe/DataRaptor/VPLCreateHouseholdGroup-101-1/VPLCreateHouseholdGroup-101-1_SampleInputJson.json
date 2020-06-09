@@ -1,0 +1,58 @@
+{
+    "Address1": "",
+    "City": "",
+    "ContextId": "",
+    "Country": "",
+    "DRId_%vlocity_namespace%__Household__c": "a151N000005xgO8QAI",
+    "DRId_%vlocity_namespace%__PartyRelationship__c": "a1P1N000004vK36UAE",
+    "Name": "Household",
+    "PostalCode": "",
+    "ProvideHousehold/GroupDetails": {
+        "Address1": "15 Adam St",
+        "City": "Boston",
+        "Contact": "0031N00001M3hMlQAJ",
+        "ContactParty": "a1R1N000004SUGWUA4",
+        "Country": "United States",
+        "GroupName": null,
+        "HouseholdName": null,
+        "OwnedResidence": false,
+        "PostalCode": "2203",
+        "PrimaryContactRole": null,
+        "ResidenceType": null,
+        "Select": "Group",
+        "State": "MA",
+        "Type": null
+    },
+    "RecordTypeId": "0121N000001dYXEQA2",
+    "RecordTypeName": "Group",
+    "State": "",
+    "TargetRole": "Neighbor",
+    "TypeAhead-Block": {
+        "Address1": "15 Adam St",
+        "City": "Boston",
+        "ContactId": "0031N00001M3hMlQAJ",
+        "ContactPartyId": "a1R1N000004SUGWUA4",
+        "Country": "United States",
+        "PostalCode": "2203",
+        "State": "MA"
+    },
+    "id": "a1I1N000004bQoBUAU",
+    "layout": "lightning",
+    "timeStamp": "2018-03-07T07:19:29.853Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051N000005rBS3QAM",
+    "userName": "bhargavisrinivas@vdo.cmt.1517291113209",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CreateHousehold/Group": 1818,
+        "GetRecordTypes": 662,
+        "OmniScriptSessionToken": "a81b1bd0-40d5-48f4-9a3f-bbc53852d77f",
+        "ProvideHousehold/GroupDetails": 42682,
+        "SearchContact": 6306,
+        "SetContact": 98,
+        "SetValues2": 11
+    }
+}

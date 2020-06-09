@@ -1,0 +1,18 @@
+{
+    "ContextId": null,
+    "SelectandReview": {
+        "SelectCustomer": null,
+        "SelectedCustomerId": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ExtractRecordsFromQueue": null,
+        "SelectandReview": null,
+        "SetAttemptingtoContactStatus": null
+    }
+}

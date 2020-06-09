@@ -1,0 +1,22 @@
+{
+    "ContextId": "0036A00000OHipjQAD",
+    "EnterMessage": {
+        "ContextIdValue": "0056A000001chptQAA",
+        "message": "09APR2018 Conditional Testing"
+    },
+    "id": "a1I6A000001oGiNUAU",
+    "layout": "lightning",
+    "testContextId": "0056A000001chptQAA",
+    "timeStamp": "2018-04-09T15:29:53.723Z",
+    "userCurrencyCode": "USD",
+    "userId": "0056A000000t4qdQAA",
+    "userName": "sshannon@vlocity.eglcrk.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "EnterMessage": 17469,
+        "OmniScriptSessionToken": "3c806f39-9530-41fc-ab5b-5d292564fd55"
+    }
+}

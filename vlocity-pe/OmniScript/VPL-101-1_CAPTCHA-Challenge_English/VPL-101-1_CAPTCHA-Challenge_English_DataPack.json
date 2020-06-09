@@ -1,0 +1,28 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Launch Google's reCAPTCHA V2",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__Element__c": [
+        "VPL-101-1_CAPTCHA-Challenge_English_Element_SetReCaptchaKeys.json",
+        "VPL-101-1_CAPTCHA-Challenge_English_Element_Captcha.json",
+        "VPL-101-1_CAPTCHA-Challenge_English_Element_CaptchaSubmit.json",
+        "VPL-101-1_CAPTCHA-Challenge_English_Element_GetResponseToken.json",
+        "VPL-101-1_CAPTCHA-Challenge_English_Element_CaptchaValidationMessage.json",
+        "VPL-101-1_CAPTCHA-Challenge_English_Element_PostCaptchaResponse.json",
+        "VPL-101-1_CAPTCHA-Challenge_English_Element_CaptchaVerify.json",
+        "VPL-101-1_CAPTCHA-Challenge_English_Element_Success.json",
+        "VPL-101-1_CAPTCHA-Challenge_English_Element_ChallengeTime.json",
+        "VPL-101-1_CAPTCHA-Challenge_English_Element_HostName.json",
+        "VPL-101-1_CAPTCHA-Challenge_English_Element_ErrorCodes.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "VPL-101-1_CAPTCHA-Challenge_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "CAPTCHA Challenge",
+    "%vlocity_namespace%__Type__c": "VPL 101-1",
+    "Name": "VPL CAPTCHA Challenge 101-1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL 101-1/CAPTCHA Challenge/English"
+}

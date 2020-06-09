@@ -1,0 +1,47 @@
+{
+    "ContextId": null,
+    "PriceListName": 2017,
+    "Recommended Products": {
+        "Products": null
+    },
+    "Step2": {
+        "Select1": null,
+        "Text1": null
+    },
+    "createContract": {
+        "ContractDocument": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "ContractName": null,
+        "RecordtypeForContract": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Checkout": null,
+        "Configure Order": null,
+        "Create Cart": null,
+        "Create Quote": null,
+        "DataRaptorPostAction1": null,
+        "ExtractRecordType": null,
+        "GetProducts": null,
+        "PostCreateContract": null,
+        "PostCreateContractDocument": null,
+        "Recommended Products": null,
+        "Set Account Id": null,
+        "Set ContextId for Checkout": null,
+        "Set Order Id": null,
+        "Set folder Id": null,
+        "Step2": null,
+        "createContract": null
+    }
+}

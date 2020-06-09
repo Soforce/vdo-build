@@ -1,0 +1,95 @@
+{
+    "CaseSubmit": {
+    },
+    "ContextId": null,
+    "DefinePayment": {
+        "CustomerDetailsDP": {
+            "AccountBal2": null,
+            "Customer2": null,
+            "CustomerTier2": null,
+            "LastPaidAmt2": null,
+            "LastPaidDate2": null
+        },
+        "Payment": {
+            "FullBalance": null,
+            "RecurringPaymentDetails": {
+                "RecurringPaymentAmount": null,
+                "RecurringPaymentDateofMonth": null
+            },
+            "TodaysOneTimePayment": null
+        },
+        "UpdateMethodsBlock": {
+            "EditPaymentMethodBlock": {
+                "CardHolderEdit": null,
+                "CardMonthsEdit": null,
+                "CardNumberEdit": null,
+                "CardTypeEdit": null,
+                "CardYearEdit": null
+            },
+            "NewPaymentMethodBlock": {
+                "CardHolderNew": null,
+                "CardMonthsNew": null,
+                "CardNumberNew": null,
+                "CardTypeNew": null,
+                "CardYearNew": null
+            },
+            "PaymentMethodBlock": {
+                "PaymentMethodLookup": null
+            },
+            "SelectedPaymentMethod": null
+        }
+    },
+    "PaymentType": {
+        "CustomerDetailsPT": {
+            "AccountBal1": null,
+            "Customer1": null,
+            "CustomerTier1": null,
+            "LastPaidAmt1": null,
+            "LastPaidDate1": null
+        },
+        "MandatoryValidation": null,
+        "SelectPaymentMethods": null
+    },
+    "ReviewStatements": {
+        "Statement": null,
+        "isStatementSelected": null
+    },
+    "SatisfactionAssessment": {
+        "CustomerDetailsSA": {
+            "AccountBal4": null,
+            "Customer4": null,
+            "CustomerTier4": null,
+            "LastPaidAmt4": null,
+            "LastPaidDate4": null
+        },
+        "CustomerSatisfaction": null,
+        "CustomerSatisfactionRating": null
+    },
+    "StatementDetails": {
+        "DisputeComments": null,
+        "LineItem": null
+    },
+    "ThankYouNote": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CalculateAvgCustSatifaction": null,
+        "CaseSubmit": null,
+        "DefinePayment": null,
+        "FetchAccountDetails": null,
+        "GetCaseName": null,
+        "GetStatementLineItems": null,
+        "GetStatements": null,
+        "PaymentType": null,
+        "ReviewStatements": null,
+        "SatisfactionAssessment": null,
+        "SetCaseName": null,
+        "SetCreatedCaseId": null,
+        "SetStatementError": null,
+        "StatementDetails": null
+    }
+}

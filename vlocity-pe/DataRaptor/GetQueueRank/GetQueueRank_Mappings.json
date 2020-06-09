@@ -1,0 +1,53 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "CustomerInteraction",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__FilterValue__c": "InteractionId",
+        "%vlocity_namespace%__GlobalKey__c": "79308cfa-2f15-9194-8e3e-c8963cbc1185",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+        "%vlocity_namespace%__InterfaceObjectName__c": "%vlocity_namespace%__CustomerInteraction__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "GetQueueRankCustom4534",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "GetQueueRank",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Qr",
+        "%vlocity_namespace%__GlobalKey__c": "eee7ba51-adb3-257b-51da-78ce6651bf12",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "CustomerInteraction:Rank_in_Queue__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "GetQueueRankCustom4374",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "GetQueueRank",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "RankInQueue",
+        "%vlocity_namespace%__DomainObjectFieldType__c": "Integer",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__GlobalKey__c": "d36d30ac-5ab6-62c4-75dc-e64b4ccfff8b",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "CustomerInteraction:Rank_In_Queue__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "GetQueueRankCustom4114",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "GetQueueRank",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

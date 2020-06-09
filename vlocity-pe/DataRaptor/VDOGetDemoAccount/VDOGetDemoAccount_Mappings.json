@@ -1,0 +1,36 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Account",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__FilterValue__c": "accountkey",
+        "%vlocity_namespace%__GlobalKey__c": "5a3a367a-85b0-6c1c-2e65-0efd6ae5723a",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Vlocity_Demo_Key__c",
+        "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+        "%vlocity_namespace%__InterfaceObjectName__c": "Account",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "GetDemoAccountCustom1328",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VDOGetDemoAccount",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "AccountId",
+        "%vlocity_namespace%__GlobalKey__c": "a4a68743-2a17-324f-c0a5-abfb5aeb71d7",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Account:Id",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "GetDemoAccountCustom9910",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VDOGetDemoAccount",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

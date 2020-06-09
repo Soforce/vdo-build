@@ -1,0 +1,46 @@
+{
+    "ContextId": "",
+    "DRId_Contract": "8006A000000DM9WQAW",
+    "EffectiveDate": "2018-03-03T18:30:00.000Z",
+    "FolderId": "0156A000001LVJ6QAO",
+    "accountId": "0016A00000LOw6j",
+    "createContract": {
+        "ContractDocument": [
+            {
+                "$$hashKey": "object:134",
+                "data": "71f74859-6d6e-4092-8d19-0c86c61fa67c",
+                "filename": "product2.png",
+                "size": 182839
+            }
+        ],
+        "ContractName": "test1234"
+    },
+    "id": "a1I6A000001TCOoUAO",
+    "layout": "lightning",
+    "messages": [
+    ],
+    "records": [
+        {
+            "Id": "8016A000002OEONQA4",
+            "displaySequence": -1,
+            "messages": [
+            ]
+        }
+    ],
+    "timeStamp": "2018-03-04T12:15:05.688Z",
+    "totalSize": 1,
+    "userCurrencyCode": "USD",
+    "userId": "0056A000001NrvoQAC",
+    "userName": "shirishmalla@vdo.cmt.1519969179340",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "OmniScriptSessionToken": "b6d908a8-93a7-4259-af2b-061d154073b5",
+        "PostCreateContract": 4430,
+        "RemoteActionForOrder": 1533,
+        "SetValues2": 74,
+        "createContract": 845384
+    }
+}

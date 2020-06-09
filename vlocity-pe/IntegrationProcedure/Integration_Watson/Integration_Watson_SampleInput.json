@@ -1,0 +1,7 @@
+{
+    "botName": "Integration_Watson",
+    "debug": true,
+    "input": {
+        "text": "hi"
+    }
+}

@@ -1,0 +1,79 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixId__c": {
+            "Name": "MarginRangeMatrix",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/MarginRangeMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "OrderMarginRangeCalculation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/OrderMarginRangeCalculation",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "OrderMarginRangeCalculation",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/OrderMarginRangeCalculation",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Matrix Lookup",
+        "%vlocity_namespace%__GlobalKey__c": "e53d52ee-08a8-48da-f1e5-8feddcb94e6d",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "columnKey": "3931ac",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "ProductCode"
+            },
+            {
+                "columnKey": "51bc6a",
+                "dataType": "Number",
+                "label": null,
+                "listValues": null,
+                "name": "Quantity"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": [
+            {
+                "columnKey": "8e7884",
+                "dataType": "Percent",
+                "label": null,
+                "listValues": null,
+                "name": "One Time Margin Upper Bound"
+            },
+            {
+                "columnKey": "681cda",
+                "dataType": "Percent",
+                "label": null,
+                "listValues": null,
+                "name": "One Time Margin Lower Bound"
+            },
+            {
+                "columnKey": "d27604",
+                "dataType": "Percent",
+                "label": null,
+                "listValues": null,
+                "name": "Recurring Margin Upper Bound"
+            },
+            {
+                "columnKey": "a144f9",
+                "dataType": "Percent",
+                "label": null,
+                "listValues": null,
+                "name": "Recurring Margin Lower Bound"
+            }
+        ],
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"One Time Margin Upper Bound\":\"MarginRangeMatrix__OneTimeMarginUpperBound\",\"One Time Margin Lower Bound\":\"MarginRangeMatrix__OneTimeMarginLowerBound\",\"Recurring Margin Upper Bound\":\"MarginRangeMatrix__RecurringMarginUpperBound\",\"Recurring Margin Lower Bound\":\"MarginRangeMatrix__RecurringMarginLowerBound\"}",
+        "%vlocity_namespace%__Sequence__c": 1,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    }
+]

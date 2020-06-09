@@ -1,0 +1,35 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Receive Customer From Queue",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL/Receive Customer From Queue/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "CustomerLifeTimeValueBC": "%SelectandReview:SelectCustomer|1:LifeTimeValue%",
+            "WaitTimeBC": "%SelectandReview:SelectCustomer|1:WaitTime%",
+            "WaitTimeConfirm": "%SelectandReview:SelectCustomer|1:WaitTime%"
+        },
+        "label": "SetVal",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetMissingValues",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL/Receive Customer From Queue/English/SetMissingValues"
+}

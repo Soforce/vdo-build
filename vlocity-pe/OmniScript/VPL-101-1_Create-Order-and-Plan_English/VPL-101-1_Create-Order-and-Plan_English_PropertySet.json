@@ -1,0 +1,94 @@
+{
+    "allowSaveForLater": true,
+    "autoFocus": false,
+    "autoSaveOnStepNext": true,
+    "cancelRedirectPageName": "OmniScriptCancelled",
+    "cancelRedirectTemplateUrl": "vlcCancelled.html",
+    "cancelSource": "%ContextId%",
+    "cancelType": "SObject",
+    "consoleTabLabel": "New",
+    "controlWidth": 12,
+    "currencyCode": "",
+    "elementTypeToHTMLTemplateMapping": {
+        "Horizontal Mode Persistent Component": "vlcHCartHyb.html"
+    },
+    "enableKnowledge": false,
+    "extraPayload": {
+    },
+    "failureAbortLabel": "Abort",
+    "failureAbortMessage": "Are you sure?",
+    "failureNextLabel": "Continue",
+    "inProgressMessage": "In Progress",
+    "knowledgeArticleTypeQueryFieldsMap": {
+    },
+    "label": null,
+    "message": {
+    },
+    "persistentComponent": [
+        {
+            "id": "vlcCart",
+            "itemsKey": "cartItems",
+            "label": "Shopping Cart",
+            "modalConfigurationSetting": {
+                "modalController": "ModalProductCtrl",
+                "modalHTMLTemplateId": "vlcProductConfig.html",
+                "modalSize": "lg"
+            },
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "%vlocity_namespace%.CpqAppHandler",
+            "remoteMethod": "putCartsItems",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "render": true,
+            "responseJSONNode": "",
+            "responseJSONPath": "",
+            "sendJSONNode": "",
+            "sendJSONPath": ""
+        }
+    ],
+    "postMessage": "Done",
+    "postTransformBundle": "",
+    "preTransformBundle": "",
+    "redirectNextLabel": "Next",
+    "redirectNextWidth": 3,
+    "redirectPageName": "",
+    "redirectPreviousLabel": "Previous",
+    "redirectPreviousWidth": 3,
+    "redirectTemplateUrl": "vlcAcknowledge.html",
+    "remoteClass": "",
+    "remoteMethod": "",
+    "remoteOptions": {
+        "postTransformBundle": "",
+        "preTransformBundle": ""
+    },
+    "remoteTimeout": 30000,
+    "responseJSONNode": "",
+    "responseJSONPath": "",
+    "saveContentEncoded": false,
+    "saveExpireInDays": null,
+    "saveForLaterRedirectPageName": "sflRedirect",
+    "saveForLaterRedirectTemplateUrl": "vlcSaveForLaterAcknowledge.html",
+    "saveNameTemplate": null,
+    "saveObjectId": "%ContextId%",
+    "saveURLPatterns": {
+    },
+    "seedDataJSON": {
+        "PriceListName": 2017
+    },
+    "sendJSONNode": "",
+    "sendJSONPath": "",
+    "showInputWidth": false,
+    "ssm": false,
+    "timeTracking": true,
+    "trackingCustomData": {
+    },
+    "validationRequired": "Step",
+    "visualforcePagesAvailableInPreview": {
+        "CPQFlow": "c__testOS"
+    },
+    "wpm": false
+}

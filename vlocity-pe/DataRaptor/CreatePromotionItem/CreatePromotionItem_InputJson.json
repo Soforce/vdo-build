@@ -1,0 +1,21 @@
+{
+    "AddProduct": {
+        "Block1": {
+            "ActionType": null,
+            "Description": null,
+            "IsUndoable": null,
+            "MaximumQuantity": null,
+            "MinimumQuantity": null,
+            "ParentOfferProduct": null,
+            "Product": null,
+            "ProductActive": null,
+            "ProductEffectiveFrom": null,
+            "ProductEffectiveUntill": null,
+            "Quantity": null,
+            "SelectionContextProduct": null,
+            "SelectionContextRule": null,
+            "UndoableMessage": null
+        }
+    },
+    "DRId_%vlocity_namespace%__Promotion__c": "null"
+}

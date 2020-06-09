@@ -1,0 +1,37 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Setup Bluetooth",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/Setup Bluetooth/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Setup Bluetooth",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/Setup Bluetooth/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Using Bluetooth",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VDO/Setup Bluetooth/English/Using Bluetooth",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Using Bluetooth",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": null,
+        "show": null,
+        "text": "<section>\n<h1>Play audio to a Bluetooth accessory</h1>\n<p>If you want to play audio to a Bluetooth accessory, you'll need to select the accessory.</p>\n<p></p>\n<br />\n<h1>Disconnect a Bluetooth accessory</h1>\n<p>To temporarily disconnect the accessory, go to Settings &gt; Bluetooth, and tap the information icon&nbsp;next to your Bluetooth accessory. Then tap Disconnect.</p>\n<p></p>\n<br />\n<section>\n<h1>Turn off a Bluetooth accessory</h1>\n<p>If you turn off a Bluetooth accessory, it will still be paired to your device but you&rsquo;ll need to turn it on again to use it.</p>\n<p></p>\n<br />\n<section>\n<h1>Unpair a Bluetooth accessory</h1>\n<p>To unpair a Bluetooth accessory, tap Settings &gt; Bluetooth, find the device you want to unpair, and tap the information icon&nbsp;, then Forget this Device.</p>\n<p>&nbsp;</p>\n<p>When you Forget this Device on your iPhone, iPad, or iPod touch, that accessory is removed from the list of available Bluetooth devices. To add the Bluetooth accessory to your device again, place it back in discovery mode and repeat the steps above to pair it again.</p>\n<p></p>\n</section>\n</section>\n</section>\n<section class=\"grid2col\"></section>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "Using Bluetooth Text",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VDO/Setup Bluetooth/English/Using Bluetooth Text"
+}

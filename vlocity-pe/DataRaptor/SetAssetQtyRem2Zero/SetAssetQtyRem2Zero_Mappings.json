@@ -1,0 +1,45 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Asset",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__GlobalKey__c": "d605c1f5-dd1d-5a57-1f94-bf76870767bf",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "AssetId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "SetBurstAssetDetailsCustom2450",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "SetAssetQtyRem2Zero",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__ConfigurationValue__c": "FAKEMAPPING",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Asset",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__GlobalKey__c": "3af5b1e8-e5c5-d118-2629-2ff9e33791b1",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "SetBurstAssetDetailsCustom4238",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "SetAssetQtyRem2Zero",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DefaultValue__c": "0",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Asset",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Quantity_Remaining__c",
+        "%vlocity_namespace%__GlobalKey__c": "dfc45c81-2311-80c4-74a1-0d0ef0a6ccc1",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "SetBurstAssetDetailsCustom5383",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "SetAssetQtyRem2Zero",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

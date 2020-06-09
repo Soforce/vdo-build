@@ -1,0 +1,159 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Create New Promotion",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL/Create New Promotion/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Create New Promotion",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL/Create New Promotion/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "AddOverride",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL/Create New Promotion/English/AddOverride",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "AddOverride",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "dataJSON": false,
+        "dataSource": {
+            "mapItems": {
+                "inputParameters": [
+                    {
+                        "element": "SubType2",
+                        "inputParam": "SubType"
+                    },
+                    {
+                        "element": "Type2",
+                        "inputParam": "Type"
+                    },
+                    {
+                        "element": "ChargeType2",
+                        "inputParam": "ChargeType"
+                    },
+                    {
+                        "element": "Frequency",
+                        "inputParam": "Frequency"
+                    }
+                ],
+                "phase1MapItems": [
+                    {
+                        "DomainObjectFieldAPIName__c": "PV",
+                        "FilterOperator__c": "=",
+                        "FilterValue__c": "SubType",
+                        "InterfaceFieldAPIName__c": "%vlocity_namespace%__SubType__c",
+                        "InterfaceObjectLookupOrder__c": 1,
+                        "InterfaceObjectName__c": "%vlocity_namespace%__PricingVariable__c"
+                    },
+                    {
+                        "DomainObjectFieldAPIName__c": "PV",
+                        "FilterOperator__c": "=",
+                        "FilterValue__c": "Type",
+                        "InterfaceFieldAPIName__c": "%vlocity_namespace%__Type__c",
+                        "InterfaceObjectLookupOrder__c": 1,
+                        "InterfaceObjectName__c": "%vlocity_namespace%__PricingVariable__c"
+                    },
+                    {
+                        "DomainObjectFieldAPIName__c": "PV",
+                        "FilterOperator__c": "=",
+                        "FilterValue__c": "ChargeType",
+                        "InterfaceFieldAPIName__c": "%vlocity_namespace%__ChargeType__c",
+                        "InterfaceObjectLookupOrder__c": 1,
+                        "InterfaceObjectName__c": "%vlocity_namespace%__PricingVariable__c"
+                    },
+                    {
+                        "DomainObjectFieldAPIName__c": "PV",
+                        "FilterOperator__c": "=",
+                        "FilterValue__c": "\"Pricing Element\"",
+                        "InterfaceFieldAPIName__c": "%vlocity_namespace%__ValueType__c",
+                        "InterfaceObjectLookupOrder__c": 1,
+                        "InterfaceObjectName__c": "%vlocity_namespace%__PricingVariable__c"
+                    },
+                    {
+                        "DomainObjectFieldAPIName__c": "PV",
+                        "FilterOperator__c": "=",
+                        "FilterValue__c": "Frequency",
+                        "InterfaceFieldAPIName__c": "%vlocity_namespace%__RecurringFrequency__c",
+                        "InterfaceObjectLookupOrder__c": 1,
+                        "InterfaceObjectName__c": "%vlocity_namespace%__PricingVariable__c"
+                    }
+                ],
+                "phase2MapItems": [
+                    {
+                        "DomainObjectAPIName__c": "JSON",
+                        "DomainObjectCreationOrder__c": 1,
+                        "DomainObjectFieldAPIName__c": "name",
+                        "InterfaceFieldAPIName__c": "PV:Id"
+                    },
+                    {
+                        "DomainObjectAPIName__c": "JSON",
+                        "DomainObjectCreationOrder__c": 1,
+                        "DomainObjectFieldAPIName__c": "value",
+                        "InterfaceFieldAPIName__c": "PV:Name"
+                    }
+                ]
+            },
+            "source": "",
+            "type": "SObject"
+        },
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Select Pricing Variable",
+        "placeholder": "",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "SubType2"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "Type2"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Recurring",
+                        "field": "ChargeType2"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "Frequency"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "IsNewOverride"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Lookup",
+    "Name": "OverridePricingVariableRecurring",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL/Create New Promotion/English/OverridePricingVariableRecurring"
+}

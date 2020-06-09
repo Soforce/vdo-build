@@ -1,0 +1,139 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Consumer Order Mobile",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/Consumer Order Mobile/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Consumer Order Mobile",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/Consumer Order Mobile/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Appointment Details",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VDO/Consumer Order Mobile/English/Appointment Details",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Appointment Details",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "label": "Appointment Time",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "09:00",
+                "value": "09:00"
+            },
+            {
+                "imgId": null,
+                "name": "09:30",
+                "value": "09:30"
+            },
+            {
+                "imgId": null,
+                "name": "10:00",
+                "value": "10:00"
+            },
+            {
+                "imgId": null,
+                "name": "10:30",
+                "value": "10:30"
+            },
+            {
+                "imgId": null,
+                "name": "11:00",
+                "value": "11:00"
+            },
+            {
+                "imgId": null,
+                "name": "11:30",
+                "value": "11:30"
+            },
+            {
+                "imgId": null,
+                "name": "12:00",
+                "value": "12:00"
+            },
+            {
+                "imgId": null,
+                "name": "12:30",
+                "value": "12:30"
+            },
+            {
+                "imgId": null,
+                "name": "13:00",
+                "value": "13:00"
+            },
+            {
+                "imgId": null,
+                "name": "13:30",
+                "value": "13:30"
+            },
+            {
+                "imgId": null,
+                "name": "14:00",
+                "value": "14:00"
+            },
+            {
+                "imgId": null,
+                "name": "14:30",
+                "value": "14:30"
+            },
+            {
+                "imgId": null,
+                "name": "15:00",
+                "value": "15:00"
+            },
+            {
+                "imgId": null,
+                "name": "15:30",
+                "value": "15:30"
+            },
+            {
+                "imgId": null,
+                "name": "16:00",
+                "value": "16:00"
+            },
+            {
+                "imgId": null,
+                "name": "16:30",
+                "value": "16:30"
+            },
+            {
+                "imgId": null,
+                "name": "17:00",
+                "value": "17:00"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": false,
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "Appointment Time",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VDO/Consumer Order Mobile/English/Appointment Time"
+}

@@ -1,0 +1,97 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "VPL Create New Household or Group 101-1",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL 101-1/Create New Household or Group/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "VPL Create New Household or Group 101-1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL 101-1/Create New Household or Group/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "ProvideHousehold/GroupDetails",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL 101-1/Create New Household or Group/English/ProvideHousehold/GroupDetails",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ProvideHousehold/GroupDetails",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "clearValue": true,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "dataSource": {
+            "mapItems": {
+                "inputParameters": [
+                ],
+                "phase1MapItems": [
+                    {
+                        "DomainObjectFieldAPIName__c": "PRT",
+                        "FilterOperator__c": "=",
+                        "FilterValue__c": "'Household'",
+                        "InterfaceFieldAPIName__c": "%vlocity_namespace%__SourcePartyType__c",
+                        "InterfaceObjectLookupOrder__c": 1,
+                        "InterfaceObjectName__c": "%vlocity_namespace%__PartyRelationshipType__c"
+                    }
+                ],
+                "phase2MapItems": [
+                    {
+                        "DomainObjectAPIName__c": "JSON",
+                        "DomainObjectCreationOrder__c": 1,
+                        "DomainObjectFieldAPIName__c": "name",
+                        "InterfaceFieldAPIName__c": "PRT:Id"
+                    },
+                    {
+                        "DomainObjectAPIName__c": "JSON",
+                        "DomainObjectCreationOrder__c": 1,
+                        "DomainObjectFieldAPIName__c": "value",
+                        "InterfaceFieldAPIName__c": "PRT:%vlocity_namespace%__TargetRole__c"
+                    }
+                ]
+            },
+            "source": "",
+            "type": "SObject"
+        },
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Primary Contact Role",
+        "placeholder": "",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": false,
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Household",
+                        "field": "Select"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Group",
+                        "field": "Select"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Lookup",
+    "Name": "PrimaryContactRole",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL 101-1/Create New Household or Group/English/PrimaryContactRole"
+}

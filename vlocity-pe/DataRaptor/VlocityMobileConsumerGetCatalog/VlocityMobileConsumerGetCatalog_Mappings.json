@@ -1,0 +1,35 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Catalog",
+        "%vlocity_namespace%__FilterGroup__c": 0,
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__FilterValue__c": "CatalogName",
+        "%vlocity_namespace%__GlobalKey__c": "2e3378e2-0778-db2e-e57c-73ae75cabe59",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Name",
+        "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+        "%vlocity_namespace%__InterfaceObjectName__c": "%vlocity_namespace%__Catalog__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VlocityMobileConsumerGetCatalogCustom9038",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VlocityMobileConsumerGetCatalog",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Catalog:Id",
+        "%vlocity_namespace%__GlobalKey__c": "cc3e80a4-1390-11f0-23da-ab162f5c40af",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Catalog:Id",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VlocityMobileConsumerGetCatalogCustom5828",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VlocityMobileConsumerGetCatalog",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

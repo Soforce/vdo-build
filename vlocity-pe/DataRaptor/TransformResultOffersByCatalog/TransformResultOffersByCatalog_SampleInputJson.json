@@ -1,0 +1,680 @@
+{
+    "contextKey": "8393dd4a16f0e1c9723f9d9cfa2c39f1",
+    "error": "OK",
+    "errorCode": "INVOKE-200",
+    "offers": [
+        {
+            "AttributeCategory": {
+                "VLO-PRO-0003": [
+                    {
+                        "attributeRunTimeInfo": {
+                            "dataType": "Picklist",
+                            "default": [
+                            ],
+                            "uiDisplayType": "Dropdown",
+                            "values": [
+                                {
+                                    "displayText": "Pink - #e3c3b1",
+                                    "id": 1,
+                                    "value": "Pink"
+                                },
+                                {
+                                    "displayText": "Rose - #d4aaa4",
+                                    "id": 2,
+                                    "value": "Rose"
+                                },
+                                {
+                                    "displayText": "Brown - #bfae9b",
+                                    "id": 3,
+                                    "value": "Brown"
+                                },
+                                {
+                                    "displayText": "Gold - #deb821",
+                                    "id": 4,
+                                    "value": "Gold"
+                                },
+                                {
+                                    "displayText": "Orange - #f7957a",
+                                    "id": 5,
+                                    "value": "Orange"
+                                }
+                            ]
+                        },
+                        "attributecategoryid__c": "a0I1U000000ckKUUAY",
+                        "attributecloneable__c": false,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Device Colour",
+                        "attributedisplaysequence__c": "1",
+                        "attributefilterable__c": true,
+                        "attributeid__c": "a0J1U000000gh8EUAQ",
+                        "attributeuniquecode__c": "ATTRIBUTE-016",
+                        "categorycode__c": "VLO-PRO-0003",
+                        "categorydisplaysequence__c": 11,
+                        "categoryname__c": "Mobile Handset",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "null",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H1U000001e7mBUAQ",
+                        "isactive__c": true,
+                        "isconfigurable__c": true,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t1U000000xgQUQAY",
+                        "objecttype__c": "Product2",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": "Dropdown",
+                        "value__c": null,
+                        "valuedatatype__c": "Picklist",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    },
+                    {
+                        "attributeRunTimeInfo": {
+                            "dataType": "Text"
+                        },
+                        "attributecategoryid__c": "a0I1U000000ckKUUAY",
+                        "attributecloneable__c": false,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Device Manufacturer",
+                        "attributedisplaysequence__c": "3",
+                        "attributefilterable__c": true,
+                        "attributeid__c": "a0J1U000000gh8qUAA",
+                        "attributeuniquecode__c": "ATTRIBUTE-064",
+                        "categorycode__c": "VLO-PRO-0003",
+                        "categorydisplaysequence__c": 11,
+                        "categoryname__c": "Mobile Handset",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "11",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H1U000001e7m8UAA",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t1U000000xgQUQAY",
+                        "objecttype__c": "Product2",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": null,
+                        "value__c": null,
+                        "valuedatatype__c": "Text",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ],
+                "VLO-PRO-0015": [
+                    {
+                        "attributeRunTimeInfo": {
+                            "dataType": "Text"
+                        },
+                        "attributecategoryid__c": "a0I1U000000ckKhUAI",
+                        "attributecloneable__c": false,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Part Number",
+                        "attributedisplaysequence__c": "1",
+                        "attributefilterable__c": true,
+                        "attributeid__c": "a0J1U000000gh9gUAA",
+                        "attributeuniquecode__c": "ATTRIBUTE-123",
+                        "categorycode__c": "VLO-PRO-0015",
+                        "categorydisplaysequence__c": 23,
+                        "categoryname__c": "Logistics",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "23",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H1U000001e7m9UAA",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t1U000000xgQUQAY",
+                        "objecttype__c": "Product2",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": null,
+                        "value__c": null,
+                        "valuedatatype__c": "Text",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    },
+                    {
+                        "attributeRunTimeInfo": {
+                            "dataType": "Text"
+                        },
+                        "attributecategoryid__c": "a0I1U000000ckKhUAI",
+                        "attributecloneable__c": false,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Supplier",
+                        "attributedisplaysequence__c": "3",
+                        "attributefilterable__c": true,
+                        "attributeid__c": "a0J1U000000gh9iUAA",
+                        "attributeuniquecode__c": "ATTRIBUTE-125",
+                        "categorycode__c": "VLO-PRO-0015",
+                        "categorydisplaysequence__c": 23,
+                        "categoryname__c": "Logistics",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "23",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H1U000001e7mAUAQ",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t1U000000xgQUQAY",
+                        "objecttype__c": "Product2",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": null,
+                        "value__c": null,
+                        "valuedatatype__c": "Text",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ]
+            },
+            "Description": "The Beats Solo3 is an ideal choice for high quality music on the go. Ergonomically designed for long term wear, these headphones feature a flexible urethane joint to wear around your neck and stabilizing wing ear gels for in-ear comfort. The magnetic earbuds conveniently clasp together, reducing clutter when not in use. Large 12mm speaker and active, dual-mic noise reduction ensures quality sound and ease of wear.",
+            "Name": "Beats Solo3 Headphones",
+            "ProductCode": "VLO-MOB-0146",
+            "addtocart": {
+                "rest": {
+                    "link": "v3/catalogs/MOBCATREC/basket",
+                    "method": "POST",
+                    "params": {
+                        "basketAction": "AddWithNoConfig",
+                        "offer": "VLO-MOB-0146"
+                    }
+                }
+            },
+            "offerDetailsAction": {
+                "client": {
+                    "params": {
+                    },
+                    "records": [
+                    ]
+                },
+                "remote": {
+                    "params": {
+                    }
+                },
+                "rest": {
+                    "link": "/v3/catalogs/MOBCATREC/offers/VLO-MOB-0146",
+                    "method": "GET",
+                    "params": {
+                    }
+                }
+            },
+            "offerType": "Product"
+        },
+        {
+            "AttributeCategory": {
+                "VLO-PRO-0003": [
+                    {
+                        "attributeRunTimeInfo": {
+                            "dataType": "Picklist",
+                            "default": [
+                            ],
+                            "uiDisplayType": "Dropdown",
+                            "values": [
+                                {
+                                    "displayText": "Green - #bbded6",
+                                    "id": 1,
+                                    "value": "Green"
+                                },
+                                {
+                                    "displayText": "Orange - #f7957a",
+                                    "id": 2,
+                                    "value": "Orange"
+                                },
+                                {
+                                    "displayText": "Red - #d45966",
+                                    "id": 3,
+                                    "value": "Red"
+                                },
+                                {
+                                    "displayText": "Dark Red - #c64c17",
+                                    "id": 4,
+                                    "value": "Dark Red"
+                                },
+                                {
+                                    "displayText": "White - #ffffff",
+                                    "id": 5,
+                                    "value": "White"
+                                },
+                                {
+                                    "displayText": "Yellow - #f4f968",
+                                    "id": 6,
+                                    "value": "Yellow"
+                                },
+                                {
+                                    "displayText": "Blue - #68d2f9",
+                                    "id": 7,
+                                    "value": "Blue"
+                                },
+                                {
+                                    "displayText": "Pink - #ed68f9",
+                                    "id": 8,
+                                    "value": "Pink"
+                                },
+                                {
+                                    "displayText": "Purple - #b400ff",
+                                    "id": 9,
+                                    "value": "Purple"
+                                },
+                                {
+                                    "displayText": "Teal - #00fff0",
+                                    "id": 10,
+                                    "value": "Teal"
+                                },
+                                {
+                                    "displayText": "Silver - #aeaeae",
+                                    "id": 11,
+                                    "value": "Silver"
+                                },
+                                {
+                                    "displayText": "Gold - #c6b817",
+                                    "id": 12,
+                                    "value": "Gold"
+                                },
+                                {
+                                    "displayText": "Maroon - #c64c17",
+                                    "id": 13,
+                                    "value": "Maroon"
+                                }
+                            ]
+                        },
+                        "attributecategoryid__c": "a0I1U000000ckKUUAY",
+                        "attributecloneable__c": false,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Device Colour",
+                        "attributedisplaysequence__c": "1",
+                        "attributefilterable__c": true,
+                        "attributeid__c": "a0J1U000000gh8EUAQ",
+                        "attributeuniquecode__c": "ATTRIBUTE-016",
+                        "categorycode__c": "VLO-PRO-0003",
+                        "categorydisplaysequence__c": 11,
+                        "categoryname__c": "Mobile Handset",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "11",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H1U000001e7mSUAQ",
+                        "isactive__c": true,
+                        "isconfigurable__c": true,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t1U000000xgQVQAY",
+                        "objecttype__c": "Product2",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": "Dropdown",
+                        "value__c": null,
+                        "valuedatatype__c": "Picklist",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    },
+                    {
+                        "attributeRunTimeInfo": {
+                            "dataType": "Text",
+                            "default": "Apple"
+                        },
+                        "attributecategoryid__c": "a0I1U000000ckKUUAY",
+                        "attributecloneable__c": false,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Device Manufacturer",
+                        "attributedisplaysequence__c": "3",
+                        "attributefilterable__c": true,
+                        "attributeid__c": "a0J1U000000gh8qUAA",
+                        "attributeuniquecode__c": "ATTRIBUTE-064",
+                        "categorycode__c": "VLO-PRO-0003",
+                        "categorydisplaysequence__c": 11,
+                        "categoryname__c": "Mobile Handset",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "11",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H1U000001e7gAUAQ",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t1U000000xgQVQAY",
+                        "objecttype__c": "Product2",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": null,
+                        "value__c": "Apple",
+                        "valuedatatype__c": "Text",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ],
+                "VLO-PRO-0015": [
+                    {
+                        "attributeRunTimeInfo": {
+                            "dataType": "Text"
+                        },
+                        "attributecategoryid__c": "a0I1U000000ckKhUAI",
+                        "attributecloneable__c": false,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Part Number",
+                        "attributedisplaysequence__c": "1",
+                        "attributefilterable__c": true,
+                        "attributeid__c": "a0J1U000000gh9gUAA",
+                        "attributeuniquecode__c": "ATTRIBUTE-123",
+                        "categorycode__c": "VLO-PRO-0015",
+                        "categorydisplaysequence__c": 23,
+                        "categoryname__c": "Logistics",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "23",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H1U000001e7gBUAQ",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t1U000000xgQVQAY",
+                        "objecttype__c": "Product2",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": null,
+                        "value__c": null,
+                        "valuedatatype__c": "Text",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    },
+                    {
+                        "attributeRunTimeInfo": {
+                            "dataType": "Text"
+                        },
+                        "attributecategoryid__c": "a0I1U000000ckKhUAI",
+                        "attributecloneable__c": false,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Supplier",
+                        "attributedisplaysequence__c": "3",
+                        "attributefilterable__c": true,
+                        "attributeid__c": "a0J1U000000gh9iUAA",
+                        "attributeuniquecode__c": "ATTRIBUTE-125",
+                        "categorycode__c": "VLO-PRO-0015",
+                        "categorydisplaysequence__c": 23,
+                        "categoryname__c": "Logistics",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "23",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H1U000001e7gCUAQ",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t1U000000xgQVQAY",
+                        "objecttype__c": "Product2",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": null,
+                        "value__c": null,
+                        "valuedatatype__c": "Text",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ]
+            },
+            "Description": "The perfect fit for your iPhone X. Show off your personality with this selection of stand out cases.",
+            "Name": "iPhone X Silicone Case",
+            "ProductCode": "VLO-MOB-0150",
+            "addtocart": {
+                "rest": {
+                    "link": "v3/catalogs/MOBCATREC/basket",
+                    "method": "POST",
+                    "params": {
+                        "basketAction": "AddWithNoConfig",
+                        "offer": "VLO-MOB-0150"
+                    }
+                }
+            },
+            "offerDetailsAction": {
+                "client": {
+                    "params": {
+                    },
+                    "records": [
+                    ]
+                },
+                "remote": {
+                    "params": {
+                    }
+                },
+                "rest": {
+                    "link": "/v3/catalogs/MOBCATREC/offers/VLO-MOB-0150",
+                    "method": "GET",
+                    "params": {
+                    }
+                }
+            },
+            "offerType": "Product"
+        },
+        {
+            "AttributeCategory": {
+                "VLO-PRO-0003": [
+                    {
+                        "attributeRunTimeInfo": {
+                            "dataType": "Text"
+                        },
+                        "attributecategoryid__c": "a0I1U000000ckKUUAY",
+                        "attributecloneable__c": false,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Device Manufacturer",
+                        "attributedisplaysequence__c": "3",
+                        "attributefilterable__c": true,
+                        "attributeid__c": "a0J1U000000gh8qUAA",
+                        "attributeuniquecode__c": "ATTRIBUTE-064",
+                        "categorycode__c": "VLO-PRO-0003",
+                        "categorydisplaysequence__c": 11,
+                        "categoryname__c": "Mobile Handset",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "11",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H1U000001e7mUUAQ",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t1U000000xgQSQAY",
+                        "objecttype__c": "Product2",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": null,
+                        "value__c": null,
+                        "valuedatatype__c": "Text",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ],
+                "VLO-PRO-0015": [
+                    {
+                        "attributeRunTimeInfo": {
+                            "dataType": "Text"
+                        },
+                        "attributecategoryid__c": "a0I1U000000ckKhUAI",
+                        "attributecloneable__c": false,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Part Number",
+                        "attributedisplaysequence__c": "1",
+                        "attributefilterable__c": true,
+                        "attributeid__c": "a0J1U000000gh9gUAA",
+                        "attributeuniquecode__c": "ATTRIBUTE-123",
+                        "categorycode__c": "VLO-PRO-0015",
+                        "categorydisplaysequence__c": 23,
+                        "categoryname__c": "Logistics",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "23",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H1U000001e7mVUAQ",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t1U000000xgQSQAY",
+                        "objecttype__c": "Product2",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": null,
+                        "value__c": null,
+                        "valuedatatype__c": "Text",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    },
+                    {
+                        "attributeRunTimeInfo": {
+                            "dataType": "Text"
+                        },
+                        "attributecategoryid__c": "a0I1U000000ckKhUAI",
+                        "attributecloneable__c": false,
+                        "attributeconfigurable__c": true,
+                        "attributedisplayname__c": "Supplier",
+                        "attributedisplaysequence__c": "3",
+                        "attributefilterable__c": true,
+                        "attributeid__c": "a0J1U000000gh9iUAA",
+                        "attributeuniquecode__c": "ATTRIBUTE-125",
+                        "categorycode__c": "VLO-PRO-0015",
+                        "categorydisplaysequence__c": 23,
+                        "categoryname__c": "Logistics",
+                        "customconfiguitemplate__c": null,
+                        "displaysequence__c": "23",
+                        "formatmask__c": null,
+                        "hasrule__c": false,
+                        "id": "a0H1U000001e7mWUAQ",
+                        "isactive__c": true,
+                        "isconfigurable__c": false,
+                        "ishidden__c": false,
+                        "isnottranslatable__c": false,
+                        "isquerydriven__c": false,
+                        "isreadonly__c": false,
+                        "isrequired__c": false,
+                        "objectid__c": "01t1U000000xgQSQAY",
+                        "objecttype__c": "Product2",
+                        "querycode__c": null,
+                        "querylabel__c": null,
+                        "rulemessage__c": null,
+                        "uidisplaytype__c": null,
+                        "value__c": null,
+                        "valuedatatype__c": "Text",
+                        "valuedescription__c": null,
+                        "valueinnumber__c": null
+                    }
+                ]
+            },
+            "Description": "Just take them out and they’re ready to use with all your devices. Put them in your ears and they connect instantly. Speak into them and your voice sounds clear. Introducing AirPods. Simplicity and technology, together like never before. The result is completely magical.",
+            "Name": "Apple AirPods",
+            "ProductCode": "VLO-MOB-0148",
+            "addtocart": {
+                "rest": {
+                    "link": "v3/catalogs/MOBCATREC/basket",
+                    "method": "POST",
+                    "params": {
+                        "basketAction": "AddWithNoConfig",
+                        "offer": "VLO-MOB-0148"
+                    }
+                }
+            },
+            "offerDetailsAction": {
+                "client": {
+                    "params": {
+                    },
+                    "records": [
+                    ]
+                },
+                "remote": {
+                    "params": {
+                    }
+                },
+                "rest": {
+                    "link": "/v3/catalogs/MOBCATREC/offers/VLO-MOB-0148",
+                    "method": "GET",
+                    "params": {
+                    }
+                }
+            },
+            "offerType": "Product"
+        },
+        {
+            "Description": "5G is the next-generation network technology that’s set to replace 4G as the means through which we connect to the internet on smartphones, tablets and a huge range of other web-enabled devices. Be the first to upgrade today with our 5G enabled modems.",
+            "Name": "5G Modem",
+            "ProductCode": "VLO-INT-0049",
+            "addtocart": {
+                "rest": {
+                    "link": "v3/catalogs/MOBCATREC/basket",
+                    "method": "POST",
+                    "params": {
+                        "basketAction": "AddWithNoConfig",
+                        "offer": "VLO-INT-0049"
+                    }
+                }
+            },
+            "offerDetailsAction": {
+                "client": {
+                    "params": {
+                    },
+                    "records": [
+                    ]
+                },
+                "remote": {
+                    "params": {
+                    }
+                },
+                "rest": {
+                    "link": "/v3/catalogs/MOBCATREC/offers/VLO-INT-0049",
+                    "method": "GET",
+                    "params": {
+                    }
+                }
+            },
+            "offerType": "Product"
+        }
+    ]
+}

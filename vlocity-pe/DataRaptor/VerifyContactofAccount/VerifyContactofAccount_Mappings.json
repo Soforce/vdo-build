@@ -1,0 +1,20 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "VerifyPrimaryContact",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__GlobalKey__c": "ef445dc2-6ff4-01f8-f395-a3a4d981980f",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "LastActivityDate",
+        "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+        "%vlocity_namespace%__InterfaceObjectName__c": "Account",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "VerifyContactofAccountCustom7406",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VerifyContactofAccount",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

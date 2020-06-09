@@ -1,0 +1,35 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Order",
+        "%vlocity_namespace%__FilterGroup__c": 0,
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__FilterValue__c": "Id",
+        "%vlocity_namespace%__GlobalKey__c": "fed149f6-46c5-8618-899b-08c6b37c0c65",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+        "%vlocity_namespace%__InterfaceObjectName__c": "Order",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPL-GetOrderDetails-101-1Custom7774",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPL-GetOrderDetails-101-1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "OrderNumber",
+        "%vlocity_namespace%__GlobalKey__c": "1d748da1-3e5b-24a7-6e58-16d6061e18d5",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Order:OrderNumber",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPL-GetOrderDetails-101-1Custom9897",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPL-GetOrderDetails-101-1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

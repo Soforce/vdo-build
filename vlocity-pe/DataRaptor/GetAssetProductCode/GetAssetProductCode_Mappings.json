@@ -1,0 +1,35 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "asset",
+        "%vlocity_namespace%__FilterGroup__c": 0,
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__FilterValue__c": "AssetId",
+        "%vlocity_namespace%__GlobalKey__c": "ec3b6ebc-c4b2-94e0-8597-2216c769ff66",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+        "%vlocity_namespace%__InterfaceObjectName__c": "Asset",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "GetTransactionsByAssetProductCodeCustom8190",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "GetAssetProductCode",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ProductCode",
+        "%vlocity_namespace%__GlobalKey__c": "21b9c643-015b-2624-4d27-7dc95e08717b",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "asset:ProductCode",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "GetTransactionsByAssetProductCodeCustom5584",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "GetAssetProductCode",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

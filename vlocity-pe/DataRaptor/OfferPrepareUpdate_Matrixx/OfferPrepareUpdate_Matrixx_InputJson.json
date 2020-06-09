@@ -1,0 +1,102 @@
+{
+    "AssetUpdateGrpDRStatus": false,
+    "ContextId": "02i41000002gWybAAE",
+    "GetAccountKey": {
+        "AccountOID": "0-1-5-383",
+        "AccountType": "Individual"
+    },
+    "GetAccountKeyInput": {
+        "ContextId": "02i41000002gWybAAE",
+        "response": {
+        }
+    },
+    "GetAccountKeyStatus": true,
+    "GroupOfferBodyDRStatus": false,
+    "MakeGroupOffersCalloutStatus": false,
+    "MakeSubscriberOffersCallout": {
+        "$": "MtxResponsePurchase",
+        "DomainId": 1,
+        "ObjectId": "0-1-5-383",
+        "PurchaseInfoArray": [
+            {
+                "$": "MtxPurchaseInfo",
+                "ExternalId": "Offer-1",
+                "OfferType": 1,
+                "ProductOfferId": 1,
+                "ProductOfferVersion": 1,
+                "RequiredBalanceArray": [
+                    {
+                        "$": "MtxRequiredBalanceInfo",
+                        "ClassId": 1000,
+                        "ResourceId": 1,
+                        "TemplateId": 3
+                    },
+                    {
+                        "$": "MtxRequiredBalanceInfo",
+                        "ClassId": 1000,
+                        "ResourceId": 2,
+                        "TemplateId": 2
+                    },
+                    {
+                        "$": "MtxRequiredBalanceInfo",
+                        "ClassId": 840,
+                        "ResourceId": 3,
+                        "TemplateId": 1
+                    }
+                ],
+                "ResourceId": 6
+            }
+        ],
+        "ResourceIdArray": [
+            6
+        ],
+        "Result": 28,
+        "ResultText": "RatingContext::genPurchaseRecurringChargesAndGrants: Error generating recurring charges and grants during purchase or resumption. Balance=#2:class=1000:id=2 index=0",
+        "_resultCode": 28,
+        "_resultText": "RatingContext::genPurchaseRecurringChargesAndGrants: Error generating recurring charges and grants during purchase or resumption. Balance=#2:class=1000:id=2 index=0",
+        "_resultType": "update"
+    },
+    "MakeSubscriberOffersCalloutInput": {
+        "$": "MtxRequestSubscriberPurchaseOffer",
+        "OfferRequestArray": [
+            {
+                "$": "MtxPurchasedOfferData",
+                "ExternalId": "Offer-1"
+            }
+        ]
+    },
+    "MakeSubscriberOffersCalloutStatus": true,
+    "PrepAssetUpdateGrpDRStatus": false,
+    "SubscriberOfferBodyDR": {
+        "$": "MtxRequestSubscriberPurchaseOffer",
+        "OfferRequestArray": [
+            {
+                "$": "MtxPurchasedOfferData",
+                "ExternalId": "Offer-1"
+            }
+        ]
+    },
+    "SubscriberOfferBodyDRInput": {
+        "ContextId": "02i41000002gWybAAE",
+        "GetAccountKey": {
+            "AccountOID": "0-1-5-383",
+            "AccountType": "Individual"
+        },
+        "GetAccountKeyStatus": true,
+        "response": {
+        }
+    },
+    "SubscriberOfferBodyDRStatus": true,
+    "debugLog": [
+        "2017-05-03T09:34:57.018Z: Query - SELECT Id,AccountId,%vlocity_namespace%__RatingSystemKey__c FROM Asset WHERE (Id = '02i41000002gWybAAE') LIMIT 50000",
+        "2017-05-03T09:34:57.022Z: Query Results Found: 1",
+        "2017-05-03T09:34:57.076Z: Query - SELECT Id,%vlocity_namespace%__RatingSystemKey__c,%vlocity_namespace%__ServiceSharingType__c FROM Account WHERE (Id = '0014100000UnCdzAAF') LIMIT 50000",
+        "2017-05-03T09:34:57.081Z: Query Results Found: 1",
+        "2017-05-03T09:34:57.267Z: Query - SELECT Id,Product2Id FROM Asset WHERE (Id = '02i41000002gWybAAE') LIMIT 50000",
+        "2017-05-03T09:34:57.270Z: Query Results Found: 1",
+        "2017-05-03T09:34:57.353Z: Query - SELECT Id,ProductCode FROM Product2 WHERE (Id = '01t41000000kIRhAAM') LIMIT 50000",
+        "2017-05-03T09:34:57.357Z: Query Results Found: 1"
+    ],
+    "response": {
+    }
+}

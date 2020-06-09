@@ -1,0 +1,37 @@
+[
+    {
+        "%vlocity_namespace%__DefaultValue__c": "Cancelled - Abandoned Queue",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "%vlocity_namespace%__CustomerInteraction__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "%vlocity_namespace%__Status__c",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__GlobalKey__c": "293b00f0-a4cc-287c-7eb9-973533650221",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "BeginCustomerInterationLast:StatusLast",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "SetStatustoCancelledCustom3225",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "SetStatustoCancelled",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "%vlocity_namespace%__CustomerInteraction__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__GlobalKey__c": "4a6c3833-d290-d797-a401-1210f8de0fb7",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "SelectandReview:SelectedCustomerId",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "SetStatustoCancelledCustom6842",
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "SetStatustoCancelled",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

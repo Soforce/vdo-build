@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Consumer Burst Upsell",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Demo/Consumer Burst Upsell/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Consumer Burst Upsell",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Demo/Consumer Burst Upsell/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "SelectOfferStep",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/Consumer Burst Upsell/English/SelectOfferStep",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SelectOfferStep",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "documentNames": [
+            "CABJBBAIA0d4a310c2d764e47928fca03212e09c4"
+        ],
+        "label": "<h1 style=\"font-family: Helvetica Neue; font-weight: 200; font-size: 1.6rem;\"><img src=\"../servlet/servlet.ImageServer?id=0154P000005t8IzQAI&amp;&amp;docName=CABJBBAIA0d4a310c2d764e47928fca03212e09c4&amp;&amp;oid=00D4P000000gRAhUAM\" alt=\"\" width=\"50\" height=\"46\" />&nbsp;<span style=\"color: #341556;\">Burst Packs</span></h1>",
+        "labelKey": "",
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Headline",
+    "Name": "AssetHeadline",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/Consumer Burst Upsell/English/AssetHeadline"
+}

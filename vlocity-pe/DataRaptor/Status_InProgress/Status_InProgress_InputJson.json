@@ -1,0 +1,45 @@
+{
+    "BeginCustomerInteraction": {
+        "Answers": null,
+        "CustomerLifeTimeValue1": null,
+        "CustomerTier1": null,
+        "Name1": null,
+        "Rank1": null,
+        "Status1": null,
+        "WaitTime1": null
+    },
+    "ConfirmCustomer": {
+        "Contacted Successfully": null,
+        "CustomerLifetimeValue": null,
+        "CustomerTier": null,
+        "Name": null,
+        "Rank": null,
+        "Status": null,
+        "WaitTime": null
+    },
+    "ContextId": null,
+    "SelectandReview": {
+        "SelectCustomer": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BeginCustomerInteraction": null,
+        "ConfirmCustomer": null,
+        "ExtractRecord": null,
+        "ExtractRecordsFromQueue": null,
+        "ExtractSelectedRecord": null,
+        "Go To Home Page": null,
+        "SelectandReview": null,
+        "SetStatusCompleted": null,
+        "SetStatus_AttemptingContactFromQueue": null,
+        "SetValuesfromTags": null,
+        "Status_Cancelled": null,
+        "Status_Completed": null,
+        "Status_InProgress": null
+    }
+}

@@ -1,0 +1,48 @@
+<style>
+.vlocity .panel.panel-default {
+	border: 0;
+}
+
+.vlocity .panel>.panel-heading {
+	background-color: #FFF;
+}
+
+.vlocity .table tr.vlc-selectableitem-selected {
+	background: rgba(5,166,223,0.1) !important;
+}
+.vlocity .table>thead>tr>th{
+	background-color: #FFFFFF;
+	color: rgba(0,0,0,0.9);
+}
+</style>
+
+<script type="text/ng-template" id="PaymentMethods.html"> 
+	<div class="panel panel-default">
+	<div class="panel-heading">
+	</div> 
+		<table class="table">
+			<thead>
+			<tr>
+				<th/>
+				<th align="left">Method Type</th> 
+				<th align="left">Card Type</th>
+				<th align="left">Card Number</th>
+				<th align="left">Primary</th>
+				<th align="left">Account Type</th> 
+				<th align="left">Account Number</th>
+			</tr>
+			</thead>
+			<tbody class='ins'>
+				<tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.selected}" >
+					<td><input type = 'radio' style="width:16px; height:16px;" name="selectCustomer" ng-model = 'p.vlcSelcted' ng-click="onSelectItem(control, p, $index, this, true)" ng- init="p.vlcSelcted=false" />{{p.Id}}</center></td>
+					<td>{{p.MethodType}}</td>
+					<td>{{p.CardType}}</td>
+					<td>{{p.CardNumber}} </td> 
+					<td>{{p.Primary}} </td> 
+					<td>{{p.AccountType}} </td> 
+					<td>{{p.AccountNumber}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</script>

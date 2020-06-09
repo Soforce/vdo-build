@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Delete Subscriber/Group in Matrixx based on soft delete in Vlocity.  Account.Status__c = 'Deleted'",
+    "%vlocity_namespace%__CustomJavaScript__c": "{}",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__Element__c": [
+        "Integration_AccountDelete_Matrixx_Element_GetAccountType.json",
+        "Integration_AccountDelete_Matrixx_Element_CreateBody.json",
+        "Integration_AccountDelete_Matrixx_Element_MakeCallout.json",
+        "Integration_AccountDelete_Matrixx_Element_ErrorCallout.json",
+        "Integration_AccountDelete_Matrixx_Element_CalloutMajorError.json",
+        "Integration_AccountDelete_Matrixx_Element_MakeCallout2.json",
+        "Integration_AccountDelete_Matrixx_Element_ErrorCallout2.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "Integration_AccountDelete_Matrixx",
+    "%vlocity_namespace%__PropertySet__c": "{}",
+    "%vlocity_namespace%__SubType__c": "AccountDelete_Matrixx",
+    "%vlocity_namespace%__Type__c": "Integration",
+    "Name": "AccountDelete_Matrixx",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Integration/AccountDelete_Matrixx/Procedure"
+}

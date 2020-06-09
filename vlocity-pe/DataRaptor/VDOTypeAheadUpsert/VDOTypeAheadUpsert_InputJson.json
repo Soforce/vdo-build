@@ -1,0 +1,30 @@
+{
+    "Account Search-Block": {
+        "Account Id": null
+    },
+    "Contact Search-Block": {
+        "Contact Id": null
+    },
+    "Verify Caller": {
+        "Account Search-Block": {
+            "Account Billing City": null,
+            "Account Billing Country": null,
+            "Account Billing Postal Code": null,
+            "Account Billing Street": null,
+            "Account Name": null,
+            "Account Search": null,
+            "Account Shipping City": null,
+            "Account Shipping Country": null,
+            "Account Shipping Postal Code": null,
+            "Account Shipping Street": null
+        },
+        "Contact Search-Block": {
+            "Contact Birthdate": null,
+            "Contact Email": null,
+            "Contact First Name": null,
+            "Contact Last Name": null,
+            "Contact Phone": null,
+            "Contact Search": null
+        }
+    }
+}

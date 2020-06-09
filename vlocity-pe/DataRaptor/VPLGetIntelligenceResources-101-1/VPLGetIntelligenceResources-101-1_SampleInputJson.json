@@ -1,0 +1,67 @@
+{
+    "AccountDetails": {
+        "AccountId": null,
+        "AccountName": null
+    },
+    "ContextId": "0016A00000MKkTf",
+    "GetAccountAttributes": {
+        "Account": null
+    },
+    "Id": "0016A00000MKkTf",
+    "Intelligent Resources": {
+    },
+    "PaymentMethod": {
+        "PaymentMethods": {
+            "AccountId__c": null,
+            "BankAccountNumber__c": null,
+            "BankAccountType__c": null,
+            "BankRoutingNumber__c": null,
+            "CardHolderName__c": null,
+            "CardNumber__c": null,
+            "CardType__c": null,
+            "ExpirationMonth__c": null,
+            "ExpirationYear__c": null,
+            "FormulaAccountId": null,
+            "IsPrimary__c": null,
+            "MethodType__c": null,
+            "Name": null,
+            "PaymentId": null,
+            "PaymentMethodToken__c": null,
+            "Selected": null
+        }
+    },
+    "PriceBookId": "01s6A000004iQ92QAE",
+    "PriceListId": "a3O6A000000dMvR",
+    "PriceListName": 2017,
+    "Recommended Products": {
+        "Products": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AccountAttributes": null,
+        "AccountDetails": null,
+        "CreateCart": null,
+        "CreateOrder": null,
+        "DataRaptorTransformAction1": null,
+        "Get Account": null,
+        "Get Payment Methods": null,
+        "GetAccountAttributes": null,
+        "GetProducts": null,
+        "Intelligent Resources": null,
+        "OrderCheckout": null,
+        "OrderDone": null,
+        "PaymentMethod": null,
+        "Recommended Products": null,
+        "SetOrderId": null,
+        "SetValues3": null,
+        "SubmitOrder": null,
+        "VPL 100-1GetAccountDetails": null,
+        "VPL 100-1GetRecommendedProducts": null
+    }
+}

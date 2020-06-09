@@ -1,0 +1,16 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Node:IntelligenceId",
+        "%vlocity_namespace%__GlobalKey__c": "108ada7b-2b78-31ae-6a2f-08db3f7253f8",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "response:resource:Id",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPLGetIntelligenceResources-101-1Customa0h6A000001OTx7QAGItem0",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPLGetIntelligenceResources-101-1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

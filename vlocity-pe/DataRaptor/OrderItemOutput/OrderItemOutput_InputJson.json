@@ -1,0 +1,13 @@
+{
+    "ID": null,
+    "OneTimeCalculatedPrice": null,
+    "OneTimeCharge": null,
+    "OneTimeManualDiscountAmount": null,
+    "OneTimeManualDiscountPercent": null,
+    "OneTimeTotal": null,
+    "RecurringCalculatedPrice": null,
+    "RecurringCharge": null,
+    "RecurringManualDiscountAmount": null,
+    "RecurringManualDiscountPercent": null,
+    "RecurringTotal": null
+}

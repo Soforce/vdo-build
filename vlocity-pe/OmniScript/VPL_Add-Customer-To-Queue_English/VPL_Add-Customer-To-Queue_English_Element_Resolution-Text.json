@@ -1,0 +1,41 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Customer Intake Assisted",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL/Add Customer To Queue/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Customer Intake Assisted",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL/Add Customer To Queue/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Resolution",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL/Add Customer To Queue/English/Resolution",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Resolution",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 10,
+        "currencySymbol": "$",
+        "dataJSON": false,
+        "dateFormat": "MM-dd-yyyy",
+        "hide": false,
+        "hideGroupSep": false,
+        "label": null,
+        "show": null,
+        "text": "<div class=\"resolution-text\">\n<div class=\"account-name slds-text-heading--medium\">Mr / Mrs / Ms %NeedsAnalysis:AccountName%:</div>\n<div class=\"thank-you\">Thank you for sharing your needs. I have added you to the queue and we will have a retail associate assist you as soon as possible.</div>\n<div class=\"queue-rank slds-text-color--weak\">Your number in the Queue is:\n<div class=\"queue-rank slds-text-heading--large\">%RankInQueueValue%</div>\n</div>\n<div class=\"when-ready\">When an associate is ready for you, you will recieve a text message on your mobile phone.</div>\n<div class=\"while-waiting\">While you wait, could I recommend you to take a look at our newest phones?</div>\n</div>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "Resolution Text",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL/Add Customer To Queue/English/Resolution Text"
+}

@@ -1,0 +1,17 @@
+<script type="text/ng-template" id="vlcSelectAccountId.html">
+<div class="slds-grid slds-wrap slds-grid--pull-padded ng-scope">
+<div class="slds-size--12-of-12 slds-medium-size--12-of-12 slds-large-size--12-of-12" ng-repeat="p in control.vlcSI[control.itemsKey]">
+<div ng-init="p.Id = replaceStr(p.Id)" >
+<div ng-if="p.Id === undefined || p.Id ===''">
+<span ng-init="bpTree.response['accCount'] = 0"></span>
+</div>
+<div class="slds-grid slds-p-around--medium vlc-slds-selectableItem">
+<input class="slds-m-right--large" type="radio"  value="{{p.Id}}" name="account"  style=" -webkit-appearance: radio;position: relative;
+    top: 3px;"  ng-click="bpTree.response.acc =  [];bpTree.response.acc.push({'accId':p.Id}); ">
+<label>{{p.Name}}</label>
+</div>
+</div>
+<div ng-if="$last"><span ng-init="bpTree.response['accCount'] = $index+1"></span></div>
+</div>
+</div>
+</script>

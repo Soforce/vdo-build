@@ -1,0 +1,94 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Create New Promotion",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL/Create New Promotion/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Create New Promotion",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL/Create New Promotion/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "AddOverride",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL/Create New Promotion/English/AddOverride",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "AddOverride",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 4,
+        "dataSource": {
+            "mapItems": {
+                "inputParameters": [
+                    {
+                        "element": "OverridePricingVariable",
+                        "inputParam": "PV"
+                    }
+                ],
+                "phase1MapItems": [
+                    {
+                        "DomainObjectFieldAPIName__c": "PE",
+                        "FilterOperator__c": "=",
+                        "FilterValue__c": "PV",
+                        "InterfaceFieldAPIName__c": "%vlocity_namespace%__PricingVariableId__c",
+                        "InterfaceObjectLookupOrder__c": 1,
+                        "InterfaceObjectName__c": "%vlocity_namespace%__PricingElement__c"
+                    }
+                ],
+                "phase2MapItems": [
+                    {
+                        "DomainObjectAPIName__c": "JSON",
+                        "DomainObjectCreationOrder__c": 1,
+                        "DomainObjectFieldAPIName__c": "name",
+                        "InterfaceFieldAPIName__c": "PE:Id"
+                    },
+                    {
+                        "DomainObjectAPIName__c": "JSON",
+                        "DomainObjectCreationOrder__c": 1,
+                        "DomainObjectFieldAPIName__c": "value",
+                        "InterfaceFieldAPIName__c": "PE:Name"
+                    }
+                ]
+            },
+            "source": "",
+            "type": "SObject"
+        },
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Select Pricing Element",
+        "placeholder": "",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "IsNewOverride"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Lookup",
+    "Name": "PricingElement_Override",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL/Create New Promotion/English/PricingElement_Override"
+}

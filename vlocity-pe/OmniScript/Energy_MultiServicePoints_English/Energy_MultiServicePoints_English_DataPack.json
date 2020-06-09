@@ -1,0 +1,22 @@
+{
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "Energy_MultiServicePoints_English_Element_ManageGroup.json",
+        "Energy_MultiServicePoints_English_Element_MultiServiceCPQ.json",
+        "Energy_MultiServicePoints_English_Element_ManageGroupUI.json",
+        "Energy_MultiServicePoints_English_Element_CPQ.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "Energy_MultiServicePoints_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "MultiServicePoints",
+    "%vlocity_namespace%__TestHTMLTemplates__c": "Energy_MultiServicePoints_English_HTMLTemplates.html",
+    "%vlocity_namespace%__Type__c": "Energy",
+    "Name": "MultiServicePoint",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Energy/MultiServicePoints/English"
+}

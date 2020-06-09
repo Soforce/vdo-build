@@ -1,0 +1,18 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Account",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__GlobalKey__c": "f7c2b605-0a4e-79a9-6d58-4a8c634eb0c6",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "recordId",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "VDOLaunchAccountCustom832",
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "VDOLaunchAccount",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

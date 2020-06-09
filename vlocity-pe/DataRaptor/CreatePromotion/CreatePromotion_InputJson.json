@@ -1,0 +1,18 @@
+{
+    "CreatePromotion": {
+        "AutoAddProducts": null,
+        "CD-Time Policy": null,
+        "CD-TimePlan": null,
+        "EffectiveFrom": null,
+        "EffectiveUntil": null,
+        "FO-Promotion": null,
+        "Orderable": null,
+        "PromotionActive": null,
+        "PromotionCode": null,
+        "PromotionDescription": null,
+        "PromotionName": null,
+        "Promotion_PriceList": null,
+        "RedeemableCode": null,
+        "ServiceContinuation": null
+    }
+}

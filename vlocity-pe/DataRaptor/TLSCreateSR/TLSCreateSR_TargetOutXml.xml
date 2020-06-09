@@ -1,0 +1,16 @@
+<?Siebel-Property-Set EscapeNames="false"?>
+<SiebelMessage MessageId = "" IntObjectName = "CRMDesktopServiceRequestIO" MessageType = "Integration Object" IntObjectFormat = "Siebel Hierarchical">
+	<ListofCRMDesktopServiceRequestIO>
+		<ServiceRequest operation="insert">
+			<AccountId>8SIA-8WQV9</AccountId>
+			<Area>Network</Area>
+			<Description>Setting up Router services</Description>
+			<Priority>3-Medium</Priority>
+			<SRNumber>1-MYUNIQUEVALUE2</SRNumber>
+			<ServiceRequestType>External</ServiceRequestType>
+			<ContactCreated>datetime</ContactCreated>
+			<OwnedById>SADMIN</OwnedById>
+			<Status>Open</Status>
+		</ServiceRequest>
+	</ListofCRMDesktopServiceRequestIO>
+</SiebelMessage>

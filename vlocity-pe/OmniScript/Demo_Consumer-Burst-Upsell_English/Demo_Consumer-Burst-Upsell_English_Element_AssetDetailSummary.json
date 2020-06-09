@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Consumer Burst Upsell",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Demo/Consumer Burst Upsell/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Consumer Burst Upsell",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Demo/Consumer Burst Upsell/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "SelectOfferStep",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/Consumer Burst Upsell/English/SelectOfferStep",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SelectOfferStep",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "Asset Details",
+        "show": null,
+        "text": "<h1 style=\"font-family: Helvetica Neue; font-weight: 200; font-size: 1.6rem;\"><span style=\"color: #341556;\">Asset to Renew </span></h1>\n<table style=\"font-family: Helvetica Neue;\">\n<tbody style=\"color: #341556;\">\n<tr style=\"height: 16px; color: #341556;\">\n<td style=\"height: 16px; color: #341556;\">Name:</td>\n<td style=\"height: 16px; color: #341556;\">%AssetDetails:Name%</td>\n<td style=\"height: 16px; color: #341556;\">&nbsp;</td>\n<td style=\"height: 16px; color: #341556;\">&nbsp;</td>\n</tr>\n<tr style=\"height: 16px; color: #341556;\">\n<td style=\"height: 16px; color: #ef611f;\"><strong>Quantity Remaining:</strong></td>\n<td style=\"height: 16px; color: #ef611f; text-align: left;\"><strong><strong>%AssetDetails:QuantityRemaining%</strong></strong></td>\n<td style=\"height: 16px; color: #341556;\">Start Date:</td>\n<td style=\"height: 16px; color: #341556;\">%AssetDetails:CreatedDate%</td>\n</tr>\n<tr style=\"height: 16px; color: #341556;\">\n<td style=\"height: 16px; color: #341556;\">Initial Quantity:</td>\n<td style=\"height: 16px; color: #341556; text-align: left;\">%AssetDetails:QuantityInitial%</td>\n<td style=\"height: 16px; color: #341556;\">Product Code:</td>\n<td style=\"height: 16px; color: #341556;\">%AssetDetails:ProductCode%</td>\n</tr>\n</tbody>\n</table>\n<p></p>\n<p></p>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "AssetDetailSummary",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/Consumer Burst Upsell/English/AssetDetailSummary"
+}

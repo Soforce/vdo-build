@@ -1,0 +1,64 @@
+{
+    "ContextId": "",
+    "CreateOrchestrationItem": {
+        "NewOrchestrationItem": [
+            {
+                "Condition": "Tesintg AutoTasj",
+                "ItemImplementation": null,
+                "ItemName": "AutoTasking",
+                "ManualQueue": null,
+                "RecordType": "Auto Task",
+                "Scope": "Global",
+                "SystemInterface": null,
+                "TaskExecutionURL": null
+            },
+            {
+                "Condition": "Teisnfdasdasd",
+                "ItemImplementation": null,
+                "ItemName": "Testing Callout",
+                "ManualQueue": null,
+                "RecordType": "Callout",
+                "Scope": "Main Order Item",
+                "SystemInterface": null,
+                "TaskExecutionURL": null
+            }
+        ]
+    },
+    "CreatePlan": {
+        "PlanName": "TestV5"
+    },
+    "DRId_%vlocity_namespace%__OrchestrationPlanDefinition__c": "a2c1I000000Ud4SQAS",
+    "Orchestration Scenario": {
+        "NewOrchestrationScenario": {
+            "Action": null,
+            "OrchestrationScenarioName": null,
+            "Product": null,
+            "SelectOrchestrationPlan": null,
+            "SubAction": null
+        }
+    },
+    "OrchestrationItemDependency": {
+        "NewItemDependency": {
+            "DependencyItem": "a2a1I000000QWLQQA4",
+            "DependencyType": "Depends On",
+            "ItemDependencyName": "Testing Depenedcy",
+            "OrchestrationItem": "a2a1I000000QmqrQAC",
+            "Scope2": "Order"
+        }
+    },
+    "id": "a1I1I0000003RkOUAU",
+    "layout": "lightning",
+    "timeStamp": "2017-10-23T06:38:58.760Z",
+    "userId": "0051I000000Rz17QAC",
+    "userName": "chaitrap@vdo.cmt.1508386792661",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CreateOrchestrationItem": 43741,
+        "CreateOrchestrationItemDefinition": 1129,
+        "CreateOrchestrationPlan": 1127,
+        "CreatePlan": 17673,
+        "OmniScriptSessionToken": "efa19489-8210-40b8-a796-a9a340ea6c1f"
+    }
+}

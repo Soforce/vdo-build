@@ -1,0 +1,188 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "SourceTargetAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/SourceTargetAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "93f7539f-8c9d-2ae6-f191-d20b9391591e",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "201029",
+            "dataType": "Text",
+            "displayOrder": 6,
+            "headerType": "Output",
+            "label": null,
+            "listValues": null,
+            "name": "MRC"
+        },
+        "%vlocity_namespace%__IsCalculationMatrixVersionEnabled__c": true,
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "SourceTargetAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/SourceTargetAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e7f5f2df-e5f7-a642-a276-4f971e72560d",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "41475e",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "listValues": null,
+            "name": "Source Product Code"
+        },
+        "%vlocity_namespace%__IsCalculationMatrixVersionEnabled__c": true,
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "SourceTargetAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/SourceTargetAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "ecd64881-e145-3f3b-70d1-3201a6fe6a8e",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "45d41d",
+            "dataType": "Text",
+            "displayOrder": 4,
+            "headerType": "Input",
+            "label": null,
+            "listValues": null,
+            "name": "Characteristic Value"
+        },
+        "%vlocity_namespace%__IsCalculationMatrixVersionEnabled__c": true,
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "SourceTargetAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/SourceTargetAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "6aff4ad2-00f7-cdb6-63de-5dce5442e68e",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "8dfe5a",
+            "dataType": "Text",
+            "displayOrder": 5,
+            "headerType": "Output",
+            "label": null,
+            "listValues": null,
+            "name": "Target Product Name"
+        },
+        "%vlocity_namespace%__IsCalculationMatrixVersionEnabled__c": true,
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "SourceTargetAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/SourceTargetAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "ee727945-4dc6-be8b-a64f-6122b6462032",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "94b309",
+            "dataType": "Text",
+            "displayOrder": 7,
+            "headerType": "Output",
+            "label": null,
+            "listValues": null,
+            "name": "NRC"
+        },
+        "%vlocity_namespace%__IsCalculationMatrixVersionEnabled__c": true,
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "SourceTargetAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/SourceTargetAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e59896e4-1ac9-dd32-cfef-3a04e3769049",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "97a7f8",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "listValues": null,
+            "name": "Source Product Name"
+        },
+        "%vlocity_namespace%__IsCalculationMatrixVersionEnabled__c": true,
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "SourceTargetAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/SourceTargetAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "73ceec6d-8e54-b29a-20a8-0d5b07735efe",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "e5c992",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Input",
+            "label": null,
+            "listValues": null,
+            "name": "Characteristic Name"
+        },
+        "%vlocity_namespace%__IsCalculationMatrixVersionEnabled__c": true,
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "SourceTargetAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/SourceTargetAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "bb4727b2-e3eb-50a7-5118-a88fcbc63d97",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Supplier",
+            "Characteristic Value": "NetGear",
+            "Source Product Code": "VLO-INT-0019",
+            "Source Product Name": "Router - 1000 Series"
+        },
+        "%vlocity_namespace%__IsCalculationMatrixVersionEnabled__c": true,
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "25",
+            "NRC": "0",
+            "Target Product Name": "Path1"
+        },
+        "Name": "a68d316144e7d112f6fca488ea6178e0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

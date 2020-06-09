@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "MultiServicePoint",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Energy/MultiServicePoints/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "MultiServiceCPQ",
+        "show": null,
+        "text": "<p><iframe id=\"multi-service\" style=\"margin-top: 0px; height: 100vh;\" src=\"EnergyHybridCPQ?Id=%ContextId%\" name=\"multi-service-cpq\" width=\"100%\" height=\"150\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" align=\"top\"></iframe></p>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "MultiServiceCPQ",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Energy/MultiServicePoints/English/MultiServiceCPQ"
+}

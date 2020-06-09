@@ -1,0 +1,35 @@
+{
+    "ContextId": null,
+    "ProvideHousehold/GroupDetails": {
+        "Address1": null,
+        "Address2": null,
+        "City": null,
+        "Contact": null,
+        "Country": null,
+        "HouseholdName": null,
+        "OwnedResidence": null,
+        "PostalCode": null,
+        "Radio1": null,
+        "ResidenceType": null,
+        "State": null,
+        "Type": null
+    },
+    "SearchContact": {
+        "TypeAhead-Block": {
+            "TypeAhead": null
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CreateHousehold/Group": null,
+        "ProvideHousehold/GroupDetails": null,
+        "SearchContact": null,
+        "SetContact": null
+    }
+}

@@ -1,0 +1,63 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Contact",
+        "%vlocity_namespace%__FilterGroup__c": 0,
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__FilterValue__c": "ID",
+        "%vlocity_namespace%__GlobalKey__c": "5fc89445-cca4-6d1f-dca2-5b7d609467fb",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+        "%vlocity_namespace%__InterfaceObjectName__c": "Contact",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPLGetContactAccounts-101-1Custom7485",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPL-GetContactAccounts-101-1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Contact:AccountId",
+        "%vlocity_namespace%__GlobalKey__c": "bf524d9d-a55f-81a2-8fd3-c9ae2ee2c512",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Contact:AccountId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPLGetContactAccounts-101-1Custom6017",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPL-GetContactAccounts-101-1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Contact:Id",
+        "%vlocity_namespace%__GlobalKey__c": "25f8fed4-a615-c704-2fe3-c99fd253adca",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Contact:Id",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPLGetContactAccounts-101-1Custom3031",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPL-GetContactAccounts-101-1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Contact:Name",
+        "%vlocity_namespace%__GlobalKey__c": "18a8edf1-17a9-abf9-b888-aa81457c5ff6",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Contact:Name",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPLGetContactAccounts-101-1Custom8962",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPL-GetContactAccounts-101-1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

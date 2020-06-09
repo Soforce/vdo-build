@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Create Contract and Contract Document",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__Element__c": [
+        "VPL-101-1_Create-Contract_English_Element_createContract.json",
+        "VPL-101-1_Create-Contract_English_Element_ContractName.json",
+        "VPL-101-1_Create-Contract_English_Element_RecordtypeForContract.json",
+        "VPL-101-1_Create-Contract_English_Element_ContractDocument.json",
+        "VPL-101-1_Create-Contract_English_Element_FormulaForDocumentValidation.json",
+        "VPL-101-1_Create-Contract_English_Element_MessagingForDocumentValidation.json",
+        "VPL-101-1_Create-Contract_English_Element_ExtractRecordType.json",
+        "VPL-101-1_Create-Contract_English_Element_PostCreateContract.json",
+        "VPL-101-1_Create-Contract_English_Element_PostCreateContractDocument.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": true,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "VPL-101-1_Create-Contract_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Create Contract",
+    "%vlocity_namespace%__Type__c": "VPL 101-1",
+    "Name": "VPL Create Contract 101 -1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL 101-1/Create Contract/English"
+}

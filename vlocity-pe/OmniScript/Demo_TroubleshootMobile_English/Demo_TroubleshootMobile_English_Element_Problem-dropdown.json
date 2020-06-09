@@ -1,0 +1,78 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Demo Troubleshoot Mobile",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Demo/TroubleshootMobile/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Demo Troubleshoot Mobile",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Demo/TroubleshootMobile/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "OverviewStep",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/TroubleshootMobile/English/OverviewStep",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "OverviewStep",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Problem",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": "next",
+                "name": "No Signal",
+                "value": "No Signal"
+            },
+            {
+                "name": "Trouble Making Calls",
+                "value": "Trouble Making Calls"
+            },
+            {
+                "name": "Picture Messages Not Showing",
+                "value": "Picture Messages Not Showing"
+            },
+            {
+                "name": "No Wifi Connection",
+                "value": "No Wifi Connection"
+            },
+            {
+                "name": "Phone Won't Turn On",
+                "value": "Phone Won't Turn On"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "Problem-dropdown",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Demo/TroubleshootMobile/English/Problem-dropdown"
+}

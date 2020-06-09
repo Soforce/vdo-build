@@ -1,0 +1,112 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Consumer Order Mobile",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/Consumer Order Mobile/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Consumer Order Mobile",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/Consumer Order Mobile/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Number Porting",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VDO/Consumer Order Mobile/English/Number Porting",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Number Porting",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "documentNames": [
+            "test"
+        ],
+        "help": false,
+        "helpText": "",
+        "label": "Select your new phone number.",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "650 431 1306",
+                "value": "650 431 1306"
+            },
+            {
+                "name": "650 431 1307",
+                "value": "650 431 1307"
+            },
+            {
+                "name": "650 431 1308",
+                "value": "650 431 1308"
+            },
+            {
+                "name": "650 431 1309",
+                "value": "650 431 1309"
+            },
+            {
+                "name": "650 431 1310",
+                "value": "650 431 1310"
+            },
+            {
+                "name": "650 431 1311",
+                "value": "650 431 1311"
+            },
+            {
+                "name": "650 431 1312",
+                "value": "650 431 1312"
+            },
+            {
+                "name": "650 431 1313",
+                "value": "650 431 1313"
+            },
+            {
+                "name": "650 431 1314",
+                "value": "650 431 1314"
+            },
+            {
+                "name": "650 431 1315",
+                "value": "650 431 1315"
+            },
+            {
+                "name": "650 431 1316",
+                "value": "650 431 1316"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "No",
+                        "field": "Porting Question"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "Number Selection",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VDO/Consumer Order Mobile/English/Number Selection"
+}

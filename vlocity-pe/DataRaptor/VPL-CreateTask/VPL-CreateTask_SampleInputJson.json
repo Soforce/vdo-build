@@ -1,0 +1,39 @@
+{
+    "ContextId": "0056A000001chptQAA",
+    "EnterMessage": {
+        "ContextIdValue": "0056A000000t4qdQAA",
+        "message": "DEMO with correct contactId."
+    },
+    "GetUserId": {
+        "ContactId": "0036A00000OHipjQAD",
+        "Name": "Jenny Smith",
+        "UserId": "0056A000001chptQAA"
+    },
+    "GetUserIdStatus": true,
+    "PushNotification": {
+        "contactId": "0036A00000OHipjQAD",
+        "error": "OK",
+        "errorCode": "INVOKE-200"
+    },
+    "PushNotificationResponseStatus": true,
+    "PushNotificationStatus": true,
+    "id": "a1I6A000001oGiNUAU",
+    "layout": "lightning",
+    "options": {
+    },
+    "response": {
+    },
+    "testContextId": "0056A000000t4qdQAA",
+    "timeStamp": "2018-04-06T15:39:47.151Z",
+    "userCurrencyCode": "USD",
+    "userId": "0056A000000t4qdQAA",
+    "userName": "sshannon@vlocity.eglcrk.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "EnterMessage": 20056,
+        "OmniScriptSessionToken": "c7c433a1-7fe1-4e1d-a885-def1cd50c278"
+    }
+}

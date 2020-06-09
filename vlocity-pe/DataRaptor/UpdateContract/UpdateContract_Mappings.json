@@ -1,0 +1,34 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Contract",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ContractTerm",
+        "%vlocity_namespace%__GlobalKey__c": "b7d36127-2f0f-ca56-a664-9c755e5bbcb4",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Extend:ExtendedTerm",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "Update ContractCustom3013",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "UpdateContract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Contract",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__GlobalKey__c": "08bb9b86-3a96-ce4f-11ab-6c4810d1140e",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ContextId",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "Update ContractCustom3184",
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "UpdateContract",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

@@ -1,0 +1,28 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Submits an activity for a loyalty member.",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__Element__c": [
+        "VDO_Loyalty-Activity_English_Element_Movie-Quiz.json",
+        "VDO_Loyalty-Activity_English_Element_Task.json",
+        "VDO_Loyalty-Activity_English_Element_Hours.json",
+        "VDO_Loyalty-Activity_English_Element_Streaming-Services.json",
+        "VDO_Loyalty-Activity_English_Element_Content.json",
+        "VDO_Loyalty-Activity_English_Element_Genre.json",
+        "VDO_Loyalty-Activity_English_Element_Cinema.json",
+        "VDO_Loyalty-Activity_English_Element_Submit-Activity.json",
+        "VDO_Loyalty-Activity_English_Element_Quiz-Complete.json",
+        "VDO_Loyalty-Activity_English_Element_Wrap-Up.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "VDO_Loyalty-Activity_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Loyalty Activity",
+    "%vlocity_namespace%__TestHTMLTemplates__c": "VDO_Loyalty-Activity_English_HTMLTemplates.html",
+    "%vlocity_namespace%__Type__c": "VDO",
+    "Name": "Loyalty Activity",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/Loyalty Activity/English"
+}

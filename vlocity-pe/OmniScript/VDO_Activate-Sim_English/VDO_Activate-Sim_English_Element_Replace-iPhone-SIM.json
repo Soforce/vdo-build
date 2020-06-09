@@ -1,0 +1,37 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Activate SIM",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/Activate Sim/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Activate SIM",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/Activate Sim/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "iPhone SIM Replacement",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VDO/Activate Sim/English/iPhone SIM Replacement",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "iPhone SIM Replacement",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 8,
+        "dataJSON": false,
+        "label": null,
+        "show": null,
+        "text": "<h1 style=\"margin-bottom: 25px; display: block;\">Remove and install your SIM</h1>\n<p>Find your model below to locate the SIM tray. To pop open the SIM tray, insert a paper clip or a SIM-eject tool into the hole beside the tray. Push in, towards the iPhone, but don’t force it. If you're having difficulty ejecting the SIM tray, take your device to your carrier or an Apple Store for help.</p>\n<p>After you remove your SIM card from the tray, notice the notch in one corner of the new SIM card. Place the new SIM card into the tray—it will fit only one way, because of the notch. Then insert the tray into the device completely and in the same orientation that you removed it. The tray also fits only one way.</p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "Replace iPhone SIM",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VDO/Activate Sim/English/Replace iPhone SIM"
+}

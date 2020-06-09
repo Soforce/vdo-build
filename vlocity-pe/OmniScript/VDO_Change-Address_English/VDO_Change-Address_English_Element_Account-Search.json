@@ -1,0 +1,62 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Change Address",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/Change Address/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Change Address",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VDO/Change Address/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Verify Caller",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VDO/Change Address/English/Verify Caller",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Verify Caller",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "accessibleInFutureSteps": false,
+        "callFrequency": 300,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "dataProcessorFunction": "",
+        "debounceValue": 0,
+        "editMode": false,
+        "enableGoogleMapsAutocomplete": false,
+        "enableLookup": false,
+        "googleAddressCountry": "all",
+        "googleTransformation": {
+            "administrative_area_level_1": "",
+            "country": "",
+            "locality": "",
+            "postal_code": "",
+            "street": ""
+        },
+        "help": true,
+        "helpText": "Search by the Account's Name or Address",
+        "hideEditButton": false,
+        "hideMap": true,
+        "label": "Search For Account",
+        "maxLength": 255,
+        "minLength": 0,
+        "newItemLabel": "New Account",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": false,
+        "show": null,
+        "typeAheadKey": "Account Type Ahead"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Type Ahead Block",
+    "Name": "Account Search",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VDO/Change Address/English/Account Search"
+}
