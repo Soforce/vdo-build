@@ -1,19 +1,24 @@
 # Salesforce App
 
 ```
-vlocity -sfdx.username vdo-hub -job project.yaml cleanOrgData
-vlocity -sfdx.username vdo-hub -job project.yaml packUpdateSettings
-vlocity -sfdx.username vdo-hub -job project.yaml packExport
-vlocity -sfdx.username vdo-hub -job project.yaml packRetry
-vlocity -sfdx.username vdo-hub -job project.yaml packContinue
-vlocity -sfdx.username vdo-hub -job project.yaml validateLocalData --fixLocalGlobalKeys
+vlocity -sfdx.username vdo20 -job project.yaml cleanOrgData
+vlocity -sfdx.username vdo20 -job project.yaml packUpdateSettings
+vlocity -sfdx.username vdo20 -job project-pe.yaml packExport
+vlocity -sfdx.username vdo20 -job project-doc.yaml packExport
+vlocity -sfdx.username vdo20 -job project.yaml packExport
+vlocity -sfdx.username vdo20 -job project.yaml packRetry
+vlocity -sfdx.username vdo20 -job project.yaml packContinue
+vlocity -sfdx.username vdo20 -job project.yaml validateLocalData --fixLocalGlobalKeys
 ```
 ```
 vlocity -job project.yaml cleanOrgData -sfdx.username vdo-dvt
 vlocity -job project.yaml refreshProject -sfdx.username vdo-dvt
 vlocity -job project.yaml packUpdateSettings -sfdx.username vdo-dvt
+vlocity -job project-pe.yaml packDeploy -sfdx.username vdo-dvt
 vlocity -job project.yaml packDeploy -sfdx.username vdo-dvt
+vlocity -job project-doc.yaml packDeploy -sfdx.username vdo-dvt
 ```
+
 
 ## Init
 1. Execute Vlocity XOM Administration
@@ -29,14 +34,14 @@ vlocity -job project.yaml packDeploy -sfdx.username vdo-dvt
 ```
 SELECT Id, Name, ProductCode, vlocity_cmt__GlobalKey__c FROM Product2 WHERE Name='Tennis Channel'
 ```
-6. Clear Product2.Product_Owner__c field value
+5. Clear Product2.Product_Owner__c field value
 ```
 Product2[] pds = [SELECT Id, Product_Owner__c FROM Product2 WHERE Product_Owner__c != null];
 for (Product2 pd : pds) pd.Product_Owner__c = null;
 update pds;
 ```
 
-1. Clear value in vlocity_cmt__EventConditionData__c field
+6. Clear value in vlocity_cmt__EventConditionData__c field
 ```
 vlocity_cmt__OrchestrationItemDefinition__c[] items = new List<vlocity_cmt__OrchestrationItemDefinition__c>();
 for (vlocity_cmt__OrchestrationItemDefinition__c item : [SELECT Id, vlocity_cmt__EventConditionData__c, RecordType.name FROM vlocity_cmt__OrchestrationItemDefinition__c Where RecordType.Name<>'Push Event']) {
@@ -48,7 +53,7 @@ for (vlocity_cmt__OrchestrationItemDefinition__c item : [SELECT Id, vlocity_cmt_
 update items;
 ```
 
-*. Fix AttributeAssignment Issue
+7. Fix AttributeAssignment Issue
 a. Delete corrupted AttributeAssignment and OverrideDefinition records with AttributeId=null
 ```
 delete [SELECT Id FROM vlocity_cmt__AttributeAssignment__c WHERE vlocity_cmt__AttributeId__c=null];
@@ -63,7 +68,7 @@ c. Fix Product with wrong Object Type (points to "Product 2 Object")
 select Id, name, vlocity_cmt__ObjectTYpeId__c, vlocity_cmt__ObjectTypeId__r.Name from product2 where vlocity_cmt__ObjectTypeId__r.Name='Product2 Object'
 ```
 
-7. Remove "bd1208f0-7217-d4ff-65ab-cd727d5cb0d4" product because it cause API limits
+8. Remove "bd1208f0-7217-d4ff-65ab-cd727d5cb0d4" product because it cause API limits
 
 This guide helps Salesforce developers who are new to Visual Studio Code go from zero to a deployed app using Salesforce Extensions for VS Code and Salesforce CLI.
 
