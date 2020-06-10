@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#F67728</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Vlocity CME Admin</label>
+    <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>vlocity_cmt__Vlocity_EPC_Work_Set_List_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>vlocity_cmt__Project__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>vlocity_cmt__Vlocity_EPC_Work_Set_List_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>vlocity_cmt__Project__c</pageOrSobjectType>
+        <recordType>vlocity_cmt__Project__c.vlocity_cmt__WorkSet</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <tabs>vlocity_cmt__CMTAdmin</tabs>
+    <tabs>vlocity_cmt__Attribute__c</tabs>
+    <tabs>vlocity_cmt__VlocityXOMAdministration</tabs>
+    <tabs>vlocity_cmt__InterfaceImplementation__c</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>
